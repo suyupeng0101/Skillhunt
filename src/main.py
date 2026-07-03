@@ -84,6 +84,7 @@ CANDIDATE_NOISE_TERMS = tuple(
 # 模型批处理通过“条数 + 字符预算”双限制，避免触发上下文上限或速率限制。
 AI_BATCH_SIZE = int(os.getenv("AI_BATCH_SIZE", "8"))
 MODEL_INPUT_CHAR_BUDGET = int(os.getenv("MODEL_INPUT_CHAR_BUDGET", "90000"))
+MODEL_MAX_TOKENS = int(os.getenv("MODEL_MAX_TOKENS", "4096"))
 
 # 前端导出数量限制，避免页面和 JSON 过大。
 SKILL_TOP_N = int(os.getenv("SKILL_TOP_N", "200"))
@@ -1375,8 +1376,9 @@ def build_ai_messages(batch: list[dict[str, Any]], taxonomy: dict[str, Any]) -> 
     ]
     system = (
         "You classify GitHub repositories for a Skill/Agent radar. "
-        "Return only valid JSON. Do not use markdown. "
-        "Use an object with an items array. "
+        "Return only the final JSON object in the assistant content. "
+        "Do not include reasoning, explanations, prefaces, markdown, or code fences. "
+        "Use exactly one object with an items array. "
         "kind must be Skill or Agent. category must be selected from the provided taxonomy. "
         "Identify install_methods and usability_flags from repository metadata and README."
     )
@@ -1464,6 +1466,7 @@ def call_model(batch: list[dict[str, Any]], taxonomy: dict[str, Any]) -> list[di
         "model": configured_model,
         "messages": build_ai_messages(batch, taxonomy),
         "temperature": 0.1,
+        "max_tokens": MODEL_MAX_TOKENS,
         "response_format": {"type": "json_object"},
     }
     estimated_chars = sum(estimate_repo_payload_chars(repo) for repo in batch)

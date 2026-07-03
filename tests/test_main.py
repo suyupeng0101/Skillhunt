@@ -158,6 +158,45 @@ def test_model_config_supports_provider_specific_compat_values(monkeypatch):
     assert radar.model_api_base() == "https://api.siliconflow.cn/v1/chat/completions"
 
 
+def test_call_model_sets_output_budget_and_json_only_prompt(monkeypatch):
+    clear_model_env(monkeypatch)
+    captured = {}
+
+    class ModelResponse:
+        status_code = 200
+
+        def raise_for_status(self):
+            return None
+
+        def json(self):
+            return {"choices": [{"message": {"content": '{"items": [{"repo_id": 1, "kind": "Agent"}]}'}}]}
+
+    class FakeSession:
+        def post(self, url, headers=None, json=None, timeout=None):
+            captured["url"] = url
+            captured["headers"] = headers
+            captured["json"] = json
+            captured["timeout"] = timeout
+            return ModelResponse()
+
+    monkeypatch.setenv("MODEL_API_KEY", "model-key")
+    monkeypatch.setenv("MODEL_API_BASE", "https://example.test/v1/chat/completions")
+    monkeypatch.setenv("MODEL_NAME", "test-model")
+    monkeypatch.setattr(radar, "MODEL_MAX_TOKENS", 4096)
+    monkeypatch.setattr(radar, "MODEL_MAX_RETRIES", 1)
+    monkeypatch.setattr(radar, "MODEL_REQUEST_INTERVAL_SECONDS", 0)
+    monkeypatch.setattr(radar, "HTTP_SESSION", FakeSession())
+
+    items = radar.call_model([sample_repo()], sample_taxonomy())
+
+    assert items == [{"repo_id": 1, "kind": "Agent"}]
+    assert captured["json"]["max_tokens"] == 4096
+    assert captured["json"]["response_format"] == {"type": "json_object"}
+    system_prompt = captured["json"]["messages"][0]["content"]
+    assert "Do not include reasoning" in system_prompt
+    assert "markdown" in system_prompt.lower()
+
+
 def test_setup_logging_writes_debug_file(tmp_path, monkeypatch):
     log_path = tmp_path / "debug.log"
     monkeypatch.setattr(radar, "DEBUG_LOG_FILE", str(log_path))
