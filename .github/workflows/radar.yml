@@ -19,10 +19,15 @@ jobs:
           CHECKOUT_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKENS || secrets.PERSONAL_ACCESS_TOKEN || secrets.GH_TOKEN || github.token }}
         run: |
           set -euo pipefail
+          if [ -z "${CHECKOUT_TOKEN}" ]; then
+            echo "No checkout token is available."
+            exit 1
+          fi
+          auth_header="$(printf 'x-access-token:%s' "${CHECKOUT_TOKEN}" | base64 -w 0)"
           git init "$GITHUB_WORKSPACE"
           cd "$GITHUB_WORKSPACE"
           git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
-          git -c http.https://github.com/.extraheader="AUTHORIZATION: bearer ${CHECKOUT_TOKEN}" \
+          git -c http.https://github.com/.extraheader="AUTHORIZATION: basic ${auth_header}" \
             fetch --depth=1 origin "${GITHUB_REF}"
           if [ "${GITHUB_REF_TYPE}" = "branch" ]; then
             git checkout --force -B "${GITHUB_REF_NAME}" FETCH_HEAD
@@ -96,6 +101,10 @@ jobs:
           PUSH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKENS || secrets.PERSONAL_ACCESS_TOKEN || secrets.GH_TOKEN || github.token }}
         run: |
           set -euo pipefail
+          if [ -z "${PUSH_TOKEN}" ]; then
+            echo "No push token is available."
+            exit 1
+          fi
           if [ "${GITHUB_REF_TYPE}" != "branch" ]; then
             echo "Not running on a branch ref; skipping push."
             exit 0
@@ -108,5 +117,6 @@ jobs:
             exit 0
           fi
           git commit -m "chore: sync radar data [$(date -u +'%Y-%m-%d %H:%M:%S')]"
-          git -c http.https://github.com/.extraheader="AUTHORIZATION: bearer ${PUSH_TOKEN}" \
+          auth_header="$(printf 'x-access-token:%s' "${PUSH_TOKEN}" | base64 -w 0)"
+          git -c http.https://github.com/.extraheader="AUTHORIZATION: basic ${auth_header}" \
             push origin "HEAD:${GITHUB_REF_NAME}"
