@@ -1,6 +1,11 @@
 name: GitHub Skill Agent Radar Daily Sync
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/radar.yml"
   schedule:
     - cron: "0 2 * * *"
   workflow_dispatch:
