@@ -1,0 +1,1841 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Skillhunt Radar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f8f5ff;
+        --bg-2: #eee7fb;
+        --surface: #ffffff;
+        --surface-soft: #fbf9ff;
+        --ink: #201f26;
+        --muted: #6d667a;
+        --line: #ded5ea;
+        --line-strong: #bbaed2;
+        --primary: #7442d8;
+        --primary-ink: #ffffff;
+        --primary-soft: #eee6ff;
+        --secondary: #0a7a75;
+        --secondary-soft: #ddf4f1;
+        --accent: #8b5cf6;
+        --accent-soft: #ede9fe;
+        --gold: #eab308;
+        --silver: #94a3b8;
+        --bronze: #d97706;
+        --danger: #b8442e;
+        --warning: #a96c16;
+        --success: #16a34a;
+        --shadow: 0 20px 50px rgba(59, 42, 84, 0.12);
+        --card-shadow: 0 10px 25px rgba(59, 42, 84, 0.08);
+        --glow: 0 0 20px rgba(116, 66, 216, 0.2);
+        --radius: 12px;
+        --radius-lg: 16px;
+        --radius-sm: 8px;
+        --mono: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+        --sans:
+          "Inter", "Microsoft YaHei", "PingFang SC", ui-sans-serif, system-ui,
+          -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        --display:
+          "Space Grotesk", "Arial Narrow", "Roboto Condensed", "Microsoft YaHei",
+          ui-sans-serif, system-ui, sans-serif;
+      }
+
+      body[data-theme="dark"] {
+        color-scheme: dark;
+        --bg: #0c0d10;
+        --bg-2: #16131d;
+        --surface: #1b1c22;
+        --surface-soft: #252532;
+        --ink: #f3f1f8;
+        --muted: #b5adbf;
+        --line: #393344;
+        --line-strong: #665779;
+        --primary: #8b5cf6;
+        --primary-ink: #ffffff;
+        --primary-soft: #2a1f42;
+        --secondary: #7dd3fc;
+        --secondary-soft: #172c3a;
+        --accent: #a78bfa;
+        --accent-soft: #1e1b4b;
+        --gold: #fbbf24;
+        --silver: #cbd5e1;
+        --bronze: #fb923c;
+        --danger: #ff8c72;
+        --warning: #e4b45f;
+        --success: #22c55e;
+        --shadow: 0 20px 50px rgba(0, 0, 0, 0.28);
+        --card-shadow: 0 10px 25px rgba(0, 0, 0, 0.24);
+        --glow: 0 0 30px rgba(139, 92, 246, 0.3);
+      }
+
+      body[data-theme="dark"] .category-btn,
+      body[data-theme="dark"] .quick-tag,
+      body[data-theme="dark"] .pill {
+        color: var(--ink);
+      }
+
+      body[data-theme="dark"] .category-btn .count {
+        color: color-mix(in srgb, var(--ink) 60%, transparent);
+      }
+
+      body[data-theme="dark"] .category-btn:not([aria-pressed="true"]) {
+        background: var(--surface-soft);
+        border-color: var(--line-strong);
+        color: var(--ink);
+      }
+
+      body[data-theme="dark"] .segmented button[aria-selected="true"] {
+        background: var(--primary);
+        color: var(--primary-ink);
+      }
+
+      body[data-theme="dark"] .repo {
+        background: var(--surface);
+        border-color: var(--line);
+      }
+
+      body[data-theme="dark"] .repo:hover {
+        border-color: var(--primary);
+        box-shadow: var(--glow), var(--card-shadow);
+      }
+
+      body[data-theme="dark"] .spotlight {
+        background: linear-gradient(135deg, color-mix(in srgb, var(--primary-soft) 80%, var(--surface)) 0%, var(--surface) 60%);
+      }
+
+      body[data-theme="dark"] .console {
+        background: color-mix(in srgb, var(--surface) 96%, transparent);
+        border-color: var(--line);
+      }
+
+      body[data-theme="dark"] .hero-panel {
+        background: linear-gradient(180deg, color-mix(in srgb, var(--primary-soft) 60%, transparent) 0%, var(--surface) 40%);
+        border-color: color-mix(in srgb, var(--primary) 30%, var(--line));
+      }
+
+      body[data-theme="dark"] .scorebox {
+        background: var(--primary-soft);
+        border-color: color-mix(in srgb, var(--primary) 30%, var(--line));
+      }
+
+      body[data-theme="dark"] .rank-medal-1 { color: var(--gold); }
+      body[data-theme="dark"] .rank-medal-2 { color: var(--silver); }
+      body[data-theme="dark"] .rank-medal-3 { color: var(--bronze); }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background:
+          radial-gradient(circle at 20% 10%, color-mix(in srgb, var(--primary) 8%, transparent) 0%, transparent 50%),
+          radial-gradient(circle at 80% 80%, color-mix(in srgb, var(--accent) 6%, transparent) 0%, transparent 50%),
+          linear-gradient(90deg, color-mix(in srgb, var(--primary) 4%, transparent) 1px, transparent 1px),
+          linear-gradient(180deg, color-mix(in srgb, var(--primary) 3%, transparent) 1px, transparent 1px),
+          var(--bg);
+        background-size: auto, auto, 40px 40px, 40px 40px, auto;
+        color: var(--ink);
+        font-family: var(--sans);
+        letter-spacing: -0.01em;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: var(--secondary);
+      }
+
+      .repo h3 a,
+      .spotlight h3 a,
+      .pick a {
+        color: var(--ink);
+      }
+
+      .repo h3 a:hover,
+      .spotlight h3 a:hover,
+      .pick a:hover {
+        color: var(--secondary);
+      }
+
+      button,
+      input,
+      select {
+        font: inherit;
+      }
+
+      button {
+        cursor: pointer;
+      }
+
+      button:focus-visible,
+      input:focus-visible,
+      select:focus-visible,
+      a:focus-visible {
+        outline: 3px solid color-mix(in srgb, var(--secondary) 32%, transparent);
+        outline-offset: 2px;
+      }
+
+      .shell {
+        width: min(1320px, calc(100% - 32px));
+        margin: 0 auto;
+      }
+
+      .topbar {
+        position: sticky;
+        top: 0;
+        z-index: 20;
+        border-bottom: 2px solid var(--line);
+        background: color-mix(in srgb, var(--surface) 95%, transparent);
+        backdrop-filter: blur(20px) saturate(180%);
+      }
+
+      .topbar-inner {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        gap: 24px;
+        align-items: center;
+        min-height: 72px;
+      }
+
+      .brand {
+        display: inline-flex;
+        gap: 12px;
+        align-items: center;
+        font-weight: 900;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+      }
+
+      .brand-mark {
+        display: inline-grid;
+        width: 42px;
+        height: 42px;
+        place-items: center;
+        border: 2px solid var(--primary);
+        border-radius: var(--radius);
+        background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+        color: var(--primary-ink);
+        font-family: var(--mono);
+        font-size: 16px;
+        font-weight: 900;
+        box-shadow: var(--glow);
+      }
+
+      .nav {
+        display: flex;
+        gap: 4px;
+        justify-content: center;
+      }
+
+      .nav a {
+        padding: 8px 14px;
+        border-radius: 999px;
+        color: var(--muted);
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.01em;
+        transition: background 160ms, color 160ms;
+      }
+
+      .nav a:hover {
+        background: var(--surface-soft);
+        color: var(--primary);
+      }
+
+      .theme-toggle {
+        display: inline-grid;
+        width: 44px;
+        height: 44px;
+        place-items: center;
+        border: 2px solid var(--line);
+        border-radius: 50%;
+        background: var(--surface);
+        color: var(--primary);
+        font-size: 20px;
+        font-weight: 900;
+        transition: all 200ms;
+      }
+
+      .theme-toggle:hover {
+        border-color: var(--primary);
+        background: var(--primary);
+        color: var(--primary-ink);
+        box-shadow: var(--glow);
+      }
+
+      .hero {
+        position: relative;
+        overflow: hidden;
+        border-bottom: 2px solid var(--line);
+      }
+
+      .hero::before {
+        content: "";
+        position: absolute;
+        top: -40%;
+        left: -10%;
+        width: 60%;
+        height: 200%;
+        background: radial-gradient(ellipse, color-mix(in srgb, var(--primary) 12%, transparent) 0%, transparent 70%);
+        pointer-events: none;
+      }
+
+      .hero-inner {
+        display: grid;
+        grid-template-columns: minmax(0, 1.1fr) minmax(340px, 0.65fr);
+        gap: 32px;
+        align-items: center;
+        padding: 28px 0 24px;
+      }
+
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 7px;
+        margin-bottom: 8px;
+        padding: 4px 10px 4px 6px;
+        border-radius: 999px;
+        border: 1px solid color-mix(in srgb, var(--primary) 40%, var(--line));
+        background: color-mix(in srgb, var(--primary-soft) 80%, transparent);
+        color: var(--primary);
+        font-size: 10px;
+        font-weight: 800;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+
+      .eyebrow::before {
+        content: "🔥";
+        font-size: 12px;
+      }
+
+      h1 {
+        max-width: 880px;
+        margin: 0;
+        font-family: var(--display);
+        font-size: clamp(26px, 3.2vw, 46px);
+        line-height: 1.1;
+        font-weight: 900;
+        letter-spacing: -0.025em;
+      }
+
+      .hero-copy {
+        max-width: 680px;
+        margin: 10px 0 0;
+        color: var(--muted);
+        font-size: 14px;
+        line-height: 1.65;
+      }
+
+      .hero-search {
+        position: relative;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto auto;
+        gap: 8px;
+        max-width: 640px;
+        margin-top: 14px;
+        padding: 5px;
+        border: 2px solid var(--line);
+        border-radius: var(--radius-lg);
+        background: var(--surface);
+        box-shadow: var(--shadow);
+        transition: border-color 200ms, box-shadow 200ms;
+      }
+
+      .hero-search:focus-within {
+        border-color: var(--primary);
+        box-shadow: var(--glow), var(--shadow);
+      }
+
+      .hero-search input {
+        min-width: 0;
+        height: 48px;
+        padding: 0 16px;
+        border: 0;
+        border-radius: var(--radius);
+        background: transparent;
+        color: var(--ink);
+        font-size: 15px;
+      }
+
+      .search-hint {
+        display: inline-grid;
+        min-width: 66px;
+        height: 48px;
+        place-items: center;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--surface-soft);
+        color: var(--muted);
+        font-family: var(--mono);
+        font-size: 11px;
+        font-weight: 700;
+      }
+
+      .hero-search button {
+        height: 48px;
+        padding: 0 20px;
+        border: 0;
+        border-radius: var(--radius);
+        background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+        color: var(--primary-ink);
+        font-weight: 800;
+        font-size: 14px;
+        box-shadow: 0 4px 14px rgba(234, 88, 12, 0.35);
+        transition: all 180ms;
+      }
+
+      .hero-search button:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 6px 20px rgba(234, 88, 12, 0.45);
+      }
+
+      .quick-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 16px;
+      }
+
+      .quick-tag {
+        min-height: 32px;
+        padding: 0 12px;
+        border: 1.5px solid var(--line);
+        border-radius: 999px;
+        background: var(--surface);
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 700;
+        transition: all 160ms;
+      }
+
+      .quick-tag:hover {
+        border-color: var(--primary);
+        background: var(--primary-soft);
+        color: var(--primary);
+        transform: translateY(-1px);
+      }
+
+      .hero-panel {
+        position: relative;
+        border: 2px solid color-mix(in srgb, var(--primary) 30%, var(--line));
+        border-radius: var(--radius-lg);
+        background: linear-gradient(180deg, color-mix(in srgb, var(--primary-soft) 60%, var(--surface)) 0%, var(--surface) 44%);
+        box-shadow: var(--glow), var(--shadow);
+        overflow: hidden;
+      }
+
+      .hero-panel::before {
+        content: "";
+        position: absolute;
+        inset: 0 0 auto;
+        height: 3px;
+        background: linear-gradient(90deg, var(--primary) 0%, var(--accent) 100%);
+      }
+
+      .hero-panel-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 18px 20px 14px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .hero-panel-title {
+        font-size: 14px;
+        font-weight: 800;
+        letter-spacing: -0.01em;
+      }
+
+      .hero-panel-kicker {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        color: var(--primary);
+        font-family: var(--mono);
+        font-size: 10px;
+        font-weight: 800;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        margin-bottom: 2px;
+      }
+
+      .hero-panel-kicker::before {
+        content: "";
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: var(--success);
+        animation: pulse 2s infinite;
+      }
+
+      @keyframes pulse {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.6; transform: scale(0.8); }
+      }
+
+      .hero-status {
+        display: inline-flex;
+        gap: 6px;
+        align-items: center;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      .status-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: var(--success);
+        box-shadow: 0 0 6px var(--success);
+      }
+
+      .status-dot.warn {
+        background: var(--danger);
+        box-shadow: 0 0 6px var(--danger);
+      }
+
+      .hero-metrics {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+        padding: 14px;
+      }
+
+      .metric {
+        min-height: 92px;
+        padding: 16px;
+        border: 2px solid var(--line);
+        border-radius: var(--radius-lg);
+        background: linear-gradient(135deg, color-mix(in srgb, var(--primary-soft) 50%, var(--surface)) 0%, var(--surface) 70%);
+        box-shadow: var(--card-shadow);
+        transition: all 180ms;
+      }
+
+      .metric:hover {
+        border-color: var(--primary);
+        box-shadow: var(--glow), var(--shadow);
+        transform: translateY(-2px);
+      }
+
+      .metric span,
+      .label {
+        color: var(--muted);
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+
+      .metric strong {
+        display: block;
+        margin-top: 6px;
+        font-size: 24px;
+        line-height: 1;
+        font-family: var(--mono);
+        font-weight: 800;
+        background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .hero-picks {
+        border-top: 1px solid var(--line);
+        padding-top: 4px;
+      }
+
+      .hero-picks .pick {
+        position: relative;
+        margin: 6px 12px 10px;
+        padding: 12px 14px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--surface);
+        transition: border-color 160ms, box-shadow 160ms;
+      }
+
+      .hero-picks .pick:hover {
+        border-color: color-mix(in srgb, var(--primary) 40%, var(--line));
+        box-shadow: var(--card-shadow);
+      }
+
+      .hero-picks .pick:first-child {
+        border-color: color-mix(in srgb, var(--primary) 40%, var(--line));
+        background: linear-gradient(90deg, color-mix(in srgb, var(--primary-soft) 80%, transparent), transparent 60%);
+      }
+
+      .hero-picks .pick a {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+      }
+
+      .hero-picks .pick a::after {
+        content: "→";
+        flex: 0 0 auto;
+        align-self: start;
+        color: var(--primary);
+        font-size: 14px;
+        font-weight: 800;
+      }
+
+      .hero-picks .pick p {
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+        margin: 0;
+        color: var(--muted);
+        font-size: 12px;
+        line-height: 1.5;
+        margin-top: 4px;
+      }
+
+      .console {
+        position: sticky;
+        top: 72px;
+        z-index: 12;
+        margin: 20px 0;
+        border: 2px solid var(--line);
+        border-radius: var(--radius-lg);
+        background: color-mix(in srgb, var(--surface) 96%, transparent);
+        box-shadow: var(--shadow);
+        backdrop-filter: blur(20px) saturate(180%);
+      }
+
+      .controls {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        padding: 12px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .segmented {
+        display: inline-grid;
+        grid-template-columns: repeat(3, 1fr);
+        min-width: 300px;
+        border: 2px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--surface-soft);
+        overflow: hidden;
+      }
+
+      .segmented button {
+        min-height: 42px;
+        padding: 0 16px;
+        border: 0;
+        border-right: 1px solid var(--line);
+        background: transparent;
+        color: var(--muted);
+        font-weight: 800;
+        font-size: 13px;
+        transition: all 180ms;
+      }
+
+      .segmented button:last-child {
+        border-right: 0;
+      }
+
+      .segmented button:hover {
+        background: color-mix(in srgb, var(--primary) 8%, transparent);
+        color: var(--primary);
+      }
+
+      .segmented button[aria-selected="true"] {
+        background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+        color: var(--primary-ink);
+        font-weight: 800;
+      }
+
+      .category-strip {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        overflow: visible;
+        padding: 12px;
+        scrollbar-width: none;
+      }
+
+      .category-strip::-webkit-scrollbar {
+        display: none;
+      }
+
+      .category-btn {
+        flex: 0 0 auto;
+        display: inline-flex;
+        gap: 6px;
+        align-items: center;
+        min-height: 36px;
+        padding: 0 14px;
+        border: 1.5px solid var(--line);
+        border-radius: 999px;
+        background: var(--surface);
+        color: var(--ink);
+        font-size: 13px;
+        font-weight: 700;
+        transition: all 160ms;
+      }
+
+      .category-btn .count {
+        color: var(--muted);
+        font-family: var(--mono);
+        font-size: 11px;
+        font-weight: 700;
+      }
+
+      .category-btn:hover {
+        border-color: var(--primary);
+        background: var(--primary-soft);
+        color: var(--primary);
+        transform: translateY(-1px);
+      }
+
+      .category-btn[aria-pressed="true"] {
+        border-color: var(--primary);
+        background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+        color: var(--primary-ink);
+        box-shadow: 0 4px 12px rgba(234, 88, 12, 0.35);
+      }
+
+      .category-btn[aria-pressed="true"] .count {
+        color: color-mix(in srgb, var(--primary-ink) 80%, transparent);
+      }
+
+      .main-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 360px;
+        gap: 20px;
+        align-items: start;
+        padding-bottom: 64px;
+      }
+
+      .section-head {
+        display: flex;
+        gap: 16px;
+        align-items: end;
+        justify-content: space-between;
+        margin-bottom: 14px;
+      }
+
+      .section-head h2 {
+        margin: 0;
+        font-size: 24px;
+        font-weight: 800;
+        letter-spacing: -0.02em;
+      }
+
+      .result-count {
+        color: var(--muted);
+        font-family: var(--mono);
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      .spotlight-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
+        margin-bottom: 14px;
+      }
+
+      .spotlight {
+        min-height: 160px;
+        padding: 16px;
+        border: 2px solid var(--line);
+        border-radius: var(--radius-lg);
+        background: linear-gradient(135deg, color-mix(in srgb, var(--primary-soft) 70%, var(--surface)) 0%, var(--surface) 60%);
+        box-shadow: var(--card-shadow);
+        transition: all 200ms;
+      }
+
+      .spotlight:hover {
+        border-color: var(--primary);
+        box-shadow: var(--glow), var(--shadow);
+        transform: translateY(-2px);
+      }
+
+      .spotlight-rank {
+        display: inline-flex;
+        min-width: 34px;
+        height: 34px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+        color: var(--primary-ink);
+        font-family: var(--mono);
+        font-size: 13px;
+        font-weight: 800;
+        box-shadow: 0 4px 12px rgba(234, 88, 12, 0.3);
+      }
+
+      .rank-medal-1::before { content: "🥇"; font-size: 20px; }
+      .rank-medal-2::before { content: "🥈"; font-size: 20px; }
+      .rank-medal-3::before { content: "🥉"; font-size: 20px; }
+
+      .spotlight h3 {
+        overflow-wrap: anywhere;
+        margin: 14px 0 8px;
+        font-size: 17px;
+        font-weight: 800;
+        letter-spacing: -0.01em;
+      }
+
+      .spotlight p {
+        display: -webkit-box;
+        overflow: hidden;
+        margin: 0;
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.6;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+      }
+
+      .repo-list {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .repo {
+        display: flex;
+        flex-direction: column;
+        padding: 18px;
+        border: 2px solid var(--line);
+        border-radius: var(--radius-lg);
+        background: var(--surface);
+        transition: all 200ms;
+      }
+
+      .repo:hover {
+        border-color: var(--primary);
+        box-shadow: var(--glow), var(--card-shadow);
+        transform: translateY(-2px);
+      }
+
+      .scorebox {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        align-self: flex-start;
+        min-height: auto;
+        padding: 8px 14px;
+        border: 2px solid color-mix(in srgb, var(--primary) 30%, var(--line));
+        border-radius: 999px;
+        background: linear-gradient(135deg, var(--primary-soft) 0%, color-mix(in srgb, var(--primary-soft) 70%, var(--surface)) 100%);
+        margin-bottom: 12px;
+      }
+
+      .scorebox strong {
+        font-family: var(--mono);
+        font-size: 20px;
+        line-height: 1;
+        font-weight: 800;
+        background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .scorebox span {
+        color: var(--muted);
+        font-size: 10px;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .repo-top {
+        display: flex;
+        gap: 12px;
+        align-items: start;
+        justify-content: space-between;
+      }
+
+      .repo h3 {
+        overflow-wrap: anywhere;
+        margin: 0;
+        font-size: 18px;
+        line-height: 1.3;
+        font-weight: 800;
+        letter-spacing: -0.01em;
+      }
+
+      .summary {
+        display: -webkit-box;
+        overflow: hidden;
+        margin: 10px 0 0;
+        color: var(--muted);
+        line-height: 1.6;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+      }
+
+      .repo-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 14px;
+      }
+
+      .quality-strip {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 8px;
+        flex: 1 1 440px;
+      }
+
+      .quality-item {
+        min-width: 0;
+        padding: 10px;
+        border: 1.5px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--surface-soft);
+        transition: border-color 160ms;
+      }
+
+      .quality-item:hover {
+        border-color: color-mix(in srgb, var(--primary) 40%, var(--line));
+      }
+
+      .quality-item span {
+        display: block;
+        margin-bottom: 6px;
+        color: var(--muted);
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 0.02em;
+      }
+
+      .quality-meter {
+        height: 6px;
+        overflow: hidden;
+        border-radius: 999px;
+        background: color-mix(in srgb, var(--line) 60%, var(--surface));
+      }
+
+      .quality-meter i {
+        display: block;
+        height: 100%;
+        width: var(--value);
+        border-radius: inherit;
+        background: linear-gradient(90deg, var(--primary) 0%, var(--accent) 100%);
+        box-shadow: 0 0 8px rgba(234, 88, 12, 0.4);
+      }
+
+      .visit-link {
+        display: inline-flex;
+        min-height: 38px;
+        align-items: center;
+        justify-content: center;
+        padding: 0 16px;
+        border: 2px solid var(--primary);
+        border-radius: var(--radius);
+        background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+        color: var(--primary-ink);
+        font-size: 13px;
+        font-weight: 800;
+        box-shadow: 0 4px 12px rgba(234, 88, 12, 0.35);
+        transition: all 180ms;
+      }
+
+      .visit-link:hover {
+        color: var(--primary-ink);
+        transform: translateY(-1px);
+        box-shadow: 0 6px 18px rgba(234, 88, 12, 0.5);
+      }
+
+      .meta,
+      .tag-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 7px;
+        margin-top: 12px;
+      }
+
+      .pill {
+        display: inline-flex;
+        align-items: center;
+        min-height: 28px;
+        padding: 0 10px;
+        border: 1.5px solid var(--line);
+        border-radius: 999px;
+        background: var(--surface-soft);
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 700;
+        transition: all 140ms;
+      }
+
+      .pill:hover {
+        border-color: color-mix(in srgb, var(--primary) 40%, var(--line));
+        color: var(--ink);
+      }
+
+      .pill.kind {
+        border-color: color-mix(in srgb, var(--primary) 40%, var(--line));
+        background: var(--primary-soft);
+        color: var(--primary);
+        font-weight: 800;
+      }
+
+      .pill.category {
+        border-color: color-mix(in srgb, var(--secondary) 40%, var(--line));
+        background: var(--secondary-soft);
+        color: var(--secondary);
+        font-weight: 800;
+        cursor: pointer;
+      }
+
+      .pill.category:hover {
+        border-color: var(--secondary);
+        background: color-mix(in srgb, var(--secondary) 20%, var(--secondary-soft));
+        transform: translateY(-1px);
+      }
+
+      details {
+        margin-top: 12px;
+      }
+
+      summary {
+        width: fit-content;
+        cursor: pointer;
+        color: var(--primary);
+        font-weight: 800;
+        font-size: 13px;
+        transition: color 140ms;
+      }
+
+      summary:hover {
+        color: var(--accent);
+      }
+
+      .detail-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+        margin-top: 12px;
+      }
+
+      .detail {
+        min-height: 72px;
+        padding: 12px;
+        border: 1.5px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--surface-soft);
+        line-height: 1.6;
+      }
+
+      .detail b {
+        display: block;
+        margin-bottom: 6px;
+        font-size: 12px;
+        font-weight: 800;
+        color: var(--muted);
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+      }
+
+      .side {
+        display: grid;
+        gap: 14px;
+      }
+
+      .panel,
+      .status-panel {
+        border: 2px solid var(--line);
+        border-radius: var(--radius-lg);
+        background: var(--surface);
+        box-shadow: var(--card-shadow);
+        overflow: hidden;
+      }
+
+      .panel-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 14px 16px;
+        border-bottom: 1px solid var(--line);
+        font-size: 14px;
+        font-weight: 800;
+        letter-spacing: -0.01em;
+        background: linear-gradient(90deg, color-mix(in srgb, var(--primary-soft) 50%, var(--surface)), var(--surface));
+      }
+
+      .pick-list {
+        display: grid;
+      }
+
+      .pick {
+        padding: 14px 16px;
+        border-bottom: 1px solid var(--line);
+        transition: background 160ms;
+      }
+
+      .pick:last-child {
+        border-bottom: 0;
+      }
+
+      .pick:hover {
+        background: color-mix(in srgb, var(--primary-soft) 40%, var(--surface));
+      }
+
+      .pick a {
+        display: block;
+        overflow-wrap: anywhere;
+        font-weight: 800;
+        font-size: 14px;
+        color: var(--ink);
+        transition: color 140ms;
+      }
+
+      .pick a:hover {
+        color: var(--primary);
+      }
+
+      .pick p {
+        margin: 6px 0 0;
+        color: var(--muted);
+        font-size: 12px;
+        line-height: 1.5;
+      }
+
+      .pick-button {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 0;
+        border: 0;
+        background: transparent;
+        color: inherit;
+        text-align: left;
+        font-size: 14px;
+        font-weight: 800;
+        transition: color 140ms;
+      }
+
+      .pick-button:hover {
+        color: var(--primary);
+      }
+
+      .pick-button strong {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .pick-button span {
+        flex: 0 0 auto;
+        padding: 2px 8px;
+        border-radius: 999px;
+        background: var(--primary-soft);
+        color: var(--primary);
+        font-family: var(--mono);
+        font-size: 11px;
+        font-weight: 800;
+      }
+
+      .status-panel {
+        padding: 16px;
+        border-left: 4px solid var(--primary);
+        color: var(--muted);
+        line-height: 1.6;
+        font-size: 13px;
+        border-radius: var(--radius-lg);
+      }
+
+      .status-panel.warn {
+        border-left-color: var(--danger);
+        background: color-mix(in srgb, var(--danger) 8%, var(--surface));
+      }
+
+      .empty {
+        padding: 48px 36px;
+        border: 2px dashed var(--line-strong);
+        border-radius: var(--radius-lg);
+        background: color-mix(in srgb, var(--surface) 60%, transparent);
+        color: var(--muted);
+        text-align: center;
+        font-size: 14px;
+      }
+
+      @media (prefers-reduced-motion: no-preference) {
+        .repo,
+        .spotlight,
+        .category-btn,
+        .segmented button,
+        .theme-toggle,
+        .quick-tag,
+        .pill,
+        .pick,
+        .visit-link {
+          transition:
+            border-color 180ms ease,
+            background 180ms ease,
+            box-shadow 200ms ease,
+            color 160ms ease,
+            transform 180ms ease;
+        }
+
+        .repo:hover,
+        .spotlight:hover {
+          transform: translateY(-2px);
+        }
+
+        .hero-search {
+          transition: border-color 200ms ease, box-shadow 250ms ease;
+        }
+
+        .brand-mark {
+          transition: box-shadow 200ms ease, transform 180ms ease;
+        }
+
+        .brand:hover .brand-mark {
+          transform: rotate(-4deg) scale(1.05);
+        }
+      }
+
+      @media (max-width: 1040px) {
+        .hero-inner,
+        .main-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .side {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      @media (max-width: 820px) {
+        .topbar-inner {
+          grid-template-columns: 1fr auto;
+        }
+
+        .topbar-inner .nav {
+          display: none;
+        }
+
+        .nav {
+          justify-content: flex-start;
+          overflow-x: auto;
+        }
+
+        .hero-inner {
+          padding-top: 36px;
+        }
+
+        .spotlight-grid,
+        .side,
+        .detail-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .segmented {
+          width: 100%;
+          min-width: 0;
+        }
+      }
+
+      @media (max-width: 620px) {
+        .shell {
+          width: min(100% - 20px, 1240px);
+        }
+
+        h1 {
+          max-width: 360px;
+          font-size: clamp(34px, 12vw, 52px);
+          line-height: 1.02;
+        }
+
+        .hero-search {
+          grid-template-columns: 1fr;
+        }
+
+        .hero-metrics {
+          grid-template-columns: 1fr;
+        }
+
+        .search-hint {
+          display: none;
+        }
+
+        .repo {
+          grid-template-columns: 1fr;
+        }
+
+        .scorebox {
+          grid-template-columns: auto 1fr;
+          min-height: 52px;
+          justify-content: start;
+          padding: 0 14px;
+          column-gap: 10px;
+        }
+
+        .hero-search,
+        .quality-strip {
+          grid-template-columns: 1fr;
+        }
+
+        .repo-top,
+        .section-head {
+          display: grid;
+        }
+      }
+    </style>
+  </head>
+  <body data-theme="dark">
+    <header class="topbar">
+      <div class="shell topbar-inner">
+        <a class="brand" href="#">
+          <span class="brand-mark">SH</span>
+          <span>Skillhunt</span>
+        </a>
+        <nav class="nav" aria-label="页面导航">
+          <a href="#discover">探索</a>
+          <a href="#ranking">榜单</a>
+          <a href="#signals">信号</a>
+        </nav>
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="切换为暗色主题" aria-pressed="false">☾</button>
+      </div>
+    </header>
+
+    <section class="hero" id="discover">
+      <div class="shell hero-inner">
+        <div>
+          <div class="eyebrow">GitHub Skill / Agent Radar</div>
+          <h1>发现可复用的Skill </h1>
+          <p class="hero-copy">
+            面向软件开发、自媒体、内容创作、视频处理和投资研究，从 GitHub 热门项目与增长信号中筛选可安装、可维护、值得尝试的 Skill 与 Agent。
+          </p>
+          <div class="hero-search" role="search">
+            <input id="heroSearchInput" type="search" placeholder="搜索 skill、agent、wechat、mcp、video、finance..." autocomplete="off" />
+            <span class="search-hint" aria-hidden="true">Ctrl K</span>
+            <button type="button" id="heroSearchButton">搜索</button>
+          </div>
+          <div class="quick-tags" aria-label="快捷搜索">
+            <button class="quick-tag" type="button" data-query="wechat">公众号</button>
+            <button class="quick-tag" type="button" data-query="mcp">MCP</button>
+            <button class="quick-tag" type="button" data-query="video">视频</button>
+            <button class="quick-tag" type="button" data-query="coding">软件开发</button>
+            <button class="quick-tag" type="button" data-query="finance">基金理财</button>
+          </div>
+        </div>
+
+        <aside class="hero-panel" id="signals" aria-label="运行信号">
+          <div class="hero-panel-head">
+            <div>
+              <div class="hero-panel-kicker">Live Signal</div>
+              <span class="hero-panel-title">雷达状态</span>
+            </div>
+            <span class="hero-status"><span id="statusDot" class="status-dot"></span><span id="statusText">等待数据</span></span>
+          </div>
+          <div class="hero-metrics">
+            <div class="metric"><span>收录</span><strong id="repoCount">0</strong></div>
+            <div class="metric"><span>Skill</span><strong id="skillCount">0</strong></div>
+            <div class="metric"><span>Agent</span><strong id="agentCount">0</strong></div>
+            <div class="metric"><span>过滤噪音</span><strong id="filteredCount">0</strong></div>
+          </div>
+          <section id="briefPanel" class="hero-picks" hidden>
+            <div class="hero-panel-head">
+              <span class="hero-panel-title">优先关注</span>
+              <span id="syncedAt" class="hero-status">-</span>
+            </div>
+            <div id="briefList" class="pick-list"></div>
+          </section>
+        </aside>
+      </div>
+    </section>
+
+    <main class="shell" id="ranking">
+      <section class="console" aria-label="筛选控制台">
+        <div class="controls">
+          <div class="segmented" role="tablist" aria-label="项目类型">
+            <button type="button" role="tab" aria-selected="true" data-kind="All">全部</button>
+            <button type="button" role="tab" aria-selected="false" data-kind="Skill">Skill</button>
+            <button type="button" role="tab" aria-selected="false" data-kind="Agent">Agent</button>
+          </div>
+        </div>
+        <div id="categoryStrip" class="category-strip" aria-label="分类筛选"></div>
+      </section>
+
+      <section class="main-grid">
+        <div>
+          <div class="section-head">
+            <h2 id="boardTitle">全部项目</h2>
+            <span id="resultCount" class="result-count">0 repos</span>
+          </div>
+          <div id="spotlightGrid" class="spotlight-grid"></div>
+          <div id="repoList" class="repo-list"></div>
+          <div id="emptyState" class="empty" hidden>没有匹配的项目。换一个分类或关键词试试。</div>
+        </div>
+
+        <aside class="side" aria-label="精选与状态">
+          <section id="categoryPanel" class="panel">
+            <div class="panel-head">
+              <span>热门场景</span>
+              <span>数量</span>
+            </div>
+            <div id="categoryPanelList" class="pick-list"></div>
+          </section>
+          <section class="panel">
+            <div class="panel-head">
+              <span>当前筛选</span>
+              <span id="fallbackCount">0 fallback</span>
+            </div>
+            <div class="pick">
+              <p id="filterSummary">全部类型 / 全部分类</p>
+            </div>
+          </section>
+          <section id="statusPanel" class="status-panel">正在读取雷达数据...</section>
+        </aside>
+      </section>
+    </main>
+
+    <script>
+      const state = {
+        repos: [],
+        brief: null,
+        metadata: null,
+        status: null,
+        kind: "All",
+        category: "All",
+        search: "",
+        theme: normalizeTheme(localStorage.getItem("skillhunt-theme") || "dark"),
+      };
+
+      const CATEGORY_FIXES = {
+        "瀛︿範": "学习",
+        "淇℃伅鎼滈泦": "信息搜集",
+        "鐭ヨ瘑绠＄悊": "知识管理",
+        "鍐呭鍒涗綔": "内容创作",
+        "瑙嗛澶勭悊": "视频处理",
+        "鍔炲叕鍗忎綔": "办公协作",
+        "鏁版嵁鍒嗘瀽": "数据分析",
+        "鎶曡祫鐮旂┒": "投资研究",
+        "杞欢寮€鍙?": "软件开发",
+        "浜у搧璁捐": "产品设计",
+        "甯傚満钀ラ攢": "市场营销",
+        "瀹夊叏鏀婚槻": "安全攻防",
+        "鑷姩鍖栬繍钀?": "自动化运营",
+        "鍏朵粬": "其他",
+      };
+
+      const REASON_FIXES = {
+        "楂樺彲鐢ㄦ€?": "高可用性",
+        "瀹夎鍏ュ彛鏄庣‘": "安装入口明确",
+        "杩戞湡缁存姢娲昏穬": "近期维护活跃",
+        "绀惧尯閲囩敤搴﹂珮": "社区采用度高",
+        "缁煎悎璇勫垎闈犲墠": "综合评分靠前",
+      };
+
+      const $ = (selector) => document.querySelector(selector);
+
+      function normalizeTheme(theme) {
+        return theme === "dark" || theme === "slate" ? "dark" : "light";
+      }
+
+      function escapeHtml(value) {
+        return String(value ?? "")
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#039;");
+      }
+
+      function fixLabel(value) {
+        const text = String(value ?? "");
+        return CATEGORY_FIXES[text] || REASON_FIXES[text] || text;
+      }
+
+      function looksBroken(value) {
+        return /[锟�]|(銆|€|鍙|鐨|涓|浠|绋|瀛|瑙|鏁|杞|濂|闆|勭|呭|煎|綔|攢)/.test(String(value ?? ""));
+      }
+
+      function displaySummary(repo) {
+        const summary = String(repo.summary || "");
+        if (!summary || looksBroken(summary)) return repo.description || "暂无描述";
+        return summary;
+      }
+
+      function displayUseCase(repo) {
+        const value = String(repo.use_case || "");
+        if (!value || looksBroken(value)) return repo.description || "-";
+        return value;
+      }
+
+      function displayCategory(repo) {
+        return fixLabel(repo.category || "其他");
+      }
+
+      function formatDate(value) {
+        if (!value) return "-";
+        const date = new Date(value);
+        if (Number.isNaN(date.getTime())) return value;
+        return date.toLocaleDateString("zh-CN", { year: "numeric", month: "2-digit", day: "2-digit" });
+      }
+
+      function compactNumber(value) {
+        return new Intl.NumberFormat("en", { notation: "compact", maximumFractionDigits: 1 }).format(Number(value || 0));
+      }
+
+      function clampScore(value) {
+        return Math.max(0, Math.min(100, Number(value || 0)));
+      }
+
+      function qualityItem(label, value) {
+        const score = clampScore(value);
+        return `
+          <div class="quality-item">
+            <span>${escapeHtml(label)} ${score}</span>
+            <div class="quality-meter" aria-hidden="true"><i style="--value: ${score}%"></i></div>
+          </div>
+        `;
+      }
+
+      async function readJson(path, fallback) {
+        try {
+          const response = await fetch(path, { cache: "no-store" });
+          if (!response.ok) return fallback;
+          return await response.json();
+        } catch {
+          return fallback;
+        }
+      }
+
+      function setTheme(theme) {
+        const nextTheme = normalizeTheme(theme);
+        state.theme = nextTheme;
+        document.body.dataset.theme = nextTheme;
+        localStorage.setItem("skillhunt-theme", nextTheme);
+        const button = $("#themeToggle");
+        const isDark = nextTheme === "dark";
+        button.textContent = isDark ? "☀" : "☾";
+        button.setAttribute("aria-label", isDark ? "切换为亮色主题" : "切换为暗色主题");
+        button.setAttribute("aria-pressed", String(isDark));
+      }
+
+      function syncSearchInputs(value) {
+        state.search = value;
+        $("#heroSearchInput").value = value;
+      }
+
+      function filteredByKind() {
+        if (state.kind === "All") return state.repos;
+        return state.repos.filter((repo) => repo.kind === state.kind);
+      }
+
+      function categoryCounts() {
+        const counts = new Map();
+        filteredByKind().forEach((repo) => {
+          const category = displayCategory(repo);
+          counts.set(category, (counts.get(category) || 0) + 1);
+        });
+        return [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "zh-CN"));
+      }
+
+      function matchesSearch(repo) {
+        const term = state.search.trim().toLowerCase();
+        if (!term) return true;
+        const blob = [
+          repo.repo_name,
+          repo.owner,
+          repo.description,
+          displaySummary(repo),
+          displayCategory(repo),
+          repo.language,
+          ...(repo.install_methods || []),
+          ...(repo.topics || []),
+          ...(repo.solves || []),
+        ]
+          .join(" ")
+          .toLowerCase();
+        return blob.includes(term);
+      }
+
+      function filteredRepos() {
+        const repos = filteredByKind()
+          .filter((repo) => state.category === "All" || displayCategory(repo) === state.category)
+          .filter(matchesSearch);
+
+        return repos.sort((a, b) => Number(b.recommendation_score || 0) - Number(a.recommendation_score || 0));
+      }
+
+      function renderStats() {
+        const metadata = state.metadata || {};
+        const status = state.status || {};
+        $("#syncedAt").textContent = formatDate(metadata.synced_at || status.synced_at);
+        $("#repoCount").textContent = metadata.exported_count ?? state.repos.length;
+        $("#skillCount").textContent = metadata.skill_count ?? state.repos.filter((item) => item.kind === "Skill").length;
+        $("#agentCount").textContent = metadata.agent_count ?? state.repos.filter((item) => item.kind === "Agent").length;
+        $("#fallbackCount").textContent = `${metadata.fallback_count ?? status.ai_fallback_count ?? 0} fallback`;
+        $("#filteredCount").textContent = status.filtered_candidates ?? 0;
+        $("#statusText").textContent = status.ok ? "正常" : "有降级";
+        $("#statusDot").classList.toggle("warn", !status.ok);
+      }
+
+      function renderCategories() {
+        const counts = categoryCounts();
+        const currentStillExists = state.category === "All" || counts.some(([category]) => category === state.category);
+        if (!currentStillExists) state.category = "All";
+        const total = filteredByKind().length;
+        const buttons = [
+          `<button class="category-btn" type="button" data-category="All" aria-pressed="${state.category === "All"}">全部 <span class="count">${total}</span></button>`,
+          ...counts.map(
+            ([category, count]) =>
+              `<button class="category-btn" type="button" data-category="${escapeHtml(category)}" aria-pressed="${state.category === category}">${escapeHtml(category)} <span class="count">${count}</span></button>`,
+          ),
+        ];
+        $("#categoryStrip").innerHTML = buttons.join("");
+        $("#categoryStrip").querySelectorAll(".category-btn").forEach((button) => {
+          button.addEventListener("click", () => {
+            state.category = button.dataset.category;
+            render();
+          });
+        });
+      }
+
+      const RANK_MEDALS = ["🥇", "🥈", "🥉"];
+
+      function spotlightCard(repo, index) {
+        const medal = RANK_MEDALS[index];
+        const rankEl = medal
+          ? `<span class="spotlight-rank rank-medal-${index + 1}" aria-label="排名 ${index + 1}">${medal}</span>`
+          : `<span class="spotlight-rank">${index + 1}</span>`;
+        return `
+          <article class="spotlight">
+            ${rankEl}
+            <h3><a href="${escapeHtml(repo.url)}" target="_blank" rel="noreferrer">${escapeHtml(repo.repo_name)}</a></h3>
+            <p>${escapeHtml(displaySummary(repo))}</p>
+            <div class="tag-row">
+              <span class="pill kind">${escapeHtml(repo.kind || "Skill")}</span>
+              <span class="pill category">${escapeHtml(displayCategory(repo))}</span>
+              <span class="pill">⭐ ${escapeHtml(compactNumber(repo.stars))}</span>
+            </div>
+          </article>
+        `;
+      }
+
+      function repoCard(repo) {
+        const methods = (repo.install_methods || []).map((label) => `<span class="pill">${escapeHtml(label)}</span>`).join("");
+        const topics = (repo.topics || []).slice(0, 5).map((label) => `<span class="pill">${escapeHtml(label)}</span>`).join("");
+        const flags = (repo.usability_flags || []).map((label) => `<span class="pill">${escapeHtml(label)}</span>`).join("");
+        const solves = (repo.solves || [])
+          .slice(0, 4)
+          .map((label) => `<span class="pill">${escapeHtml(looksBroken(label) ? "痛点识别" : label)}</span>`)
+          .join("");
+
+        return `
+          <article class="repo">
+            <div class="scorebox" aria-label="推荐分">
+              <strong>${escapeHtml(repo.recommendation_score ?? "-")}</strong>
+              <span>score</span>
+            </div>
+            <div>
+              <div class="repo-top">
+                <h3><a href="${escapeHtml(repo.url)}" target="_blank" rel="noreferrer">${escapeHtml(repo.repo_name)}</a></h3>
+                <span class="pill kind">${escapeHtml(repo.kind || "-")}</span>
+              </div>
+              <p class="summary">${escapeHtml(displaySummary(repo))}</p>
+              <div class="repo-actions">
+                <div class="quality-strip" aria-label="项目质量信号">
+                  ${qualityItem("可用", repo.usability_score)}
+                  ${qualityItem("热度", repo.adoption_score)}
+                  ${qualityItem("维护", repo.maintenance_score)}
+                </div>
+                <a class="visit-link" href="${escapeHtml(repo.url)}" target="_blank" rel="noreferrer">GitHub</a>
+              </div>
+              <div class="meta">
+                <button class="pill category" type="button" data-category-jump="${escapeHtml(displayCategory(repo))}">${escapeHtml(displayCategory(repo))}</button>
+                <span class="pill">${escapeHtml(repo.language || "Unknown")}</span>
+                <span class="pill">★ ${escapeHtml(compactNumber(repo.stars))}</span>
+                <span class="pill">Fork ${escapeHtml(compactNumber(repo.forks))}</span>
+                <span class="pill">Push ${escapeHtml(formatDate(repo.pushed_at || repo.updated_at))}</span>
+                ${methods}
+              </div>
+              <details>
+                <summary>展开详情</summary>
+                <div class="detail-grid">
+                  <div class="detail"><b>适用场景</b>${escapeHtml(displayUseCase(repo))}</div>
+                  <div class="detail"><b>解决问题</b><div class="meta">${solves || '<span class="pill">未识别</span>'}</div></div>
+                  <div class="detail"><b>Topics</b><div class="meta">${topics || '<span class="pill">无</span>'}</div></div>
+                  <div class="detail"><b>风险标记</b><div class="meta">${flags || '<span class="pill">无</span>'}</div></div>
+                </div>
+              </details>
+            </div>
+          </article>
+        `;
+      }
+
+      function renderBoard() {
+        document.querySelectorAll(".segmented button").forEach((tab) => {
+          tab.setAttribute("aria-selected", String(tab.dataset.kind === state.kind));
+        });
+
+        const repos = filteredRepos();
+        const kindLabel = state.kind === "All" ? "全部项目" : `${state.kind} 项目`;
+        const categoryLabel = state.category === "All" ? "全部分类" : state.category;
+        $("#boardTitle").textContent = `${kindLabel} / ${categoryLabel}`;
+        $("#resultCount").textContent = `${repos.length} repos`;
+        $("#filterSummary").textContent = `${kindLabel} / ${categoryLabel}${state.search ? ` / ${state.search}` : ""}`;
+        $("#spotlightGrid").innerHTML = repos.slice(0, 3).map(spotlightCard).join("");
+        $("#repoList").innerHTML = repos.slice(3).map(repoCard).join("");
+        $("#emptyState").hidden = repos.length > 0;
+
+        $("#repoList").querySelectorAll("[data-category-jump]").forEach((button) => {
+          button.addEventListener("click", () => {
+            state.category = button.dataset.categoryJump;
+            render();
+            window.scrollTo({ top: document.querySelector(".console").offsetTop - 76, behavior: "smooth" });
+          });
+        });
+      }
+
+      function renderBrief() {
+        const picks = (state.brief?.top_picks || []).slice(0, 3);
+        $("#briefPanel").hidden = picks.length === 0;
+        $("#briefList").innerHTML = picks
+          .map((item) => {
+            const summary = looksBroken(item.summary) ? "高分项目，适合优先查看。" : item.summary || "";
+            return `
+              <article class="pick">
+                <a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.repo_name)}</a>
+                <p>${escapeHtml(fixLabel(item.category))} / ${escapeHtml(item.recommendation_score)} 分</p>
+                <p>${escapeHtml(summary)}</p>
+              </article>
+            `;
+          })
+          .join("");
+      }
+
+      function renderCategoryPanel() {
+        const topCategories = categoryCounts().slice(0, 8);
+        $("#categoryPanelList").innerHTML = topCategories
+          .map(
+            ([category, count]) => `
+              <article class="pick">
+                <button class="pick-button" type="button" data-category-pick="${escapeHtml(category)}">
+                  <strong>${escapeHtml(category)}</strong>
+                  <span>${count}</span>
+                </button>
+              </article>
+            `,
+          )
+          .join("");
+
+        $("#categoryPanelList").querySelectorAll("[data-category-pick]").forEach((button) => {
+          button.addEventListener("click", () => {
+            state.category = button.dataset.categoryPick;
+            render();
+            window.scrollTo({ top: document.querySelector(".console").offsetTop - 76, behavior: "smooth" });
+          });
+        });
+      }
+
+      function renderStatus() {
+        const status = state.status || {};
+        const warnings = [...(status.warnings || []), ...(state.brief?.warnings || [])].filter(Boolean);
+        const panel = $("#statusPanel");
+        panel.classList.toggle("warn", !status.ok || warnings.length > 0);
+        if (!state.repos.length) {
+          panel.textContent = "还没有生成榜单数据。运行 python src/main.py sync 后刷新页面。";
+          return;
+        }
+        if (warnings.length) {
+          panel.textContent = warnings.slice(0, 2).join(" / ");
+          return;
+        }
+        panel.textContent = "数据已加载。分类按钮可直接筛选，列表按推荐分展示。";
+      }
+
+      function render() {
+        renderStats();
+        renderCategories();
+        renderBoard();
+        renderBrief();
+        renderCategoryPanel();
+        renderStatus();
+      }
+
+      async function boot() {
+        setTheme(state.theme);
+        const [repos, brief, metadata, status] = await Promise.all([
+          readJson("data/radar.json", []),
+          readJson("data/brief.json", null),
+          readJson("data/metadata.json", null),
+          readJson("data/status.json", null),
+        ]);
+        state.repos = Array.isArray(repos) ? repos : [];
+        state.brief = brief;
+        state.metadata = metadata;
+        state.status = status;
+        render();
+      }
+
+      document.querySelectorAll(".segmented button").forEach((tab) => {
+        tab.addEventListener("click", () => {
+          state.kind = tab.dataset.kind;
+          state.category = "All";
+          render();
+        });
+      });
+
+      $("#themeToggle").addEventListener("click", () => {
+        setTheme(state.theme === "dark" ? "light" : "dark");
+      });
+
+      document.querySelectorAll(".quick-tag").forEach((button) => {
+        button.addEventListener("click", () => {
+          syncSearchInputs(button.dataset.query);
+          renderBoard();
+          document.querySelector(".console").scrollIntoView({ behavior: "smooth", block: "start" });
+        });
+      });
+
+      $("#heroSearchInput").addEventListener("input", (event) => {
+        syncSearchInputs(event.target.value);
+        renderBoard();
+      });
+
+      $("#heroSearchButton").addEventListener("click", () => {
+        document.querySelector(".console").scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+
+      document.addEventListener("keydown", (event) => {
+        const isSearchShortcut = (event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "k";
+        if (!isSearchShortcut) return;
+        event.preventDefault();
+        $("#heroSearchInput").focus();
+      });
+
+      boot();
+    </script>
+  </body>
+</html>

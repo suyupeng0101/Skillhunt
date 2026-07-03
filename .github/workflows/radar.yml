@@ -1,0 +1,81 @@
+name: GitHub Skill Agent Radar Daily Sync
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync_and_generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PERSONAL_ACCESS_TOKENS || secrets.PERSONAL_ACCESS_TOKEN || secrets.GH_TOKEN || github.token }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run radar sync
+        env:
+          # Secret values: configure these in
+          # Settings -> Secrets and variables -> Actions -> Secrets.
+          # They are injected only at runtime and must never be written to docs/data.
+          PERSONAL_ACCESS_TOKENS: ${{ secrets.PERSONAL_ACCESS_TOKENS }}
+          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          MODEL_API_KEY: ${{ secrets.MODEL_API_KEY }}
+
+          # Public tuning values: optionally configure these in
+          # Settings -> Secrets and variables -> Actions -> Variables.
+          # Defaults here are safe to keep in the workflow because they are not secrets.
+          SKILL_SEARCH_MIN_STARS: ${{ vars.SKILL_SEARCH_MIN_STARS || '1000' }}
+          AGENT_SEARCH_MIN_STARS: ${{ vars.AGENT_SEARCH_MIN_STARS || '2000' }}
+          GITHUB_SEARCH_QUALIFIERS: ${{ vars.GITHUB_SEARCH_QUALIFIERS || 'fork:false archived:false' }}
+          MAX_RESULTS_PER_QUERY: ${{ vars.MAX_RESULTS_PER_QUERY || '30' }}
+          GITHUB_SEARCH_PAGES: ${{ vars.GITHUB_SEARCH_PAGES || '2' }}
+          ENABLE_GITHUB_TRENDING: ${{ vars.ENABLE_GITHUB_TRENDING || '1' }}
+          GITHUB_TRENDING_PERIODS: ${{ vars.GITHUB_TRENDING_PERIODS || 'daily,weekly' }}
+          GITHUB_TRENDING_FETCH_LIMIT: ${{ vars.GITHUB_TRENDING_FETCH_LIMIT || '25' }}
+          FILTER_ARCHIVED_REPOS: ${{ vars.FILTER_ARCHIVED_REPOS || '1' }}
+          FILTER_FORK_REPOS: ${{ vars.FILTER_FORK_REPOS || '1' }}
+          FILTER_TEMPLATE_REPOS: ${{ vars.FILTER_TEMPLATE_REPOS || '1' }}
+          FILTER_DISABLED_REPOS: ${{ vars.FILTER_DISABLED_REPOS || '1' }}
+          CANDIDATE_MAX_PUSH_AGE_DAYS: ${{ vars.CANDIDATE_MAX_PUSH_AGE_DAYS || '730' }}
+          CANDIDATE_NOISE_TERMS: ${{ vars.CANDIDATE_NOISE_TERMS || 'awesome,curated-list,paper-list,papers,survey,benchmark,dataset,datasets,example,examples,demo,demos,tutorial,tutorials,course,courses' }}
+          README_FETCH_LIMIT: ${{ vars.README_FETCH_LIMIT || '150' }}
+          README_MAX_CHARS: ${{ vars.README_MAX_CHARS || '4000' }}
+          HTTP_TIMEOUT: ${{ vars.HTTP_TIMEOUT || '30' }}
+          GITHUB_REQUEST_INTERVAL_SECONDS: ${{ vars.GITHUB_REQUEST_INTERVAL_SECONDS || '0.3' }}
+          GITHUB_SEARCH_REQUEST_INTERVAL_SECONDS: ${{ vars.GITHUB_SEARCH_REQUEST_INTERVAL_SECONDS || '2.2' }}
+          GITHUB_WAIT_ON_RATE_LIMIT: ${{ vars.GITHUB_WAIT_ON_RATE_LIMIT || '1' }}
+          GITHUB_RATE_LIMIT_RETRIES: ${{ vars.GITHUB_RATE_LIMIT_RETRIES || '2' }}
+          GITHUB_RATE_LIMIT_MAX_WAIT_SECONDS: ${{ vars.GITHUB_RATE_LIMIT_MAX_WAIT_SECONDS || '120.0' }}
+          AI_BATCH_SIZE: ${{ vars.AI_BATCH_SIZE || '8' }}
+          MODEL_PROVIDER: ${{ vars.MODEL_PROVIDER || 'openai-compatible' }}
+          MODEL_API_BASE: ${{ vars.MODEL_API_BASE || 'https://api.siliconflow.cn/v1/chat/completions' }}
+          MODEL_NAME: ${{ vars.MODEL_NAME || 'deepseek-ai/DeepSeek-R1-0528-Qwen3-8B' }}
+          MODEL_INPUT_CHAR_BUDGET: ${{ vars.MODEL_INPUT_CHAR_BUDGET || '90000' }}
+          MODEL_REQUEST_INTERVAL_SECONDS: ${{ vars.MODEL_REQUEST_INTERVAL_SECONDS || '2.0' }}
+          MODEL_MAX_RETRIES: ${{ vars.MODEL_MAX_RETRIES || '5' }}
+          MODEL_RETRY_BASE_SECONDS: ${{ vars.MODEL_RETRY_BASE_SECONDS || '2.0' }}
+          MODEL_RETRY_MAX_SECONDS: ${{ vars.MODEL_RETRY_MAX_SECONDS || '60.0' }}
+          LOG_LEVEL: ${{ vars.LOG_LEVEL || 'INFO' }}
+          DEBUG_LOG_FILE: data/debug.log
+        run: python src/main.py sync
+
+      - name: Commit generated data
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/ docs/data/
+          git commit -m "chore: sync radar data [$(date -u +'%Y-%m-%d %H:%M:%S')]" || echo "No changes to commit"
+          git push origin main

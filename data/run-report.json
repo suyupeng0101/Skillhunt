@@ -1,0 +1,14 @@
+{
+  "ok": false,
+  "synced_at": "",
+  "query_count": 0,
+  "collected_count": 0,
+  "analyzed_count": 0,
+  "exported_count": 0,
+  "ai_fallback_count": 0,
+  "github_rate_limited": false,
+  "failed_queries": [],
+  "warnings": [
+    "No generated data yet. Run python src/main.py sync to refresh."
+  ]
+}

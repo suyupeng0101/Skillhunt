@@ -1,0 +1,185 @@
+# GitHub Search 召回配置。
+#
+# 这里配置的是“搜什么”，真正的 star 阈值、翻页数、fork/archived 过滤等运行参数在 `.env` 中配置：
+# - SKILL_SEARCH_MIN_STARS
+# - AGENT_SEARCH_MIN_STARS
+# - GITHUB_SEARCH_QUALIFIERS
+# - GITHUB_SEARCH_PAGES
+#
+# topics 会生成 `topic:<value> stars:>...` 查询，适合 GitHub 仓库已经打了相关 topic 的项目。
+# keywords 会生成 `"<value>" stars:>...` 查询，适合没有 topic 但标题/描述/README 中出现关键词的项目。
+#
+# 维护建议：
+# - topics 尽量用 GitHub 常见英文 topic，召回更稳定。
+# - keywords 可以放中文业务词、平台词和长尾表达，补足 topic 的覆盖不足。
+# - 不要把过泛的词放得太多，例如 ai、tool、app 这类会带来大量噪音。
+# - 如果某个重要仓库仍然搜不到，放到 `config/seeds.yaml`，不要无限扩大 query。
+
+# Skill 更偏“可安装、可复用的单一能力单元”，例如 Claude/Codex skill、MCP server、CLI、公众号排版工具等。
+skill:
+  # GitHub topics：更精准，依赖仓库作者是否正确打 topic。
+  topics:
+    - skill
+    - skills
+    - agent-skill
+    - agent-skills
+    - claude-skill
+    - claude-skills
+    - claude-code
+    - codex-skill
+    - agent-cli
+    - developer-tools
+    - devtools
+    - code-review
+    - codegen
+    - ai-coding
+    - ai-coding-assistant
+    - mcp
+    - mcp-server
+    - cli
+    - browser-automation
+    - workflow-automation
+    - rss
+    - news
+    - research
+    - ai-writing
+    - content-creation
+    - aigc
+    - markdown
+    - wechat
+    - wechat-mp
+    - wechat-official-account
+    - wechat-public-account
+    - wechat-markdown
+    - markdown-to-wechat
+    - xiaohongshu
+    - douyin
+    - social-media
+    - video
+    - short-video
+    - video-editing
+    - subtitle
+    - subtitle-generator
+    - finance
+    - stock
+    - investment
+    - quant
+    - trading
+  # 关键词搜索：覆盖没有 topic 的仓库，也用于中文平台词/行业词补召回。
+  keywords:
+    - "AI skill"
+    - "agent skill"
+    - "Claude skill"
+    - "Claude Code skill"
+    - "Claude skills"
+    - "Codex skill"
+    - "agent CLI"
+    - "MCP server"
+    - "developer tools"
+    - "AI coding"
+    - "coding assistant"
+    - "code review"
+    - "pull request assistant"
+    - "browser automation"
+    - "workflow automation"
+    - "research assistant"
+    - "news radar"
+    - "RSS assistant"
+    - "AI writing"
+    - "content creation"
+    - "AIGC"
+    - "copywriting"
+    - "newsletter"
+    - "markdown to wechat"
+    - "wechat markdown"
+    - "wechat public account"
+    - "wechat official account"
+    - "微信公众号"
+    - "公众号排版"
+    - "公众号发布"
+    - "xiaohongshu"
+    - "小红书"
+    - "douyin"
+    - "抖音"
+    - "video account"
+    - "视频号"
+    - "short video"
+    - "video editing"
+    - "subtitle generator"
+    - "transcript"
+    - "fund investment"
+    - "基金理财"
+    - "基金分析"
+    - "stock analysis"
+    - "investment research"
+    - "quant research"
+    - "trading bot"
+
+# Agent 更偏“完整智能体、框架、自动化系统或多 Agent 编排项目”。
+agent:
+  # GitHub topics：Agent 框架、软件开发、自媒体、投研等方向。
+  topics:
+    - ai-agent
+    - llm-agent
+    - autonomous-agent
+    - agent-framework
+    - multi-agent
+    - coding-agent
+    - software-development
+    - code-agent
+    - developer-tools
+    - ai-coding
+    - code-review
+    - browser-automation
+    - web-agent
+    - workflow-automation
+    - mcp
+    - mcp-server
+    - research-agent
+    - rss
+    - news
+    - content-creation
+    - ai-writing
+    - social-media
+    - video-generation
+    - video-editing
+    - finance
+    - stock
+    - investment
+    - quant
+    - trading
+  # 关键词搜索：补充 topic 没覆盖到的自然语言表达。
+  keywords:
+    - "AI agent"
+    - "agent framework"
+    - "coding agent"
+    - "software development agent"
+    - "developer agent"
+    - "AI coding agent"
+    - "code review agent"
+    - "pull request agent"
+    - "browser automation agent"
+    - "web automation agent"
+    - "workflow automation agent"
+    - "research agent"
+    - "news agent"
+    - "RSS agent"
+    - "content creation agent"
+    - "AI writing agent"
+    - "copywriting agent"
+    - "social media agent"
+    - "wechat agent"
+    - "wechat public account agent"
+    - "微信公众号 agent"
+    - "xiaohongshu agent"
+    - "小红书 agent"
+    - "douyin agent"
+    - "抖音 agent"
+    - "video agent"
+    - "short video agent"
+    - "subtitle agent"
+    - "investment agent"
+    - "stock agent"
+    - "fund agent"
+    - "quant agent"
+    - "trading agent"

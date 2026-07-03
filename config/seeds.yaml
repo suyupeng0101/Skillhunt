@@ -1,0 +1,24 @@
+# 必须纳入仓库清单。
+#
+# 这些仓库会通过 GitHub repo API 直接按 `owner/repo` 拉取，并合并到 GitHub Search / Trending 结果中。
+# 适用场景：
+# - 你确定某个项目很重要，但 GitHub Search 排名没进配置的前几页。
+# - 项目 topic/描述写得不规范，query 很难稳定搜到。
+# - 项目 star 没达到主检索阈值，但在你的业务场景里必须追踪。
+#
+# 注意：
+# - seed 仓库是“保底纳入”，不会走 archived/fork/stale/noise 过滤。
+# - 不建议把大量普通仓库放进来，否则会绕过噪音过滤。
+# - `category_hint` 必须尽量使用 `config/taxonomy.yaml` 中已有分类，否则会退回本地分类规则。
+repos:
+  # Markdown 到微信公众号排版/发布相关 Skill。用于补救 GitHub Search 漏召回。
+  - repo: geekjourneyx/md2wechat-skill
+    # 可选：给模型和本地 fallback 的初始类型提示，只允许 Skill 或 Agent。
+    kind_hint: Skill
+    # 可选：业务场景提示。AI 分类非法或缺失时会优先使用这个 hint。
+    category_hint: 内容创作
+
+  # 同系列 MCP Server，作为公众号内容创作链路的工具型项目保底纳入。
+  - repo: geekjourneyx/md2wechat-mcp-server
+    kind_hint: Skill
+    category_hint: 内容创作

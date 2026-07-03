@@ -1,0 +1,17 @@
+{
+  "ok": false,
+  "synced_at": "",
+  "query_count": 0,
+  "failed_queries": [],
+  "github_rate_limited": false,
+  "github_rate_limit_waits": 0,
+  "github_rate_limit_wait_seconds": 0,
+  "filtered_candidates": 0,
+  "filter_reasons": {},
+  "trending_repos_seen": 0,
+  "trending_repos_added": 0,
+  "ai_fallback_count": 0,
+  "warnings": [
+    "No generated data yet."
+  ]
+}

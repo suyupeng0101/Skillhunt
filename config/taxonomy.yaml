@@ -1,0 +1,83 @@
+# 业务场景分类与安装方式信号。
+#
+# skill_categories / agent_categories 是模型和本地 fallback 都必须遵守的分类集合。
+# 如果模型返回的 category 不在这里，代码会用 category_hint 或本地启发式重新归类。
+#
+# 维护建议：
+# - Skill 和 Agent 当前使用同一套业务场景分类，便于前端统一筛选。
+# - 新增分类后，最好同步更新 `src/main.py` 中的 `guess_category()` 和 `build_fallback_solves()`。
+# - 分类建议保持“业务场景”维度，而不是技术实现维度。例如用“内容创作”，不要用“LLM Prompt”。
+
+# Skill 项目的业务场景分类。
+# Skill 通常是可安装/可复用的小能力，例如 MCP server、CLI、Claude/Codex skill。
+skill_categories:
+  - 学习
+  - 信息搜集
+  - 知识管理
+  - 内容创作
+  - 视频处理
+  - 办公协作
+  - 数据分析
+  - 投资研究
+  - 软件开发
+  - 产品设计
+  - 市场营销
+  - 安全攻防
+  - 自动化运营
+  - 其他
+# Agent 项目的业务场景分类。
+# Agent 通常是完整工作流、框架或自动化系统。为方便筛选，分类与 skill_categories 保持一致。
+agent_categories:
+  - 学习
+  - 信息搜集
+  - 知识管理
+  - 内容创作
+  - 视频处理
+  - 办公协作
+  - 数据分析
+  - 投资研究
+  - 软件开发
+  - 产品设计
+  - 市场营销
+  - 安全攻防
+  - 自动化运营
+  - 其他
+# 安装方式识别规则。
+#
+# 每个 key 是输出到 radar JSON 的标准安装方式；下面的词会在 repo 名称、描述、topic、README
+# 片段中做简单包含匹配。命中后会提高 usability_score，并帮助前端展示安装入口。
+install_methods:
+  # JavaScript / Node.js 包或命令行工具。
+  npm:
+    - npm install
+    - npx
+  # Python 包或 uvx/poetry 方式安装的工具。
+  pypi:
+    - pip install
+    - uvx
+    - poetry add
+  # 容器化部署方式。
+  docker:
+    - docker run
+    - docker compose
+    - docker-compose
+  # 通用命令行工具信号。
+  cli:
+    - cli
+    - command line
+  # MCP / Model Context Protocol 工具或服务。
+  mcp:
+    - mcp
+    - model context protocol
+  # VS Code 插件。
+  vscode_extension:
+    - vscode extension
+    - vs code extension
+  # 浏览器插件，例如 Chrome extension。
+  browser_extension:
+    - browser extension
+    - chrome extension
+  # 通过 GitHub Releases 分发二进制或安装包。
+  github_release:
+    - github release
+    - releases

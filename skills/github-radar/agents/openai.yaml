@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Radar"
+  short_description: "Read and operate Skill/Agent radar data"
+  default_prompt: "Use $github-radar to summarize the top GitHub Agent projects from the current radar data."
