@@ -12,17 +12,33 @@ jobs:
   sync_and_generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.PERSONAL_ACCESS_TOKENS || secrets.PERSONAL_ACCESS_TOKEN || secrets.GH_TOKEN || github.token }}
+      # This repository's Actions policy only allows actions owned by
+      # suyupeng0101, so keep this workflow free of external `uses:` actions.
+      - name: Checkout repository
+        env:
+          CHECKOUT_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKENS || secrets.PERSONAL_ACCESS_TOKEN || secrets.GH_TOKEN || github.token }}
+        run: |
+          set -euo pipefail
+          git init "$GITHUB_WORKSPACE"
+          cd "$GITHUB_WORKSPACE"
+          git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          git -c http.https://github.com/.extraheader="AUTHORIZATION: bearer ${CHECKOUT_TOKEN}" \
+            fetch --depth=1 origin "${GITHUB_REF}"
+          if [ "${GITHUB_REF_TYPE}" = "branch" ]; then
+            git checkout --force -B "${GITHUB_REF_NAME}" FETCH_HEAD
+          else
+            git checkout --force --detach FETCH_HEAD
+          fi
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-          cache: "pip"
+      - name: Show Python version
+        run: python3 --version
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          python3 -m venv .venv
+          . .venv/bin/activate
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
 
       - name: Run radar sync
         env:
@@ -71,12 +87,26 @@ jobs:
           MODEL_RETRY_MAX_SECONDS: ${{ vars.MODEL_RETRY_MAX_SECONDS || '60.0' }}
           LOG_LEVEL: ${{ vars.LOG_LEVEL || 'INFO' }}
           DEBUG_LOG_FILE: data/debug.log
-        run: python src/main.py sync
+        run: |
+          . .venv/bin/activate
+          python src/main.py sync
 
       - name: Commit generated data
+        env:
+          PUSH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKENS || secrets.PERSONAL_ACCESS_TOKEN || secrets.GH_TOKEN || github.token }}
         run: |
+          set -euo pipefail
+          if [ "${GITHUB_REF_TYPE}" != "branch" ]; then
+            echo "Not running on a branch ref; skipping push."
+            exit 0
+          fi
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add data/ docs/data/
-          git commit -m "chore: sync radar data [$(date -u +'%Y-%m-%d %H:%M:%S')]" || echo "No changes to commit"
-          git push origin main
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: sync radar data [$(date -u +'%Y-%m-%d %H:%M:%S')]"
+          git -c http.https://github.com/.extraheader="AUTHORIZATION: bearer ${PUSH_TOKEN}" \
+            push origin "HEAD:${GITHUB_REF_NAME}"
