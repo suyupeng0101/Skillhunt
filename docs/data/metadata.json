@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-04T06:50:32Z",
+  "synced_at": "2026-07-04T07:21:02Z",
   "version": "v1.0",
   "collected_count": 1601,
   "analyzed_count": 240,
@@ -23,9 +23,9 @@
     "Trending repo metadata fetch failed: sponsors/msitarzewski (HTTP 404)",
     "Trending repo metadata fetch failed: sponsors/calesthio (HTTP 404)",
     "Analysis repo limit applied: selected 240 of 1601 collected repositories.",
-    "Model analysis fallback for batch 1: HTTPError",
-    "Model analysis fallback for batch 2: HTTPError",
-    "Model analysis fallback for batch 3: HTTPError",
+    "Model analysis fallback for batch 1: ReadTimeout",
+    "Model analysis fallback for batch 2: ReadTimeout",
+    "Model analysis fallback for batch 3: ReadTimeout",
     "Model analysis circuit breaker tripped after 3 consecutive failures; remaining batches use local heuristic analysis.",
     "Model analysis circuit breaker is open; using local heuristic analysis for remaining batches."
   ]
