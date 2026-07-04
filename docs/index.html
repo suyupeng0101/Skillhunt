@@ -297,14 +297,20 @@
 
       .hero-inner {
         display: grid;
-        grid-template-columns: minmax(0, 1.1fr) minmax(340px, 0.65fr);
-        gap: 32px;
+        grid-template-columns: minmax(0, 0.9fr) minmax(560px, 1fr);
+        gap: 28px;
         align-items: start;
         padding: 28px 0 24px;
       }
 
       .hero-main {
         padding-top: 56px;
+      }
+
+      .hero-side {
+        display: grid;
+        gap: 16px;
+        align-content: start;
       }
 
       .eyebrow {
@@ -456,7 +462,7 @@
         align-items: center;
         justify-content: space-between;
         gap: 12px;
-        padding: 18px 20px 14px;
+        padding: 16px 18px 12px;
         border-bottom: 1px solid var(--line);
       }
 
@@ -517,16 +523,16 @@
 
       .hero-metrics {
         display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 12px;
-        padding: 14px;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 10px;
+        padding: 12px;
       }
 
       .metric {
-        min-height: 92px;
-        padding: 16px;
+        min-height: 74px;
+        padding: 12px;
         border: 2px solid var(--line);
-        border-radius: var(--radius-lg);
+        border-radius: var(--radius);
         background: linear-gradient(135deg, color-mix(in srgb, var(--primary-soft) 50%, var(--surface)) 0%, var(--surface) 70%);
         box-shadow: var(--card-shadow);
         transition: all 180ms;
@@ -541,7 +547,7 @@
       .metric span,
       .label {
         color: var(--muted);
-        font-size: 11px;
+        font-size: 10px;
         font-weight: 700;
         letter-spacing: 0.05em;
         text-transform: uppercase;
@@ -549,8 +555,8 @@
 
       .metric strong {
         display: block;
-        margin-top: 6px;
-        font-size: 24px;
+        margin-top: 7px;
+        font-size: 22px;
         line-height: 1;
         font-family: var(--mono);
         font-weight: 800;
@@ -561,8 +567,7 @@
       }
 
       .hero-picks {
-        width: min(100%, 820px);
-        margin-top: 26px;
+        width: 100%;
         border: 2px solid color-mix(in srgb, var(--primary) 28%, var(--line));
         border-radius: var(--radius-lg);
         background: color-mix(in srgb, var(--surface) 94%, transparent);
@@ -1362,6 +1367,24 @@
             <button class="quick-tag" type="button" data-query="coding">软件开发</button>
             <button class="quick-tag" type="button" data-query="finance">基金理财</button>
           </div>
+        </div>
+
+        <div class="hero-side">
+          <aside class="hero-panel" id="signals" aria-label="运行信号">
+            <div class="hero-panel-head">
+              <div>
+                <div class="hero-panel-kicker">Live Signal</div>
+                <span class="hero-panel-title">雷达状态</span>
+              </div>
+              <span class="hero-status"><span id="statusDot" class="status-dot"></span><span id="statusText">等待数据</span></span>
+            </div>
+            <div class="hero-metrics">
+              <div class="metric"><span>收录</span><strong id="repoCount">0</strong></div>
+              <div class="metric"><span>Skill</span><strong id="skillCount">0</strong></div>
+              <div class="metric"><span>Agent</span><strong id="agentCount">0</strong></div>
+              <div class="metric"><span>过滤噪音</span><strong id="filteredCount">0</strong></div>
+            </div>
+          </aside>
           <section id="briefPanel" class="hero-picks" hidden>
             <div class="hero-panel-head">
               <span class="hero-panel-title">优先关注</span>
@@ -1370,22 +1393,6 @@
             <div id="briefList" class="pick-list"></div>
           </section>
         </div>
-
-        <aside class="hero-panel" id="signals" aria-label="运行信号">
-          <div class="hero-panel-head">
-            <div>
-              <div class="hero-panel-kicker">Live Signal</div>
-              <span class="hero-panel-title">雷达状态</span>
-            </div>
-            <span class="hero-status"><span id="statusDot" class="status-dot"></span><span id="statusText">等待数据</span></span>
-          </div>
-          <div class="hero-metrics">
-            <div class="metric"><span>收录</span><strong id="repoCount">0</strong></div>
-            <div class="metric"><span>Skill</span><strong id="skillCount">0</strong></div>
-            <div class="metric"><span>Agent</span><strong id="agentCount">0</strong></div>
-            <div class="metric"><span>过滤噪音</span><strong id="filteredCount">0</strong></div>
-          </div>
-        </aside>
       </div>
     </section>
 
