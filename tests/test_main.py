@@ -506,6 +506,9 @@ def test_score_repo_calculates_recommendation_score():
     assert scored["maintenance_score"] == 100
     assert scored["recommendation_score"] >= 70
     assert radar.has_cjk_text(scored["description"])
+    assert radar.has_cjk_text(scored["summary"])
+    assert scored["summary"] == scored["description"]
+    assert "适合用于适合" not in scored["summary"]
     assert "readme_snippet" not in scored
 
 

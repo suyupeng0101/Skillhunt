@@ -7,7 +7,7 @@
       "repo_name": "obra/superpowers",
       "kind": "Skill",
       "category": "产品设计",
-      "summary": "An agentic skills framework & software development methodology that works.",
+      "summary": "obra/superpowers 是一个面向产品设计场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
@@ -21,7 +21,7 @@
       "repo_name": "ohmyzsh/ohmyzsh",
       "kind": "Skill",
       "category": "学习",
-      "summary": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, h",
+      "summary": "ohmyzsh/ohmyzsh 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
@@ -35,7 +35,7 @@
       "repo_name": "affaan-m/ECC",
       "kind": "Agent",
       "category": "学习",
-      "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor ",
+      "summary": "affaan-m/ECC 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
@@ -49,7 +49,7 @@
       "repo_name": "yt-dlp/yt-dlp",
       "kind": "Skill",
       "category": "知识管理",
-      "summary": "A feature-rich command-line audio/video downloader",
+      "summary": "yt-dlp/yt-dlp 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
       "recommendation_score": 97,
       "why_pick": [
         "高可用性",
@@ -63,7 +63,7 @@
       "repo_name": "microsoft/markitdown",
       "kind": "Skill",
       "category": "视频处理",
-      "summary": "Python tool for converting files and office documents to Markdown.",
+      "summary": "microsoft/markitdown 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
       "recommendation_score": 97,
       "why_pick": [
         "高可用性",
@@ -77,7 +77,7 @@
       "repo_name": "farion1231/cc-switch",
       "kind": "Skill",
       "category": "产品设计",
-      "summary": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
+      "summary": "farion1231/cc-switch 是一个面向产品设计场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
       "recommendation_score": 97,
       "why_pick": [
         "高可用性",
@@ -91,7 +91,7 @@
       "repo_name": "puppeteer/puppeteer",
       "kind": "Skill",
       "category": "学习",
-      "summary": "JavaScript API for Chrome and Firefox",
+      "summary": "puppeteer/puppeteer 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
       "recommendation_score": 97,
       "why_pick": [
         "高可用性",
@@ -105,7 +105,7 @@
       "repo_name": "lobehub/lobehub",
       "kind": "Skill",
       "category": "数据分析",
-      "summary": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
+      "summary": "lobehub/lobehub 是一个面向数据分析场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
       "recommendation_score": 97,
       "why_pick": [
         "高可用性",
@@ -119,7 +119,7 @@
       "repo_name": "nexu-io/open-design",
       "kind": "Skill",
       "category": "视频处理",
-      "summary": "🎨 The Vibe Design Workspace & the open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes,",
+      "summary": "nexu-io/open-design 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
       "recommendation_score": 97,
       "why_pick": [
         "高可用性",
@@ -133,7 +133,7 @@
       "repo_name": "addyosmani/agent-skills",
       "kind": "Skill",
       "category": "办公协作",
-      "summary": "Production-grade engineering skills for AI coding agents.",
+      "summary": "addyosmani/agent-skills 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
       "recommendation_score": 97,
       "why_pick": [
         "高可用性",
@@ -149,7 +149,7 @@
       "repo_name": "obra/superpowers",
       "kind": "Skill",
       "category": "产品设计",
-      "summary": "An agentic skills framework & software development methodology that works.",
+      "summary": "obra/superpowers 是一个面向产品设计场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
@@ -163,7 +163,7 @@
       "repo_name": "ohmyzsh/ohmyzsh",
       "kind": "Skill",
       "category": "学习",
-      "summary": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, h",
+      "summary": "ohmyzsh/ohmyzsh 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
@@ -177,7 +177,7 @@
       "repo_name": "yt-dlp/yt-dlp",
       "kind": "Skill",
       "category": "知识管理",
-      "summary": "A feature-rich command-line audio/video downloader",
+      "summary": "yt-dlp/yt-dlp 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
       "recommendation_score": 97,
       "why_pick": [
         "高可用性",
@@ -191,7 +191,7 @@
       "repo_name": "microsoft/markitdown",
       "kind": "Skill",
       "category": "视频处理",
-      "summary": "Python tool for converting files and office documents to Markdown.",
+      "summary": "microsoft/markitdown 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
       "recommendation_score": 97,
       "why_pick": [
         "高可用性",
@@ -205,7 +205,7 @@
       "repo_name": "farion1231/cc-switch",
       "kind": "Skill",
       "category": "产品设计",
-      "summary": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
+      "summary": "farion1231/cc-switch 是一个面向产品设计场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
       "recommendation_score": 97,
       "why_pick": [
         "高可用性",
@@ -221,7 +221,7 @@
       "repo_name": "affaan-m/ECC",
       "kind": "Agent",
       "category": "学习",
-      "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor ",
+      "summary": "affaan-m/ECC 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
@@ -235,7 +235,7 @@
       "repo_name": "n8n-io/n8n",
       "kind": "Agent",
       "category": "学习",
-      "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "summary": "n8n-io/n8n 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
       "recommendation_score": 97,
       "why_pick": [
         "高可用性",
@@ -249,7 +249,7 @@
       "repo_name": "anomalyco/opencode",
       "kind": "Agent",
       "category": "内容创作",
-      "summary": "The open source coding agent.",
+      "summary": "anomalyco/opencode 是一个面向内容创作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
       "recommendation_score": 97,
       "why_pick": [
         "高可用性",
@@ -263,7 +263,7 @@
       "repo_name": "langgenius/dify",
       "kind": "Agent",
       "category": "知识管理",
-      "summary": "Production-ready platform for agentic workflow development.",
+      "summary": "langgenius/dify 是一个面向知识管理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
       "recommendation_score": 97,
       "why_pick": [
         "高可用性",
@@ -277,7 +277,7 @@
       "repo_name": "firecrawl/firecrawl",
       "kind": "Agent",
       "category": "内容创作",
-      "summary": "The API to search, scrape, and interact with the web at scale. 🔥",
+      "summary": "firecrawl/firecrawl 是一个面向内容创作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
       "recommendation_score": 97,
       "why_pick": [
         "高可用性",

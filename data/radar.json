@@ -3,7 +3,7 @@
     "repo_id": 1073224795,
     "repo_name": "obra/superpowers",
     "owner": "obra",
-    "description": "obra/superpowers 是一个面向产品设计场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "obra/superpowers 是一个面向产品设计场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "keyword:agent skill",
       "topic:skills"
@@ -41,7 +41,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "产品设计",
-    "summary": "An agentic skills framework & software development methodology that works.",
+    "summary": "obra/superpowers 是一个面向产品设计场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "原型与设计产出",
@@ -62,7 +62,7 @@
     "repo_id": 291137,
     "repo_name": "ohmyzsh/ohmyzsh",
     "owner": "ohmyzsh",
-    "description": "ohmyzsh/ohmyzsh 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "ohmyzsh/ohmyzsh 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -105,7 +105,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, h",
+    "summary": "ohmyzsh/ohmyzsh 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -126,7 +126,7 @@
     "repo_id": 1136590548,
     "repo_name": "affaan-m/ECC",
     "owner": "affaan-m",
-    "description": "affaan-m/ECC 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "affaan-m/ECC 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:claude-code",
       "topic:developer-tools",
@@ -166,7 +166,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor ",
+    "summary": "affaan-m/ECC 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -187,7 +187,7 @@
     "repo_id": 307260205,
     "repo_name": "yt-dlp/yt-dlp",
     "owner": "yt-dlp",
-    "description": "yt-dlp/yt-dlp 是一个面向知识管理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "yt-dlp/yt-dlp 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -222,7 +222,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "知识管理",
-    "summary": "A feature-rich command-line audio/video downloader",
+    "summary": "yt-dlp/yt-dlp 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识沉淀",
@@ -243,7 +243,7 @@
     "repo_id": 888092115,
     "repo_name": "microsoft/markitdown",
     "owner": "microsoft",
-    "description": "microsoft/markitdown 是一个面向视频处理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "microsoft/markitdown 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:markdown"
     ],
@@ -278,7 +278,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "视频处理",
-    "summary": "Python tool for converting files and office documents to Markdown.",
+    "summary": "microsoft/markitdown 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "视频内容处理",
@@ -299,7 +299,7 @@
     "repo_id": 1031912724,
     "repo_name": "farion1231/cc-switch",
     "owner": "farion1231",
-    "description": "farion1231/cc-switch 是一个面向产品设计场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "farion1231/cc-switch 是一个面向产品设计场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:claude-code",
       "topic:mcp",
@@ -352,7 +352,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "产品设计",
-    "summary": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
+    "summary": "farion1231/cc-switch 是一个面向产品设计场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "原型与设计产出",
@@ -375,7 +375,7 @@
     "repo_id": 90796663,
     "repo_name": "puppeteer/puppeteer",
     "owner": "puppeteer",
-    "description": "puppeteer/puppeteer 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "puppeteer/puppeteer 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:developer-tools"
     ],
@@ -412,7 +412,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "JavaScript API for Chrome and Firefox",
+    "summary": "puppeteer/puppeteer 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -435,7 +435,7 @@
     "repo_id": 643445235,
     "repo_name": "lobehub/lobehub",
     "owner": "lobehub",
-    "description": "lobehub/lobehub 是一个面向数据分析场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "lobehub/lobehub 是一个面向数据分析场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:mcp",
       "topic:skills"
@@ -484,7 +484,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "数据分析",
-    "summary": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
+    "summary": "lobehub/lobehub 是一个面向数据分析场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "数据洞察",
@@ -505,7 +505,7 @@
     "repo_id": 1223170290,
     "repo_name": "nexu-io/open-design",
     "owner": "nexu-io",
-    "description": "nexu-io/open-design 是一个面向视频处理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "nexu-io/open-design 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "keyword:coding agent",
       "topic:agent-skills"
@@ -554,7 +554,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "视频处理",
-    "summary": "🎨 The Vibe Design Workspace & the open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes,",
+    "summary": "nexu-io/open-design 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "视频内容处理",
@@ -576,7 +576,7 @@
     "repo_id": 1158722119,
     "repo_name": "addyosmani/agent-skills",
     "owner": "addyosmani",
-    "description": "addyosmani/agent-skills 是一个面向办公协作场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "addyosmani/agent-skills 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "keyword:AI coding",
       "keyword:AI coding agent",
@@ -622,7 +622,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "办公协作",
-    "summary": "Production-grade engineering skills for AI coding agents.",
+    "summary": "addyosmani/agent-skills 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "文档协作",
@@ -643,7 +643,7 @@
     "repo_id": 1614410,
     "repo_name": "FFmpeg/FFmpeg",
     "owner": "FFmpeg",
-    "description": "FFmpeg/FFmpeg 是一个面向知识管理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "FFmpeg/FFmpeg 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:video"
     ],
@@ -685,7 +685,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "知识管理",
-    "summary": "Mirror of https://git.ffmpeg.org/ffmpeg.git",
+    "summary": "FFmpeg/FFmpeg 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识沉淀",
@@ -706,7 +706,7 @@
     "repo_id": 9852918,
     "repo_name": "TryGhost/Ghost",
     "owner": "TryGhost",
-    "description": "TryGhost/Ghost 是一个面向办公协作场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "TryGhost/Ghost 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "keyword:newsletter"
     ],
@@ -742,7 +742,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "办公协作",
-    "summary": "Independent technology for modern publishing, memberships, subscriptions and newsletters.",
+    "summary": "TryGhost/Ghost 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "文档协作",
@@ -765,7 +765,7 @@
     "repo_id": 193215554,
     "repo_name": "n8n-io/n8n",
     "owner": "n8n-io",
-    "description": "n8n-io/n8n 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "n8n-io/n8n 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:workflow automation",
       "topic:cli",
@@ -822,7 +822,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+    "summary": "n8n-io/n8n 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -846,7 +846,7 @@
     "repo_id": 975734319,
     "repo_name": "anomalyco/opencode",
     "owner": "anomalyco",
-    "description": "anomalyco/opencode 是一个面向内容创作场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "anomalyco/opencode 是一个面向内容创作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:coding agent"
     ],
@@ -871,7 +871,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "内容创作",
-    "summary": "The open source coding agent.",
+    "summary": "anomalyco/opencode 是一个面向内容创作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "内容生成",
@@ -892,7 +892,7 @@
     "repo_id": 626805178,
     "repo_name": "langgenius/dify",
     "owner": "langgenius",
-    "description": "langgenius/dify 是一个面向知识管理场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "langgenius/dify 是一个面向知识管理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:mcp"
     ],
@@ -941,7 +941,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "知识管理",
-    "summary": "Production-ready platform for agentic workflow development.",
+    "summary": "langgenius/dify 是一个面向知识管理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识沉淀",
@@ -962,7 +962,7 @@
     "repo_id": 787076358,
     "repo_name": "firecrawl/firecrawl",
     "owner": "firecrawl",
-    "description": "firecrawl/firecrawl 是一个面向内容创作场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "firecrawl/firecrawl 是一个面向内容创作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:markdown"
     ],
@@ -1009,7 +1009,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "内容创作",
-    "summary": "The API to search, scrape, and interact with the web at scale. 🔥",
+    "summary": "firecrawl/firecrawl 是一个面向内容创作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "内容生成",
@@ -1031,7 +1031,7 @@
     "repo_id": 968197216,
     "repo_name": "google-gemini/gemini-cli",
     "owner": "google-gemini",
-    "description": "google-gemini/gemini-cli 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "google-gemini/gemini-cli 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent",
       "topic:cli",
@@ -1071,7 +1071,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+    "summary": "google-gemini/gemini-cli 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -1095,7 +1095,7 @@
     "repo_id": 771302083,
     "repo_name": "OpenHands/OpenHands",
     "owner": "OpenHands",
-    "description": "OpenHands/OpenHands 是一个面向办公协作场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "OpenHands/OpenHands 是一个面向办公协作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:cli",
       "topic:developer-tools"
@@ -1135,7 +1135,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "办公协作",
-    "summary": "🙌 OpenHands: AI-Driven Development",
+    "summary": "OpenHands/OpenHands 是一个面向办公协作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "文档协作",
@@ -1156,7 +1156,7 @@
     "repo_id": 979115477,
     "repo_name": "bytedance/deer-flow",
     "owner": "bytedance",
-    "description": "bytedance/deer-flow 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "bytedance/deer-flow 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:multi-agent"
     ],
@@ -1201,7 +1201,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message ga",
+    "summary": "bytedance/deer-flow 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -1223,7 +1223,7 @@
     "repo_id": 107111421,
     "repo_name": "thedaviddias/Front-End-Checklist",
     "owner": "thedaviddias",
-    "description": "thedaviddias/Front-End-Checklist 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "thedaviddias/Front-End-Checklist 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent",
       "topic:ai-agent"
@@ -1267,7 +1267,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "🗂 The essential checklist for modern web development, for humans and AI agents",
+    "summary": "thedaviddias/Front-End-Checklist 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -1290,7 +1290,7 @@
     "repo_id": 323048702,
     "repo_name": "OpenBB-finance/OpenBB",
     "owner": "OpenBB-finance",
-    "description": "OpenBB-finance/OpenBB 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "OpenBB-finance/OpenBB 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent",
       "topic:finance"
@@ -1333,7 +1333,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Open Data Platform for analysts, quants and AI agents.",
+    "summary": "OpenBB-finance/OpenBB 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -1355,7 +1355,7 @@
     "repo_id": 1201173969,
     "repo_name": "JuliusBrussee/caveman",
     "owner": "JuliusBrussee",
-    "description": "JuliusBrussee/caveman 是一个面向办公协作场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "JuliusBrussee/caveman 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "keyword:Claude Code skill",
       "topic:claude-code",
@@ -1397,7 +1397,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "办公协作",
-    "summary": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+    "summary": "JuliusBrussee/caveman 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "文档协作",
@@ -1419,7 +1419,7 @@
     "repo_id": 203587744,
     "repo_name": "hoppscotch/hoppscotch",
     "owner": "hoppscotch",
-    "description": "hoppscotch/hoppscotch 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "hoppscotch/hoppscotch 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:developer-tools"
     ],
@@ -1464,7 +1464,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia",
+    "summary": "hoppscotch/hoppscotch 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -1485,7 +1485,7 @@
     "repo_id": 53631945,
     "repo_name": "BurntSushi/ripgrep",
     "owner": "BurntSushi",
-    "description": "BurntSushi/ripgrep 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "BurntSushi/ripgrep 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -1523,7 +1523,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
+    "summary": "BurntSushi/ripgrep 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -1545,7 +1545,7 @@
     "repo_id": 110446844,
     "repo_name": "marktext/marktext",
     "owner": "marktext",
-    "description": "marktext/marktext 是一个面向办公协作场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "marktext/marktext 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:markdown"
     ],
@@ -1586,7 +1586,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "办公协作",
-    "summary": "📝A simple and elegant markdown editor, available for Linux, macOS and Windows.",
+    "summary": "marktext/marktext 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "文档协作",
@@ -1607,7 +1607,7 @@
     "repo_id": 1201656210,
     "repo_name": "MemPalace/mempalace",
     "owner": "MemPalace",
-    "description": "MemPalace/mempalace 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "MemPalace/mempalace 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:mcp"
     ],
@@ -1642,7 +1642,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "The best-benchmarked open-source AI memory system. And it's free.",
+    "summary": "MemPalace/mempalace 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -1666,7 +1666,7 @@
     "repo_id": 1162099055,
     "repo_name": "Leonxlnx/taste-skill",
     "owner": "Leonxlnx",
-    "description": "Leonxlnx/taste-skill 是一个面向办公协作场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "Leonxlnx/taste-skill 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:claude-code",
       "topic:skill",
@@ -1711,7 +1711,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "办公协作",
-    "summary": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop ",
+    "summary": "Leonxlnx/taste-skill 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "文档协作",
@@ -1733,7 +1733,7 @@
     "repo_id": 159152904,
     "repo_name": "jeecgboot/JeecgBoot",
     "owner": "jeecgboot",
-    "description": "AI 低代码平台「低代码 + 零代码」双驱动！低代码可一键生成前后端代码;零代码可 5 分钟搭建系统;AI Skills 一句话画流程、设计表单、生成整套系统。内置 AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领「AI 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，消除 Java",
+    "description": "jeecgboot/JeecgBoot 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "keyword:AI skill",
       "topic:claude-code",
@@ -1790,7 +1790,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "知识管理",
-    "summary": "AI 低代码平台「低代码 + 零代码」双驱动！低代码可一键生成前后端代码;零代码可 5 分钟搭建系统;AI Skills 一句话画流程、设计表单、生成整套系统。内置 AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领「AI 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，消除 Java",
+    "summary": "jeecgboot/JeecgBoot 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识沉淀",
@@ -1812,7 +1812,7 @@
     "repo_id": 522158088,
     "repo_name": "zhayujie/CowAgent",
     "owner": "zhayujie",
-    "description": "zhayujie/CowAgent 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "zhayujie/CowAgent 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:ai-agent",
       "topic:claude-code",
@@ -1865,7 +1865,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model, multi-channel. Lightwei",
+    "summary": "zhayujie/CowAgent 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -1888,7 +1888,7 @@
     "repo_id": 127769231,
     "repo_name": "DIYgod/RSSHub",
     "owner": "DIYgod",
-    "description": "DIYgod/RSSHub 是一个面向视频处理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "DIYgod/RSSHub 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:rss",
       "topic:wechat"
@@ -1936,7 +1936,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "视频处理",
-    "summary": "🧡 Everything is RSSible",
+    "summary": "DIYgod/RSSHub 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "视频内容处理",
@@ -1957,7 +1957,7 @@
     "repo_id": 753490180,
     "repo_name": "daytonaio/daytona",
     "owner": "daytonaio",
-    "description": "daytonaio/daytona 是一个面向办公协作场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "daytonaio/daytona 是一个面向办公协作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:developer-tools"
     ],
@@ -1993,7 +1993,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "办公协作",
-    "summary": "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code",
+    "summary": "daytonaio/daytona 是一个面向办公协作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "文档协作",
@@ -2015,7 +2015,7 @@
     "repo_id": 666299222,
     "repo_name": "openinterpreter/openinterpreter",
     "owner": "openinterpreter",
-    "description": "openinterpreter/openinterpreter 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "openinterpreter/openinterpreter 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:coding agent",
       "topic:coding-agent"
@@ -2051,7 +2051,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "A lightweight coding agent for open models like Deepseek, Kimi, and Qwen",
+    "summary": "openinterpreter/openinterpreter 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -2073,7 +2073,7 @@
     "repo_id": 824874689,
     "repo_name": "cline/cline",
     "owner": "cline",
-    "description": "cline/cline 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "cline/cline 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:coding agent"
     ],
@@ -2099,7 +2099,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+    "summary": "cline/cline 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -2122,7 +2122,7 @@
     "repo_id": 826168160,
     "repo_name": "docling-project/docling",
     "owner": "docling-project",
-    "description": "docling-project/docling 是一个面向投资研究场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "docling-project/docling 是一个面向投资研究场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:markdown"
     ],
@@ -2165,7 +2165,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "投资研究",
-    "summary": "Get your documents ready for gen AI",
+    "summary": "docling-project/docling 是一个面向投资研究场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "市场信息分析",
@@ -2187,7 +2187,7 @@
     "repo_id": 680120071,
     "repo_name": "microsoft/autogen",
     "owner": "microsoft",
-    "description": "microsoft/autogen 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "microsoft/autogen 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:llm-agent"
     ],
@@ -2224,7 +2224,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "A programming framework for agentic AI",
+    "summary": "microsoft/autogen 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -2249,7 +2249,7 @@
     "repo_id": 955620917,
     "repo_name": "upstash/context7",
     "owner": "upstash",
-    "description": "upstash/context7 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "upstash/context7 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI coding",
       "topic:mcp",
@@ -2286,7 +2286,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
+    "summary": "upstash/context7 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -2309,7 +2309,7 @@
     "repo_id": 621803253,
     "repo_name": "FlowiseAI/Flowise",
     "owner": "FlowiseAI",
-    "description": "FlowiseAI/Flowise 是一个面向知识管理场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "FlowiseAI/Flowise 是一个面向知识管理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent",
       "topic:workflow-automation"
@@ -2356,7 +2356,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "知识管理",
-    "summary": "Build AI Agents, Visually",
+    "summary": "FlowiseAI/Flowise 是一个面向知识管理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识沉淀",
@@ -2379,7 +2379,7 @@
     "repo_id": 274495425,
     "repo_name": "remotion-dev/remotion",
     "owner": "remotion-dev",
-    "description": "remotion-dev/remotion 是一个面向视频处理场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "remotion-dev/remotion 是一个面向视频处理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:video"
     ],
@@ -2410,7 +2410,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "视频处理",
-    "summary": "🎥      Make videos programmatically with React",
+    "summary": "remotion-dev/remotion 是一个面向视频处理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "视频内容处理",
@@ -2432,7 +2432,7 @@
     "repo_id": 846698999,
     "repo_name": "aaif-goose/goose",
     "owner": "aaif-goose",
-    "description": "aaif-goose/goose 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "aaif-goose/goose 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent",
       "topic:mcp"
@@ -2467,7 +2467,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+    "summary": "aaif-goose/goose 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -2490,7 +2490,7 @@
     "repo_id": 1165277268,
     "repo_name": "Panniantong/Agent-Reach",
     "owner": "Panniantong",
-    "description": "Panniantong/Agent-Reach 是一个面向视频处理场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "Panniantong/Agent-Reach 是一个面向视频处理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent",
       "keyword:xiaohongshu",
@@ -2548,7 +2548,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "视频处理",
-    "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+    "summary": "Panniantong/Agent-Reach 是一个面向视频处理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "视频内容处理",
@@ -2571,7 +2571,7 @@
     "repo_id": 1140843380,
     "repo_name": "mvanhorn/last30days-skill",
     "owner": "mvanhorn",
-    "description": "mvanhorn/last30days-skill 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "mvanhorn/last30days-skill 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent",
       "keyword:agent skill",
@@ -2627,7 +2627,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "summary": "mvanhorn/last30days-skill 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -2649,7 +2649,7 @@
     "repo_id": 143328315,
     "repo_name": "mindsdb/minds",
     "owner": "mindsdb",
-    "description": "mindsdb/minds 是一个面向知识管理场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "mindsdb/minds 是一个面向知识管理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:mcp"
     ],
@@ -2691,7 +2691,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "知识管理",
-    "summary": "Delegate anything. It comes back done.",
+    "summary": "mindsdb/minds 是一个面向知识管理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识沉淀",
@@ -2713,7 +2713,7 @@
     "repo_id": 130464961,
     "repo_name": "sharkdp/bat",
     "owner": "sharkdp",
-    "description": "sharkdp/bat 是一个面向内容创作场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "sharkdp/bat 是一个面向内容创作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -2749,7 +2749,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "内容创作",
-    "summary": "A cat(1) clone with wings.",
+    "summary": "sharkdp/bat 是一个面向内容创作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "内容生成",
@@ -2770,7 +2770,7 @@
     "repo_id": 75104123,
     "repo_name": "prettier/prettier",
     "owner": "prettier",
-    "description": "prettier/prettier 是一个面向办公协作场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "prettier/prettier 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:markdown"
     ],
@@ -2816,7 +2816,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "办公协作",
-    "summary": "Prettier is an opinionated code formatter.",
+    "summary": "prettier/prettier 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "文档协作",
@@ -2837,7 +2837,7 @@
     "repo_id": 307843105,
     "repo_name": "Raphire/Win11Debloat",
     "owner": "Raphire",
-    "description": "Raphire/Win11Debloat 是一个面向知识管理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "Raphire/Win11Debloat 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -2886,7 +2886,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "知识管理",
-    "summary": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter a",
+    "summary": "Raphire/Win11Debloat 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识沉淀",
@@ -2908,7 +2908,7 @@
     "repo_id": 12574344,
     "repo_name": "spf13/cobra",
     "owner": "spf13",
-    "description": "spf13/cobra 是一个面向内容创作场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "spf13/cobra 是一个面向内容创作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -2953,7 +2953,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "内容创作",
-    "summary": "A Commander for modern Go CLI interactions",
+    "summary": "spf13/cobra 是一个面向内容创作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "内容生成",
@@ -2974,7 +2974,7 @@
     "repo_id": 667006,
     "repo_name": "videojs/video.js",
     "owner": "videojs",
-    "description": "videojs/video.js 是一个面向视频处理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "videojs/video.js 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:video"
     ],
@@ -3013,7 +3013,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "视频处理",
-    "summary": "Video.js - open source HTML5 video player",
+    "summary": "videojs/video.js 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "视频内容处理",
@@ -3034,7 +3034,7 @@
     "repo_id": 253222599,
     "repo_name": "CorentinTh/it-tools",
     "owner": "CorentinTh",
-    "description": "CorentinTh/it-tools 是一个面向办公协作场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "CorentinTh/it-tools 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:developer-tools"
     ],
@@ -3073,7 +3073,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "办公协作",
-    "summary": "Collection of handy online tools for developers, with great UX. ",
+    "summary": "CorentinTh/it-tools 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "文档协作",
@@ -3096,7 +3096,7 @@
     "repo_id": 1126947080,
     "repo_name": "kepano/obsidian-skills",
     "owner": "kepano",
-    "description": "kepano/obsidian-skills 是一个面向办公协作场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "kepano/obsidian-skills 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "keyword:agent skill",
       "topic:cli",
@@ -3147,7 +3147,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "办公协作",
-    "summary": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
+    "summary": "kepano/obsidian-skills 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "文档协作",
@@ -3169,7 +3169,7 @@
     "repo_id": 13840241,
     "repo_name": "freeCodeCamp/devdocs",
     "owner": "freeCodeCamp",
-    "description": "freeCodeCamp/devdocs 是一个面向办公协作场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "freeCodeCamp/devdocs 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:developer-tools"
     ],
@@ -3206,7 +3206,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "办公协作",
-    "summary": "API Documentation Browser",
+    "summary": "freeCodeCamp/devdocs 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "文档协作",
@@ -3228,7 +3228,7 @@
     "repo_id": 1012087571,
     "repo_name": "router-for-me/CLIProxyAPI",
     "owner": "router-for-me",
-    "description": "router-for-me/CLIProxyAPI 是一个面向软件开发场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "router-for-me/CLIProxyAPI 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:claude-code"
     ],
@@ -3262,7 +3262,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "软件开发",
-    "summary": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro,",
+    "summary": "router-for-me/CLIProxyAPI 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "代码生成",
@@ -3283,7 +3283,7 @@
     "repo_id": 1025856648,
     "repo_name": "wshobson/agents",
     "owner": "wshobson",
-    "description": "wshobson/agents 是一个面向办公协作场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "wshobson/agents 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:agent-skills",
       "topic:claude-code",
@@ -3340,7 +3340,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "办公协作",
-    "summary": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI",
+    "summary": "wshobson/agents 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "文档协作",
@@ -3363,7 +3363,7 @@
     "repo_id": 1139971460,
     "repo_name": "rtk-ai/rtk",
     "owner": "rtk-ai",
-    "description": "rtk-ai/rtk 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "rtk-ai/rtk 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:ai-coding",
       "topic:claude-code",
@@ -3411,7 +3411,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+    "summary": "rtk-ai/rtk 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -3433,7 +3433,7 @@
     "repo_id": 220809393,
     "repo_name": "Textualize/rich",
     "owner": "Textualize",
-    "description": "Textualize/rich 是一个面向视频处理场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "Textualize/rich 是一个面向视频处理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:markdown"
     ],
@@ -3477,7 +3477,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "视频处理",
-    "summary": "Rich is a Python library for rich text and beautiful formatting in the terminal.",
+    "summary": "Textualize/rich 是一个面向视频处理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "视频内容处理",
@@ -3498,7 +3498,7 @@
     "repo_id": 615869301,
     "repo_name": "mudler/LocalAI",
     "owner": "mudler",
-    "description": "mudler/LocalAI 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "mudler/LocalAI 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:mcp"
     ],
@@ -3545,7 +3545,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+    "summary": "mudler/LocalAI 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -3568,7 +3568,7 @@
     "repo_id": 1054793726,
     "repo_name": "ChromeDevTools/chrome-devtools-mcp",
     "owner": "ChromeDevTools",
-    "description": "ChromeDevTools/chrome-devtools-mcp 是一个面向数据分析场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "ChromeDevTools/chrome-devtools-mcp 是一个面向数据分析场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:coding agent",
       "topic:devtools",
@@ -3614,7 +3614,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "数据分析",
-    "summary": "Chrome DevTools for coding agents",
+    "summary": "ChromeDevTools/chrome-devtools-mcp 是一个面向数据分析场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "数据洞察",
@@ -3637,7 +3637,7 @@
     "repo_id": 212613049,
     "repo_name": "cli/cli",
     "owner": "cli",
-    "description": "cli/cli 是一个面向办公协作场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "cli/cli 是一个面向办公协作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -3670,7 +3670,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "办公协作",
-    "summary": "GitHub’s official command line tool",
+    "summary": "cli/cli 是一个面向办公协作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "文档协作",
@@ -3692,7 +3692,7 @@
     "repo_id": 1147094660,
     "repo_name": "HKUDS/nanobot",
     "owner": "HKUDS",
-    "description": "HKUDS/nanobot 是一个面向知识管理场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "HKUDS/nanobot 是一个面向知识管理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent",
       "topic:ai-agent",
@@ -3737,7 +3737,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "知识管理",
-    "summary": "Lightweight, open-source AI agent for your tools, chats, and workflows.",
+    "summary": "HKUDS/nanobot 是一个面向知识管理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识沉淀",
@@ -3759,7 +3759,7 @@
     "repo_id": 291438522,
     "repo_name": "siyuan-note/siyuan",
     "owner": "siyuan-note",
-    "description": "siyuan-note/siyuan 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "siyuan-note/siyuan 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:ai-agent",
       "topic:markdown",
@@ -3810,7 +3810,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.",
+    "summary": "siyuan-note/siyuan 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -3832,7 +3832,7 @@
     "repo_id": 26783295,
     "repo_name": "Kong/kong",
     "owner": "Kong",
-    "description": "Kong/kong 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "Kong/kong 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:mcp"
     ],
@@ -3881,7 +3881,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "🦍 The API and AI Gateway",
+    "summary": "Kong/kong 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -3903,7 +3903,7 @@
     "repo_id": 488641606,
     "repo_name": "agno-agi/agno",
     "owner": "agno-agi",
-    "description": "agno-agi/agno 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "agno-agi/agno 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:developer-tools"
     ],
@@ -3936,7 +3936,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Build, run, and manage agent platforms.",
+    "summary": "agno-agi/agno 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -3958,7 +3958,7 @@
     "repo_id": 600596928,
     "repo_name": "danny-avila/LibreChat",
     "owner": "danny-avila",
-    "description": "danny-avila/LibreChat 是一个面向视频处理场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "danny-avila/LibreChat 是一个面向视频处理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:mcp"
     ],
@@ -4007,7 +4007,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "视频处理",
-    "summary": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, G",
+    "summary": "danny-avila/LibreChat 是一个面向视频处理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "视频内容处理",
@@ -4029,7 +4029,7 @@
     "repo_id": 1137711311,
     "repo_name": "Hmbown/CodeWhale",
     "owner": "Hmbown",
-    "description": "Hmbown/CodeWhale 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "Hmbown/CodeWhale 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -4064,7 +4064,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Open-source, community-driven agent harness",
+    "summary": "Hmbown/CodeWhale 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -4088,7 +4088,7 @@
     "repo_id": 918932603,
     "repo_name": "bytedance/UI-TARS-desktop",
     "owner": "bytedance",
-    "description": "bytedance/UI-TARS-desktop 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "bytedance/UI-TARS-desktop 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent",
       "topic:mcp",
@@ -4135,7 +4135,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+    "summary": "bytedance/UI-TARS-desktop 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -4158,7 +4158,7 @@
     "repo_id": 1130809465,
     "repo_name": "Yeachan-Heo/oh-my-claudecode",
     "owner": "Yeachan-Heo",
-    "description": "Yeachan-Heo/oh-my-claudecode 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "Yeachan-Heo/oh-my-claudecode 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:claude-code"
     ],
@@ -4196,7 +4196,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Teams-first Multi-agent orchestration for Claude Code",
+    "summary": "Yeachan-Heo/oh-my-claudecode 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -4217,7 +4217,7 @@
     "repo_id": 1113573066,
     "repo_name": "hugohe3/ppt-master",
     "owner": "hugohe3",
-    "description": "hugohe3/ppt-master 是一个面向知识管理场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "hugohe3/ppt-master 是一个面向知识管理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:ai-agent"
     ],
@@ -4253,7 +4253,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "知识管理",
-    "summary": "AI generates a real, editable PowerPoint from any document — native shapes & animations, speaker notes voiced as audio narration, and the option to follow your ",
+    "summary": "hugohe3/ppt-master 是一个面向知识管理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识沉淀",
@@ -4274,7 +4274,7 @@
     "repo_id": 1197990888,
     "repo_name": "Gitlawb/openclaude",
     "owner": "Gitlawb",
-    "description": "Gitlawb/openclaude 是一个面向软件开发场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "Gitlawb/openclaude 是一个面向软件开发场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:ai-agent",
       "topic:cli"
@@ -4310,7 +4310,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "软件开发",
-    "summary": "runs anywhere. uses anything",
+    "summary": "Gitlawb/openclaude 是一个面向软件开发场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "代码生成",
@@ -4331,7 +4331,7 @@
     "repo_id": 638629097,
     "repo_name": "Aider-AI/aider",
     "owner": "Aider-AI",
-    "description": "Aider-AI/aider 是一个面向办公协作场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "Aider-AI/aider 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -4372,7 +4372,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "办公协作",
-    "summary": "aider is AI pair programming in your terminal",
+    "summary": "Aider-AI/aider 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "文档协作",
@@ -4393,7 +4393,7 @@
     "repo_id": 364474335,
     "repo_name": "google/zx",
     "owner": "google",
-    "description": "google/zx 是一个面向内容创作场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "google/zx 是一个面向内容创作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -4431,7 +4431,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "内容创作",
-    "summary": "A tool for writing better scripts",
+    "summary": "google/zx 是一个面向内容创作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "内容生成",
@@ -4453,7 +4453,7 @@
     "repo_id": 76838017,
     "repo_name": "iina/iina",
     "owner": "iina",
-    "description": "iina/iina 是一个面向视频处理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "iina/iina 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:video"
     ],
@@ -4487,7 +4487,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "视频处理",
-    "summary": "The modern video player for macOS.",
+    "summary": "iina/iina 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "视频内容处理",
@@ -4510,7 +4510,7 @@
     "repo_id": 542284380,
     "repo_name": "usebruno/bruno",
     "owner": "usebruno",
-    "description": "usebruno/bruno 是一个面向视频处理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "usebruno/bruno 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:developer-tools"
     ],
@@ -4552,7 +4552,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "视频处理",
-    "summary": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
+    "summary": "usebruno/bruno 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "视频内容处理",
@@ -4573,7 +4573,7 @@
     "repo_id": 204086862,
     "repo_name": "streamlit/streamlit",
     "owner": "streamlit",
-    "description": "streamlit/streamlit 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "streamlit/streamlit 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:developer-tools"
     ],
@@ -4609,7 +4609,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Streamlit — A faster way to build and share data apps.",
+    "summary": "streamlit/streamlit 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -4630,7 +4630,7 @@
     "repo_id": 233130089,
     "repo_name": "charmbracelet/bubbletea",
     "owner": "charmbracelet",
-    "description": "charmbracelet/bubbletea 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "charmbracelet/bubbletea 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -4667,7 +4667,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "A powerful little TUI framework 🏗",
+    "summary": "charmbracelet/bubbletea 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -4689,7 +4689,7 @@
     "repo_id": 41889031,
     "repo_name": "TeamNewPipe/NewPipe",
     "owner": "TeamNewPipe",
-    "description": "TeamNewPipe/NewPipe 是一个面向视频处理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "TeamNewPipe/NewPipe 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:video"
     ],
@@ -4727,7 +4727,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "视频处理",
-    "summary": "A libre lightweight streaming front-end for Android.",
+    "summary": "TeamNewPipe/NewPipe 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "视频内容处理",
@@ -4748,7 +4748,7 @@
     "repo_id": 120425779,
     "repo_name": "lapce/lapce",
     "owner": "lapce",
-    "description": "lapce/lapce 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "lapce/lapce 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:developer-tools"
     ],
@@ -4781,7 +4781,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Lightning-fast and Powerful Code Editor written in Rust",
+    "summary": "lapce/lapce 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -4803,7 +4803,7 @@
     "repo_id": 355959597,
     "repo_name": "Textualize/textual",
     "owner": "Textualize",
-    "description": "Textualize/textual 是一个面向软件开发场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "Textualize/textual 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -4838,7 +4838,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "软件开发",
-    "summary": "The lean application framework for Python.  Build sophisticated user interfaces with a simple Python API. Run your apps in the terminal and a web browser.",
+    "summary": "Textualize/textual 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "代码生成",
@@ -4859,7 +4859,7 @@
     "repo_id": 965415649,
     "repo_name": "openai/codex",
     "owner": "openai",
-    "description": "openai/codex 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "openai/codex 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:coding agent"
     ],
@@ -4885,7 +4885,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Lightweight coding agent that runs in your terminal",
+    "summary": "openai/codex 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -4908,7 +4908,7 @@
     "repo_id": 663900193,
     "repo_name": "sxyazi/yazi",
     "owner": "sxyazi",
-    "description": "sxyazi/yazi 是一个面向视频处理场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "sxyazi/yazi 是一个面向视频处理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:cli",
       "topic:developer-tools"
@@ -4958,7 +4958,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "视频处理",
-    "summary": "💥 Blazing fast terminal file manager written in Rust, based on async I/O.",
+    "summary": "sxyazi/yazi 是一个面向视频处理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "视频内容处理",
@@ -4979,7 +4979,7 @@
     "repo_id": 94061307,
     "repo_name": "vadimdemedes/ink",
     "owner": "vadimdemedes",
-    "description": "vadimdemedes/ink 是一个面向数据分析场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "vadimdemedes/ink 是一个面向数据分析场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -5014,7 +5014,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "数据分析",
-    "summary": "🌈 React for interactive command-line apps",
+    "summary": "vadimdemedes/ink 是一个面向数据分析场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "数据洞察",
@@ -5036,7 +5036,7 @@
     "repo_id": 1133707766,
     "repo_name": "multica-ai/multica",
     "owner": "multica-ai",
-    "description": "multica-ai/multica 是一个面向办公协作场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "multica-ai/multica 是一个面向办公协作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:coding agent"
     ],
@@ -5062,7 +5062,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "办公协作",
-    "summary": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+    "summary": "multica-ai/multica 是一个面向办公协作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "文档协作",
@@ -5083,7 +5083,7 @@
     "repo_id": 352933140,
     "repo_name": "ToolJet/ToolJet",
     "owner": "ToolJet",
-    "description": "ToolJet/ToolJet 是一个面向数据分析场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "ToolJet/ToolJet 是一个面向数据分析场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent",
       "topic:workflow-automation"
@@ -5132,7 +5132,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "数据分析",
-    "summary": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, work",
+    "summary": "ToolJet/ToolJet 是一个面向数据分析场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "数据洞察",
@@ -5154,7 +5154,7 @@
     "repo_id": 245166720,
     "repo_name": "ajeetdsouza/zoxide",
     "owner": "ajeetdsouza",
-    "description": "ajeetdsouza/zoxide 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "ajeetdsouza/zoxide 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -5202,7 +5202,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "A smarter cd command. Supports all major shells.",
+    "summary": "ajeetdsouza/zoxide 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -5224,7 +5224,7 @@
     "repo_id": 1132001614,
     "repo_name": "vercel-labs/agent-browser",
     "owner": "vercel-labs",
-    "description": "vercel-labs/agent-browser 是一个面向办公协作场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "vercel-labs/agent-browser 是一个面向办公协作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent",
       "keyword:browser automation"
@@ -5253,7 +5253,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "办公协作",
-    "summary": "Browser automation CLI for AI agents",
+    "summary": "vercel-labs/agent-browser 是一个面向办公协作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "文档协作",
@@ -5275,7 +5275,7 @@
     "repo_id": 742244656,
     "repo_name": "agentscope-ai/agentscope",
     "owner": "agentscope-ai",
-    "description": "agentscope-ai/agentscope 是一个面向软件开发场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "agentscope-ai/agentscope 是一个面向软件开发场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:llm-agent",
       "topic:mcp",
@@ -5317,7 +5317,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "软件开发",
-    "summary": "Build and run agents you can see, understand and trust.",
+    "summary": "agentscope-ai/agentscope 是一个面向软件开发场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "代码生成",
@@ -5338,7 +5338,7 @@
     "repo_id": 1126473386,
     "repo_name": "jarrodwatts/claude-hud",
     "owner": "jarrodwatts",
-    "description": "jarrodwatts/claude-hud 是一个面向软件开发场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "jarrodwatts/claude-hud 是一个面向软件开发场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:claude-code",
       "topic:cli"
@@ -5376,7 +5376,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "软件开发",
-    "summary": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
+    "summary": "jarrodwatts/claude-hud 是一个面向软件开发场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "代码生成",
@@ -5397,7 +5397,7 @@
     "repo_id": 1024554267,
     "repo_name": "NousResearch/hermes-agent",
     "owner": "NousResearch",
-    "description": "NousResearch/hermes-agent 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "NousResearch/hermes-agent 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:ai-agent",
       "topic:claude-code"
@@ -5443,7 +5443,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "The agent that grows with you",
+    "summary": "NousResearch/hermes-agent 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -5464,7 +5464,7 @@
     "repo_id": 275993885,
     "repo_name": "appsmithorg/appsmith",
     "owner": "appsmithorg",
-    "description": "appsmithorg/appsmith 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "appsmithorg/appsmith 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:developer-tools"
     ],
@@ -5512,7 +5512,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API.",
+    "summary": "appsmithorg/appsmith 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -5533,7 +5533,7 @@
     "repo_id": 660551251,
     "repo_name": "FoundationAgents/MetaGPT",
     "owner": "FoundationAgents",
-    "description": "FoundationAgents/MetaGPT 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "FoundationAgents/MetaGPT 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:agent framework",
       "topic:multi-agent"
@@ -5567,7 +5567,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
+    "summary": "FoundationAgents/MetaGPT 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -5589,7 +5589,7 @@
     "repo_id": 132464395,
     "repo_name": "Snailclimb/JavaGuide",
     "owner": "Snailclimb",
-    "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
+    "description": "Snailclimb/JavaGuide 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:mcp",
       "topic:skills"
@@ -5633,7 +5633,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
+    "summary": "Snailclimb/JavaGuide 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -5656,7 +5656,7 @@
     "repo_id": 1106996539,
     "repo_name": "nextlevelbuilder/ui-ux-pro-max-skill",
     "owner": "nextlevelbuilder",
-    "description": "nextlevelbuilder/ui-ux-pro-max-skill 是一个面向产品设计场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "nextlevelbuilder/ui-ux-pro-max-skill 是一个面向产品设计场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "keyword:AI skill",
       "topic:claude-code"
@@ -5705,7 +5705,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "产品设计",
-    "summary": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
+    "summary": "nextlevelbuilder/ui-ux-pro-max-skill 是一个面向产品设计场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "原型与设计产出",
@@ -5728,7 +5728,7 @@
     "repo_id": 770153867,
     "repo_name": "harry0703/MoneyPrinterTurbo",
     "owner": "harry0703",
-    "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+    "description": "harry0703/MoneyPrinterTurbo 是一个面向视频处理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:short video"
     ],
@@ -5763,7 +5763,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "视频处理",
-    "summary": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+    "summary": "harry0703/MoneyPrinterTurbo 是一个面向视频处理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "视频内容处理",
@@ -5785,7 +5785,7 @@
     "repo_id": 1200597263,
     "repo_name": "Graphify-Labs/graphify",
     "owner": "Graphify-Labs",
-    "description": "Graphify-Labs/graphify 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "Graphify-Labs/graphify 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "keyword:AI coding",
       "keyword:coding assistant",
@@ -5829,7 +5829,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, pa",
+    "summary": "Graphify-Labs/graphify 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -5851,7 +5851,7 @@
     "repo_id": 1130564872,
     "repo_name": "koala73/worldmonitor",
     "owner": "koala73",
-    "description": "koala73/worldmonitor 是一个面向投资研究场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "koala73/worldmonitor 是一个面向投资研究场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:news"
     ],
@@ -5887,7 +5887,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "投资研究",
-    "summary": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness in",
+    "summary": "koala73/worldmonitor 是一个面向投资研究场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "市场信息分析",
@@ -5909,7 +5909,7 @@
     "repo_id": 872119017,
     "repo_name": "D4Vinci/Scrapling",
     "owner": "D4Vinci",
-    "description": "D4Vinci/Scrapling 是一个面向数据分析场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "D4Vinci/Scrapling 是一个面向数据分析场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:mcp",
       "topic:mcp-server"
@@ -5960,7 +5960,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "数据分析",
-    "summary": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+    "summary": "D4Vinci/Scrapling 是一个面向数据分析场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "数据洞察",
@@ -5983,7 +5983,7 @@
     "repo_id": 995029641,
     "repo_name": "ruvnet/ruflo",
     "owner": "ruvnet",
-    "description": "ruvnet/ruflo 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "ruvnet/ruflo 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:ai-coding",
       "topic:claude-code",
@@ -6039,7 +6039,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "🌊 The leading agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptiv",
+    "summary": "ruvnet/ruflo 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -6062,7 +6062,7 @@
     "repo_id": 1087192965,
     "repo_name": "shanraisshan/claude-code-best-practice",
     "owner": "shanraisshan",
-    "description": "shanraisshan/claude-code-best-practice 是一个面向办公协作场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "shanraisshan/claude-code-best-practice 是一个面向办公协作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:claude-code"
     ],
@@ -6110,7 +6110,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "办公协作",
-    "summary": "from vibe coding to agentic engineering - practice makes claude perfect",
+    "summary": "shanraisshan/claude-code-best-practice 是一个面向办公协作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "文档协作",
@@ -6132,7 +6132,7 @@
     "repo_id": 287463830,
     "repo_name": "microsoft/qlib",
     "owner": "microsoft",
-    "description": "microsoft/qlib 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "microsoft/qlib 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:quant research",
       "topic:finance",
@@ -6185,7 +6185,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supp",
+    "summary": "microsoft/qlib 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -6207,7 +6207,7 @@
     "repo_id": 805155266,
     "repo_name": "CherryHQ/cherry-studio",
     "owner": "CherryHQ",
-    "description": "CherryHQ/cherry-studio 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "CherryHQ/cherry-studio 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:agent-skills",
       "topic:ai-agent",
@@ -6250,7 +6250,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+    "summary": "CherryHQ/cherry-studio 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -6272,7 +6272,7 @@
     "repo_id": 198071756,
     "repo_name": "huiyadanli/RevokeMsgPatcher",
     "owner": "huiyadanli",
-    "description": ":trollface: A hex editor for WeChat/QQ/TIM - PC版微信/QQ/TIM防撤回补丁（我已经看到了，撤回也没用了）",
+    "description": "huiyadanli/RevokeMsgPatcher 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:wechat"
     ],
@@ -6309,7 +6309,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "知识管理",
-    "summary": ":trollface: A hex editor for WeChat/QQ/TIM - PC版微信/QQ/TIM防撤回补丁（我已经看到了，撤回也没用了）",
+    "summary": "huiyadanli/RevokeMsgPatcher 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识沉淀",
@@ -6331,7 +6331,7 @@
     "repo_id": 275386910,
     "repo_name": "soxoj/maigret",
     "owner": "soxoj",
-    "description": "soxoj/maigret 是一个面向投资研究场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "soxoj/maigret 是一个面向投资研究场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -6380,7 +6380,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "投资研究",
-    "summary": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+    "summary": "soxoj/maigret 是一个面向投资研究场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "市场信息分析",
@@ -6402,7 +6402,7 @@
     "repo_id": 952688112,
     "repo_name": "microsoft/playwright-mcp",
     "owner": "microsoft",
-    "description": "microsoft/playwright-mcp 是一个面向自动化运营场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "microsoft/playwright-mcp 是一个面向自动化运营场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "keyword:MCP server",
       "topic:mcp"
@@ -6435,7 +6435,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "自动化运营",
-    "summary": "Playwright MCP server",
+    "summary": "microsoft/playwright-mcp 是一个面向自动化运营场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "流程自动执行",
@@ -6457,7 +6457,7 @@
     "repo_id": 137451403,
     "repo_name": "alibaba/nacos",
     "owner": "alibaba",
-    "description": "alibaba/nacos 是一个面向软件开发场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "alibaba/nacos 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:mcp",
       "topic:skills"
@@ -6504,7 +6504,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "软件开发",
-    "summary": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications.",
+    "summary": "alibaba/nacos 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "代码生成",
@@ -6526,7 +6526,7 @@
     "repo_id": 756289095,
     "repo_name": "FujiwaraChoki/MoneyPrinterV2",
     "owner": "FujiwaraChoki",
-    "description": "FujiwaraChoki/MoneyPrinterV2 是一个面向视频处理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "FujiwaraChoki/MoneyPrinterV2 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -6563,7 +6563,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "视频处理",
-    "summary": "Automate the process of making money online.",
+    "summary": "FujiwaraChoki/MoneyPrinterV2 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "视频内容处理",
@@ -6585,7 +6585,7 @@
     "repo_id": 36891867,
     "repo_name": "angular/angular-cli",
     "owner": "angular",
-    "description": "angular/angular-cli 是一个面向软件开发场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "angular/angular-cli 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -6618,7 +6618,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "软件开发",
-    "summary": "CLI tool for Angular",
+    "summary": "angular/angular-cli 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "代码生成",
@@ -6640,7 +6640,7 @@
     "repo_id": 876064934,
     "repo_name": "patchy631/ai-engineering-hub",
     "owner": "patchy631",
-    "description": "patchy631/ai-engineering-hub 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "patchy631/ai-engineering-hub 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent",
       "topic:mcp"
@@ -6677,7 +6677,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications.",
+    "summary": "patchy631/ai-engineering-hub 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -6699,7 +6699,7 @@
     "repo_id": 1177402105,
     "repo_name": "heygen-com/hyperframes",
     "owner": "heygen-com",
-    "description": "heygen-com/hyperframes 是一个面向视频处理场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "heygen-com/hyperframes 是一个面向视频处理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:mcp",
       "topic:video"
@@ -6741,7 +6741,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "视频处理",
-    "summary": "Write HTML. Render video. Built for agents.",
+    "summary": "heygen-com/hyperframes 是一个面向视频处理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "视频内容处理",
@@ -6763,7 +6763,7 @@
     "repo_id": 762304524,
     "repo_name": "ComposioHQ/composio",
     "owner": "ComposioHQ",
-    "description": "ComposioHQ/composio 是一个面向信息搜集场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "ComposioHQ/composio 是一个面向信息搜集场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent",
       "topic:developer-tools",
@@ -6813,7 +6813,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "信息搜集",
-    "summary": "Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into act",
+    "summary": "ComposioHQ/composio 是一个面向信息搜集场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "资料收集",
@@ -6835,7 +6835,7 @@
     "repo_id": 605673387,
     "repo_name": "labring/FastGPT",
     "owner": "labring",
-    "description": "labring/FastGPT 是一个面向知识管理场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "labring/FastGPT 是一个面向知识管理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:mcp"
     ],
@@ -6874,7 +6874,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "知识管理",
-    "summary": "FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and",
+    "summary": "labring/FastGPT 是一个面向知识管理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识沉淀",
@@ -6896,7 +6896,7 @@
     "repo_id": 571770,
     "repo_name": "jgm/pandoc",
     "owner": "jgm",
-    "description": "jgm/pandoc 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "jgm/pandoc 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:markdown"
     ],
@@ -6932,7 +6932,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Universal markup converter",
+    "summary": "jgm/pandoc 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -6954,7 +6954,7 @@
     "repo_id": 266231149,
     "repo_name": "logseq/logseq",
     "owner": "logseq",
-    "description": "logseq/logseq 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "logseq/logseq 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:markdown"
     ],
@@ -6992,7 +6992,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: https://log",
+    "summary": "logseq/logseq 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -7014,7 +7014,7 @@
     "repo_id": 783512367,
     "repo_name": "RSSNext/Folo",
     "owner": "RSSNext",
-    "description": "RSSNext/Folo 是一个面向内容创作场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "RSSNext/Folo 是一个面向内容创作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:rss"
     ],
@@ -7046,7 +7046,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "内容创作",
-    "summary": "🧡 Folo is the AI RSS Reader",
+    "summary": "RSSNext/Folo 是一个面向内容创作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "内容生成",
@@ -7068,7 +7068,7 @@
     "repo_id": 151619717,
     "repo_name": "google-research/google-research",
     "owner": "google-research",
-    "description": "google-research/google-research 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "google-research/google-research 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:research"
     ],
@@ -7099,7 +7099,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Google Research",
+    "summary": "google-research/google-research 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -7121,7 +7121,7 @@
     "repo_id": 128624453,
     "repo_name": "NervJS/taro",
     "owner": "NervJS",
-    "description": "开放式跨端跨框架解决方案，支持使用 React/Vue 等框架来开发微信/京东/百度/支付宝/字节跳动/ QQ 小程序/H5/React Native 等应用。  https://taro.zone/",
+    "description": "NervJS/taro 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:wechat"
     ],
@@ -7164,7 +7164,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "开放式跨端跨框架解决方案，支持使用 React/Vue 等框架来开发微信/京东/百度/支付宝/字节跳动/ QQ 小程序/H5/React Native 等应用。  https://taro.zone/",
+    "summary": "NervJS/taro 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -7187,7 +7187,7 @@
     "repo_id": 6201092,
     "repo_name": "mpv-player/mpv",
     "owner": "mpv-player",
-    "description": "mpv-player/mpv 是一个面向视频处理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "mpv-player/mpv 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:video"
     ],
@@ -7222,7 +7222,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "视频处理",
-    "summary": "🎥 Command line media player",
+    "summary": "mpv-player/mpv 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "视频内容处理",
@@ -7244,7 +7244,7 @@
     "repo_id": 1100776768,
     "repo_name": "anthropics/claude-plugins-official",
     "owner": "anthropics",
-    "description": "anthropics/claude-plugins-official 是一个面向软件开发场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "anthropics/claude-plugins-official 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:claude-code",
       "topic:mcp",
@@ -7280,7 +7280,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "软件开发",
-    "summary": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+    "summary": "anthropics/claude-plugins-official 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "代码生成",
@@ -7302,7 +7302,7 @@
     "repo_id": 942771284,
     "repo_name": "github/github-mcp-server",
     "owner": "github",
-    "description": "github/github-mcp-server 是一个面向软件开发场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "github/github-mcp-server 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "keyword:MCP server",
       "topic:mcp",
@@ -7338,7 +7338,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "软件开发",
-    "summary": "GitHub's official MCP Server",
+    "summary": "github/github-mcp-server 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "代码生成",
@@ -7360,7 +7360,7 @@
     "repo_id": 1079456184,
     "repo_name": "K-Dense-AI/scientific-agent-skills",
     "owner": "K-Dense-AI",
-    "description": "K-Dense-AI/scientific-agent-skills 是一个面向数据分析场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "K-Dense-AI/scientific-agent-skills 是一个面向数据分析场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "keyword:AI agent",
       "keyword:agent skill",
@@ -7411,7 +7411,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "数据分析",
-    "summary": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 160,000+ scientists worldwide. 140 ready-to-use skills plus 100+ scient",
+    "summary": "K-Dense-AI/scientific-agent-skills 是一个面向数据分析场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "数据洞察",
@@ -7433,7 +7433,7 @@
     "repo_id": 1171026502,
     "repo_name": "googleworkspace/cli",
     "owner": "googleworkspace",
-    "description": "googleworkspace/cli 是一个面向办公协作场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "googleworkspace/cli 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "keyword:AI agent",
       "keyword:agent skill",
@@ -7486,7 +7486,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "办公协作",
-    "summary": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. I",
+    "summary": "googleworkspace/cli 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "文档协作",
@@ -7508,7 +7508,7 @@
     "repo_id": 1033778670,
     "repo_name": "iOfficeAI/AionUi",
     "owner": "iOfficeAI",
-    "description": "iOfficeAI/AionUi 是一个面向办公协作场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "iOfficeAI/AionUi 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:ai-agent",
       "topic:claude-code",
@@ -7560,7 +7560,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "办公协作",
-    "summary": "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ more CLI | Customize your assistants | Sta",
+    "summary": "iOfficeAI/AionUi 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "文档协作",
@@ -7582,7 +7582,7 @@
     "repo_id": 1013480284,
     "repo_name": "davila7/claude-code-templates",
     "owner": "davila7",
-    "description": "davila7/claude-code-templates 是一个面向软件开发场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "davila7/claude-code-templates 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:claude-code"
     ],
@@ -7614,7 +7614,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "软件开发",
-    "summary": "CLI tool for configuring and monitoring Claude Code",
+    "summary": "davila7/claude-code-templates 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "代码生成",
@@ -7636,7 +7636,7 @@
     "repo_id": 82729529,
     "repo_name": "google/python-fire",
     "owner": "google",
-    "description": "google/python-fire 是一个面向软件开发场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "google/python-fire 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -7667,7 +7667,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "软件开发",
-    "summary": "Python Fire is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.",
+    "summary": "google/python-fire 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "代码生成",
@@ -7689,7 +7689,7 @@
     "repo_id": 119190187,
     "repo_name": "gitleaks/gitleaks",
     "owner": "gitleaks",
-    "description": "gitleaks/gitleaks 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "gitleaks/gitleaks 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -7738,7 +7738,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Find secrets with Gitleaks 🔑",
+    "summary": "gitleaks/gitleaks 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -7760,7 +7760,7 @@
     "repo_id": 850267588,
     "repo_name": "78/xiaozhi-esp32",
     "owner": "78",
-    "description": "An MCP-based chatbot | 一个基于MCP的聊天机器人",
+    "description": "78/xiaozhi-esp32 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:mcp"
     ],
@@ -7792,7 +7792,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "软件开发",
-    "summary": "An MCP-based chatbot | 一个基于MCP的聊天机器人",
+    "summary": "78/xiaozhi-esp32 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "代码生成",
@@ -7814,7 +7814,7 @@
     "repo_id": 828119367,
     "repo_name": "yamadashy/repomix",
     "owner": "yamadashy",
-    "description": "yamadashy/repomix 是一个面向软件开发场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "yamadashy/repomix 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:developer-tools",
       "topic:mcp"
@@ -7865,7 +7865,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "软件开发",
-    "summary": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Languag",
+    "summary": "yamadashy/repomix 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "代码生成",
@@ -7887,7 +7887,7 @@
     "repo_id": 610260322,
     "repo_name": "chatboxai/chatbox",
     "owner": "chatboxai",
-    "description": "chatboxai/chatbox 是一个面向内容创作场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "chatboxai/chatbox 是一个面向内容创作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:claude-code"
     ],
@@ -7927,7 +7927,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "内容创作",
-    "summary": "Powerful AI Client",
+    "summary": "chatboxai/chatbox 是一个面向内容创作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "内容生成",
@@ -7950,7 +7950,7 @@
     "repo_id": 575865240,
     "repo_name": "AstrBotDevs/AstrBot",
     "owner": "AstrBotDevs",
-    "description": "AstrBotDevs/AstrBot 是一个面向软件开发场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "AstrBotDevs/AstrBot 是一个面向软件开发场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent",
       "topic:mcp"
@@ -7997,7 +7997,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "软件开发",
-    "summary": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+    "summary": "AstrBotDevs/AstrBot 是一个面向软件开发场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "代码生成",
@@ -8019,7 +8019,7 @@
     "repo_id": 644686905,
     "repo_name": "continuedev/continue",
     "owner": "continuedev",
-    "description": "continuedev/continue 是一个面向软件开发场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "continuedev/continue 是一个面向软件开发场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:coding agent",
       "topic:cli",
@@ -8057,7 +8057,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "软件开发",
-    "summary": "open-source coding agent",
+    "summary": "continuedev/continue 是一个面向软件开发场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "代码生成",
@@ -8079,7 +8079,7 @@
     "repo_id": 100061716,
     "repo_name": "nrwl/nx",
     "owner": "nrwl",
-    "description": "nrwl/nx 是一个面向办公协作场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "nrwl/nx 是一个面向办公协作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent",
       "topic:cli"
@@ -8127,7 +8127,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "办公协作",
-    "summary": "The Monorepo Platform that amplifies both developers and AI agents. Nx optimizes your builds, scales your CI, and fixes failed PRs automatically. Ship in half t",
+    "summary": "nrwl/nx 是一个面向办公协作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "文档协作",
@@ -8149,7 +8149,7 @@
     "repo_id": 639835356,
     "repo_name": "assafelovic/gpt-researcher",
     "owner": "assafelovic",
-    "description": "assafelovic/gpt-researcher 是一个面向信息搜集场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "assafelovic/gpt-researcher 是一个面向信息搜集场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:mcp",
       "topic:mcp-server",
@@ -8193,7 +8193,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "信息搜集",
-    "summary": "An autonomous agent that conducts deep research on any data using any LLM providers",
+    "summary": "assafelovic/gpt-researcher 是一个面向信息搜集场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "资料收集",
@@ -8215,7 +8215,7 @@
     "repo_id": 953683578,
     "repo_name": "oraios/serena",
     "owner": "oraios",
-    "description": "oraios/serena 是一个面向软件开发场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "oraios/serena 是一个面向软件开发场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:ai-coding",
       "topic:claude-code",
@@ -8259,7 +8259,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "软件开发",
-    "summary": "A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities  - the IDE for your agent",
+    "summary": "oraios/serena 是一个面向软件开发场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "代码生成",
@@ -8281,7 +8281,7 @@
     "repo_id": 36804486,
     "repo_name": "tqdm/tqdm",
     "owner": "tqdm",
-    "description": "tqdm/tqdm 是一个面向软件开发场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "tqdm/tqdm 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -8330,7 +8330,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "软件开发",
-    "summary": ":zap: A Fast, Extensible Progress Bar for Python and CLI",
+    "summary": "tqdm/tqdm 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "代码生成",
@@ -8352,7 +8352,7 @@
     "repo_id": 521655652,
     "repo_name": "Infisical/infisical",
     "owner": "Infisical",
-    "description": "Infisical/infisical 是一个面向安全攻防场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "Infisical/infisical 是一个面向安全攻防场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -8401,7 +8401,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "安全攻防",
-    "summary": "Infisical is the open-source platform for secrets, certificates, and privileged access management.",
+    "summary": "Infisical/infisical 是一个面向安全攻防场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "风险识别",
@@ -8423,7 +8423,7 @@
     "repo_id": 219616873,
     "repo_name": "charmbracelet/glow",
     "owner": "charmbracelet",
-    "description": "charmbracelet/glow 是一个面向软件开发场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "charmbracelet/glow 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:cli",
       "topic:markdown"
@@ -8458,7 +8458,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "软件开发",
-    "summary": "Render markdown on the CLI, with pizzazz! 💅🏻",
+    "summary": "charmbracelet/glow 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "代码生成",
@@ -8480,7 +8480,7 @@
     "repo_id": 1061953414,
     "repo_name": "anthropics/skills",
     "owner": "anthropics",
-    "description": "anthropics/skills 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "anthropics/skills 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "keyword:agent skill",
       "topic:agent-skills"
@@ -8511,7 +8511,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Public repository for Agent Skills",
+    "summary": "anthropics/skills 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -8533,7 +8533,7 @@
     "repo_id": 162998479,
     "repo_name": "sherlock-project/sherlock",
     "owner": "sherlock-project",
-    "description": "sherlock-project/sherlock 是一个面向知识管理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "sherlock-project/sherlock 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -8578,7 +8578,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "知识管理",
-    "summary": "Hunt down social media accounts by username across social networks",
+    "summary": "sherlock-project/sherlock 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识沉淀",
@@ -8601,7 +8601,7 @@
     "repo_id": 701547123,
     "repo_name": "open-webui/open-webui",
     "owner": "open-webui",
-    "description": "open-webui/open-webui 是一个面向知识管理场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "open-webui/open-webui 是一个面向知识管理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:mcp"
     ],
@@ -8645,7 +8645,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "知识管理",
-    "summary": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+    "summary": "open-webui/open-webui 是一个面向知识管理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识沉淀",
@@ -8667,7 +8667,7 @@
     "repo_id": 881458615,
     "repo_name": "browser-use/browser-use",
     "owner": "browser-use",
-    "description": "browser-use/browser-use 是一个面向办公协作场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "browser-use/browser-use 是一个面向办公协作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent",
       "topic:browser-automation"
@@ -8704,7 +8704,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "办公协作",
-    "summary": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+    "summary": "browser-use/browser-use 是一个面向办公协作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "文档协作",
@@ -8727,7 +8727,7 @@
     "repo_id": 10744183,
     "repo_name": "netdata/netdata",
     "owner": "netdata",
-    "description": "netdata/netdata 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "netdata/netdata 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:mcp"
     ],
@@ -8776,7 +8776,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "The fastest path to AI-powered full stack observability, even for lean teams.",
+    "summary": "netdata/netdata 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -8799,7 +8799,7 @@
     "repo_id": 1182081931,
     "repo_name": "Egonex-AI/Understand-Anything",
     "owner": "Egonex-AI",
-    "description": "Egonex-AI/Understand-Anything 是一个面向知识管理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "Egonex-AI/Understand-Anything 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:claude-code",
       "topic:claude-skills"
@@ -8846,7 +8846,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "知识管理",
-    "summary": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude C",
+    "summary": "Egonex-AI/Understand-Anything 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识沉淀",
@@ -8868,7 +8868,7 @@
     "repo_id": 1132020002,
     "repo_name": "geekjourneyx/md2wechat-skill",
     "owner": "geekjourneyx",
-    "description": "Markdown to WeChat CLI | 一键排版发布到微信公众号：支持 40+ 排版样式和专业主题 、AI 配图 、批量发布 、多账号管理",
+    "description": "geekjourneyx/md2wechat-skill 是一个面向内容创作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "keyword:markdown to wechat",
       "keyword:微信公众号",
@@ -8936,7 +8936,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "内容创作",
-    "summary": "Markdown to WeChat CLI | 一键排版发布到微信公众号：支持 40+ 排版样式和专业主题 、AI 配图 、批量发布 、多账号管理",
+    "summary": "geekjourneyx/md2wechat-skill 是一个面向内容创作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "内容生成",
@@ -8959,7 +8959,7 @@
     "repo_id": 1035029907,
     "repo_name": "earendil-works/pi",
     "owner": "earendil-works",
-    "description": "earendil-works/pi 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "earendil-works/pi 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent",
       "keyword:agent CLI",
@@ -8990,7 +8990,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+    "summary": "earendil-works/pi 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -9014,7 +9014,7 @@
     "repo_id": 1201476594,
     "repo_name": "santifer/career-ops",
     "owner": "santifer",
-    "description": "santifer/career-ops 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "santifer/career-ops 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:ai-agent",
       "topic:claude-code",
@@ -9063,7 +9063,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+    "summary": "santifer/career-ops 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -9086,7 +9086,7 @@
     "repo_id": 13807606,
     "repo_name": "junegunn/fzf",
     "owner": "junegunn",
-    "description": "junegunn/fzf 是一个面向数据分析场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "junegunn/fzf 是一个面向数据分析场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -9124,7 +9124,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "数据分析",
-    "summary": ":cherry_blossom: A command-line fuzzy finder",
+    "summary": "junegunn/fzf 是一个面向数据分析场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "数据洞察",
@@ -9147,7 +9147,7 @@
     "repo_id": 134017286,
     "repo_name": "jesseduffield/lazygit",
     "owner": "jesseduffield",
-    "description": "jesseduffield/lazygit 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "jesseduffield/lazygit 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -9179,7 +9179,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "simple terminal UI for git commands",
+    "summary": "jesseduffield/lazygit 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -9202,7 +9202,7 @@
     "repo_id": 519859998,
     "repo_name": "toeverything/AFFiNE",
     "owner": "toeverything",
-    "description": "toeverything/AFFiNE 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "toeverything/AFFiNE 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:markdown"
     ],
@@ -9248,7 +9248,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privac",
+    "summary": "toeverything/AFFiNE 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -9271,7 +9271,7 @@
     "repo_id": 1108837393,
     "repo_name": "code-yeongyu/oh-my-openagent",
     "owner": "code-yeongyu",
-    "description": "code-yeongyu/oh-my-openagent 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "code-yeongyu/oh-my-openagent 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "keyword:coding agent",
       "topic:claude-skills"
@@ -9316,7 +9316,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "omo/lazycodex: The coding agent for tokenmaxxers;the one and only agent harness for complex codebases. For your Codex, for your OpenCode",
+    "summary": "code-yeongyu/oh-my-openagent 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -9339,7 +9339,7 @@
     "repo_id": 436297812,
     "repo_name": "usememos/memos",
     "owner": "usememos",
-    "description": "usememos/memos 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "usememos/memos 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:markdown"
     ],
@@ -9380,7 +9380,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
+    "summary": "usememos/memos 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -9402,7 +9402,7 @@
     "repo_id": 2096579,
     "repo_name": "markedjs/marked",
     "owner": "markedjs",
-    "description": "markedjs/marked 是一个面向办公协作场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "markedjs/marked 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:markdown"
     ],
@@ -9436,7 +9436,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "办公协作",
-    "summary": "A markdown parser and compiler. Built for speed.",
+    "summary": "markedjs/marked 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "文档协作",
@@ -9460,7 +9460,7 @@
     "repo_id": 122734569,
     "repo_name": "iawia002/lux",
     "owner": "iawia002",
-    "description": "iawia002/lux 是一个面向视频处理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "iawia002/lux 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:video"
     ],
@@ -9501,7 +9501,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "视频处理",
-    "summary": "👾 Fast and simple video download library and CLI tool written in Go",
+    "summary": "iawia002/lux 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "视频内容处理",
@@ -9523,7 +9523,7 @@
     "repo_id": 1129940957,
     "repo_name": "headroomlabs-ai/headroom",
     "owner": "headroomlabs-ai",
-    "description": "headroomlabs-ai/headroom 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "headroomlabs-ai/headroom 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:MCP server",
       "topic:claude-code",
@@ -9576,7 +9576,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+    "summary": "headroomlabs-ai/headroom 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -9599,7 +9599,7 @@
     "repo_id": 72495579,
     "repo_name": "go-gitea/gitea",
     "owner": "go-gitea",
-    "description": "go-gitea/gitea 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "go-gitea/gitea 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "keyword:code review"
     ],
@@ -9647,7 +9647,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry an",
+    "summary": "go-gitea/gitea 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -9669,7 +9669,7 @@
     "repo_id": 361044034,
     "repo_name": "slidevjs/slidev",
     "owner": "slidevjs",
-    "description": "slidevjs/slidev 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "slidevjs/slidev 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:markdown"
     ],
@@ -9703,7 +9703,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Presentation Slides for Developers",
+    "summary": "slidevjs/slidev 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -9726,7 +9726,7 @@
     "repo_id": 90793418,
     "repo_name": "sharkdp/fd",
     "owner": "sharkdp",
-    "description": "sharkdp/fd 是一个面向办公协作场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "sharkdp/fd 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -9763,7 +9763,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "办公协作",
-    "summary": "A simple, fast and user-friendly alternative to 'find'",
+    "summary": "sharkdp/fd 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "文档协作",
@@ -9785,7 +9785,7 @@
     "repo_id": 72343657,
     "repo_name": "mifi/lossless-cut",
     "owner": "mifi",
-    "description": "mifi/lossless-cut 是一个面向视频处理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "mifi/lossless-cut 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:video"
     ],
@@ -9822,7 +9822,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "视频处理",
-    "summary": "The swiss army knife of lossless video/audio editing",
+    "summary": "mifi/lossless-cut 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "视频内容处理",
@@ -9844,7 +9844,7 @@
     "repo_id": 937253475,
     "repo_name": "anthropics/claude-code",
     "owner": "anthropics",
-    "description": "anthropics/claude-code 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "anthropics/claude-code 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "trending:daily"
     ],
@@ -9871,7 +9871,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
+    "summary": "anthropics/claude-code 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -9893,7 +9893,7 @@
     "repo_id": 495836457,
     "repo_name": "t3-oss/create-t3-app",
     "owner": "t3-oss",
-    "description": "t3-oss/create-t3-app 是一个面向软件开发场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "t3-oss/create-t3-app 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -9934,7 +9934,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "软件开发",
-    "summary": "The best way to start a full-stack, typesafe Next.js app ",
+    "summary": "t3-oss/create-t3-app 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "代码生成",
@@ -9957,7 +9957,7 @@
     "repo_id": 133251103,
     "repo_name": "wagoodman/dive",
     "owner": "wagoodman",
-    "description": "wagoodman/dive 是一个面向数据分析场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "wagoodman/dive 是一个面向数据分析场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -9992,7 +9992,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "数据分析",
-    "summary": "A tool for exploring each layer in a docker image",
+    "summary": "wagoodman/dive 是一个面向数据分析场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "数据洞察",
@@ -10016,7 +10016,7 @@
     "repo_id": 91629816,
     "repo_name": "freqtrade/freqtrade",
     "owner": "freqtrade",
-    "description": "freqtrade/freqtrade 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "freqtrade/freqtrade 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "keyword:trading bot"
     ],
@@ -10052,7 +10052,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Free, open source crypto trading bot",
+    "summary": "freqtrade/freqtrade 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -10072,7 +10072,7 @@
     "repo_id": 3544424,
     "repo_name": "httpie/cli",
     "owner": "httpie",
-    "description": "httpie/cli 是一个面向办公协作场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "httpie/cli 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:cli",
       "topic:developer-tools"
@@ -10123,7 +10123,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "办公协作",
-    "summary": "🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more.",
+    "summary": "httpie/cli 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "文档协作",
@@ -10145,7 +10145,7 @@
     "repo_id": 3638964,
     "repo_name": "ansible/ansible",
     "owner": "ansible",
-    "description": "ansible/ansible 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "ansible/ansible 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "trending:daily"
     ],
@@ -10174,7 +10174,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deplo",
+    "summary": "ansible/ansible 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -10194,7 +10194,7 @@
     "repo_id": 1131513930,
     "repo_name": "ZhuLinsen/daily_stock_analysis",
     "owner": "ZhuLinsen",
-    "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashbo",
+    "description": "ZhuLinsen/daily_stock_analysis 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AIGC",
       "keyword:stock analysis",
@@ -10237,7 +10237,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashbo",
+    "summary": "ZhuLinsen/daily_stock_analysis 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -10257,7 +10257,7 @@
     "repo_id": 1266797999,
     "repo_name": "DietrichGebert/ponytail",
     "owner": "DietrichGebert",
-    "description": "DietrichGebert/ponytail 是一个面向软件开发场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "DietrichGebert/ponytail 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "keyword:AI agent",
       "topic:agent-skills",
@@ -10300,7 +10300,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "软件开发",
-    "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "summary": "DietrichGebert/ponytail 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "代码生成",
@@ -10320,7 +10320,7 @@
     "repo_id": 65252,
     "repo_name": "jekyll/jekyll",
     "owner": "jekyll",
-    "description": "jekyll/jekyll 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "jekyll/jekyll 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:markdown"
     ],
@@ -10353,7 +10353,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": ":globe_with_meridians: Jekyll is a blog-aware static site generator in Ruby",
+    "summary": "jekyll/jekyll 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -10373,7 +10373,7 @@
     "repo_id": 656099147,
     "repo_name": "mem0ai/mem0",
     "owner": "mem0ai",
-    "description": "mem0ai/mem0 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "mem0ai/mem0 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent"
     ],
@@ -10413,7 +10413,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Universal memory layer for AI Agents",
+    "summary": "mem0ai/mem0 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -10433,7 +10433,7 @@
     "repo_id": 1032459340,
     "repo_name": "Fission-AI/OpenSpec",
     "owner": "Fission-AI",
-    "description": "Fission-AI/OpenSpec 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "Fission-AI/OpenSpec 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI coding",
       "keyword:coding assistant"
@@ -10472,7 +10472,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Spec-driven development (SDD) for AI coding assistants.",
+    "summary": "Fission-AI/OpenSpec 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -10492,7 +10492,7 @@
     "repo_id": 164140756,
     "repo_name": "files-community/Files",
     "owner": "files-community",
-    "description": "files-community/Files 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "files-community/Files 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:developer-tools"
     ],
@@ -10539,7 +10539,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "A modern file manager that helps users organize their files and folders.",
+    "summary": "files-community/Files 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -10559,7 +10559,7 @@
     "repo_id": 511987144,
     "repo_name": "imputnet/cobalt",
     "owner": "imputnet",
-    "description": "imputnet/cobalt 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "imputnet/cobalt 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:social-media",
       "topic:video"
@@ -10606,7 +10606,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "best way to save what you love",
+    "summary": "imputnet/cobalt 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -10626,7 +10626,7 @@
     "repo_id": 1146738089,
     "repo_name": "nanocoai/nanoclaw",
     "owner": "nanocoai",
-    "description": "nanocoai/nanoclaw 是一个面向知识管理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "nanocoai/nanoclaw 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:claude-code",
       "topic:claude-skills"
@@ -10661,7 +10661,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "知识管理",
-    "summary": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has",
+    "summary": "nanocoai/nanoclaw 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识沉淀",
@@ -10681,7 +10681,7 @@
     "repo_id": 943398999,
     "repo_name": "x1xhlol/system-prompts-and-models-of-ai-tools",
     "owner": "x1xhlol",
-    "description": "x1xhlol/system-prompts-and-models-of-ai-tools 是一个面向数据分析场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "x1xhlol/system-prompts-and-models-of-ai-tools 是一个面向数据分析场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI coding"
     ],
@@ -10728,7 +10728,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "数据分析",
-    "summary": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qode",
+    "summary": "x1xhlol/system-prompts-and-models-of-ai-tools 是一个面向数据分析场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "数据洞察",
@@ -10749,7 +10749,7 @@
     "repo_id": 909213664,
     "repo_name": "TauricResearch/TradingAgents",
     "owner": "TauricResearch",
-    "description": "TauricResearch/TradingAgents 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "TauricResearch/TradingAgents 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:trading agent",
       "topic:finance",
@@ -10786,7 +10786,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+    "summary": "TauricResearch/TradingAgents 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -10807,7 +10807,7 @@
     "repo_id": 8681349,
     "repo_name": "huginn/huginn",
     "owner": "huginn",
-    "description": "huginn/huginn 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "huginn/huginn 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:rss"
     ],
@@ -10847,7 +10847,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Create agents that monitor and act on your behalf.  Your agents are standing by!",
+    "summary": "huginn/huginn 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -10867,7 +10867,7 @@
     "repo_id": 91253698,
     "repo_name": "ccxt/ccxt",
     "owner": "ccxt",
-    "description": "ccxt/ccxt 是一个面向知识管理场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "ccxt/ccxt 是一个面向知识管理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:trading"
     ],
@@ -10914,7 +10914,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "知识管理",
-    "summary": "A cryptocurrency trading API with more than 100 exchanges in JavaScript / TypeScript / Python / C# / PHP / Go / Java ",
+    "summary": "ccxt/ccxt 是一个面向知识管理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识沉淀",
@@ -10934,7 +10934,7 @@
     "repo_id": 806709826,
     "repo_name": "2noise/ChatTTS",
     "owner": "2noise",
-    "description": "2noise/ChatTTS 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "2noise/ChatTTS 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:llm-agent"
     ],
@@ -10977,7 +10977,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "A generative speech model for daily dialogue.",
+    "summary": "2noise/ChatTTS 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -10997,7 +10997,7 @@
     "repo_id": 515647260,
     "repo_name": "1Panel-dev/1Panel",
     "owner": "1Panel-dev",
-    "description": "1Panel-dev/1Panel 是一个面向产品设计场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "1Panel-dev/1Panel 是一个面向产品设计场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent"
     ],
@@ -11038,7 +11038,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "产品设计",
-    "summary": "🔥 1Panel is a modern, open-source VPS control panel — and the only one with native AI agent support. Run Ollama models, deploy OpenClaw agents, and manage your ",
+    "summary": "1Panel-dev/1Panel 是一个面向产品设计场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "原型与设计产出",
@@ -11058,7 +11058,7 @@
     "repo_id": 1048065319,
     "repo_name": "thedotmack/claude-mem",
     "owner": "thedotmack",
-    "description": "thedotmack/claude-mem 是一个面向知识管理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "thedotmack/claude-mem 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:claude-code",
       "topic:claude-skills"
@@ -11107,7 +11107,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "知识管理",
-    "summary": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
+    "summary": "thedotmack/claude-mem 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识沉淀",
@@ -11128,7 +11128,7 @@
     "repo_id": 31522041,
     "repo_name": "vnpy/vnpy",
     "owner": "vnpy",
-    "description": "基于Python的开源量化交易平台开发框架",
+    "description": "vnpy/vnpy 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:finance",
       "topic:investment",
@@ -11169,7 +11169,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "基于Python的开源量化交易平台开发框架",
+    "summary": "vnpy/vnpy 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -11190,7 +11190,7 @@
     "repo_id": 6731432,
     "repo_name": "koalaman/shellcheck",
     "owner": "koalaman",
-    "description": "koalaman/shellcheck 是一个面向数据分析场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "koalaman/shellcheck 是一个面向数据分析场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:developer-tools"
     ],
@@ -11223,7 +11223,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "数据分析",
-    "summary": "ShellCheck, a static analysis tool for shell scripts",
+    "summary": "koalaman/shellcheck 是一个面向数据分析场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "数据洞察",
@@ -11243,7 +11243,7 @@
     "repo_id": 1158588224,
     "repo_name": "AlexsJones/llmfit",
     "owner": "AlexsJones",
-    "description": "AlexsJones/llmfit 是一个面向其他场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "AlexsJones/llmfit 是一个面向其他场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:skill"
     ],
@@ -11277,7 +11277,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "其他",
-    "summary": "Hundreds of models & providers. One command to find what runs on your hardware.",
+    "summary": "AlexsJones/llmfit 是一个面向其他场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "能力复用",
@@ -11297,7 +11297,7 @@
     "repo_id": 895508656,
     "repo_name": "microsoft/ai-agents-for-beginners",
     "owner": "microsoft",
-    "description": "microsoft/ai-agents-for-beginners 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "microsoft/ai-agents-for-beginners 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent"
     ],
@@ -11331,7 +11331,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "12 Lessons to Get Started Building AI Agents",
+    "summary": "microsoft/ai-agents-for-beginners 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -11352,7 +11352,7 @@
     "repo_id": 651517185,
     "repo_name": "NanmiCoder/MediaCrawler",
     "owner": "NanmiCoder",
-    "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫",
+    "description": "NanmiCoder/MediaCrawler 是一个面向知识管理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:小红书",
       "keyword:抖音"
@@ -11380,7 +11380,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "知识管理",
-    "summary": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫",
+    "summary": "NanmiCoder/MediaCrawler 是一个面向知识管理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识沉淀",
@@ -11401,7 +11401,7 @@
     "repo_id": 190729906,
     "repo_name": "Budibase/budibase",
     "owner": "Budibase",
-    "description": "Budibase/budibase 是一个面向数据分析场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "Budibase/budibase 是一个面向数据分析场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent",
       "topic:workflow-automation"
@@ -11450,7 +11450,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "数据分析",
-    "summary": "AI agents, automations and apps that run your operations. Model agnostic.",
+    "summary": "Budibase/budibase 是一个面向数据分析场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "数据洞察",
@@ -11470,7 +11470,7 @@
     "repo_id": 7613257,
     "repo_name": "SeleniumHQ/selenium",
     "owner": "SeleniumHQ",
-    "description": "SeleniumHQ/selenium 是一个面向自动化运营场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "SeleniumHQ/selenium 是一个面向自动化运营场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "keyword:browser automation"
     ],
@@ -11506,7 +11506,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "自动化运营",
-    "summary": "A browser automation framework and ecosystem.",
+    "summary": "SeleniumHQ/selenium 是一个面向自动化运营场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "流程自动执行",
@@ -11527,7 +11527,7 @@
     "repo_id": 49122742,
     "repo_name": "binarywang/WxJava",
     "owner": "binarywang",
-    "description": "微信开发 Java SDK ，支持包括微信支付，开放平台，小程序，企业微信，视频号，公众号等的后端开发",
+    "description": "binarywang/WxJava 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "keyword:视频号",
       "topic:wechat"
@@ -11572,7 +11572,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "视频处理",
-    "summary": "微信开发 Java SDK ，支持包括微信支付，开放平台，小程序，企业微信，视频号，公众号等的后端开发",
+    "summary": "binarywang/WxJava 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "视频内容处理",
@@ -11593,7 +11593,7 @@
     "repo_id": 74260508,
     "repo_name": "docsifyjs/docsify",
     "owner": "docsifyjs",
-    "description": "docsifyjs/docsify 是一个面向办公协作场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "docsifyjs/docsify 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:markdown"
     ],
@@ -11629,7 +11629,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "办公协作",
-    "summary": "🃏 A magical documentation site generator.",
+    "summary": "docsifyjs/docsify 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "文档协作",
@@ -11650,7 +11650,7 @@
     "repo_id": 53370988,
     "repo_name": "GoogleChrome/lighthouse",
     "owner": "GoogleChrome",
-    "description": "GoogleChrome/lighthouse 是一个面向数据分析场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "GoogleChrome/lighthouse 是一个面向数据分析场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:developer-tools"
     ],
@@ -11686,7 +11686,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "数据分析",
-    "summary": "Automated auditing, performance metrics, and best practices for the web.",
+    "summary": "GoogleChrome/lighthouse 是一个面向数据分析场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "数据洞察",
@@ -11707,7 +11707,7 @@
     "repo_id": 15225670,
     "repo_name": "jitsi/jitsi-meet",
     "owner": "jitsi",
-    "description": "jitsi/jitsi-meet 是一个面向视频处理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "jitsi/jitsi-meet 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:video"
     ],
@@ -11745,7 +11745,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "视频处理",
-    "summary": "Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.",
+    "summary": "jitsi/jitsi-meet 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "视频内容处理",
@@ -11766,7 +11766,7 @@
     "repo_id": 34777562,
     "repo_name": "ossrs/srs",
     "owner": "ossrs",
-    "description": "ossrs/srs 是一个面向视频处理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "ossrs/srs 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:video"
     ],
@@ -11814,7 +11814,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "视频处理",
-    "summary": "SRS is a simple, high-efficiency, real-time media server supporting RTMP, WebRTC, HLS, HTTP-FLV, HTTP-TS, SRT, MPEG-DASH, and GB28181, with codec support for H.",
+    "summary": "ossrs/srs 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "视频内容处理",
@@ -11835,7 +11835,7 @@
     "repo_id": 196760810,
     "repo_name": "Ebazhanov/linkedin-skill-assessments-quizzes",
     "owner": "Ebazhanov",
-    "description": "Ebazhanov/linkedin-skill-assessments-quizzes 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "Ebazhanov/linkedin-skill-assessments-quizzes 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:skills"
     ],
@@ -11882,7 +11882,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Full reference of LinkedIn answers 2024 for skill assessments (aws-lambda, rest-api, javascript, react, git, html, jquery, mongodb, java, Go, python, machine-le",
+    "summary": "Ebazhanov/linkedin-skill-assessments-quizzes 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -11903,7 +11903,7 @@
     "repo_id": 710601088,
     "repo_name": "crewAIInc/crewAI",
     "owner": "crewAIInc",
-    "description": "crewAIInc/crewAI 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "crewAIInc/crewAI 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent"
     ],
@@ -11934,7 +11934,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tac",
+    "summary": "crewAIInc/crewAI 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -11955,7 +11955,7 @@
     "repo_id": 822604462,
     "repo_name": "666ghj/BettaFish",
     "owner": "666ghj",
-    "description": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。",
+    "description": "666ghj/BettaFish 是一个面向视频处理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:agent-framework"
     ],
@@ -11992,7 +11992,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "视频处理",
-    "summary": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。",
+    "summary": "666ghj/BettaFish 是一个面向视频处理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "视频内容处理",
@@ -12013,7 +12013,7 @@
     "repo_id": 1135212071,
     "repo_name": "coreyhaines31/marketingskills",
     "owner": "coreyhaines31",
-    "description": "coreyhaines31/marketingskills 是一个面向数据分析场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "coreyhaines31/marketingskills 是一个面向数据分析场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent",
       "keyword:copywriting"
@@ -12046,7 +12046,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "数据分析",
-    "summary": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+    "summary": "coreyhaines31/marketingskills 是一个面向数据分析场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "数据洞察",
@@ -12067,7 +12067,7 @@
     "repo_id": 906251482,
     "repo_name": "ashishpatel26/500-AI-Agents-Projects",
     "owner": "ashishpatel26",
-    "description": "ashishpatel26/500-AI-Agents-Projects 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "ashishpatel26/500-AI-Agents-Projects 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent"
     ],
@@ -12096,7 +12096,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to op",
+    "summary": "ashishpatel26/500-AI-Agents-Projects 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -12117,7 +12117,7 @@
     "repo_id": 1167300963,
     "repo_name": "Imbad0202/academic-research-skills",
     "owner": "Imbad0202",
-    "description": "Imbad0202/academic-research-skills 是一个面向内容创作场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "Imbad0202/academic-research-skills 是一个面向内容创作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:claude-code"
     ],
@@ -12153,7 +12153,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "内容创作",
-    "summary": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+    "summary": "Imbad0202/academic-research-skills 是一个面向内容创作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "内容生成",
@@ -12174,7 +12174,7 @@
     "repo_id": 853189791,
     "repo_name": "PDFMathTranslate/PDFMathTranslate",
     "owner": "PDFMathTranslate",
-    "description": "[EMNLP 2025 Demo] PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Z",
+    "description": "PDFMathTranslate/PDFMathTranslate 是一个面向信息搜集场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:mcp"
     ],
@@ -12222,7 +12222,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "信息搜集",
-    "summary": "[EMNLP 2025 Demo] PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Z",
+    "summary": "PDFMathTranslate/PDFMathTranslate 是一个面向信息搜集场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "资料收集",
@@ -12246,7 +12246,7 @@
     "repo_id": 331293626,
     "repo_name": "refinedev/refine",
     "owner": "refinedev",
-    "description": "refinedev/refine 是一个面向数据分析场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "refinedev/refine 是一个面向数据分析场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:developer-tools"
     ],
@@ -12294,7 +12294,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "数据分析",
-    "summary": "A React Framework for building  internal tools, admin panels, dashboards & B2B apps with unmatched flexibility.",
+    "summary": "refinedev/refine 是一个面向数据分析场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "数据洞察",
@@ -12315,7 +12315,7 @@
     "repo_id": 679237742,
     "repo_name": "Pythagora-io/gpt-pilot",
     "owner": "Pythagora-io",
-    "description": "Pythagora-io/gpt-pilot 是一个面向信息搜集场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "Pythagora-io/gpt-pilot 是一个面向信息搜集场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:codegen",
       "topic:developer-tools"
@@ -12351,7 +12351,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "信息搜集",
-    "summary": "The first real AI developer",
+    "summary": "Pythagora-io/gpt-pilot 是一个面向信息搜集场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "资料收集",
@@ -12372,7 +12372,7 @@
     "repo_id": 471728341,
     "repo_name": "slymnoyann/hey-1",
     "owner": "slymnoyann",
-    "description": "slymnoyann/hey-1 是一个面向市场营销场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "slymnoyann/hey-1 是一个面向市场营销场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:social-media"
     ],
@@ -12415,7 +12415,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "市场营销",
-    "summary": "Hey is a decentralized and permissionless social media app built with Lens Protocol 🌿",
+    "summary": "slymnoyann/hey-1 是一个面向市场营销场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "营销内容生成",
@@ -12436,7 +12436,7 @@
     "repo_id": 18280236,
     "repo_name": "GitbookIO/gitbook",
     "owner": "GitbookIO",
-    "description": "GitbookIO/gitbook 是一个面向其他场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "GitbookIO/gitbook 是一个面向其他场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:markdown"
     ],
@@ -12468,7 +12468,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "其他",
-    "summary": "The open source frontend for GitBook doc sites",
+    "summary": "GitbookIO/gitbook 是一个面向其他场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "能力复用",
@@ -12489,7 +12489,7 @@
     "repo_id": 65848095,
     "repo_name": "requarks/wiki",
     "owner": "requarks",
-    "description": "requarks/wiki 是一个面向知识管理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "requarks/wiki 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:markdown"
     ],
@@ -12524,7 +12524,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "知识管理",
-    "summary": "Wiki.js | A modern and powerful wiki app built on Node.js",
+    "summary": "requarks/wiki 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识沉淀",
@@ -12545,7 +12545,7 @@
     "repo_id": 749126547,
     "repo_name": "ScrapeGraphAI/Scrapegraph-ai",
     "owner": "ScrapeGraphAI",
-    "description": "ScrapeGraphAI/Scrapegraph-ai 是一个面向知识管理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "ScrapeGraphAI/Scrapegraph-ai 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:markdown"
     ],
@@ -12593,7 +12593,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "知识管理",
-    "summary": "Python scraper based on AI",
+    "summary": "ScrapeGraphAI/Scrapegraph-ai 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识沉淀",
@@ -12614,7 +12614,7 @@
     "repo_id": 1136666433,
     "repo_name": "blader/humanizer",
     "owner": "blader",
-    "description": "blader/humanizer 是一个面向内容创作场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "blader/humanizer 是一个面向内容创作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "keyword:Claude Code skill"
     ],
@@ -12641,7 +12641,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "内容创作",
-    "summary": "Claude Code skill that removes signs of AI-generated writing from text",
+    "summary": "blader/humanizer 是一个面向内容创作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "内容生成",
@@ -12662,7 +12662,7 @@
     "repo_id": 486815039,
     "repo_name": "actualbudget/actual",
     "owner": "actualbudget",
-    "description": "actualbudget/actual 是一个面向投资研究场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "actualbudget/actual 是一个面向投资研究场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:finance"
     ],
@@ -12694,7 +12694,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "投资研究",
-    "summary": "A local-first personal finance app",
+    "summary": "actualbudget/actual 是一个面向投资研究场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "市场信息分析",
@@ -12715,7 +12715,7 @@
     "repo_id": 758002818,
     "repo_name": "systemdesign42/system-design-academy",
     "owner": "systemdesign42",
-    "description": "systemdesign42/system-design-academy 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "systemdesign42/system-design-academy 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "keyword:newsletter"
     ],
@@ -12753,7 +12753,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "If you want to become good at AI & system design, join this newsletter 👇",
+    "summary": "systemdesign42/system-design-academy 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -12774,7 +12774,7 @@
     "repo_id": 982587624,
     "repo_name": "opendataloader-project/opendataloader-pdf",
     "owner": "opendataloader-project",
-    "description": "opendataloader-project/opendataloader-pdf 是一个面向知识管理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "opendataloader-project/opendataloader-pdf 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:markdown"
     ],
@@ -12822,7 +12822,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "知识管理",
-    "summary": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
+    "summary": "opendataloader-project/opendataloader-pdf 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识沉淀",
@@ -12843,7 +12843,7 @@
     "repo_id": 655515393,
     "repo_name": "CopilotKit/CopilotKit",
     "owner": "CopilotKit",
-    "description": "CopilotKit/CopilotKit 是一个面向产品设计场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "CopilotKit/CopilotKit 是一个面向产品设计场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:ai-agent"
     ],
@@ -12890,7 +12890,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "产品设计",
-    "summary": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol",
+    "summary": "CopilotKit/CopilotKit 是一个面向产品设计场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "原型与设计产出",
@@ -12911,7 +12911,7 @@
     "repo_id": 396569538,
     "repo_name": "khoj-ai/khoj",
     "owner": "khoj-ai",
-    "description": "khoj-ai/khoj 是一个面向知识管理场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "khoj-ai/khoj 是一个面向知识管理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:research"
     ],
@@ -12959,7 +12959,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "知识管理",
-    "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or loca",
+    "summary": "khoj-ai/khoj 是一个面向知识管理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识沉淀",
@@ -12980,7 +12980,7 @@
     "repo_id": 1032808806,
     "repo_name": "usestrix/strix",
     "owner": "usestrix",
-    "description": "usestrix/strix 是一个面向安全攻防场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "usestrix/strix 是一个面向安全攻防场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "trending:daily",
       "trending:weekly"
@@ -13030,7 +13030,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "安全攻防",
-    "summary": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+    "summary": "usestrix/strix 是一个面向安全攻防场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "风险识别",
@@ -13051,7 +13051,7 @@
     "repo_id": 1195360525,
     "repo_name": "calesthio/OpenMontage",
     "owner": "calesthio",
-    "description": "calesthio/OpenMontage 是一个面向视频处理场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "calesthio/OpenMontage 是一个面向视频处理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI coding",
       "keyword:agent skill",
@@ -13104,7 +13104,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "视频处理",
-    "summary": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video productio",
+    "summary": "calesthio/OpenMontage 是一个面向视频处理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "视频内容处理",
@@ -13125,7 +13125,7 @@
     "repo_id": 1008857871,
     "repo_name": "hsliuping/TradingAgents-CN",
     "owner": "hsliuping",
-    "description": "基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版",
+    "description": "hsliuping/TradingAgents-CN 是一个面向投资研究场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:trading agent"
     ],
@@ -13151,7 +13151,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "投资研究",
-    "summary": "基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版",
+    "summary": "hsliuping/TradingAgents-CN 是一个面向投资研究场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "市场信息分析",
@@ -13172,7 +13172,7 @@
     "repo_id": 912559512,
     "repo_name": "simstudioai/sim",
     "owner": "simstudioai",
-    "description": "simstudioai/sim 是一个面向知识管理场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "simstudioai/sim 是一个面向知识管理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent"
     ],
@@ -13217,7 +13217,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "知识管理",
-    "summary": "Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce.",
+    "summary": "simstudioai/sim 是一个面向知识管理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识沉淀",
@@ -13238,7 +13238,7 @@
     "repo_id": 1112540808,
     "repo_name": "vercel-labs/agent-skills",
     "owner": "vercel-labs",
-    "description": "vercel-labs/agent-skills 是一个面向信息搜集场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "vercel-labs/agent-skills 是一个面向信息搜集场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:agent skill"
     ],
@@ -13265,7 +13265,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "信息搜集",
-    "summary": "Vercel's official collection of agent skills",
+    "summary": "vercel-labs/agent-skills 是一个面向信息搜集场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "资料收集",
@@ -13286,7 +13286,7 @@
     "repo_id": 849406496,
     "repo_name": "Fincept-Corporation/FinceptTerminal",
     "owner": "Fincept-Corporation",
-    "description": "Fincept-Corporation/FinceptTerminal 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "Fincept-Corporation/FinceptTerminal 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:investment research",
       "topic:finance",
@@ -13337,7 +13337,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive explo",
+    "summary": "Fincept-Corporation/FinceptTerminal 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -13358,7 +13358,7 @@
     "repo_id": 1163834030,
     "repo_name": "CloakHQ/CloakBrowser",
     "owner": "CloakHQ",
-    "description": "CloakHQ/CloakBrowser 是一个面向自动化运营场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "CloakHQ/CloakBrowser 是一个面向自动化运营场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:browser-automation"
     ],
@@ -13406,7 +13406,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "自动化运营",
-    "summary": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+    "summary": "CloakHQ/CloakBrowser 是一个面向自动化运营场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "流程自动执行",
@@ -13427,7 +13427,7 @@
     "repo_id": 552877440,
     "repo_name": "juspay/hyperswitch",
     "owner": "juspay",
-    "description": "juspay/hyperswitch 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "juspay/hyperswitch 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:finance"
     ],
@@ -13474,7 +13474,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and toke",
+    "summary": "juspay/hyperswitch 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -13495,7 +13495,7 @@
     "repo_id": 792861139,
     "repo_name": "glanceapp/glance",
     "owner": "glanceapp",
-    "description": "glanceapp/glance 是一个面向视频处理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "glanceapp/glance 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:rss"
     ],
@@ -13537,7 +13537,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "视频处理",
-    "summary": "A self-hosted dashboard that puts all your feeds in one place",
+    "summary": "glanceapp/glance 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "视频内容处理",
@@ -13558,7 +13558,7 @@
     "repo_id": 614764248,
     "repo_name": "TabbyML/tabby",
     "owner": "TabbyML",
-    "description": "TabbyML/tabby 是一个面向软件开发场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "TabbyML/tabby 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "keyword:AI coding",
       "keyword:coding assistant",
@@ -13601,7 +13601,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "软件开发",
-    "summary": "Self-hosted AI coding assistant",
+    "summary": "TabbyML/tabby 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "代码生成",
@@ -13622,7 +13622,7 @@
     "repo_id": 436658287,
     "repo_name": "surrealdb/surrealdb",
     "owner": "surrealdb",
-    "description": "surrealdb/surrealdb 是一个面向数据分析场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "surrealdb/surrealdb 是一个面向数据分析场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:developer-tools",
       "topic:devtools"
@@ -13670,7 +13670,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "数据分析",
-    "summary": "A scalable, distributed, collaborative, document-graph database, for the realtime web",
+    "summary": "surrealdb/surrealdb 是一个面向数据分析场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "数据洞察",
@@ -13691,7 +13691,7 @@
     "repo_id": 333483116,
     "repo_name": "dgtlmoon/changedetection.io",
     "owner": "dgtlmoon",
-    "description": "dgtlmoon/changedetection.io 是一个面向投资研究场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "dgtlmoon/changedetection.io 是一个面向投资研究场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:rss"
     ],
@@ -13739,7 +13739,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "投资研究",
-    "summary": "Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock ",
+    "summary": "dgtlmoon/changedetection.io 是一个面向投资研究场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "市场信息分析",
@@ -13760,7 +13760,7 @@
     "repo_id": 598667202,
     "repo_name": "lightpanda-io/browser",
     "owner": "lightpanda-io",
-    "description": "lightpanda-io/browser 是一个面向产品设计场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "lightpanda-io/browser 是一个面向产品设计场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:browser-automation"
     ],
@@ -13796,7 +13796,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "产品设计",
-    "summary": "Lightpanda: the headless browser designed for AI and automation",
+    "summary": "lightpanda-io/browser 是一个面向产品设计场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "原型与设计产出",
@@ -13817,7 +13817,7 @@
     "repo_id": 1118601518,
     "repo_name": "Wei-Shaw/sub2api",
     "owner": "Wei-Shaw",
-    "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+    "description": "Wei-Shaw/sub2api 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:claude-code"
     ],
@@ -13854,7 +13854,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "软件开发",
-    "summary": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+    "summary": "Wei-Shaw/sub2api 是一个面向软件开发场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "代码生成",
@@ -13875,7 +13875,7 @@
     "repo_id": 557075997,
     "repo_name": "reflex-dev/reflex",
     "owner": "reflex-dev",
-    "description": "reflex-dev/reflex 是一个面向数据分析场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "reflex-dev/reflex 是一个面向数据分析场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:developer-tools"
     ],
@@ -13914,7 +13914,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "数据分析",
-    "summary": "🕸️ Web apps in pure Python 🐍",
+    "summary": "reflex-dev/reflex 是一个面向数据分析场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "数据洞察",
@@ -13935,7 +13935,7 @@
     "repo_id": 90356372,
     "repo_name": "ArchiveBox/ArchiveBox",
     "owner": "ArchiveBox",
-    "description": "ArchiveBox/ArchiveBox 是一个面向视频处理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "ArchiveBox/ArchiveBox 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:rss"
     ],
@@ -13983,7 +13983,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "视频处理",
-    "summary": "🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more...",
+    "summary": "ArchiveBox/ArchiveBox 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "视频内容处理",
@@ -14004,7 +14004,7 @@
     "repo_id": 245049028,
     "repo_name": "koodo-reader/koodo-reader",
     "owner": "koodo-reader",
-    "description": "koodo-reader/koodo-reader 是一个面向学习场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "koodo-reader/koodo-reader 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:markdown"
     ],
@@ -14050,7 +14050,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux, Android, iOS and Web",
+    "summary": "koodo-reader/koodo-reader 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识获取",
@@ -14071,7 +14071,7 @@
     "repo_id": 64713769,
     "repo_name": "NickeManarin/ScreenToGif",
     "owner": "NickeManarin",
-    "description": "NickeManarin/ScreenToGif 是一个面向视频处理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "NickeManarin/ScreenToGif 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:video"
     ],
@@ -14106,7 +14106,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "视频处理",
-    "summary": "🎬 ScreenToGif allows you to record a selected area of your screen, edit and save it as a gif or video.",
+    "summary": "NickeManarin/ScreenToGif 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "视频内容处理",
@@ -14127,7 +14127,7 @@
     "repo_id": 679343504,
     "repo_name": "topoteretes/cognee",
     "owner": "topoteretes",
-    "description": "topoteretes/cognee 是一个面向知识管理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "topoteretes/cognee 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "keyword:AI agent",
       "topic:agent-skills"
@@ -14176,7 +14176,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "知识管理",
-    "summary": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engi",
+    "summary": "topoteretes/cognee 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识沉淀",
@@ -14197,7 +14197,7 @@
     "repo_id": 258967860,
     "repo_name": "GraphiteEditor/Graphite",
     "owner": "GraphiteEditor",
-    "description": "GraphiteEditor/Graphite 是一个面向内容创作场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "GraphiteEditor/Graphite 是一个面向内容创作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "keyword:content creation"
     ],
@@ -14244,7 +14244,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "内容创作",
-    "summary": "Community-built comprehensive 2D content creation appplication for graphic design, digital art, and interactive real-time motion graphics powered by a node-base",
+    "summary": "GraphiteEditor/Graphite 是一个面向内容创作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "内容生成",
@@ -14265,7 +14265,7 @@
     "repo_id": 1174820787,
     "repo_name": "karpathy/autoresearch",
     "owner": "karpathy",
-    "description": "karpathy/autoresearch 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "karpathy/autoresearch 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent"
     ],
@@ -14290,7 +14290,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "AI agents running research on single-GPU nanochat training automatically",
+    "summary": "karpathy/autoresearch 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -14310,7 +14310,7 @@
     "repo_id": 579082810,
     "repo_name": "dair-ai/Prompt-Engineering-Guide",
     "owner": "dair-ai",
-    "description": "dair-ai/Prompt-Engineering-Guide 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "dair-ai/Prompt-Engineering-Guide 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent"
     ],
@@ -14347,7 +14347,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
+    "summary": "dair-ai/Prompt-Engineering-Guide 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -14367,7 +14367,7 @@
     "repo_id": 728981719,
     "repo_name": "conductor-oss/conductor",
     "owner": "conductor-oss",
-    "description": "conductor-oss/conductor 是一个面向自动化运营场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "conductor-oss/conductor 是一个面向自动化运营场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent",
       "topic:workflow-automation"
@@ -14411,7 +14411,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "自动化运营",
-    "summary": "Conductor is an event driven agentic workflow engine providing durable and highly resilient execution engine for applications and AI Agents",
+    "summary": "conductor-oss/conductor 是一个面向自动化运营场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "流程自动执行",
@@ -14432,7 +14432,7 @@
     "repo_id": 840056306,
     "repo_name": "getzep/graphiti",
     "owner": "getzep",
-    "description": "getzep/graphiti 是一个面向知识管理场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "getzep/graphiti 是一个面向知识管理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent"
     ],
@@ -14463,7 +14463,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "知识管理",
-    "summary": "Build Real-Time Knowledge Graphs for AI Agents",
+    "summary": "getzep/graphiti 是一个面向知识管理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识沉淀",
@@ -14484,7 +14484,7 @@
     "repo_id": 1002125012,
     "repo_name": "BloopAI/vibe-kanban",
     "owner": "BloopAI",
-    "description": "BloopAI/vibe-kanban 是一个面向软件开发场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "BloopAI/vibe-kanban 是一个面向软件开发场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:coding agent"
     ],
@@ -14516,7 +14516,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "软件开发",
-    "summary": "Get 10X more out of Claude Code, Codex or any coding agent",
+    "summary": "BloopAI/vibe-kanban 是一个面向软件开发场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "代码生成",
@@ -14537,7 +14537,7 @@
     "repo_id": 1128123594,
     "repo_name": "volcengine/OpenViking",
     "owner": "volcengine",
-    "description": "volcengine/OpenViking 是一个面向知识管理场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "volcengine/OpenViking 是一个面向知识管理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "keyword:AI agent"
     ],
@@ -14569,7 +14569,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "知识管理",
-    "summary": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+    "summary": "volcengine/OpenViking 是一个面向知识管理场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识沉淀",
@@ -14590,7 +14590,7 @@
     "repo_id": 28167802,
     "repo_name": "Tencent/weui",
     "owner": "Tencent",
-    "description": "Tencent/weui 是一个面向产品设计场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "Tencent/weui 是一个面向产品设计场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:wechat"
     ],
@@ -14622,7 +14622,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "产品设计",
-    "summary": "A UI library by WeChat official design team, includes the most useful widgets/modules in mobile web applications.",
+    "summary": "Tencent/weui 是一个面向产品设计场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "原型与设计产出",
@@ -14643,7 +14643,7 @@
     "repo_id": 411493648,
     "repo_name": "DevToys-app/DevToys",
     "owner": "DevToys-app",
-    "description": "DevToys-app/DevToys 是一个面向产品设计场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "DevToys-app/DevToys 是一个面向产品设计场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:developer-tools"
     ],
@@ -14690,7 +14690,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "产品设计",
-    "summary": "A Swiss Army knife for developers.",
+    "summary": "DevToys-app/DevToys 是一个面向产品设计场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "原型与设计产出",
@@ -14711,7 +14711,7 @@
     "repo_id": 587586087,
     "repo_name": "LC044/WeChatMsg",
     "owner": "LC044",
-    "description": "LC044/WeChatMsg 的 GitHub 开源项目。",
+    "description": "LC044/WeChatMsg 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:wechat"
     ],
@@ -14742,7 +14742,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "知识管理",
-    "summary": "LC044/WeChatMsg 的 GitHub 开源项目。",
+    "summary": "LC044/WeChatMsg 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "知识沉淀",
@@ -14763,7 +14763,7 @@
     "repo_id": 693342566,
     "repo_name": "ByteByteGoHq/system-design-101",
     "owner": "ByteByteGoHq",
-    "description": "ByteByteGoHq/system-design-101 是一个面向学习场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "ByteByteGoHq/system-design-101 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:software-development"
     ],
@@ -14799,7 +14799,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "学习",
-    "summary": "Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.",
+    "summary": "ByteByteGoHq/system-design-101 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "知识获取",
@@ -14821,7 +14821,7 @@
     "repo_id": 328831244,
     "repo_name": "ibraheemdev/modern-unix",
     "owner": "ibraheemdev",
-    "description": "ibraheemdev/modern-unix 是一个面向信息搜集场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "ibraheemdev/modern-unix 是一个面向信息搜集场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:cli"
     ],
@@ -14857,7 +14857,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "信息搜集",
-    "summary": "A collection of modern/faster/saner alternatives to common unix commands.",
+    "summary": "ibraheemdev/modern-unix 是一个面向信息搜集场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "资料收集",
@@ -14880,7 +14880,7 @@
     "repo_id": 37382858,
     "repo_name": "kilimchoi/engineering-blogs",
     "owner": "kilimchoi",
-    "description": "kilimchoi/engineering-blogs 是一个面向内容创作场景的Agent 项目框架，适合用于适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+    "description": "kilimchoi/engineering-blogs 是一个面向内容创作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "topic:software-development"
     ],
@@ -14911,7 +14911,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "内容创作",
-    "summary": "A curated list of engineering blogs",
+    "summary": "kilimchoi/engineering-blogs 是一个面向内容创作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "内容生成",
@@ -14933,7 +14933,7 @@
     "repo_id": 10446890,
     "repo_name": "bilibili/ijkplayer",
     "owner": "bilibili",
-    "description": "bilibili/ijkplayer 是一个面向视频处理场景的Skill 能力工具，适合用于适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+    "description": "bilibili/ijkplayer 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "matched_queries": [
       "topic:video"
     ],
@@ -14967,7 +14967,7 @@
     "kind": "Skill",
     "kind_confidence": 0.62,
     "category": "视频处理",
-    "summary": "Android/iOS video player based on FFmpeg n3.4, with MediaCodec, VideoToolbox support.",
+    "summary": "bilibili/ijkplayer 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "use_case": "适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
     "solves": [
       "视频内容处理",
@@ -14989,7 +14989,7 @@
     "repo_id": 1008114287,
     "repo_name": "geekjourneyx/md2wechat-mcp-server",
     "owner": "geekjourneyx",
-    "description": "📝 md2wechat MCP Server | 让 Claude Code & AI Agent 一键排版发布到微信公众号",
+    "description": "geekjourneyx/md2wechat-mcp-server 是一个面向内容创作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "matched_queries": [
       "seed:geekjourneyx/md2wechat-mcp-server"
     ],
@@ -15027,7 +15027,7 @@
     "kind": "Agent",
     "kind_confidence": 0.62,
     "category": "内容创作",
-    "summary": "📝 md2wechat MCP Server | 让 Claude Code & AI Agent 一键排版发布到微信公众号",
+    "summary": "geekjourneyx/md2wechat-mcp-server 是一个面向内容创作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "use_case": "适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
     "solves": [
       "内容生成",

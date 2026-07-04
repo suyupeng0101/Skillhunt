@@ -1805,7 +1805,8 @@ def chinese_repo_description(repo: dict[str, Any]) -> str:
     if not use_case or not has_cjk_text(use_case):
         use_case = build_fallback_use_case(repo, repo.get("kind", "Agent"))
     repo_name = str(repo.get("repo_name") or "该项目")
-    return f"{repo_name} 是一个面向{category}场景的{kind_label}，适合用于{use_case}"[:180]
+    use_case_clause = use_case if use_case.startswith(("适合", "用于")) else f"适合用于{use_case}"
+    return f"{repo_name} 是一个面向{category}场景的{kind_label}，{use_case_clause}"[:180]
 
 
 def score_repo(repo: dict[str, Any]) -> dict[str, Any]:
@@ -1821,7 +1822,9 @@ def score_repo(repo: dict[str, Any]) -> dict[str, Any]:
     item["maintenance_score"] = score_maintenance(item)
     recommendation = item["usability_score"] * 0.5 + item["adoption_score"] * 0.3 + item["maintenance_score"] * 0.2
     item["recommendation_score"] = clamp_score(recommendation)
-    item["description"] = chinese_repo_description(item)
+    chinese_description = chinese_repo_description(item)
+    item["description"] = chinese_description
+    item["summary"] = chinese_description
     item.pop("readme_snippet", None)
     item.pop("initial_kind", None)
     return item
