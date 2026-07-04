@@ -22,7 +22,7 @@ jobs:
       # suyupeng0101, so keep this workflow free of external `uses:` actions.
       - name: Checkout repository
         env:
-          CHECKOUT_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKENS || secrets.PERSONAL_ACCESS_TOKEN || secrets.GH_TOKEN || github.token }}
+          CHECKOUT_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           if [ -z "${CHECKOUT_TOKEN}" ]; then
@@ -105,7 +105,7 @@ jobs:
 
       - name: Commit generated data
         env:
-          PUSH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKENS || secrets.PERSONAL_ACCESS_TOKEN || secrets.GH_TOKEN || github.token }}
+          PUSH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           if [ -z "${PUSH_TOKEN}" ]; then
