@@ -139,10 +139,12 @@ cp .env.example .env
 
 ```env
 PERSONAL_ACCESS_TOKENS=your_github_personal_access_token
-MODEL_PROVIDER=openai-compatible
-MODEL_API_KEY=your_model_api_key
-MODEL_API_BASE=https://api.siliconflow.cn/v1/chat/completions
-MODEL_NAME=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B
+MODEL_PROVIDER=bailian
+MODEL_API_KEY=your_bailian_or_dashscope_api_key
+MODEL_API_BASE=
+MODEL_NAME=qwen3.7-plus
+BAILIAN_WORKSPACE_ID=your_bailian_workspace_id
+BAILIAN_REGION=cn-beijing
 ```
 
 说明：
@@ -203,10 +205,12 @@ http://127.0.0.1:8000/
 - `PERSONAL_ACCESS_TOKEN`：兼容的备用命名
 - `GITHUB_PERSONAL_ACCESS_TOKEN`：兼容的备用命名
 - `GH_TOKEN` / `GITHUB_TOKEN`：兼容 fallback
-- `MODEL_PROVIDER`：可选，模型服务商标签，默认示例为 `openai-compatible`
+- `MODEL_PROVIDER`：可选，模型服务商标签，默认示例为 `bailian`
 - `MODEL_API_KEY`：模型 API Key
-- `MODEL_API_BASE`：OpenAI-compatible Chat Completions endpoint，当前示例为 SiliconFlow 地址
-- `MODEL_NAME`：模型名称，当前示例为 `deepseek-ai/DeepSeek-R1-0528-Qwen3-8B`
+- `MODEL_API_BASE`：OpenAI-compatible Chat Completions endpoint；留空时百炼会按 `BAILIAN_WORKSPACE_ID` 自动生成 endpoint
+- `MODEL_NAME`：模型名称，当前示例为 `qwen3.7-plus`
+- `BAILIAN_WORKSPACE_ID`：可选，阿里云百炼 Workspace ID；填写后使用 `https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions`
+- `BAILIAN_REGION`：可选，百炼地域，默认 `cn-beijing`
 - `SKILL_SEARCH_MIN_STARS`：可选，Skill 主检索 star 阈值，默认 `1000`
 - `AGENT_SEARCH_MIN_STARS`：可选，Agent 主检索 star 阈值，默认 `2000`
 - `MAX_RESULTS_PER_QUERY`：可选，限制每个 query 返回数量
@@ -220,6 +224,7 @@ http://127.0.0.1:8000/
 - `CANDIDATE_NOISE_TERMS`：可选，按仓库名或 topic 过滤明显噪音词
 - `README_FETCH_LIMIT`：可选，限制本轮最多拉取多少个 README，`0` 表示不限制
 - `HTTP_TIMEOUT`：可选，请求超时时间
+- `MODEL_HTTP_TIMEOUT`：可选，模型请求超时时间，默认跟随 `HTTP_TIMEOUT`；Actions 默认设为 `60`
 - `GITHUB_REQUEST_INTERVAL_SECONDS`：可选，GitHub API 请求间隔，默认 `0.2`
 - `GITHUB_SEARCH_REQUEST_INTERVAL_SECONDS`：可选，GitHub Search API 请求间隔，默认 `2.2`
 - `GITHUB_WAIT_ON_RATE_LIMIT`：可选，遇到 GitHub rate limit 是否等待重试，默认 `1`
@@ -229,9 +234,10 @@ http://127.0.0.1:8000/
 - `MODEL_INPUT_CHAR_BUDGET`：可选，单个模型 batch 的输入字符预算，默认 `90000`
 - `MODEL_MAX_TOKENS`：可选，模型最大输出 token，默认 `4096`；R1/推理模型建议不要设太小
 - `MODEL_REQUEST_INTERVAL_SECONDS`：可选，模型请求间隔，默认 `2.0`
-- `MODEL_MAX_RETRIES`：可选，模型请求最大重试次数，默认 `5`
+- `MODEL_MAX_RETRIES`：可选，模型请求最大重试次数，默认 `1`
 - `MODEL_RETRY_BASE_SECONDS`：可选，模型指数退避基础等待秒数，默认 `2.0`
 - `MODEL_RETRY_MAX_SECONDS`：可选，模型单次最大退避秒数，默认 `60.0`
+- `MODEL_FAILURE_CIRCUIT_BREAKER`：可选，连续多少个模型 batch 失败后熔断并改用本地启发式分析，默认 `3`
 - `LOG_LEVEL`：可选，默认 `INFO`，调试时可设为 `DEBUG`
 - `DEBUG_LOG_FILE`：可选，默认 `data/debug.log`
 
@@ -246,7 +252,9 @@ AI_BATCH_SIZE=8
 MODEL_INPUT_CHAR_BUDGET=90000
 MODEL_MAX_TOKENS=4096
 MODEL_REQUEST_INTERVAL_SECONDS=2.0
-MODEL_MAX_RETRIES=5
+MODEL_HTTP_TIMEOUT=60
+MODEL_MAX_RETRIES=1
+MODEL_FAILURE_CIRCUIT_BREAKER=3
 GITHUB_REQUEST_INTERVAL_SECONDS=0.2
 GITHUB_SEARCH_REQUEST_INTERVAL_SECONDS=2.2
 GITHUB_WAIT_ON_RATE_LIMIT=1

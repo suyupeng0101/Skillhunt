@@ -94,22 +94,25 @@ ANALYSIS_REPO_LIMIT = int(os.getenv("ANALYSIS_REPO_LIMIT", "0"))
 
 # 网络和模型限速参数。GitHub 与模型分别节流，因为二者的限制策略不同。
 HTTP_TIMEOUT = int(os.getenv("HTTP_TIMEOUT", "30"))
+MODEL_HTTP_TIMEOUT = int(os.getenv("MODEL_HTTP_TIMEOUT", str(HTTP_TIMEOUT)))
 GITHUB_REQUEST_INTERVAL_SECONDS = float(os.getenv("GITHUB_REQUEST_INTERVAL_SECONDS", "0.2"))
 GITHUB_SEARCH_REQUEST_INTERVAL_SECONDS = float(os.getenv("GITHUB_SEARCH_REQUEST_INTERVAL_SECONDS", "2.2"))
 GITHUB_WAIT_ON_RATE_LIMIT = os.getenv("GITHUB_WAIT_ON_RATE_LIMIT", "1") != "0"
 GITHUB_RATE_LIMIT_RETRIES = int(os.getenv("GITHUB_RATE_LIMIT_RETRIES", "2"))
 GITHUB_RATE_LIMIT_MAX_WAIT_SECONDS = float(os.getenv("GITHUB_RATE_LIMIT_MAX_WAIT_SECONDS", "120.0"))
 MODEL_REQUEST_INTERVAL_SECONDS = float(os.getenv("MODEL_REQUEST_INTERVAL_SECONDS", "2.0"))
-MODEL_MAX_RETRIES = int(os.getenv("MODEL_MAX_RETRIES", "5"))
+MODEL_MAX_RETRIES = int(os.getenv("MODEL_MAX_RETRIES", "1"))
 MODEL_RETRY_BASE_SECONDS = float(os.getenv("MODEL_RETRY_BASE_SECONDS", "2.0"))
 MODEL_RETRY_MAX_SECONDS = float(os.getenv("MODEL_RETRY_MAX_SECONDS", "60.0"))
+MODEL_FAILURE_CIRCUIT_BREAKER = int(os.getenv("MODEL_FAILURE_CIRCUIT_BREAKER", "3"))
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO").upper()
 DEBUG_LOG_FILE = os.getenv("DEBUG_LOG_FILE", str(DATA_DIR / "debug.log"))
 
 GITHUB_API = "https://api.github.com"
-DEFAULT_MODEL_PROVIDER = "openai-compatible"
-DEFAULT_MODEL_NAME = "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B"
-DEFAULT_MODEL_API_BASE = "https://api.siliconflow.cn/v1/chat/completions"
+DEFAULT_MODEL_PROVIDER = "bailian"
+DEFAULT_MODEL_NAME = "qwen3.7-plus"
+DEFAULT_MODEL_API_BASE = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
+DEFAULT_BAILIAN_REGION = "cn-beijing"
 MODEL_PROVIDER = os.getenv("MODEL_PROVIDER") or os.getenv("AI_MODEL_PROVIDER") or ""
 MODEL_NAME = os.getenv("MODEL_NAME") or os.getenv("MODEL") or ""
 MODEL_API_BASE = os.getenv("MODEL_API_BASE") or ""
@@ -305,6 +308,11 @@ def is_retryable_model_error(exc: Exception) -> tuple[bool, requests.Response | 
     return False, None, ""
 
 
+def is_model_timeout_error(exc: Exception) -> bool:
+    """Return True for model request timeouts that should not spam stack traces."""
+    return isinstance(exc, requests.Timeout) or "read timed out" in str(exc).lower()
+
+
 def utc_now_iso() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
@@ -352,10 +360,24 @@ def normalize_model_provider(value: str | None) -> str:
     """Normalize model provider aliases used by local env and GitHub Actions."""
     provider = (value or "").strip().lower().replace("_", "-")
     aliases = {
+        "aliyun": "bailian",
+        "alibaba": "bailian",
+        "alibaba-cloud": "bailian",
+        "dashscope": "bailian",
+        "model-studio": "bailian",
         "sf": "siliconflow",
         "silicon-flow": "siliconflow",
     }
     return aliases.get(provider, provider)
+
+
+def bailian_api_base() -> str:
+    """Return the Bailian/DashScope OpenAI-compatible chat-completions endpoint."""
+    workspace_id = (os.getenv("BAILIAN_WORKSPACE_ID") or os.getenv("DASHSCOPE_WORKSPACE_ID") or "").strip()
+    region = (os.getenv("BAILIAN_REGION") or os.getenv("DASHSCOPE_REGION") or DEFAULT_BAILIAN_REGION).strip()
+    if workspace_id:
+        return f"https://{workspace_id}.{region}.maas.aliyuncs.com/compatible-mode/v1/chat/completions"
+    return os.getenv("BAILIAN_API_BASE") or os.getenv("DASHSCOPE_API_BASE") or DEFAULT_MODEL_API_BASE
 
 
 def model_provider() -> str:
@@ -363,6 +385,8 @@ def model_provider() -> str:
     configured = normalize_model_provider(os.getenv("MODEL_PROVIDER") or os.getenv("AI_MODEL_PROVIDER") or MODEL_PROVIDER)
     if configured:
         return configured
+    if os.getenv("BAILIAN_API_KEY") or os.getenv("DASHSCOPE_API_KEY"):
+        return "bailian"
     if os.getenv("SILICONFLOW_API_KEY"):
         return "siliconflow"
     return DEFAULT_MODEL_PROVIDER
@@ -373,6 +397,8 @@ def model_name() -> str:
     generic = os.getenv("MODEL_NAME") or os.getenv("MODEL") or MODEL_NAME
     if generic:
         return generic
+    if model_provider() == "bailian":
+        return os.getenv("BAILIAN_MODEL") or os.getenv("DASHSCOPE_MODEL") or DEFAULT_MODEL_NAME
     if model_provider() == "siliconflow":
         return os.getenv("SILICONFLOW_MODEL") or SILICONFLOW_MODEL
     return DEFAULT_MODEL_NAME
@@ -383,6 +409,8 @@ def model_api_base() -> str:
     generic = os.getenv("MODEL_API_BASE") or MODEL_API_BASE
     if generic:
         return generic
+    if model_provider() == "bailian":
+        return bailian_api_base()
     if model_provider() == "siliconflow":
         return os.getenv("SILICONFLOW_API_BASE") or SILICONFLOW_API_BASE
     return DEFAULT_MODEL_API_BASE
@@ -392,6 +420,8 @@ def model_api_key() -> str | None:
     """Read the API key for the active model provider."""
     generic_key = os.getenv("MODEL_API_KEY")
     provider = model_provider()
+    if provider == "bailian":
+        return os.getenv("BAILIAN_API_KEY") or os.getenv("DASHSCOPE_API_KEY") or generic_key
     if provider == "siliconflow":
         return generic_key or os.getenv("SILICONFLOW_API_KEY")
     return generic_key or os.getenv(f"{provider.upper().replace('-', '_')}_API_KEY")
@@ -1521,7 +1551,7 @@ def call_model(batch: list[dict[str, Any]], taxonomy: dict[str, Any]) -> list[di
             [repo.get("repo_id") for repo in batch],
         )
         try:
-            response = HTTP_SESSION.post(endpoint, headers=headers, json=payload, timeout=HTTP_TIMEOUT)
+            response = HTTP_SESSION.post(endpoint, headers=headers, json=payload, timeout=MODEL_HTTP_TIMEOUT)
             response.raise_for_status()
             content = response.json()["choices"][0]["message"]["content"]
             items = extract_json_array(content)
@@ -1530,14 +1560,21 @@ def call_model(batch: list[dict[str, Any]], taxonomy: dict[str, Any]) -> list[di
         except Exception as exc:  # noqa: BLE001 - intentionally normalized for retry policy
             retryable, response, code = is_retryable_model_error(exc)
             if not retryable or attempt >= MODEL_MAX_RETRIES - 1:
-                LOGGER.exception(
-                    "Model request failed permanently: provider=%s batch_size=%s attempt=%s status=%s code=%s",
+                message = (
+                    "Model request failed permanently: provider=%s batch_size=%s attempt=%s status=%s code=%s error=%s"
+                )
+                args = (
                     model_provider(),
                     len(batch),
                     attempt + 1,
                     response.status_code if response is not None else None,
                     code,
+                    exc.__class__.__name__,
                 )
+                if is_model_timeout_error(exc):
+                    LOGGER.warning(message, *args)
+                else:
+                    LOGGER.exception(message, *args)
                 raise
             wait_seconds = retry_after_seconds(response, attempt)
             LOGGER.warning(
@@ -1609,15 +1646,47 @@ def analyze_repos(repos: list[dict[str, Any]], taxonomy: dict[str, Any], report:
         model_label(),
     )
 
+    consecutive_model_failures = 0
+    model_circuit_open = False
     for batch_number, batch in enumerate(batches, start=1):
         ai_items: list[dict[str, Any]] | None = None
-        if model_api_key():
+        if model_circuit_open:
+            if batch_number == 1 or report.get("model_circuit_breaker_notified") is not True:
+                report["model_circuit_breaker_notified"] = True
+                add_warning(report, "Model analysis circuit breaker is open; using local heuristic analysis for remaining batches.")
+        elif model_api_key():
             LOGGER.info("Model analysis batch started: model=%s batch=%s/%s size=%s", model_label(), batch_number, len(batches), len(batch))
             try:
                 ai_items = call_model(batch, taxonomy)
+                consecutive_model_failures = 0
             except Exception as exc:  # noqa: BLE001 - recorded as degraded pipeline status
-                LOGGER.exception("Model analysis batch failed: model=%s batch=%s", model_label(), batch_number)
+                consecutive_model_failures += 1
+                report["model_batch_failures"] = int(report.get("model_batch_failures") or 0) + 1
+                if is_model_timeout_error(exc):
+                    LOGGER.warning(
+                        "Model analysis batch timed out: model=%s batch=%s/%s consecutive_failures=%s",
+                        model_label(),
+                        batch_number,
+                        len(batches),
+                        consecutive_model_failures,
+                    )
+                else:
+                    LOGGER.exception(
+                        "Model analysis batch failed: model=%s batch=%s/%s consecutive_failures=%s",
+                        model_label(),
+                        batch_number,
+                        len(batches),
+                        consecutive_model_failures,
+                    )
                 add_warning(report, f"Model analysis fallback for batch {batch_number}: {exc.__class__.__name__}")
+                if MODEL_FAILURE_CIRCUIT_BREAKER > 0 and consecutive_model_failures >= MODEL_FAILURE_CIRCUIT_BREAKER:
+                    model_circuit_open = True
+                    report["model_circuit_breaker_tripped"] = True
+                    report["model_circuit_breaker_batch"] = batch_number
+                    add_warning(
+                        report,
+                        f"Model analysis circuit breaker tripped after {consecutive_model_failures} consecutive failures; remaining batches use local heuristic analysis.",
+                    )
         else:
             if batch_number == 1:
                 add_warning(report, f"{model_provider()} model API key is not configured; using local heuristic analysis.")
@@ -1722,6 +1791,26 @@ def score_usability(repo: dict[str, Any]) -> int:
     return clamp_score(score)
 
 
+def has_cjk_text(value: str) -> bool:
+    """Return True when text contains Chinese/Japanese/Korean characters."""
+    return re.search(r"[\u4e00-\u9fff]", value or "") is not None
+
+
+def chinese_repo_description(repo: dict[str, Any]) -> str:
+    """Build the exported Chinese description shown by the frontend radar."""
+    summary = str(repo.get("summary") or "").strip()
+    if summary and has_cjk_text(summary):
+        return summary[:180]
+
+    kind_label = "Skill 能力工具" if repo.get("kind") == "Skill" else "Agent 项目框架"
+    category = str(repo.get("category") or repo.get("category_hint") or "通用").strip()
+    use_case = str(repo.get("use_case") or "").strip()
+    if not use_case or not has_cjk_text(use_case):
+        use_case = build_fallback_use_case(repo, repo.get("kind", "Agent"))
+    repo_name = str(repo.get("repo_name") or "该项目")
+    return f"{repo_name} 是一个面向{category}场景的{kind_label}，适合用于{use_case}"[:180]
+
+
 def score_repo(repo: dict[str, Any]) -> dict[str, Any]:
     """给单个仓库补充分项分数和最终推荐分。"""
     item = deepcopy(repo)
@@ -1735,6 +1824,7 @@ def score_repo(repo: dict[str, Any]) -> dict[str, Any]:
     item["maintenance_score"] = score_maintenance(item)
     recommendation = item["usability_score"] * 0.5 + item["adoption_score"] * 0.3 + item["maintenance_score"] * 0.2
     item["recommendation_score"] = clamp_score(recommendation)
+    item["description"] = chinese_repo_description(item)
     item.pop("readme_snippet", None)
     item.pop("initial_kind", None)
     return item
@@ -1824,6 +1914,9 @@ def build_status(report: dict[str, Any], synced_at: str) -> dict[str, Any]:
         "trending_repos_seen": report.get("trending_repos_seen", 0),
         "trending_repos_added": report.get("trending_repos_added", 0),
         "ai_fallback_count": report.get("ai_fallback_count", 0),
+        "model_batch_failures": report.get("model_batch_failures", 0),
+        "model_circuit_breaker_tripped": report.get("model_circuit_breaker_tripped", False),
+        "model_circuit_breaker_batch": report.get("model_circuit_breaker_batch"),
         "warnings": report.get("warnings", [])[:20],
     }
 

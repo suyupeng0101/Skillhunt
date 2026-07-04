@@ -60,6 +60,8 @@ jobs:
           PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           MODEL_API_KEY: ${{ secrets.MODEL_API_KEY }}
+          BAILIAN_API_KEY: ${{ secrets.BAILIAN_API_KEY }}
+          DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
 
           # Public tuning values: optionally configure these in
           # Settings -> Secrets and variables -> Actions -> Variables.
@@ -81,6 +83,7 @@ jobs:
           README_FETCH_LIMIT: ${{ vars.README_FETCH_LIMIT || '150' }}
           README_MAX_CHARS: ${{ vars.README_MAX_CHARS || '4000' }}
           HTTP_TIMEOUT: ${{ vars.HTTP_TIMEOUT || '30' }}
+          MODEL_HTTP_TIMEOUT: ${{ vars.MODEL_HTTP_TIMEOUT || '60' }}
           GITHUB_REQUEST_INTERVAL_SECONDS: ${{ vars.GITHUB_REQUEST_INTERVAL_SECONDS || '0.3' }}
           GITHUB_SEARCH_REQUEST_INTERVAL_SECONDS: ${{ vars.GITHUB_SEARCH_REQUEST_INTERVAL_SECONDS || '2.2' }}
           GITHUB_WAIT_ON_RATE_LIMIT: ${{ vars.GITHUB_WAIT_ON_RATE_LIMIT || '1' }}
@@ -88,15 +91,18 @@ jobs:
           GITHUB_RATE_LIMIT_MAX_WAIT_SECONDS: ${{ vars.GITHUB_RATE_LIMIT_MAX_WAIT_SECONDS || '120.0' }}
           ANALYSIS_REPO_LIMIT: ${{ vars.ANALYSIS_REPO_LIMIT || '240' }}
           AI_BATCH_SIZE: ${{ vars.AI_BATCH_SIZE || '8' }}
-          MODEL_PROVIDER: ${{ vars.MODEL_PROVIDER || 'openai-compatible' }}
-          MODEL_API_BASE: ${{ vars.MODEL_API_BASE || 'https://api.siliconflow.cn/v1/chat/completions' }}
-          MODEL_NAME: ${{ vars.MODEL_NAME || 'deepseek-ai/DeepSeek-R1-0528-Qwen3-8B' }}
+          MODEL_PROVIDER: ${{ vars.MODEL_PROVIDER || 'bailian' }}
+          MODEL_API_BASE: ${{ vars.MODEL_API_BASE || '' }}
+          MODEL_NAME: ${{ vars.MODEL_NAME || 'qwen3.7-plus' }}
+          BAILIAN_WORKSPACE_ID: ${{ vars.BAILIAN_WORKSPACE_ID }}
+          BAILIAN_REGION: ${{ vars.BAILIAN_REGION || 'cn-beijing' }}
           MODEL_INPUT_CHAR_BUDGET: ${{ vars.MODEL_INPUT_CHAR_BUDGET || '90000' }}
           MODEL_MAX_TOKENS: ${{ vars.MODEL_MAX_TOKENS || '4096' }}
           MODEL_REQUEST_INTERVAL_SECONDS: ${{ vars.MODEL_REQUEST_INTERVAL_SECONDS || '2.0' }}
           MODEL_MAX_RETRIES: ${{ vars.MODEL_MAX_RETRIES || '1' }}
           MODEL_RETRY_BASE_SECONDS: ${{ vars.MODEL_RETRY_BASE_SECONDS || '2.0' }}
           MODEL_RETRY_MAX_SECONDS: ${{ vars.MODEL_RETRY_MAX_SECONDS || '20.0' }}
+          MODEL_FAILURE_CIRCUIT_BREAKER: ${{ vars.MODEL_FAILURE_CIRCUIT_BREAKER || '3' }}
           LOG_LEVEL: ${{ vars.LOG_LEVEL || 'INFO' }}
           DEBUG_LOG_FILE: data/debug.log
         run: |

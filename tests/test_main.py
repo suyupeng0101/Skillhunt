@@ -93,6 +93,16 @@ def clear_model_env(monkeypatch):
         "SILICONFLOW_API_KEY",
         "SILICONFLOW_API_BASE",
         "SILICONFLOW_MODEL",
+        "BAILIAN_API_KEY",
+        "BAILIAN_API_BASE",
+        "BAILIAN_MODEL",
+        "BAILIAN_REGION",
+        "BAILIAN_WORKSPACE_ID",
+        "DASHSCOPE_API_KEY",
+        "DASHSCOPE_API_BASE",
+        "DASHSCOPE_MODEL",
+        "DASHSCOPE_REGION",
+        "DASHSCOPE_WORKSPACE_ID",
     ):
         monkeypatch.delenv(name, raising=False)
     monkeypatch.setattr(radar, "MODEL_PROVIDER", "")
@@ -135,8 +145,20 @@ def test_model_api_key_reads_provider_specific_compat_key(monkeypatch):
 def test_model_api_key_uses_generic_key_for_default_provider(monkeypatch):
     clear_model_env(monkeypatch)
     monkeypatch.setenv("MODEL_API_KEY", "generic-key")
-    assert radar.model_provider() == "openai-compatible"
+    assert radar.model_provider() == "bailian"
     assert radar.model_api_key() == "generic-key"
+
+
+def test_bailian_model_config_builds_workspace_endpoint(monkeypatch):
+    clear_model_env(monkeypatch)
+    monkeypatch.setenv("MODEL_PROVIDER", "bailian")
+    monkeypatch.setenv("BAILIAN_API_KEY", "bailian-key")
+    monkeypatch.setenv("BAILIAN_WORKSPACE_ID", "ws-test")
+
+    assert radar.model_provider() == "bailian"
+    assert radar.model_api_key() == "bailian-key"
+    assert radar.model_name() == "qwen3.7-plus"
+    assert radar.model_api_base() == "https://ws-test.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions"
 
 
 def test_model_api_key_prefers_generic_key_over_provider_key(monkeypatch):
@@ -490,7 +512,32 @@ def test_score_repo_calculates_recommendation_score():
     assert scored["usability_score"] >= 90
     assert scored["maintenance_score"] == 100
     assert scored["recommendation_score"] >= 70
+    assert radar.has_cjk_text(scored["description"])
     assert "readme_snippet" not in scored
+
+
+def test_analyze_repos_opens_circuit_breaker_after_model_timeouts(monkeypatch):
+    clear_model_env(monkeypatch)
+    monkeypatch.setenv("MODEL_API_KEY", "model-key")
+    monkeypatch.setattr(radar, "AI_BATCH_SIZE", 1)
+    monkeypatch.setattr(radar, "MODEL_INPUT_CHAR_BUDGET", 100000)
+    monkeypatch.setattr(radar, "MODEL_FAILURE_CIRCUIT_BREAKER", 2)
+    calls = {"count": 0}
+
+    def fail_model(batch, taxonomy):
+        calls["count"] += 1
+        raise requests.ReadTimeout("read timed out")
+
+    monkeypatch.setattr(radar, "call_model", fail_model)
+    repos = [sample_repo(repo_id=index, repo_name=f"owner/repo-{index}") for index in range(4)]
+    report = {"warnings": []}
+
+    analyzed = radar.analyze_repos(repos, sample_taxonomy(), report)
+
+    assert len(analyzed) == 4
+    assert calls["count"] == 2
+    assert report["model_circuit_breaker_tripped"] is True
+    assert report["ai_fallback_count"] == 4
 
 
 def test_build_brief_filters_low_scores_and_demo_only():
