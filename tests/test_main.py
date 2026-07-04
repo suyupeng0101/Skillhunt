@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 from datetime import datetime, timezone
 
 import pytest
@@ -594,11 +595,14 @@ def test_export_sync_writes_expected_files(tmp_path, monkeypatch):
             usability_flags=[],
         )
     )
-    report = {"warnings": [], "failed_queries": [], "github_rate_limited": False, "ai_fallback_count": 0, "query_count": 1}
+    report = {"warnings": ["internal warning"], "failed_queries": [], "github_rate_limited": False, "ai_fallback_count": 0, "query_count": 1}
     radar.export_sync([repo], report, collected_count=1, synced_at="2026-07-02T00:00:00Z")
     assert (tmp_path / "data" / "radar.json").exists()
     assert (tmp_path / "docs" / "data" / "brief.json").exists()
     assert (tmp_path / "docs" / "data" / "status.json").exists()
+    assert json.loads((tmp_path / "docs" / "data" / "brief.json").read_text(encoding="utf-8"))["warnings"] == []
+    assert json.loads((tmp_path / "docs" / "data" / "metadata.json").read_text(encoding="utf-8"))["warnings"] == []
+    assert json.loads((tmp_path / "docs" / "data" / "status.json").read_text(encoding="utf-8"))["warnings"] == []
 
 
 def test_export_sync_refuses_empty_export(tmp_path, monkeypatch):

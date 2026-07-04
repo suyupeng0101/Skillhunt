@@ -3,4 +3,6 @@
 !.env.example
 .pytest_cache/
 __pycache__/
-data/debug.log
+*.pyc
+data/
+screenshot.png

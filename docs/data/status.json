@@ -27,28 +27,8 @@
   "trending_repos_seen": 40,
   "trending_repos_added": 20,
   "ai_fallback_count": 240,
-  "model_batch_failures": 3,
-  "model_circuit_breaker_tripped": true,
-  "model_circuit_breaker_batch": 3,
-  "warnings": [
-    "Trending repo metadata fetch failed: sponsors/JuliusBrussee (HTTP 404)",
-    "Trending repo metadata fetch failed: sponsors/ogulcancelik (HTTP 404)",
-    "Trending repo metadata fetch failed: sponsors/obra (HTTP 404)",
-    "Trending repo metadata fetch failed: sponsors/supabase (HTTP 404)",
-    "Trending repo metadata fetch failed: sponsors/msitarzewski (HTTP 404)",
-    "Trending repo metadata fetch failed: sponsors/simplex-chat (HTTP 404)",
-    "Trending repo metadata fetch failed: sponsors/diegosouzapw (HTTP 404)",
-    "Trending repo metadata fetch failed: sponsors/topoteretes (HTTP 404)",
-    "Trending repo metadata fetch failed: sponsors/ogulcancelik (HTTP 404)",
-    "Trending repo metadata fetch failed: sponsors/JCodesMore (HTTP 404)",
-    "Trending repo metadata fetch failed: sponsors/logto-io (HTTP 404)",
-    "Trending repo metadata fetch failed: sponsors/msitarzewski (HTTP 404)",
-    "Trending repo metadata fetch failed: sponsors/calesthio (HTTP 404)",
-    "Analysis repo limit applied: selected 240 of 1601 collected repositories.",
-    "Model analysis fallback for batch 1: ReadTimeout",
-    "Model analysis fallback for batch 2: ReadTimeout",
-    "Model analysis fallback for batch 3: ReadTimeout",
-    "Model analysis circuit breaker tripped after 3 consecutive failures; remaining batches use local heuristic analysis.",
-    "Model analysis circuit breaker is open; using local heuristic analysis for remaining batches."
-  ]
+  "model_batch_failures": 0,
+  "model_circuit_breaker_tripped": false,
+  "model_circuit_breaker_batch": null,
+  "warnings": []
 }

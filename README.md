@@ -41,7 +41,7 @@
 - 拉取 README 片段
 - 用 OpenAI-compatible 模型或本地启发式规则补全 `kind`、`category`、`summary`、`install_methods`
 - 基于可用性、采用度、维护活跃计算推荐分
-- 导出 `data/*.json` 和 `docs/data/*.json`
+- 本地生成 `data/*.json`，并发布 `docs/data/*.json`
 - 用 GitHub Pages 展示双榜
 
 第一版刻意保持轻量：
@@ -437,7 +437,7 @@ Variables：
 然后手动触发一次 `GitHub Skill Agent Radar Daily Sync`，确认：
 
 - 能成功跑 `python src/main.py sync`
-- 能提交 `data/` 和 `docs/data/`
+- 能提交 `docs/data/`
 
 ---
 
@@ -572,6 +572,4 @@ python skills/github-radar/scripts/radar_cli.py read-radar --base-url https://OW
 
 ## 相关文档
 
-- [产品需求文档](./github_radar_prd.md)
-- [技术架构设计](./github_radar_agent_architecture.md)
 - [github-radar Skill 说明](./skills/github-radar/SKILL.md)

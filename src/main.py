@@ -1911,7 +1911,7 @@ def build_brief(repos: list[dict[str, Any]], warnings: list[str], synced_at: str
         "top_picks": [brief_item(repo) for repo in eligible[:10]],
         "skill_top": skill_top,
         "agent_top": agent_top,
-        "warnings": warnings[:20],
+        "warnings": [],
     }
 
 
@@ -1927,7 +1927,7 @@ def build_metadata(repos: list[dict[str, Any]], collected_count: int, fallback_c
         "exported_count": len(repos),
         "brief_count": min(10, sum(1 for repo in repos if repo.get("recommendation_score", 0) >= RECOMMENDATION_MIN_SCORE)),
         "fallback_count": fallback_count,
-        "warnings": warnings[:20],
+        "warnings": [],
     }
 
 
@@ -1949,7 +1949,7 @@ def build_status(report: dict[str, Any], synced_at: str) -> dict[str, Any]:
         "model_batch_failures": report.get("model_batch_failures", 0),
         "model_circuit_breaker_tripped": report.get("model_circuit_breaker_tripped", False),
         "model_circuit_breaker_batch": report.get("model_circuit_breaker_batch"),
-        "warnings": report.get("warnings", [])[:20],
+        "warnings": [],
     }
 
 
