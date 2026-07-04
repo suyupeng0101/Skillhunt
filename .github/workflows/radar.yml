@@ -60,8 +60,6 @@ jobs:
           PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           MODEL_API_KEY: ${{ secrets.MODEL_API_KEY }}
-          BAILIAN_API_KEY: ${{ secrets.BAILIAN_API_KEY }}
-          DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
 
           # Public tuning values: optionally configure these in
           # Settings -> Secrets and variables -> Actions -> Variables.
@@ -91,11 +89,9 @@ jobs:
           GITHUB_RATE_LIMIT_MAX_WAIT_SECONDS: ${{ vars.GITHUB_RATE_LIMIT_MAX_WAIT_SECONDS || '120.0' }}
           ANALYSIS_REPO_LIMIT: ${{ vars.ANALYSIS_REPO_LIMIT || '240' }}
           AI_BATCH_SIZE: ${{ vars.AI_BATCH_SIZE || '8' }}
-          MODEL_PROVIDER: ${{ vars.MODEL_PROVIDER || 'bailian' }}
-          MODEL_API_BASE: ${{ vars.MODEL_API_BASE || '' }}
-          MODEL_NAME: ${{ vars.MODEL_NAME || 'qwen3.7-plus' }}
-          BAILIAN_WORKSPACE_ID: ${{ vars.BAILIAN_WORKSPACE_ID }}
-          BAILIAN_REGION: ${{ vars.BAILIAN_REGION || 'cn-beijing' }}
+          MODEL_PROVIDER: ${{ vars.MODEL_PROVIDER || 'openai-compatible' }}
+          MODEL_API_BASE: ${{ vars.MODEL_API_BASE || secrets.MODEL_API_BASE || '' }}
+          MODEL_NAME: ${{ vars.MODEL_NAME || secrets.MODEL_NAME || '' }}
           MODEL_INPUT_CHAR_BUDGET: ${{ vars.MODEL_INPUT_CHAR_BUDGET || '90000' }}
           MODEL_MAX_TOKENS: ${{ vars.MODEL_MAX_TOKENS || '4096' }}
           MODEL_REQUEST_INTERVAL_SECONDS: ${{ vars.MODEL_REQUEST_INTERVAL_SECONDS || '2.0' }}

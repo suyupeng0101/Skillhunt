@@ -109,16 +109,12 @@ LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO").upper()
 DEBUG_LOG_FILE = os.getenv("DEBUG_LOG_FILE", str(DATA_DIR / "debug.log"))
 
 GITHUB_API = "https://api.github.com"
-DEFAULT_MODEL_PROVIDER = "bailian"
-DEFAULT_MODEL_NAME = "qwen3.7-plus"
-DEFAULT_MODEL_API_BASE = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
-DEFAULT_BAILIAN_REGION = "cn-beijing"
+DEFAULT_MODEL_PROVIDER = "openai-compatible"
+DEFAULT_MODEL_NAME = ""
+DEFAULT_MODEL_API_BASE = ""
 MODEL_PROVIDER = os.getenv("MODEL_PROVIDER") or os.getenv("AI_MODEL_PROVIDER") or ""
 MODEL_NAME = os.getenv("MODEL_NAME") or os.getenv("MODEL") or ""
 MODEL_API_BASE = os.getenv("MODEL_API_BASE") or ""
-SILICONFLOW_MODEL = os.getenv("SILICONFLOW_MODEL") or DEFAULT_MODEL_NAME
-SILICONFLOW_API_BASE = os.getenv("SILICONFLOW_API_BASE") or DEFAULT_MODEL_API_BASE
-
 QUICKSTART_TERMS = (
     "quickstart",
     "quick start",
@@ -360,24 +356,10 @@ def normalize_model_provider(value: str | None) -> str:
     """Normalize model provider aliases used by local env and GitHub Actions."""
     provider = (value or "").strip().lower().replace("_", "-")
     aliases = {
-        "aliyun": "bailian",
-        "alibaba": "bailian",
-        "alibaba-cloud": "bailian",
-        "dashscope": "bailian",
-        "model-studio": "bailian",
         "sf": "siliconflow",
         "silicon-flow": "siliconflow",
     }
     return aliases.get(provider, provider)
-
-
-def bailian_api_base() -> str:
-    """Return the Bailian/DashScope OpenAI-compatible chat-completions endpoint."""
-    workspace_id = (os.getenv("BAILIAN_WORKSPACE_ID") or os.getenv("DASHSCOPE_WORKSPACE_ID") or "").strip()
-    region = (os.getenv("BAILIAN_REGION") or os.getenv("DASHSCOPE_REGION") or DEFAULT_BAILIAN_REGION).strip()
-    if workspace_id:
-        return f"https://{workspace_id}.{region}.maas.aliyuncs.com/compatible-mode/v1/chat/completions"
-    return os.getenv("BAILIAN_API_BASE") or os.getenv("DASHSCOPE_API_BASE") or DEFAULT_MODEL_API_BASE
 
 
 def model_provider() -> str:
@@ -385,10 +367,6 @@ def model_provider() -> str:
     configured = normalize_model_provider(os.getenv("MODEL_PROVIDER") or os.getenv("AI_MODEL_PROVIDER") or MODEL_PROVIDER)
     if configured:
         return configured
-    if os.getenv("BAILIAN_API_KEY") or os.getenv("DASHSCOPE_API_KEY"):
-        return "bailian"
-    if os.getenv("SILICONFLOW_API_KEY"):
-        return "siliconflow"
     return DEFAULT_MODEL_PROVIDER
 
 
@@ -397,10 +375,6 @@ def model_name() -> str:
     generic = os.getenv("MODEL_NAME") or os.getenv("MODEL") or MODEL_NAME
     if generic:
         return generic
-    if model_provider() == "bailian":
-        return os.getenv("BAILIAN_MODEL") or os.getenv("DASHSCOPE_MODEL") or DEFAULT_MODEL_NAME
-    if model_provider() == "siliconflow":
-        return os.getenv("SILICONFLOW_MODEL") or SILICONFLOW_MODEL
     return DEFAULT_MODEL_NAME
 
 
@@ -409,10 +383,6 @@ def model_api_base() -> str:
     generic = os.getenv("MODEL_API_BASE") or MODEL_API_BASE
     if generic:
         return generic
-    if model_provider() == "bailian":
-        return bailian_api_base()
-    if model_provider() == "siliconflow":
-        return os.getenv("SILICONFLOW_API_BASE") or SILICONFLOW_API_BASE
     return DEFAULT_MODEL_API_BASE
 
 
@@ -420,11 +390,14 @@ def model_api_key() -> str | None:
     """Read the API key for the active model provider."""
     generic_key = os.getenv("MODEL_API_KEY")
     provider = model_provider()
-    if provider == "bailian":
-        return os.getenv("BAILIAN_API_KEY") or os.getenv("DASHSCOPE_API_KEY") or generic_key
     if provider == "siliconflow":
         return generic_key or os.getenv("SILICONFLOW_API_KEY")
     return generic_key or os.getenv(f"{provider.upper().replace('-', '_')}_API_KEY")
+
+
+def model_configured() -> bool:
+    """Return True only when the generic chat-completions config is complete."""
+    return bool(model_api_key() and model_api_base() and model_name())
 
 
 def model_label() -> str:
@@ -1522,10 +1495,17 @@ def call_model(batch: list[dict[str, Any]], taxonomy: dict[str, Any]) -> list[di
     最终失败会抛给 `analyze_repos()`，由它记录 warning 并切换到本地 fallback。
     """
     api_key = model_api_key()
-    if not api_key:
-        raise RuntimeError(f"{model_provider()} model API key is not configured")
     endpoint = model_api_base()
     configured_model = model_name()
+    missing = []
+    if not api_key:
+        missing.append("MODEL_API_KEY")
+    if not endpoint:
+        missing.append("MODEL_API_BASE")
+    if not configured_model:
+        missing.append("MODEL_NAME")
+    if missing:
+        raise RuntimeError(f"Model config is incomplete: {', '.join(missing)}")
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
@@ -1642,7 +1622,7 @@ def analyze_repos(repos: list[dict[str, Any]], taxonomy: dict[str, Any], report:
         len(batches),
         AI_BATCH_SIZE,
         MODEL_INPUT_CHAR_BUDGET,
-        bool(model_api_key()),
+        model_configured(),
         model_label(),
     )
 
@@ -1654,7 +1634,7 @@ def analyze_repos(repos: list[dict[str, Any]], taxonomy: dict[str, Any], report:
             if batch_number == 1 or report.get("model_circuit_breaker_notified") is not True:
                 report["model_circuit_breaker_notified"] = True
                 add_warning(report, "Model analysis circuit breaker is open; using local heuristic analysis for remaining batches.")
-        elif model_api_key():
+        elif model_configured():
             LOGGER.info("Model analysis batch started: model=%s batch=%s/%s size=%s", model_label(), batch_number, len(batches), len(batch))
             try:
                 ai_items = call_model(batch, taxonomy)
@@ -1689,7 +1669,7 @@ def analyze_repos(repos: list[dict[str, Any]], taxonomy: dict[str, Any], report:
                     )
         else:
             if batch_number == 1:
-                add_warning(report, f"{model_provider()} model API key is not configured; using local heuristic analysis.")
+                add_warning(report, "Model config is incomplete; using local heuristic analysis.")
 
         ai_by_id = {item.get("repo_id"): item for item in ai_items or []}
         for repo in batch:

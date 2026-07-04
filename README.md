@@ -139,12 +139,10 @@ cp .env.example .env
 
 ```env
 PERSONAL_ACCESS_TOKENS=your_github_personal_access_token
-MODEL_PROVIDER=bailian
-MODEL_API_KEY=your_bailian_or_dashscope_api_key
-MODEL_API_BASE=
-MODEL_NAME=qwen3.7-plus
-BAILIAN_WORKSPACE_ID=your_bailian_workspace_id
-BAILIAN_REGION=cn-beijing
+MODEL_PROVIDER=openai-compatible
+MODEL_API_KEY=your_model_api_key
+MODEL_API_BASE=your_openai_compatible_chat_completions_endpoint
+MODEL_NAME=your_model_name
 ```
 
 说明：
@@ -205,12 +203,10 @@ http://127.0.0.1:8000/
 - `PERSONAL_ACCESS_TOKEN`：兼容的备用命名
 - `GITHUB_PERSONAL_ACCESS_TOKEN`：兼容的备用命名
 - `GH_TOKEN` / `GITHUB_TOKEN`：兼容 fallback
-- `MODEL_PROVIDER`：可选，模型服务商标签，默认示例为 `bailian`
+- `MODEL_PROVIDER`：可选，模型服务商标签，默认示例为 `openai-compatible`
 - `MODEL_API_KEY`：模型 API Key
-- `MODEL_API_BASE`：OpenAI-compatible Chat Completions endpoint；留空时百炼会按 `BAILIAN_WORKSPACE_ID` 自动生成 endpoint
-- `MODEL_NAME`：模型名称，当前示例为 `qwen3.7-plus`
-- `BAILIAN_WORKSPACE_ID`：可选，阿里云百炼 Workspace ID；填写后使用 `https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions`
-- `BAILIAN_REGION`：可选，百炼地域，默认 `cn-beijing`
+- `MODEL_API_BASE`：OpenAI-compatible Chat Completions endpoint
+- `MODEL_NAME`：模型名称，例如 `qwen3.7-plus`
 - `SKILL_SEARCH_MIN_STARS`：可选，Skill 主检索 star 阈值，默认 `1000`
 - `AGENT_SEARCH_MIN_STARS`：可选，Agent 主检索 star 阈值，默认 `2000`
 - `MAX_RESULTS_PER_QUERY`：可选，限制每个 query 返回数量

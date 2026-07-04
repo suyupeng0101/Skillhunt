@@ -91,18 +91,6 @@ def clear_model_env(monkeypatch):
         "MODEL_NAME",
         "MODEL",
         "SILICONFLOW_API_KEY",
-        "SILICONFLOW_API_BASE",
-        "SILICONFLOW_MODEL",
-        "BAILIAN_API_KEY",
-        "BAILIAN_API_BASE",
-        "BAILIAN_MODEL",
-        "BAILIAN_REGION",
-        "BAILIAN_WORKSPACE_ID",
-        "DASHSCOPE_API_KEY",
-        "DASHSCOPE_API_BASE",
-        "DASHSCOPE_MODEL",
-        "DASHSCOPE_REGION",
-        "DASHSCOPE_WORKSPACE_ID",
     ):
         monkeypatch.delenv(name, raising=False)
     monkeypatch.setattr(radar, "MODEL_PROVIDER", "")
@@ -137,6 +125,7 @@ def test_github_token_prefers_personal_access_token(monkeypatch):
 
 def test_model_api_key_reads_provider_specific_compat_key(monkeypatch):
     clear_model_env(monkeypatch)
+    monkeypatch.setenv("MODEL_PROVIDER", "siliconflow")
     monkeypatch.setenv("SILICONFLOW_API_KEY", "sf-key")
     assert radar.model_provider() == "siliconflow"
     assert radar.model_api_key() == "sf-key"
@@ -145,20 +134,18 @@ def test_model_api_key_reads_provider_specific_compat_key(monkeypatch):
 def test_model_api_key_uses_generic_key_for_default_provider(monkeypatch):
     clear_model_env(monkeypatch)
     monkeypatch.setenv("MODEL_API_KEY", "generic-key")
-    assert radar.model_provider() == "bailian"
+    assert radar.model_provider() == "openai-compatible"
     assert radar.model_api_key() == "generic-key"
 
 
-def test_bailian_model_config_builds_workspace_endpoint(monkeypatch):
+def test_model_configured_requires_key_base_and_name(monkeypatch):
     clear_model_env(monkeypatch)
-    monkeypatch.setenv("MODEL_PROVIDER", "bailian")
-    monkeypatch.setenv("BAILIAN_API_KEY", "bailian-key")
-    monkeypatch.setenv("BAILIAN_WORKSPACE_ID", "ws-test")
+    monkeypatch.setenv("MODEL_API_KEY", "model-key")
+    monkeypatch.setenv("MODEL_NAME", "test-model")
+    assert radar.model_configured() is False
 
-    assert radar.model_provider() == "bailian"
-    assert radar.model_api_key() == "bailian-key"
-    assert radar.model_name() == "qwen3.7-plus"
-    assert radar.model_api_base() == "https://ws-test.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions"
+    monkeypatch.setenv("MODEL_API_BASE", "https://example.test/v1/chat/completions")
+    assert radar.model_configured() is True
 
 
 def test_model_api_key_prefers_generic_key_over_provider_key(monkeypatch):
@@ -168,16 +155,16 @@ def test_model_api_key_prefers_generic_key_over_provider_key(monkeypatch):
     assert radar.model_api_key() == "generic-key"
 
 
-def test_model_config_supports_provider_specific_compat_values(monkeypatch):
+def test_model_config_uses_generic_model_values_with_provider_key(monkeypatch):
     clear_model_env(monkeypatch)
     monkeypatch.setenv("MODEL_PROVIDER", "siliconflow")
     monkeypatch.setenv("SILICONFLOW_API_KEY", "sf-key")
-    monkeypatch.setenv("SILICONFLOW_MODEL", "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B")
-    monkeypatch.setenv("SILICONFLOW_API_BASE", "https://api.siliconflow.cn/v1/chat/completions")
+    monkeypatch.setenv("MODEL_NAME", "test-model")
+    monkeypatch.setenv("MODEL_API_BASE", "https://example.test/v1/chat/completions")
     assert radar.model_provider() == "siliconflow"
     assert radar.model_api_key() == "sf-key"
-    assert radar.model_name() == "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B"
-    assert radar.model_api_base() == "https://api.siliconflow.cn/v1/chat/completions"
+    assert radar.model_name() == "test-model"
+    assert radar.model_api_base() == "https://example.test/v1/chat/completions"
 
 
 def test_call_model_sets_output_budget_and_json_only_prompt(monkeypatch):
@@ -519,6 +506,8 @@ def test_score_repo_calculates_recommendation_score():
 def test_analyze_repos_opens_circuit_breaker_after_model_timeouts(monkeypatch):
     clear_model_env(monkeypatch)
     monkeypatch.setenv("MODEL_API_KEY", "model-key")
+    monkeypatch.setenv("MODEL_API_BASE", "https://example.test/v1/chat/completions")
+    monkeypatch.setenv("MODEL_NAME", "test-model")
     monkeypatch.setattr(radar, "AI_BATCH_SIZE", 1)
     monkeypatch.setattr(radar, "MODEL_INPUT_CHAR_BUDGET", 100000)
     monkeypatch.setattr(radar, "MODEL_FAILURE_CIRCUIT_BREAKER", 2)
