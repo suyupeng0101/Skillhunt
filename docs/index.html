@@ -299,8 +299,12 @@
         display: grid;
         grid-template-columns: minmax(0, 1.1fr) minmax(340px, 0.65fr);
         gap: 32px;
-        align-items: center;
+        align-items: start;
         padding: 28px 0 24px;
+      }
+
+      .hero-main {
+        padding-top: 56px;
       }
 
       .eyebrow {
@@ -557,18 +561,27 @@
       }
 
       .hero-picks {
-        border-top: 1px solid var(--line);
-        padding-top: 4px;
+        width: min(100%, 820px);
+        margin-top: 26px;
+        border: 2px solid color-mix(in srgb, var(--primary) 28%, var(--line));
+        border-radius: var(--radius-lg);
+        background: color-mix(in srgb, var(--surface) 94%, transparent);
+        box-shadow: var(--shadow);
+        overflow: hidden;
       }
 
       .hero-picks .pick {
         position: relative;
-        margin: 6px 12px 10px;
+        margin: 0 14px 12px;
         padding: 12px 14px;
         border: 1px solid var(--line);
         border-radius: var(--radius);
         background: var(--surface);
         transition: border-color 160ms, box-shadow 160ms;
+      }
+
+      .hero-picks .pick-list {
+        padding-top: 12px;
       }
 
       .hero-picks .pick:hover {
@@ -1250,6 +1263,10 @@
           padding-top: 36px;
         }
 
+        .hero-main {
+          padding-top: 0;
+        }
+
         .spotlight-grid,
         .side,
         .detail-grid {
@@ -1332,7 +1349,7 @@
 
     <section class="hero" id="discover">
       <div class="shell hero-inner">
-        <div>
+        <div class="hero-main">
           <div class="eyebrow">GitHub Skill / Agent Radar</div>
           <h1>发现可复用的Skill </h1>
           <p class="hero-copy">
@@ -1345,6 +1362,13 @@
             <button class="quick-tag" type="button" data-query="coding">软件开发</button>
             <button class="quick-tag" type="button" data-query="finance">基金理财</button>
           </div>
+          <section id="briefPanel" class="hero-picks" hidden>
+            <div class="hero-panel-head">
+              <span class="hero-panel-title">优先关注</span>
+              <span id="syncedAt" class="hero-status">-</span>
+            </div>
+            <div id="briefList" class="pick-list"></div>
+          </section>
         </div>
 
         <aside class="hero-panel" id="signals" aria-label="运行信号">
@@ -1361,13 +1385,6 @@
             <div class="metric"><span>Agent</span><strong id="agentCount">0</strong></div>
             <div class="metric"><span>过滤噪音</span><strong id="filteredCount">0</strong></div>
           </div>
-          <section id="briefPanel" class="hero-picks" hidden>
-            <div class="hero-panel-head">
-              <span class="hero-panel-title">优先关注</span>
-              <span id="syncedAt" class="hero-status">-</span>
-            </div>
-            <div id="briefList" class="pick-list"></div>
-          </section>
         </aside>
       </div>
     </section>
