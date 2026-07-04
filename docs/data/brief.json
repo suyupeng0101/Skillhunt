@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T07:21:02Z",
+  "generated_at": "2026-07-04T09:21:00Z",
   "window": "latest_sync",
   "top_picks": [
     {
@@ -43,6 +43,20 @@
         "近期维护活跃"
       ],
       "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "repo_id": 1075372545,
+      "repo_name": "msitarzewski/agency-agents",
+      "kind": "Agent",
+      "category": "数据分析",
+      "summary": "msitarzewski/agency-agents 是一个面向数据分析场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+      "recommendation_score": 98,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/msitarzewski/agency-agents"
     },
     {
       "repo_id": 307260205,
@@ -127,20 +141,6 @@
         "近期维护活跃"
       ],
       "url": "https://github.com/nexu-io/open-design"
-    },
-    {
-      "repo_id": 1158722119,
-      "repo_name": "addyosmani/agent-skills",
-      "kind": "Skill",
-      "category": "办公协作",
-      "summary": "addyosmani/agent-skills 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
-      "recommendation_score": 97,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/addyosmani/agent-skills"
     }
   ],
   "skill_top": [
@@ -231,6 +231,20 @@
       "url": "https://github.com/affaan-m/ECC"
     },
     {
+      "repo_id": 1075372545,
+      "repo_name": "msitarzewski/agency-agents",
+      "kind": "Agent",
+      "category": "数据分析",
+      "summary": "msitarzewski/agency-agents 是一个面向数据分析场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+      "recommendation_score": 98,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/msitarzewski/agency-agents"
+    },
+    {
       "repo_id": 193215554,
       "repo_name": "n8n-io/n8n",
       "kind": "Agent",
@@ -271,20 +285,6 @@
         "近期维护活跃"
       ],
       "url": "https://github.com/langgenius/dify"
-    },
-    {
-      "repo_id": 787076358,
-      "repo_name": "firecrawl/firecrawl",
-      "kind": "Agent",
-      "category": "内容创作",
-      "summary": "firecrawl/firecrawl 是一个面向内容创作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
-      "recommendation_score": 97,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/firecrawl/firecrawl"
     }
   ],
   "warnings": []
