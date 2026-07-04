@@ -205,7 +205,7 @@ http://127.0.0.1:8000/
 - `GH_TOKEN` / `GITHUB_TOKEN`：兼容 fallback
 - `MODEL_PROVIDER`：可选，模型服务商标签，默认示例为 `openai-compatible`
 - `MODEL_API_KEY`：模型 API Key
-- `MODEL_API_BASE`：OpenAI-compatible Chat Completions endpoint
+- `MODEL_API_BASE`：OpenAI-compatible base URL 或完整 Chat Completions endpoint；例如 `.../compatible-mode/v1` 或 `.../compatible-mode/v1/chat/completions`
 - `MODEL_NAME`：模型名称，例如 `qwen3.7-plus`
 - `SKILL_SEARCH_MIN_STARS`：可选，Skill 主检索 star 阈值，默认 `1000`
 - `AGENT_SEARCH_MIN_STARS`：可选，Agent 主检索 star 阈值，默认 `2000`

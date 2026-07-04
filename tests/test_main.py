@@ -148,6 +148,12 @@ def test_model_configured_requires_key_base_and_name(monkeypatch):
     assert radar.model_configured() is True
 
 
+def test_model_api_base_accepts_compatible_mode_base_url(monkeypatch):
+    clear_model_env(monkeypatch)
+    monkeypatch.setenv("MODEL_API_BASE", "https://example.test/compatible-mode/v1")
+    assert radar.model_api_base() == "https://example.test/compatible-mode/v1/chat/completions"
+
+
 def test_model_api_key_prefers_generic_key_over_provider_key(monkeypatch):
     monkeypatch.setenv("MODEL_PROVIDER", "siliconflow")
     monkeypatch.setenv("MODEL_API_KEY", "generic-key")

@@ -309,6 +309,12 @@ def is_model_timeout_error(exc: Exception) -> bool:
     return isinstance(exc, requests.Timeout) or "read timed out" in str(exc).lower()
 
 
+def is_model_config_http_error(exc: Exception) -> bool:
+    """Return True for non-retryable HTTP errors usually caused by model config."""
+    response = exc.response if isinstance(exc, requests.HTTPError) else None
+    return response is not None and response.status_code in {400, 401, 403, 404}
+
+
 def utc_now_iso() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
@@ -382,8 +388,18 @@ def model_api_base() -> str:
     """Return the OpenAI-compatible chat-completions endpoint."""
     generic = os.getenv("MODEL_API_BASE") or MODEL_API_BASE
     if generic:
-        return generic
+        return normalize_chat_completions_endpoint(generic)
     return DEFAULT_MODEL_API_BASE
+
+
+def normalize_chat_completions_endpoint(value: str) -> str:
+    """Accept either an OpenAI-compatible base URL or the full chat-completions endpoint."""
+    endpoint = value.strip().rstrip("/")
+    if not endpoint:
+        return ""
+    if endpoint.endswith("/chat/completions"):
+        return endpoint
+    return f"{endpoint}/chat/completions"
 
 
 def model_api_key() -> str | None:
@@ -1551,7 +1567,7 @@ def call_model(batch: list[dict[str, Any]], taxonomy: dict[str, Any]) -> list[di
                     code,
                     exc.__class__.__name__,
                 )
-                if is_model_timeout_error(exc):
+                if is_model_timeout_error(exc) or is_model_config_http_error(exc):
                     LOGGER.warning(message, *args)
                 else:
                     LOGGER.exception(message, *args)
@@ -1642,13 +1658,14 @@ def analyze_repos(repos: list[dict[str, Any]], taxonomy: dict[str, Any], report:
             except Exception as exc:  # noqa: BLE001 - recorded as degraded pipeline status
                 consecutive_model_failures += 1
                 report["model_batch_failures"] = int(report.get("model_batch_failures") or 0) + 1
-                if is_model_timeout_error(exc):
+                if is_model_timeout_error(exc) or is_model_config_http_error(exc):
                     LOGGER.warning(
-                        "Model analysis batch timed out: model=%s batch=%s/%s consecutive_failures=%s",
+                        "Model analysis batch failed without stack trace: model=%s batch=%s/%s consecutive_failures=%s error=%s",
                         model_label(),
                         batch_number,
                         len(batches),
                         consecutive_model_failures,
+                        exc.__class__.__name__,
                     )
                 else:
                     LOGGER.exception(
