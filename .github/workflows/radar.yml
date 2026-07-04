@@ -16,6 +16,7 @@ permissions:
 jobs:
   sync_and_generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 180
     steps:
       # This repository's Actions policy only allows actions owned by
       # suyupeng0101, so keep this workflow free of external `uses:` actions.
@@ -85,6 +86,7 @@ jobs:
           GITHUB_WAIT_ON_RATE_LIMIT: ${{ vars.GITHUB_WAIT_ON_RATE_LIMIT || '1' }}
           GITHUB_RATE_LIMIT_RETRIES: ${{ vars.GITHUB_RATE_LIMIT_RETRIES || '2' }}
           GITHUB_RATE_LIMIT_MAX_WAIT_SECONDS: ${{ vars.GITHUB_RATE_LIMIT_MAX_WAIT_SECONDS || '120.0' }}
+          ANALYSIS_REPO_LIMIT: ${{ vars.ANALYSIS_REPO_LIMIT || '240' }}
           AI_BATCH_SIZE: ${{ vars.AI_BATCH_SIZE || '8' }}
           MODEL_PROVIDER: ${{ vars.MODEL_PROVIDER || 'openai-compatible' }}
           MODEL_API_BASE: ${{ vars.MODEL_API_BASE || 'https://api.siliconflow.cn/v1/chat/completions' }}
@@ -92,9 +94,9 @@ jobs:
           MODEL_INPUT_CHAR_BUDGET: ${{ vars.MODEL_INPUT_CHAR_BUDGET || '90000' }}
           MODEL_MAX_TOKENS: ${{ vars.MODEL_MAX_TOKENS || '4096' }}
           MODEL_REQUEST_INTERVAL_SECONDS: ${{ vars.MODEL_REQUEST_INTERVAL_SECONDS || '2.0' }}
-          MODEL_MAX_RETRIES: ${{ vars.MODEL_MAX_RETRIES || '5' }}
+          MODEL_MAX_RETRIES: ${{ vars.MODEL_MAX_RETRIES || '1' }}
           MODEL_RETRY_BASE_SECONDS: ${{ vars.MODEL_RETRY_BASE_SECONDS || '2.0' }}
-          MODEL_RETRY_MAX_SECONDS: ${{ vars.MODEL_RETRY_MAX_SECONDS || '60.0' }}
+          MODEL_RETRY_MAX_SECONDS: ${{ vars.MODEL_RETRY_MAX_SECONDS || '20.0' }}
           LOG_LEVEL: ${{ vars.LOG_LEVEL || 'INFO' }}
           DEBUG_LOG_FILE: data/debug.log
         run: |

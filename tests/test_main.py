@@ -225,6 +225,24 @@ def test_merge_candidate_preserves_category_hint():
     assert merged["category_hint"] == sample_taxonomy()["skill_categories"][3]
 
 
+def test_limit_repos_for_analysis_keeps_seed_repositories(monkeypatch):
+    monkeypatch.setattr(radar, "ANALYSIS_REPO_LIMIT", 3)
+    repos = [
+        sample_repo(repo_id=1, repo_name="owner/top-1", stars=5000, candidate_reason=["high_popularity"]),
+        sample_repo(repo_id=2, repo_name="owner/top-2", stars=4000, candidate_reason=["high_popularity"]),
+        sample_repo(repo_id=3, repo_name="owner/top-3", stars=3000, candidate_reason=["high_popularity"]),
+        sample_repo(repo_id=4, repo_name="owner/seed", stars=10, candidate_reason=["seed_repo"]),
+    ]
+    report = {"warnings": []}
+
+    limited = radar.limit_repos_for_analysis(repos, report)
+
+    assert len(limited) == 3
+    assert "owner/seed" in [repo["repo_name"] for repo in limited]
+    assert report["analysis_repo_limit_applied"] is True
+    assert report["collected_before_analysis_limit"] == 4
+
+
 def test_load_seed_repos_supports_string_and_dict(tmp_path, monkeypatch):
     config_dir = tmp_path / "config"
     config_dir.mkdir()

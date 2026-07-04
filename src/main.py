@@ -90,6 +90,7 @@ MODEL_MAX_TOKENS = int(os.getenv("MODEL_MAX_TOKENS", "4096"))
 SKILL_TOP_N = int(os.getenv("SKILL_TOP_N", "200"))
 AGENT_TOP_N = int(os.getenv("AGENT_TOP_N", "200"))
 RECOMMENDATION_MIN_SCORE = int(os.getenv("RECOMMENDATION_MIN_SCORE", "50"))
+ANALYSIS_REPO_LIMIT = int(os.getenv("ANALYSIS_REPO_LIMIT", "0"))
 
 # 网络和模型限速参数。GitHub 与模型分别节流，因为二者的限制策略不同。
 HTTP_TIMEOUT = int(os.getenv("HTTP_TIMEOUT", "30"))
@@ -940,6 +941,43 @@ def attach_readmes(repos: list[dict[str, Any]], warnings: list[str]) -> list[dic
         enriched.append(item)
     LOGGER.info("README fetch completed: repos=%s warnings=%s", len(enriched), len(warnings))
     return enriched
+
+
+def limit_repos_for_analysis(repos: list[dict[str, Any]], report: dict[str, Any]) -> list[dict[str, Any]]:
+    """Limit expensive README/model work while keeping explicit seed repositories."""
+    report["analysis_repo_limit"] = ANALYSIS_REPO_LIMIT
+    report["collected_before_analysis_limit"] = len(repos)
+    if ANALYSIS_REPO_LIMIT <= 0 or len(repos) <= ANALYSIS_REPO_LIMIT:
+        report["analysis_repo_limit_applied"] = False
+        return repos
+
+    selected: list[dict[str, Any]] = []
+    selected_ids: set[Any] = set()
+
+    for repo in repos:
+        if "seed_repo" not in set(repo.get("candidate_reason") or []):
+            continue
+        repo_id = repo.get("repo_id")
+        if repo_id in selected_ids:
+            continue
+        selected.append(repo)
+        selected_ids.add(repo_id)
+
+    for repo in repos:
+        if len(selected) >= ANALYSIS_REPO_LIMIT:
+            break
+        repo_id = repo.get("repo_id")
+        if repo_id in selected_ids:
+            continue
+        selected.append(repo)
+        selected_ids.add(repo_id)
+
+    selected = sorted(selected, key=lambda item: item.get("stars", 0), reverse=True)
+    report["analysis_repo_limit_applied"] = True
+    report["analysis_repo_limit_selected"] = len(selected)
+    add_warning(report, f"Analysis repo limit applied: selected {len(selected)} of {len(repos)} collected repositories.")
+    LOGGER.info("Analysis repository limit applied: collected=%s selected=%s limit=%s", len(repos), len(selected), ANALYSIS_REPO_LIMIT)
+    return selected
 
 
 def lower_blob(repo: dict[str, Any]) -> str:
@@ -1864,6 +1902,8 @@ def run_sync() -> int:
     queries_config, taxonomy = load_config()
     queries = build_queries(queries_config)
     repos, report = search_repos(queries, queries_config)
+    collected_count = len(repos)
+    repos = limit_repos_for_analysis(repos, report)
     warnings = report.setdefault("warnings", [])
     repos = attach_readmes(repos, warnings)
     analyzed = analyze_repos(repos, taxonomy, report)
@@ -1873,12 +1913,12 @@ def run_sync() -> int:
         {
             "ok": not report.get("github_rate_limited") and not report.get("failed_queries"),
             "synced_at": synced_at,
-            "collected_count": len(repos),
+            "collected_count": collected_count,
             "analyzed_count": len(analyzed),
             "exported_count": len(select_frontend_repos(scored)),
         }
     )
-    export_sync(scored, report, len(repos), synced_at)
+    export_sync(scored, report, collected_count, synced_at)
     LOGGER.info("Sync run completed: scored=%s exported=%s warnings=%s", len(scored), report["exported_count"], len(report.get("warnings", [])))
     print(f"Synced {len(scored)} repositories; exported {report['exported_count']} frontend records.")
     return 0
