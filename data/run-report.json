@@ -1,14 +1,862 @@
 {
-  "ok": false,
-  "synced_at": "",
-  "query_count": 0,
-  "collected_count": 0,
-  "analyzed_count": 0,
-  "exported_count": 0,
-  "ai_fallback_count": 0,
-  "github_rate_limited": false,
+  "query_count": 155,
+  "search_pages": 2,
+  "queries": [
+    {
+      "label": "topic:skill",
+      "query": "topic:skill stars:>1000 fork:false archived:false",
+      "count": 33
+    },
+    {
+      "label": "topic:skills",
+      "query": "topic:skills stars:>1000 fork:false archived:false",
+      "count": 60
+    },
+    {
+      "label": "topic:agent-skill",
+      "query": "topic:agent-skill stars:>1000 fork:false archived:false",
+      "count": 8
+    },
+    {
+      "label": "topic:agent-skills",
+      "query": "topic:agent-skills stars:>1000 fork:false archived:false",
+      "count": 60
+    },
+    {
+      "label": "topic:claude-skill",
+      "query": "topic:claude-skill stars:>1000 fork:false archived:false",
+      "count": 7
+    },
+    {
+      "label": "topic:claude-skills",
+      "query": "topic:claude-skills stars:>1000 fork:false archived:false",
+      "count": 60
+    },
+    {
+      "label": "topic:claude-code",
+      "query": "topic:claude-code stars:>1000 fork:false archived:false",
+      "count": 60
+    },
+    {
+      "label": "topic:codex-skill",
+      "query": "topic:codex-skill stars:>1000 fork:false archived:false",
+      "count": 9
+    },
+    {
+      "label": "topic:agent-cli",
+      "query": "topic:agent-cli stars:>1000 fork:false archived:false",
+      "count": 1
+    },
+    {
+      "label": "topic:developer-tools",
+      "query": "topic:developer-tools stars:>1000 fork:false archived:false",
+      "count": 60
+    },
+    {
+      "label": "topic:devtools",
+      "query": "topic:devtools stars:>1000 fork:false archived:false",
+      "count": 60
+    },
+    {
+      "label": "topic:code-review",
+      "query": "topic:code-review stars:>1000 fork:false archived:false",
+      "count": 33
+    },
+    {
+      "label": "topic:codegen",
+      "query": "topic:codegen stars:>1000 fork:false archived:false",
+      "count": 23
+    },
+    {
+      "label": "topic:ai-coding",
+      "query": "topic:ai-coding stars:>1000 fork:false archived:false",
+      "count": 46
+    },
+    {
+      "label": "topic:ai-coding-assistant",
+      "query": "topic:ai-coding-assistant stars:>1000 fork:false archived:false",
+      "count": 7
+    },
+    {
+      "label": "topic:mcp",
+      "query": "topic:mcp stars:>1000 fork:false archived:false",
+      "count": 60
+    },
+    {
+      "label": "topic:mcp-server",
+      "query": "topic:mcp-server stars:>1000 fork:false archived:false",
+      "count": 60
+    },
+    {
+      "label": "topic:cli",
+      "query": "topic:cli stars:>1000 fork:false archived:false",
+      "count": 60
+    },
+    {
+      "label": "topic:browser-automation",
+      "query": "topic:browser-automation stars:>1000 fork:false archived:false",
+      "count": 48
+    },
+    {
+      "label": "topic:workflow-automation",
+      "query": "topic:workflow-automation stars:>1000 fork:false archived:false",
+      "count": 43
+    },
+    {
+      "label": "topic:rss",
+      "query": "topic:rss stars:>1000 fork:false archived:false",
+      "count": 60
+    },
+    {
+      "label": "topic:news",
+      "query": "topic:news stars:>1000 fork:false archived:false",
+      "count": 24
+    },
+    {
+      "label": "topic:research",
+      "query": "topic:research stars:>1000 fork:false archived:false",
+      "count": 60
+    },
+    {
+      "label": "topic:ai-writing",
+      "query": "topic:ai-writing stars:>1000 fork:false archived:false",
+      "count": 7
+    },
+    {
+      "label": "topic:content-creation",
+      "query": "topic:content-creation stars:>1000 fork:false archived:false",
+      "count": 10
+    },
+    {
+      "label": "topic:aigc",
+      "query": "topic:aigc stars:>1000 fork:false archived:false",
+      "count": 56
+    },
+    {
+      "label": "topic:markdown",
+      "query": "topic:markdown stars:>1000 fork:false archived:false",
+      "count": 60
+    },
+    {
+      "label": "topic:wechat",
+      "query": "topic:wechat stars:>1000 fork:false archived:false",
+      "count": 60
+    },
+    {
+      "label": "topic:wechat-mp",
+      "query": "topic:wechat-mp stars:>1000 fork:false archived:false",
+      "count": 1
+    },
+    {
+      "label": "topic:wechat-official-account",
+      "query": "topic:wechat-official-account stars:>1000 fork:false archived:false",
+      "count": 3
+    },
+    {
+      "label": "topic:wechat-public-account",
+      "query": "topic:wechat-public-account stars:>1000 fork:false archived:false",
+      "count": 1
+    },
+    {
+      "label": "topic:wechat-markdown",
+      "query": "topic:wechat-markdown stars:>1000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "topic:markdown-to-wechat",
+      "query": "topic:markdown-to-wechat stars:>1000 fork:false archived:false",
+      "count": 1
+    },
+    {
+      "label": "topic:xiaohongshu",
+      "query": "topic:xiaohongshu stars:>1000 fork:false archived:false",
+      "count": 17
+    },
+    {
+      "label": "topic:douyin",
+      "query": "topic:douyin stars:>1000 fork:false archived:false",
+      "count": 27
+    },
+    {
+      "label": "topic:social-media",
+      "query": "topic:social-media stars:>1000 fork:false archived:false",
+      "count": 36
+    },
+    {
+      "label": "topic:video",
+      "query": "topic:video stars:>1000 fork:false archived:false",
+      "count": 60
+    },
+    {
+      "label": "topic:short-video",
+      "query": "topic:short-video stars:>1000 fork:false archived:false",
+      "count": 1
+    },
+    {
+      "label": "topic:video-editing",
+      "query": "topic:video-editing stars:>1000 fork:false archived:false",
+      "count": 43
+    },
+    {
+      "label": "topic:subtitle",
+      "query": "topic:subtitle stars:>1000 fork:false archived:false",
+      "count": 18
+    },
+    {
+      "label": "topic:subtitle-generator",
+      "query": "topic:subtitle-generator stars:>1000 fork:false archived:false",
+      "count": 1
+    },
+    {
+      "label": "topic:finance",
+      "query": "topic:finance stars:>1000 fork:false archived:false",
+      "count": 60
+    },
+    {
+      "label": "topic:stock",
+      "query": "topic:stock stars:>1000 fork:false archived:false",
+      "count": 45
+    },
+    {
+      "label": "topic:investment",
+      "query": "topic:investment stars:>1000 fork:false archived:false",
+      "count": 22
+    },
+    {
+      "label": "topic:quant",
+      "query": "topic:quant stars:>1000 fork:false archived:false",
+      "count": 56
+    },
+    {
+      "label": "topic:trading",
+      "query": "topic:trading stars:>1000 fork:false archived:false",
+      "count": 60
+    },
+    {
+      "label": "keyword:AI skill",
+      "query": "\"AI skill\" stars:>1000 fork:false archived:false",
+      "count": 19
+    },
+    {
+      "label": "keyword:agent skill",
+      "query": "\"agent skill\" stars:>1000 fork:false archived:false",
+      "count": 60
+    },
+    {
+      "label": "keyword:Claude skill",
+      "query": "\"Claude skill\" stars:>1000 fork:false archived:false",
+      "count": 19
+    },
+    {
+      "label": "keyword:Claude Code skill",
+      "query": "\"Claude Code skill\" stars:>1000 fork:false archived:false",
+      "count": 26
+    },
+    {
+      "label": "keyword:Claude skills",
+      "query": "\"Claude skills\" stars:>1000 fork:false archived:false",
+      "count": 17
+    },
+    {
+      "label": "keyword:Codex skill",
+      "query": "\"Codex skill\" stars:>1000 fork:false archived:false",
+      "count": 8
+    },
+    {
+      "label": "keyword:agent CLI",
+      "query": "\"agent CLI\" stars:>1000 fork:false archived:false",
+      "count": 8
+    },
+    {
+      "label": "keyword:MCP server",
+      "query": "\"MCP server\" stars:>1000 fork:false archived:false",
+      "count": 60
+    },
+    {
+      "label": "keyword:developer tools",
+      "query": "\"developer tools\" stars:>1000 fork:false archived:false",
+      "count": 31
+    },
+    {
+      "label": "keyword:AI coding",
+      "query": "\"AI coding\" stars:>1000 fork:false archived:false",
+      "count": 60
+    },
+    {
+      "label": "keyword:coding assistant",
+      "query": "\"coding assistant\" stars:>1000 fork:false archived:false",
+      "count": 19
+    },
+    {
+      "label": "keyword:code review",
+      "query": "\"code review\" stars:>1000 fork:false archived:false",
+      "count": 37
+    },
+    {
+      "label": "keyword:pull request assistant",
+      "query": "\"pull request assistant\" stars:>1000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:browser automation",
+      "query": "\"browser automation\" stars:>1000 fork:false archived:false",
+      "count": 26
+    },
+    {
+      "label": "keyword:workflow automation",
+      "query": "\"workflow automation\" stars:>1000 fork:false archived:false",
+      "count": 19
+    },
+    {
+      "label": "keyword:research assistant",
+      "query": "\"research assistant\" stars:>1000 fork:false archived:false",
+      "count": 7
+    },
+    {
+      "label": "keyword:news radar",
+      "query": "\"news radar\" stars:>1000 fork:false archived:false",
+      "count": 2
+    },
+    {
+      "label": "keyword:RSS assistant",
+      "query": "\"RSS assistant\" stars:>1000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:AI writing",
+      "query": "\"AI writing\" stars:>1000 fork:false archived:false",
+      "count": 2
+    },
+    {
+      "label": "keyword:content creation",
+      "query": "\"content creation\" stars:>1000 fork:false archived:false",
+      "count": 6
+    },
+    {
+      "label": "keyword:AIGC",
+      "query": "\"AIGC\" stars:>1000 fork:false archived:false",
+      "count": 60
+    },
+    {
+      "label": "keyword:copywriting",
+      "query": "\"copywriting\" stars:>1000 fork:false archived:false",
+      "count": 5
+    },
+    {
+      "label": "keyword:newsletter",
+      "query": "\"newsletter\" stars:>1000 fork:false archived:false",
+      "count": 25
+    },
+    {
+      "label": "keyword:markdown to wechat",
+      "query": "\"markdown to wechat\" stars:>1000 fork:false archived:false",
+      "count": 1
+    },
+    {
+      "label": "keyword:wechat markdown",
+      "query": "\"wechat markdown\" stars:>1000 fork:false archived:false",
+      "count": 1
+    },
+    {
+      "label": "keyword:wechat public account",
+      "query": "\"wechat public account\" stars:>1000 fork:false archived:false",
+      "count": 1
+    },
+    {
+      "label": "keyword:wechat official account",
+      "query": "\"wechat official account\" stars:>1000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:微信公众号",
+      "query": "\"微信公众号\" stars:>1000 fork:false archived:false",
+      "count": 49
+    },
+    {
+      "label": "keyword:公众号排版",
+      "query": "\"公众号排版\" stars:>1000 fork:false archived:false",
+      "count": 3
+    },
+    {
+      "label": "keyword:公众号发布",
+      "query": "\"公众号发布\" stars:>1000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:xiaohongshu",
+      "query": "\"xiaohongshu\" stars:>1000 fork:false archived:false",
+      "count": 23
+    },
+    {
+      "label": "keyword:小红书",
+      "query": "\"小红书\" stars:>1000 fork:false archived:false",
+      "count": 37
+    },
+    {
+      "label": "keyword:douyin",
+      "query": "\"douyin\" stars:>1000 fork:false archived:false",
+      "count": 37
+    },
+    {
+      "label": "keyword:抖音",
+      "query": "\"抖音\" stars:>1000 fork:false archived:false",
+      "count": 59
+    },
+    {
+      "label": "keyword:video account",
+      "query": "\"video account\" stars:>1000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:视频号",
+      "query": "\"视频号\" stars:>1000 fork:false archived:false",
+      "count": 12
+    },
+    {
+      "label": "keyword:short video",
+      "query": "\"short video\" stars:>1000 fork:false archived:false",
+      "count": 11
+    },
+    {
+      "label": "keyword:video editing",
+      "query": "\"video editing\" stars:>1000 fork:false archived:false",
+      "count": 20
+    },
+    {
+      "label": "keyword:subtitle generator",
+      "query": "\"subtitle generator\" stars:>1000 fork:false archived:false",
+      "count": 3
+    },
+    {
+      "label": "keyword:transcript",
+      "query": "\"transcript\" stars:>1000 fork:false archived:false",
+      "count": 12
+    },
+    {
+      "label": "keyword:fund investment",
+      "query": "\"fund investment\" stars:>1000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:基金理财",
+      "query": "\"基金理财\" stars:>1000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:基金分析",
+      "query": "\"基金分析\" stars:>1000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:stock analysis",
+      "query": "\"stock analysis\" stars:>1000 fork:false archived:false",
+      "count": 4
+    },
+    {
+      "label": "keyword:investment research",
+      "query": "\"investment research\" stars:>1000 fork:false archived:false",
+      "count": 4
+    },
+    {
+      "label": "keyword:quant research",
+      "query": "\"quant research\" stars:>1000 fork:false archived:false",
+      "count": 2
+    },
+    {
+      "label": "keyword:trading bot",
+      "query": "\"trading bot\" stars:>1000 fork:false archived:false",
+      "count": 30
+    },
+    {
+      "label": "topic:ai-agent",
+      "query": "topic:ai-agent stars:>2000 fork:false archived:false",
+      "count": 60
+    },
+    {
+      "label": "topic:llm-agent",
+      "query": "topic:llm-agent stars:>2000 fork:false archived:false",
+      "count": 25
+    },
+    {
+      "label": "topic:autonomous-agent",
+      "query": "topic:autonomous-agent stars:>2000 fork:false archived:false",
+      "count": 5
+    },
+    {
+      "label": "topic:agent-framework",
+      "query": "topic:agent-framework stars:>2000 fork:false archived:false",
+      "count": 28
+    },
+    {
+      "label": "topic:multi-agent",
+      "query": "topic:multi-agent stars:>2000 fork:false archived:false",
+      "count": 41
+    },
+    {
+      "label": "topic:coding-agent",
+      "query": "topic:coding-agent stars:>2000 fork:false archived:false",
+      "count": 19
+    },
+    {
+      "label": "topic:software-development",
+      "query": "topic:software-development stars:>2000 fork:false archived:false",
+      "count": 11
+    },
+    {
+      "label": "topic:code-agent",
+      "query": "topic:code-agent stars:>2000 fork:false archived:false",
+      "count": 1
+    },
+    {
+      "label": "topic:developer-tools",
+      "query": "topic:developer-tools stars:>2000 fork:false archived:false",
+      "count": 60
+    },
+    {
+      "label": "topic:ai-coding",
+      "query": "topic:ai-coding stars:>2000 fork:false archived:false",
+      "count": 27
+    },
+    {
+      "label": "topic:code-review",
+      "query": "topic:code-review stars:>2000 fork:false archived:false",
+      "count": 19
+    },
+    {
+      "label": "topic:browser-automation",
+      "query": "topic:browser-automation stars:>2000 fork:false archived:false",
+      "count": 28
+    },
+    {
+      "label": "topic:web-agent",
+      "query": "topic:web-agent stars:>2000 fork:false archived:false",
+      "count": 1
+    },
+    {
+      "label": "topic:workflow-automation",
+      "query": "topic:workflow-automation stars:>2000 fork:false archived:false",
+      "count": 30
+    },
+    {
+      "label": "topic:mcp",
+      "query": "topic:mcp stars:>2000 fork:false archived:false",
+      "count": 60
+    },
+    {
+      "label": "topic:mcp-server",
+      "query": "topic:mcp-server stars:>2000 fork:false archived:false",
+      "count": 60
+    },
+    {
+      "label": "topic:research-agent",
+      "query": "topic:research-agent stars:>2000 fork:false archived:false",
+      "count": 2
+    },
+    {
+      "label": "topic:rss",
+      "query": "topic:rss stars:>2000 fork:false archived:false",
+      "count": 40
+    },
+    {
+      "label": "topic:news",
+      "query": "topic:news stars:>2000 fork:false archived:false",
+      "count": 17
+    },
+    {
+      "label": "topic:content-creation",
+      "query": "topic:content-creation stars:>2000 fork:false archived:false",
+      "count": 4
+    },
+    {
+      "label": "topic:ai-writing",
+      "query": "topic:ai-writing stars:>2000 fork:false archived:false",
+      "count": 5
+    },
+    {
+      "label": "topic:social-media",
+      "query": "topic:social-media stars:>2000 fork:false archived:false",
+      "count": 19
+    },
+    {
+      "label": "topic:video-generation",
+      "query": "topic:video-generation stars:>2000 fork:false archived:false",
+      "count": 38
+    },
+    {
+      "label": "topic:video-editing",
+      "query": "topic:video-editing stars:>2000 fork:false archived:false",
+      "count": 21
+    },
+    {
+      "label": "topic:finance",
+      "query": "topic:finance stars:>2000 fork:false archived:false",
+      "count": 60
+    },
+    {
+      "label": "topic:stock",
+      "query": "topic:stock stars:>2000 fork:false archived:false",
+      "count": 29
+    },
+    {
+      "label": "topic:investment",
+      "query": "topic:investment stars:>2000 fork:false archived:false",
+      "count": 15
+    },
+    {
+      "label": "topic:quant",
+      "query": "topic:quant stars:>2000 fork:false archived:false",
+      "count": 37
+    },
+    {
+      "label": "topic:trading",
+      "query": "topic:trading stars:>2000 fork:false archived:false",
+      "count": 52
+    },
+    {
+      "label": "keyword:AI agent",
+      "query": "\"AI agent\" stars:>2000 fork:false archived:false",
+      "count": 60
+    },
+    {
+      "label": "keyword:agent framework",
+      "query": "\"agent framework\" stars:>2000 fork:false archived:false",
+      "count": 28
+    },
+    {
+      "label": "keyword:coding agent",
+      "query": "\"coding agent\" stars:>2000 fork:false archived:false",
+      "count": 60
+    },
+    {
+      "label": "keyword:software development agent",
+      "query": "\"software development agent\" stars:>2000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:developer agent",
+      "query": "\"developer agent\" stars:>2000 fork:false archived:false",
+      "count": 1
+    },
+    {
+      "label": "keyword:AI coding agent",
+      "query": "\"AI coding agent\" stars:>2000 fork:false archived:false",
+      "count": 36
+    },
+    {
+      "label": "keyword:code review agent",
+      "query": "\"code review agent\" stars:>2000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:pull request agent",
+      "query": "\"pull request agent\" stars:>2000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:browser automation agent",
+      "query": "\"browser automation agent\" stars:>2000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:web automation agent",
+      "query": "\"web automation agent\" stars:>2000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:workflow automation agent",
+      "query": "\"workflow automation agent\" stars:>2000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:research agent",
+      "query": "\"research agent\" stars:>2000 fork:false archived:false",
+      "count": 7
+    },
+    {
+      "label": "keyword:news agent",
+      "query": "\"news agent\" stars:>2000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:RSS agent",
+      "query": "\"RSS agent\" stars:>2000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:content creation agent",
+      "query": "\"content creation agent\" stars:>2000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:AI writing agent",
+      "query": "\"AI writing agent\" stars:>2000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:copywriting agent",
+      "query": "\"copywriting agent\" stars:>2000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:social media agent",
+      "query": "\"social media agent\" stars:>2000 fork:false archived:false",
+      "count": 1
+    },
+    {
+      "label": "keyword:wechat agent",
+      "query": "\"wechat agent\" stars:>2000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:wechat public account agent",
+      "query": "\"wechat public account agent\" stars:>2000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:微信公众号 agent",
+      "query": "\"微信公众号 agent\" stars:>2000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:xiaohongshu agent",
+      "query": "\"xiaohongshu agent\" stars:>2000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:小红书 agent",
+      "query": "\"小红书 agent\" stars:>2000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:douyin agent",
+      "query": "\"douyin agent\" stars:>2000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:抖音 agent",
+      "query": "\"抖音 agent\" stars:>2000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:video agent",
+      "query": "\"video agent\" stars:>2000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:short video agent",
+      "query": "\"short video agent\" stars:>2000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:subtitle agent",
+      "query": "\"subtitle agent\" stars:>2000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:investment agent",
+      "query": "\"investment agent\" stars:>2000 fork:false archived:false",
+      "count": 1
+    },
+    {
+      "label": "keyword:stock agent",
+      "query": "\"stock agent\" stars:>2000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:fund agent",
+      "query": "\"fund agent\" stars:>2000 fork:false archived:false",
+      "count": 0
+    },
+    {
+      "label": "keyword:quant agent",
+      "query": "\"quant agent\" stars:>2000 fork:false archived:false",
+      "count": 1
+    },
+    {
+      "label": "keyword:trading agent",
+      "query": "\"trading agent\" stars:>2000 fork:false archived:false",
+      "count": 6
+    }
+  ],
   "failed_queries": [],
+  "github_rate_limited": false,
+  "filtered_candidates": 541,
+  "filter_reasons": {
+    "noise_term:awesome": 163,
+    "template_repo": 41,
+    "stale_repo": 259,
+    "noise_term:tutorials": 11,
+    "noise_term:tutorial": 22,
+    "noise_term:benchmark": 6,
+    "noise_term:examples": 3,
+    "noise_term:dataset": 5,
+    "noise_term:demo": 3,
+    "noise_term:papers": 9,
+    "noise_term:survey": 2,
+    "noise_term:example": 4,
+    "noise_term:course": 4,
+    "noise_term:datasets": 8,
+    "noise_term:paper-list": 1
+  },
   "warnings": [
-    "No generated data yet. Run python src/main.py sync to refresh."
-  ]
+    "Trending repo metadata fetch failed: sponsors/JuliusBrussee (HTTP 404)",
+    "Trending repo metadata fetch failed: sponsors/safishamsi (HTTP 404)",
+    "Trending repo metadata fetch failed: sponsors/ogulcancelik (HTTP 404)",
+    "Trending repo metadata fetch failed: sponsors/obra (HTTP 404)",
+    "Trending repo metadata fetch failed: sponsors/supabase (HTTP 404)",
+    "Trending repo metadata fetch failed: sponsors/msitarzewski (HTTP 404)",
+    "Trending repo metadata fetch failed: sponsors/simplex-chat (HTTP 404)",
+    "Trending repo metadata fetch failed: sponsors/diegosouzapw (HTTP 404)",
+    "Trending repo metadata fetch failed: sponsors/topoteretes (HTTP 404)",
+    "Trending repo metadata fetch failed: sponsors/ogulcancelik (HTTP 404)",
+    "Trending repo metadata fetch failed: sponsors/logto-io (HTTP 404)",
+    "Trending repo metadata fetch failed: sponsors/msitarzewski (HTTP 404)",
+    "Trending repo metadata fetch failed: sponsors/calesthio (HTTP 404)",
+    "Analysis repo limit applied: selected 240 of 1601 collected repositories.",
+    "Model analysis fallback for batch 2: ReadTimeout",
+    "Model analysis fallback for batch 3: ReadTimeout",
+    "Model analysis fallback for batch 4: ReadTimeout",
+    "Model analysis fallback for batch 5: ReadTimeout",
+    "Model analysis fallback for batch 6: ReadTimeout",
+    "Model analysis fallback for batch 7: ReadTimeout",
+    "Model analysis fallback for batch 8: ReadTimeout",
+    "Model analysis fallback for batch 9: ReadTimeout",
+    "Model analysis fallback for batch 10: ReadTimeout",
+    "Model analysis fallback for batch 11: ReadTimeout",
+    "Model analysis fallback for batch 12: ReadTimeout",
+    "Model analysis fallback for batch 13: ReadTimeout",
+    "Model analysis fallback for batch 14: ReadTimeout",
+    "Model analysis fallback for batch 15: ReadTimeout",
+    "Model analysis fallback for batch 16: ReadTimeout",
+    "Model analysis fallback for batch 17: ReadTimeout",
+    "Model analysis fallback for batch 18: ReadTimeout",
+    "Model analysis fallback for batch 19: ReadTimeout",
+    "Model analysis fallback for batch 20: ReadTimeout",
+    "Model analysis fallback for batch 21: ReadTimeout",
+    "Model analysis fallback for batch 22: ReadTimeout",
+    "Model analysis fallback for batch 23: ReadTimeout",
+    "Model analysis fallback for batch 24: ReadTimeout",
+    "Model analysis fallback for batch 25: ReadTimeout",
+    "Model analysis fallback for batch 26: ReadTimeout",
+    "Model analysis fallback for batch 27: ReadTimeout",
+    "Model analysis fallback for batch 28: ReadTimeout",
+    "Model analysis fallback for batch 30: ReadTimeout"
+  ],
+  "trending_enabled": true,
+  "trending_periods": [
+    "daily",
+    "weekly"
+  ],
+  "trending_repos_seen": 41,
+  "trending_repos_added": 20,
+  "analysis_repo_limit": 240,
+  "collected_before_analysis_limit": 1601,
+  "analysis_repo_limit_applied": true,
+  "analysis_repo_limit_selected": 240,
+  "ai_fallback_count": 227,
+  "ok": true,
+  "synced_at": "2026-07-04T01:07:41Z",
+  "collected_count": 1601,
+  "analyzed_count": 240,
+  "exported_count": 240
 }
