@@ -80,6 +80,26 @@ CANDIDATE_NOISE_TERMS = tuple(
     ).split(",")
     if term.strip()
 )
+GITHUB_RESERVED_PATH_OWNERS = {
+    "account",
+    "apps",
+    "codespaces",
+    "collections",
+    "events",
+    "explore",
+    "features",
+    "github",
+    "marketplace",
+    "new",
+    "notifications",
+    "orgs",
+    "pulls",
+    "search",
+    "settings",
+    "sponsors",
+    "topics",
+    "trending",
+}
 
 # 模型批处理通过“条数 + 字符预算”双限制，避免触发上下文上限或速率限制。
 AI_BATCH_SIZE = int(os.getenv("AI_BATCH_SIZE", "8"))
@@ -642,6 +662,16 @@ def fetch_seed_repos(seeds: list[dict[str, str]], report: dict[str, Any]) -> lis
     return repos
 
 
+def is_valid_github_repo_path(path: str) -> bool:
+    """Return True when a GitHub HTML href path looks like `owner/repo`."""
+    if not re.fullmatch(r"[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+", path):
+        return False
+    owner, repo = path.split("/", 1)
+    if owner.lower() in GITHUB_RESERVED_PATH_OWNERS:
+        return False
+    return bool(owner and repo)
+
+
 def parse_trending_repo_names(html: str) -> list[str]:
     """从 GitHub Trending HTML 页面中解析 `owner/repo`。
 
@@ -650,11 +680,13 @@ def parse_trending_repo_names(html: str) -> list[str]:
     """
     names: list[str] = []
     for article in re.findall(r"<article\b.*?</article>", html, flags=re.DOTALL | re.IGNORECASE):
-        match = re.search(r'href="/([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)"', article)
-        if match:
-            repo_name = match.group(1)
-            if repo_name not in names:
+        heading_match = re.search(r"<h2\b.*?</h2>", article, flags=re.DOTALL | re.IGNORECASE)
+        candidates = re.findall(r'href="/([^"#?]+)"', heading_match.group(0) if heading_match else article)
+        for candidate in candidates:
+            repo_name = candidate.strip("/")
+            if is_valid_github_repo_path(repo_name) and repo_name not in names:
                 names.append(repo_name)
+                break
     return names
 
 

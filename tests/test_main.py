@@ -409,6 +409,27 @@ def test_search_repos_filters_noise_and_reports_reason(monkeypatch):
     assert report["filter_reasons"] == {"noise_term:awesome": 1}
 
 
+def test_parse_trending_repo_names_ignores_sponsor_links():
+    html = """
+    <article class="Box-row">
+      <a href="/sponsors/obra">Sponsor</a>
+      <h2 class="h3 lh-condensed">
+        <a href="/obra/superpowers">
+          <span>obra /</span>
+          superpowers
+        </a>
+      </h2>
+    </article>
+    <article class="Box-row">
+      <h2><a href="/supabase-community/supabase-mcp">supabase-community / supabase-mcp</a></h2>
+      <a href="/sponsors/supabase">Sponsor</a>
+    </article>
+    """
+
+    assert radar.parse_trending_repo_names(html) == ["obra/superpowers", "supabase-community/supabase-mcp"]
+    assert radar.is_valid_github_repo_path("sponsors/obra") is False
+
+
 def test_extract_json_array_from_markdown_fence():
     payload = '```json\n[{"repo_id": 1, "kind": "Agent"}]\n```'
     assert radar.extract_json_array(payload) == [{"repo_id": 1, "kind": "Agent"}]
