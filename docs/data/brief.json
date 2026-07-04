@@ -1,34 +1,20 @@
 {
-  "generated_at": "2026-07-04T01:07:41Z",
+  "generated_at": "2026-07-04T05:56:47Z",
   "window": "latest_sync",
   "top_picks": [
     {
-      "repo_id": 193215554,
-      "repo_name": "n8n-io/n8n",
+      "repo_id": 1073224795,
+      "repo_name": "obra/superpowers",
       "kind": "Skill",
-      "category": "软件开发",
-      "summary": "n8n 是一个AI原生的工作流自动化平台，支持多种集成和自定义代码。",
-      "recommendation_score": 100,
+      "category": "产品设计",
+      "summary": "An agentic skills framework & software development methodology that works.",
+      "recommendation_score": 98,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/n8n-io/n8n"
-    },
-    {
-      "repo_id": 975734319,
-      "repo_name": "anomalyco/opencode",
-      "kind": "Agent",
-      "category": "软件开发",
-      "summary": "OpenCode 是一个开源的编码代理，支持多种安装方式和桌面应用。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/anomalyco/opencode"
+      "url": "https://github.com/obra/superpowers"
     },
     {
       "repo_id": 291137,
@@ -43,6 +29,20 @@
         "近期维护活跃"
       ],
       "url": "https://github.com/ohmyzsh/ohmyzsh"
+    },
+    {
+      "repo_id": 1136590548,
+      "repo_name": "affaan-m/ECC",
+      "kind": "Agent",
+      "category": "学习",
+      "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor ",
+      "recommendation_score": 98,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/affaan-m/ECC"
     },
     {
       "repo_id": 307260205,
@@ -145,18 +145,18 @@
   ],
   "skill_top": [
     {
-      "repo_id": 193215554,
-      "repo_name": "n8n-io/n8n",
+      "repo_id": 1073224795,
+      "repo_name": "obra/superpowers",
       "kind": "Skill",
-      "category": "软件开发",
-      "summary": "n8n 是一个AI原生的工作流自动化平台，支持多种集成和自定义代码。",
-      "recommendation_score": 100,
+      "category": "产品设计",
+      "summary": "An agentic skills framework & software development methodology that works.",
+      "recommendation_score": 98,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/n8n-io/n8n"
+      "url": "https://github.com/obra/superpowers"
     },
     {
       "repo_id": 291137,
@@ -217,12 +217,40 @@
   ],
   "agent_top": [
     {
+      "repo_id": 1136590548,
+      "repo_name": "affaan-m/ECC",
+      "kind": "Agent",
+      "category": "学习",
+      "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor ",
+      "recommendation_score": 98,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "repo_id": 193215554,
+      "repo_name": "n8n-io/n8n",
+      "kind": "Agent",
+      "category": "学习",
+      "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "recommendation_score": 97,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/n8n-io/n8n"
+    },
+    {
       "repo_id": 975734319,
       "repo_name": "anomalyco/opencode",
       "kind": "Agent",
-      "category": "软件开发",
-      "summary": "OpenCode 是一个开源的编码代理，支持多种安装方式和桌面应用。",
-      "recommendation_score": 99,
+      "category": "内容创作",
+      "summary": "The open source coding agent.",
+      "recommendation_score": 97,
       "why_pick": [
         "高可用性",
         "安装入口明确",
@@ -257,39 +285,10 @@
         "近期维护活跃"
       ],
       "url": "https://github.com/firecrawl/firecrawl"
-    },
-    {
-      "repo_id": 968197216,
-      "repo_name": "google-gemini/gemini-cli",
-      "kind": "Agent",
-      "category": "学习",
-      "summary": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-      "recommendation_score": 97,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/google-gemini/gemini-cli"
-    },
-    {
-      "repo_id": 771302083,
-      "repo_name": "OpenHands/OpenHands",
-      "kind": "Agent",
-      "category": "办公协作",
-      "summary": "🙌 OpenHands: AI-Driven Development",
-      "recommendation_score": 97,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/OpenHands/OpenHands"
     }
   ],
   "warnings": [
     "Trending repo metadata fetch failed: sponsors/JuliusBrussee (HTTP 404)",
-    "Trending repo metadata fetch failed: sponsors/safishamsi (HTTP 404)",
     "Trending repo metadata fetch failed: sponsors/ogulcancelik (HTTP 404)",
     "Trending repo metadata fetch failed: sponsors/obra (HTTP 404)",
     "Trending repo metadata fetch failed: sponsors/supabase (HTTP 404)",
@@ -302,6 +301,7 @@
     "Trending repo metadata fetch failed: sponsors/msitarzewski (HTTP 404)",
     "Trending repo metadata fetch failed: sponsors/calesthio (HTTP 404)",
     "Analysis repo limit applied: selected 240 of 1601 collected repositories.",
+    "Model analysis fallback for batch 1: ReadTimeout",
     "Model analysis fallback for batch 2: ReadTimeout",
     "Model analysis fallback for batch 3: ReadTimeout",
     "Model analysis fallback for batch 4: ReadTimeout",

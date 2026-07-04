@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "synced_at": "2026-07-04T01:07:41Z",
+  "synced_at": "2026-07-04T05:56:47Z",
   "query_count": 155,
   "failed_queries": [],
   "github_rate_limited": false,
@@ -24,12 +24,11 @@
     "noise_term:datasets": 8,
     "noise_term:paper-list": 1
   },
-  "trending_repos_seen": 41,
+  "trending_repos_seen": 40,
   "trending_repos_added": 20,
-  "ai_fallback_count": 227,
+  "ai_fallback_count": 224,
   "warnings": [
     "Trending repo metadata fetch failed: sponsors/JuliusBrussee (HTTP 404)",
-    "Trending repo metadata fetch failed: sponsors/safishamsi (HTTP 404)",
     "Trending repo metadata fetch failed: sponsors/ogulcancelik (HTTP 404)",
     "Trending repo metadata fetch failed: sponsors/obra (HTTP 404)",
     "Trending repo metadata fetch failed: sponsors/supabase (HTTP 404)",
@@ -42,6 +41,7 @@
     "Trending repo metadata fetch failed: sponsors/msitarzewski (HTTP 404)",
     "Trending repo metadata fetch failed: sponsors/calesthio (HTTP 404)",
     "Analysis repo limit applied: selected 240 of 1601 collected repositories.",
+    "Model analysis fallback for batch 1: ReadTimeout",
     "Model analysis fallback for batch 2: ReadTimeout",
     "Model analysis fallback for batch 3: ReadTimeout",
     "Model analysis fallback for batch 4: ReadTimeout",
