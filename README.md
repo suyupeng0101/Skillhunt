@@ -19,7 +19,12 @@
 ## 30 秒选边上车
 
 1. 只想看榜单  
-   
+
+   [打开 Skillhunt 榜单](https://suyupeng0101.github.io/Skillhunt/)
+
+   ![Skillhunt 首页概览](docs/assets/readme/skillhunt-home.png)
+
+   ![Skillhunt 榜单筛选与分类](docs/assets/readme/skillhunt-ranking.png)
 
 2. 想让 Agent 替你读  
    直接让 Agent 读取 `docs/data/brief.json` / `docs/data/radar.json`，或者使用：
