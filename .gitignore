@@ -4,5 +4,5 @@
 .pytest_cache/
 __pycache__/
 *.pyc
-data/
+/data/
 screenshot.png
