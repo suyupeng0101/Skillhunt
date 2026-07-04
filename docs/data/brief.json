@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T06:33:08Z",
+  "generated_at": "2026-07-04T06:50:32Z",
   "window": "latest_sync",
   "top_picks": [
     {
@@ -297,6 +297,7 @@
     "Trending repo metadata fetch failed: sponsors/diegosouzapw (HTTP 404)",
     "Trending repo metadata fetch failed: sponsors/topoteretes (HTTP 404)",
     "Trending repo metadata fetch failed: sponsors/ogulcancelik (HTTP 404)",
+    "Trending repo metadata fetch failed: sponsors/JCodesMore (HTTP 404)",
     "Trending repo metadata fetch failed: sponsors/logto-io (HTTP 404)",
     "Trending repo metadata fetch failed: sponsors/msitarzewski (HTTP 404)",
     "Trending repo metadata fetch failed: sponsors/calesthio (HTTP 404)",
