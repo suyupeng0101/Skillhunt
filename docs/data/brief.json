@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-05T06:03:26Z",
+  "generated_at": "2026-07-06T06:25:33Z",
   "window": "latest_sync",
   "top_picks": [
     {
       "repo_id": 1073224795,
       "repo_name": "obra/superpowers",
       "kind": "Skill",
-      "category": "软件开发",
-      "summary": "为编程智能体提供完整软件开发方法论的可组合技能框架。",
-      "recommendation_score": 100,
+      "category": "产品设计",
+      "summary": "obra/superpowers 是一个面向产品设计场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+      "recommendation_score": 98,
       "why_pick": [
         "高可用性",
         "安装入口明确",
@@ -17,26 +17,12 @@
       "url": "https://github.com/obra/superpowers"
     },
     {
-      "repo_id": 1136590548,
-      "repo_name": "affaan-m/ECC",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "面向多智能体协作环境的性能优化系统，包含技能、记忆、安全和研究驱动开发能力。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/affaan-m/ECC"
-    },
-    {
       "repo_id": 291137,
       "repo_name": "ohmyzsh/ohmyzsh",
       "kind": "Skill",
-      "category": "软件开发",
-      "summary": "社区驱动的Zsh配置管理框架，提供300+插件和140+主题以增强终端体验。",
-      "recommendation_score": 100,
+      "category": "学习",
+      "summary": "ohmyzsh/ohmyzsh 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+      "recommendation_score": 98,
       "why_pick": [
         "高可用性",
         "安装入口明确",
@@ -45,74 +31,18 @@
       "url": "https://github.com/ohmyzsh/ohmyzsh"
     },
     {
-      "repo_id": 888092115,
-      "repo_name": "microsoft/markitdown",
-      "kind": "Skill",
-      "category": "知识管理",
-      "summary": "将PDF、Office文档、图片等多种文件格式转换为Markdown的Python工具。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/microsoft/markitdown"
-    },
-    {
-      "repo_id": 193215554,
-      "repo_name": "n8n-io/n8n",
+      "repo_id": 1136590548,
+      "repo_name": "affaan-m/ECC",
       "kind": "Agent",
-      "category": "自动化运营",
-      "summary": "支持AI原生工作流自动化的公平代码平台，结合可视化构建与自定义代码。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/n8n-io/n8n"
-    },
-    {
-      "repo_id": 307260205,
-      "repo_name": "yt-dlp/yt-dlp",
-      "kind": "Skill",
-      "category": "视频处理",
-      "summary": "功能丰富的命令行音视频下载工具，支持数千个网站及多种后处理选项。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/yt-dlp/yt-dlp"
-    },
-    {
-      "repo_id": 975734319,
-      "repo_name": "anomalyco/opencode",
-      "kind": "Agent",
-      "category": "软件开发",
-      "summary": "开源AI编程智能体，提供终端UI和桌面应用以辅助代码编写与项目管理。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/anomalyco/opencode"
-    },
-    {
-      "repo_id": 1148788086,
-      "repo_name": "mattpocock/skills",
-      "kind": "Agent",
-      "category": "办公协作",
-      "summary": "mattpocock/skills 是一个面向办公协作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+      "category": "学习",
+      "summary": "affaan-m/ECC 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/mattpocock/skills"
+      "url": "https://github.com/affaan-m/ECC"
     },
     {
       "repo_id": 1075372545,
@@ -127,6 +57,148 @@
         "近期维护活跃"
       ],
       "url": "https://github.com/msitarzewski/agency-agents"
+    },
+    {
+      "repo_id": 307260205,
+      "repo_name": "yt-dlp/yt-dlp",
+      "kind": "Skill",
+      "category": "知识管理",
+      "summary": "yt-dlp/yt-dlp 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+      "recommendation_score": 97,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/yt-dlp/yt-dlp"
+    },
+    {
+      "repo_id": 888092115,
+      "repo_name": "microsoft/markitdown",
+      "kind": "Skill",
+      "category": "视频处理",
+      "summary": "microsoft/markitdown 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+      "recommendation_score": 97,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/microsoft/markitdown"
+    },
+    {
+      "repo_id": 1031912724,
+      "repo_name": "farion1231/cc-switch",
+      "kind": "Skill",
+      "category": "产品设计",
+      "summary": "farion1231/cc-switch 是一个面向产品设计场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+      "recommendation_score": 97,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/farion1231/cc-switch"
+    },
+    {
+      "repo_id": 90796663,
+      "repo_name": "puppeteer/puppeteer",
+      "kind": "Skill",
+      "category": "学习",
+      "summary": "puppeteer/puppeteer 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+      "recommendation_score": 97,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/puppeteer/puppeteer"
+    },
+    {
+      "repo_id": 1201173969,
+      "repo_name": "JuliusBrussee/caveman",
+      "kind": "Skill",
+      "category": "办公协作",
+      "summary": "JuliusBrussee/caveman 是一个面向办公协作场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+      "recommendation_score": 97,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/JuliusBrussee/caveman"
+    },
+    {
+      "repo_id": 643445235,
+      "repo_name": "lobehub/lobehub",
+      "kind": "Skill",
+      "category": "数据分析",
+      "summary": "lobehub/lobehub 是一个面向数据分析场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+      "recommendation_score": 97,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/lobehub/lobehub"
+    }
+  ],
+  "skill_top": [
+    {
+      "repo_id": 1073224795,
+      "repo_name": "obra/superpowers",
+      "kind": "Skill",
+      "category": "产品设计",
+      "summary": "obra/superpowers 是一个面向产品设计场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+      "recommendation_score": 98,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "repo_id": 291137,
+      "repo_name": "ohmyzsh/ohmyzsh",
+      "kind": "Skill",
+      "category": "学习",
+      "summary": "ohmyzsh/ohmyzsh 是一个面向学习场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+      "recommendation_score": 98,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/ohmyzsh/ohmyzsh"
+    },
+    {
+      "repo_id": 307260205,
+      "repo_name": "yt-dlp/yt-dlp",
+      "kind": "Skill",
+      "category": "知识管理",
+      "summary": "yt-dlp/yt-dlp 是一个面向知识管理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+      "recommendation_score": 97,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/yt-dlp/yt-dlp"
+    },
+    {
+      "repo_id": 888092115,
+      "repo_name": "microsoft/markitdown",
+      "kind": "Skill",
+      "category": "视频处理",
+      "summary": "microsoft/markitdown 是一个面向视频处理场景的Skill 能力工具，适合需要快速评估、安装或复用单一 Agent 能力单元的场景。",
+      "recommendation_score": 97,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/microsoft/markitdown"
     },
     {
       "repo_id": 1031912724,
@@ -143,120 +215,20 @@
       "url": "https://github.com/farion1231/cc-switch"
     }
   ],
-  "skill_top": [
-    {
-      "repo_id": 1073224795,
-      "repo_name": "obra/superpowers",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "为编程智能体提供完整软件开发方法论的可组合技能框架。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/obra/superpowers"
-    },
+  "agent_top": [
     {
       "repo_id": 1136590548,
       "repo_name": "affaan-m/ECC",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "面向多智能体协作环境的性能优化系统，包含技能、记忆、安全和研究驱动开发能力。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/affaan-m/ECC"
-    },
-    {
-      "repo_id": 291137,
-      "repo_name": "ohmyzsh/ohmyzsh",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "社区驱动的Zsh配置管理框架，提供300+插件和140+主题以增强终端体验。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/ohmyzsh/ohmyzsh"
-    },
-    {
-      "repo_id": 888092115,
-      "repo_name": "microsoft/markitdown",
-      "kind": "Skill",
-      "category": "知识管理",
-      "summary": "将PDF、Office文档、图片等多种文件格式转换为Markdown的Python工具。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/microsoft/markitdown"
-    },
-    {
-      "repo_id": 307260205,
-      "repo_name": "yt-dlp/yt-dlp",
-      "kind": "Skill",
-      "category": "视频处理",
-      "summary": "功能丰富的命令行音视频下载工具，支持数千个网站及多种后处理选项。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/yt-dlp/yt-dlp"
-    }
-  ],
-  "agent_top": [
-    {
-      "repo_id": 193215554,
-      "repo_name": "n8n-io/n8n",
       "kind": "Agent",
-      "category": "自动化运营",
-      "summary": "支持AI原生工作流自动化的公平代码平台，结合可视化构建与自定义代码。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/n8n-io/n8n"
-    },
-    {
-      "repo_id": 975734319,
-      "repo_name": "anomalyco/opencode",
-      "kind": "Agent",
-      "category": "软件开发",
-      "summary": "开源AI编程智能体，提供终端UI和桌面应用以辅助代码编写与项目管理。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/anomalyco/opencode"
-    },
-    {
-      "repo_id": 1148788086,
-      "repo_name": "mattpocock/skills",
-      "kind": "Agent",
-      "category": "办公协作",
-      "summary": "mattpocock/skills 是一个面向办公协作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+      "category": "学习",
+      "summary": "affaan-m/ECC 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/mattpocock/skills"
+      "url": "https://github.com/affaan-m/ECC"
     },
     {
       "repo_id": 1075372545,
@@ -271,6 +243,34 @@
         "近期维护活跃"
       ],
       "url": "https://github.com/msitarzewski/agency-agents"
+    },
+    {
+      "repo_id": 193215554,
+      "repo_name": "n8n-io/n8n",
+      "kind": "Agent",
+      "category": "学习",
+      "summary": "n8n-io/n8n 是一个面向学习场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+      "recommendation_score": 97,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/n8n-io/n8n"
+    },
+    {
+      "repo_id": 975734319,
+      "repo_name": "anomalyco/opencode",
+      "kind": "Agent",
+      "category": "内容创作",
+      "summary": "anomalyco/opencode 是一个面向内容创作场景的Agent 项目框架，适合评估 AI Agent 框架、自动化应用或可二次开发的智能体项目。",
+      "recommendation_score": 97,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/anomalyco/opencode"
     },
     {
       "repo_id": 626805178,
