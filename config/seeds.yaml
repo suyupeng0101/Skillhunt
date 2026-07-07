@@ -22,3 +22,8 @@ repos:
   - repo: geekjourneyx/md2wechat-mcp-server
     kind_hint: Skill
     category_hint: 内容创作
+
+  # 高价值 Claude/Codex/OpenClaw skills 集合；即使 GitHub Search 排名波动也保底纳入。
+  - repo: JimLiu/baoyu-skills
+    kind_hint: Skill
+    category_hint: 内容创作

@@ -27,6 +27,7 @@ skill:
     - claude-skills
     - claude-code
     - codex-skill
+    - codex-skills
     - agent-cli
     - developer-tools
     - devtools
