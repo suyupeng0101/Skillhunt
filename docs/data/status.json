@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "synced_at": "2026-07-07T08:10:20Z",
+  "synced_at": "2026-07-07T11:28:52Z",
   "query_count": 156,
   "failed_queries": [],
   "github_rate_limited": false,
@@ -26,9 +26,9 @@
   },
   "trending_repos_seen": 37,
   "trending_repos_added": 29,
-  "ai_fallback_count": 240,
+  "ai_fallback_count": 939,
   "model_batch_failures": 3,
   "model_circuit_breaker_tripped": true,
-  "model_circuit_breaker_batch": 3,
+  "model_circuit_breaker_batch": 115,
   "warnings": []
 }
