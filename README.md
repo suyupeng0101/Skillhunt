@@ -232,7 +232,7 @@ http://127.0.0.1:8000/
 - `GITHUB_RATE_LIMIT_RETRIES`：可选，GitHub rate limit 最大等待重试次数，默认 `2`
 - `GITHUB_RATE_LIMIT_MAX_WAIT_SECONDS`：可选，单次最多等待多少秒，默认 `120.0`
 - `AI_BATCH_SIZE`：可选，模型批量分析大小
-- `MODEL_INPUT_CHAR_BUDGET`：可选，单个模型 batch 的输入字符预算，Actions 默认 `22000`
+- `MODEL_INPUT_CHAR_BUDGET`：可选，单个模型 batch 的输入字符预算，Actions 默认 `54000`
 - `MODEL_MAX_TOKENS`：可选，模型最大输出 token，默认 `4096`；R1/推理模型建议不要设太小
 - `MODEL_REQUEST_INTERVAL_SECONDS`：可选，模型请求间隔，默认 `2.0`
 - `MODEL_MAX_RETRIES`：可选，模型请求最大重试次数，Actions 默认 `2`
@@ -249,10 +249,10 @@ http://127.0.0.1:8000/
 推荐先用这组保守配置跑通：
 
 ```env
-AI_BATCH_SIZE=2
-MODEL_INPUT_CHAR_BUDGET=22000
+AI_BATCH_SIZE=6
+MODEL_INPUT_CHAR_BUDGET=54000
 MODEL_MAX_TOKENS=4096
-MODEL_REQUEST_INTERVAL_SECONDS=3.0
+MODEL_REQUEST_INTERVAL_SECONDS=2.0
 MODEL_HTTP_TIMEOUT=300
 MODEL_MAX_RETRIES=2
 MODEL_FAILURE_CIRCUIT_BREAKER=3
@@ -276,7 +276,7 @@ CANDIDATE_MAX_PUSH_AGE_DAYS=730
 README_FETCH_LIMIT=0
 ```
 
-如果遇到模型 rate limit，把 `MODEL_REQUEST_INTERVAL_SECONDS` 调大到 `5` 或 `10`。如果遇到 ReadTimeout，把 `AI_BATCH_SIZE` 保持在 `2`，并把 `README_MAX_CHARS` 或 `MODEL_INPUT_CHAR_BUDGET` 继续调小。如果遇到输出被截断，把 `MODEL_MAX_TOKENS` 调大。
+如果遇到模型 rate limit，把 `MODEL_REQUEST_INTERVAL_SECONDS` 调大到 `5` 或 `10`。如果遇到 ReadTimeout，把 `AI_BATCH_SIZE` 降到 `2`，并把 `README_MAX_CHARS` 或 `MODEL_INPUT_CHAR_BUDGET` 继续调小。如果遇到输出被截断，把 `MODEL_MAX_TOKENS` 调大。
 
 如果 GitHub 拉 README 太慢，可以设置：
 

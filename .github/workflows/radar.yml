@@ -91,13 +91,13 @@ jobs:
           GITHUB_RATE_LIMIT_RETRIES: ${{ vars.GITHUB_RATE_LIMIT_RETRIES || '2' }}
           GITHUB_RATE_LIMIT_MAX_WAIT_SECONDS: ${{ vars.GITHUB_RATE_LIMIT_MAX_WAIT_SECONDS || '120.0' }}
           ANALYSIS_REPO_LIMIT: ${{ vars.ANALYSIS_REPO_LIMIT || '0' }}
-          AI_BATCH_SIZE: ${{ vars.AI_BATCH_SIZE || '2' }}
+          AI_BATCH_SIZE: ${{ vars.AI_BATCH_SIZE || '6' }}
           MODEL_PROVIDER: ${{ vars.MODEL_PROVIDER || 'openai-compatible' }}
           MODEL_API_BASE: ${{ vars.MODEL_API_BASE || secrets.MODEL_API_BASE || '' }}
           MODEL_NAME: ${{ vars.MODEL_NAME || secrets.MODEL_NAME || '' }}
-          MODEL_INPUT_CHAR_BUDGET: ${{ vars.MODEL_INPUT_CHAR_BUDGET || '22000' }}
+          MODEL_INPUT_CHAR_BUDGET: ${{ vars.MODEL_INPUT_CHAR_BUDGET || '54000' }}
           MODEL_MAX_TOKENS: ${{ vars.MODEL_MAX_TOKENS || '4096' }}
-          MODEL_REQUEST_INTERVAL_SECONDS: ${{ vars.MODEL_REQUEST_INTERVAL_SECONDS || '3.0' }}
+          MODEL_REQUEST_INTERVAL_SECONDS: ${{ vars.MODEL_REQUEST_INTERVAL_SECONDS || '2.0' }}
           MODEL_MAX_RETRIES: ${{ vars.MODEL_MAX_RETRIES || '2' }}
           MODEL_RETRY_BASE_SECONDS: ${{ vars.MODEL_RETRY_BASE_SECONDS || '2.0' }}
           MODEL_RETRY_MAX_SECONDS: ${{ vars.MODEL_RETRY_MAX_SECONDS || '60.0' }}
