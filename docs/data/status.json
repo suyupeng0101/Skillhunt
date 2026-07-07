@@ -1,14 +1,14 @@
 {
   "ok": true,
-  "synced_at": "2026-07-07T06:07:12Z",
-  "query_count": 155,
+  "synced_at": "2026-07-07T08:10:20Z",
+  "query_count": 156,
   "failed_queries": [],
   "github_rate_limited": false,
   "github_rate_limit_waits": 0,
   "github_rate_limit_wait_seconds": 0,
-  "filtered_candidates": 547,
+  "filtered_candidates": 551,
   "filter_reasons": {
-    "noise_term:awesome": 165,
+    "noise_term:awesome": 169,
     "template_repo": 41,
     "stale_repo": 260,
     "noise_term:tutorials": 11,
