@@ -211,7 +211,7 @@ http://127.0.0.1:8000/
 - `MODEL_PROVIDER`：可选，模型服务商标签，默认示例为 `openai-compatible`
 - `MODEL_API_KEY`：模型 API Key
 - `MODEL_API_BASE`：OpenAI-compatible base URL 或完整 Chat Completions endpoint；例如 `.../compatible-mode/v1` 或 `.../compatible-mode/v1/chat/completions`
-- `MODEL_NAME`：模型名称，例如 `qwen3.7-plus`
+- `MODEL_NAME`：模型名称，例如 `qwen3.7-max`
 - `SKILL_SEARCH_MIN_STARS`：可选，Skill 主检索 star 阈值，默认 `1000`
 - `AGENT_SEARCH_MIN_STARS`：可选，Agent 主检索 star 阈值，默认 `2000`
 - `MAX_RESULTS_PER_QUERY`：可选，限制每个 query 返回数量
@@ -225,17 +225,17 @@ http://127.0.0.1:8000/
 - `CANDIDATE_NOISE_TERMS`：可选，按仓库名或 topic 过滤明显噪音词
 - `README_FETCH_LIMIT`：可选，限制本轮最多拉取多少个 README，`0` 表示不限制
 - `HTTP_TIMEOUT`：可选，请求超时时间
-- `MODEL_HTTP_TIMEOUT`：可选，模型请求超时时间，默认跟随 `HTTP_TIMEOUT`；Actions 默认设为 `60`
+- `MODEL_HTTP_TIMEOUT`：可选，模型请求超时时间，默认跟随 `HTTP_TIMEOUT`；Actions 默认设为 `300`
 - `GITHUB_REQUEST_INTERVAL_SECONDS`：可选，GitHub API 请求间隔，默认 `0.2`
 - `GITHUB_SEARCH_REQUEST_INTERVAL_SECONDS`：可选，GitHub Search API 请求间隔，默认 `2.2`
 - `GITHUB_WAIT_ON_RATE_LIMIT`：可选，遇到 GitHub rate limit 是否等待重试，默认 `1`
 - `GITHUB_RATE_LIMIT_RETRIES`：可选，GitHub rate limit 最大等待重试次数，默认 `2`
 - `GITHUB_RATE_LIMIT_MAX_WAIT_SECONDS`：可选，单次最多等待多少秒，默认 `120.0`
 - `AI_BATCH_SIZE`：可选，模型批量分析大小
-- `MODEL_INPUT_CHAR_BUDGET`：可选，单个模型 batch 的输入字符预算，默认 `90000`
+- `MODEL_INPUT_CHAR_BUDGET`：可选，单个模型 batch 的输入字符预算，Actions 默认 `22000`
 - `MODEL_MAX_TOKENS`：可选，模型最大输出 token，默认 `4096`；R1/推理模型建议不要设太小
 - `MODEL_REQUEST_INTERVAL_SECONDS`：可选，模型请求间隔，默认 `2.0`
-- `MODEL_MAX_RETRIES`：可选，模型请求最大重试次数，默认 `1`
+- `MODEL_MAX_RETRIES`：可选，模型请求最大重试次数，Actions 默认 `2`
 - `MODEL_RETRY_BASE_SECONDS`：可选，模型指数退避基础等待秒数，默认 `2.0`
 - `MODEL_RETRY_MAX_SECONDS`：可选，模型单次最大退避秒数，默认 `60.0`
 - `MODEL_FAILURE_CIRCUIT_BREAKER`：可选，连续多少个模型 batch 失败后熔断并改用本地启发式分析，默认 `3`
@@ -249,12 +249,12 @@ http://127.0.0.1:8000/
 推荐先用这组保守配置跑通：
 
 ```env
-AI_BATCH_SIZE=8
-MODEL_INPUT_CHAR_BUDGET=90000
+AI_BATCH_SIZE=2
+MODEL_INPUT_CHAR_BUDGET=22000
 MODEL_MAX_TOKENS=4096
-MODEL_REQUEST_INTERVAL_SECONDS=2.0
-MODEL_HTTP_TIMEOUT=60
-MODEL_MAX_RETRIES=1
+MODEL_REQUEST_INTERVAL_SECONDS=3.0
+MODEL_HTTP_TIMEOUT=300
+MODEL_MAX_RETRIES=2
 MODEL_FAILURE_CIRCUIT_BREAKER=3
 GITHUB_REQUEST_INTERVAL_SECONDS=0.2
 GITHUB_SEARCH_REQUEST_INTERVAL_SECONDS=2.2
@@ -276,7 +276,7 @@ CANDIDATE_MAX_PUSH_AGE_DAYS=730
 README_FETCH_LIMIT=0
 ```
 
-如果遇到模型 rate limit，把 `MODEL_REQUEST_INTERVAL_SECONDS` 调大到 `5` 或 `10`，或者把 `AI_BATCH_SIZE` 调小到 `4`。如果遇到输出被截断，把 `MODEL_MAX_TOKENS` 调大。如果遇到上下文过长，把 `MODEL_INPUT_CHAR_BUDGET` 或 `README_MAX_CHARS` 调小。
+如果遇到模型 rate limit，把 `MODEL_REQUEST_INTERVAL_SECONDS` 调大到 `5` 或 `10`。如果遇到 ReadTimeout，把 `AI_BATCH_SIZE` 保持在 `2`，并把 `README_MAX_CHARS` 或 `MODEL_INPUT_CHAR_BUDGET` 继续调小。如果遇到输出被截断，把 `MODEL_MAX_TOKENS` 调大。
 
 如果 GitHub 拉 README 太慢，可以设置：
 

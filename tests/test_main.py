@@ -471,6 +471,14 @@ def test_retryable_model_error_detects_bigmodel_rate_code():
     assert code == "1302"
 
 
+def test_retryable_model_error_detects_read_timeout():
+    exc = requests.ReadTimeout("read timed out")
+    retryable, parsed_response, code = radar.is_retryable_model_error(exc)
+    assert retryable is True
+    assert parsed_response is None
+    assert code == ""
+
+
 def test_fallback_analysis_identifies_agent_and_install_methods():
     analysis = radar.fallback_analysis(sample_repo(), sample_taxonomy())
     assert analysis["kind"] == "Agent"

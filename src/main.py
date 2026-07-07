@@ -1589,12 +1589,14 @@ def call_model(batch: list[dict[str, Any]], taxonomy: dict[str, Any]) -> list[di
             retryable, response, code = is_retryable_model_error(exc)
             if not retryable or attempt >= MODEL_MAX_RETRIES - 1:
                 message = (
-                    "Model request failed permanently: provider=%s batch_size=%s attempt=%s status=%s code=%s error=%s"
+                    "Model request failed permanently: provider=%s batch_size=%s attempt=%s/%s timeout=%ss status=%s code=%s error=%s"
                 )
                 args = (
                     model_provider(),
                     len(batch),
                     attempt + 1,
+                    MODEL_MAX_RETRIES,
+                    MODEL_HTTP_TIMEOUT,
                     response.status_code if response is not None else None,
                     code,
                     exc.__class__.__name__,
@@ -1665,13 +1667,16 @@ def analyze_repos(repos: list[dict[str, Any]], taxonomy: dict[str, Any], report:
     report.setdefault("ai_fallback_count", 0)
     batches = iter_model_batches(repos)
     LOGGER.info(
-        "Analyzing repositories: repos=%s batches=%s max_batch_size=%s char_budget=%s model_configured=%s model=%s",
+        "Analyzing repositories: repos=%s batches=%s max_batch_size=%s char_budget=%s model_configured=%s model=%s model_timeout=%ss model_max_retries=%s circuit_breaker=%s",
         len(repos),
         len(batches),
         AI_BATCH_SIZE,
         MODEL_INPUT_CHAR_BUDGET,
         model_configured(),
         model_label(),
+        MODEL_HTTP_TIMEOUT,
+        MODEL_MAX_RETRIES,
+        MODEL_FAILURE_CIRCUIT_BREAKER,
     )
 
     consecutive_model_failures = 0
