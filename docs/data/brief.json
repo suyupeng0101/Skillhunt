@@ -1,83 +1,13 @@
 {
-  "generated_at": "2026-07-07T11:28:52Z",
+  "generated_at": "2026-07-08T03:24:54Z",
   "window": "latest_sync",
   "top_picks": [
     {
-      "repo_id": 1073224795,
-      "repo_name": "obra/superpowers",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "为编程智能体提供完整的软件开发方法论和可组合技能框架。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/obra/superpowers"
-    },
-    {
-      "repo_id": 1136590548,
-      "repo_name": "affaan-m/ECC",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "为Claude Code、Codex等编程智能体提供性能优化、记忆、安全和研究优先开发的技能框架。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/affaan-m/ECC"
-    },
-    {
-      "repo_id": 291137,
-      "repo_name": "ohmyzsh/ohmyzsh",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "社区驱动的Zsh配置管理框架，提供300+插件和140+主题。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/ohmyzsh/ohmyzsh"
-    },
-    {
-      "repo_id": 90796663,
-      "repo_name": "puppeteer/puppeteer",
-      "kind": "Skill",
-      "category": "自动化运营",
-      "summary": "提供控制Chrome和Firefox浏览器的高级JavaScript API库。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/puppeteer/puppeteer"
-    },
-    {
-      "repo_id": 162998479,
-      "repo_name": "sherlock-project/sherlock",
-      "kind": "Skill",
-      "category": "信息搜集",
-      "summary": "通过用户名在400多个社交网络中搜索对应账户的OSINT工具。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/sherlock-project/sherlock"
-    },
-    {
       "repo_id": 193215554,
       "repo_name": "n8n-io/n8n",
-      "kind": "Agent",
+      "kind": "Skill",
       "category": "自动化运营",
-      "summary": "支持AI原生工作流自动化的公平代码平台，结合可视化构建与自定义代码。",
+      "summary": "n8n 是一个 AI 原生的工作流自动化平台，支持可视化构建与自定义代码结合，提供 1500 多种集成。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
@@ -87,39 +17,11 @@
       "url": "https://github.com/n8n-io/n8n"
     },
     {
-      "repo_id": 626805178,
-      "repo_name": "langgenius/dify",
-      "kind": "Agent",
-      "category": "软件开发",
-      "summary": "面向生产环境的AI Agent工作流开发平台，支持低代码/无代码构建智能应用。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/langgenius/dify"
-    },
-    {
-      "repo_id": 701547123,
-      "repo_name": "open-webui/open-webui",
-      "kind": "Agent",
-      "category": "办公协作",
-      "summary": "支持Ollama和OpenAI API的自托管AI交互界面平台",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/open-webui/open-webui"
-    },
-    {
       "repo_id": 1075372545,
       "repo_name": "msitarzewski/agency-agents",
       "kind": "Agent",
-      "category": "软件开发",
-      "summary": "提供多种专业AI代理人格和角色模板的集合",
+      "category": "自动化运营",
+      "summary": "Agency Agents 是一个包含多种 AI 专家代理的集合，每个代理都有特定的专业领域和个性。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
@@ -129,99 +31,125 @@
       "url": "https://github.com/msitarzewski/agency-agents"
     },
     {
-      "repo_id": 307260205,
-      "repo_name": "yt-dlp/yt-dlp",
+      "repo_id": 1201173969,
+      "repo_name": "JuliusBrussee/caveman",
       "kind": "Skill",
-      "category": "视频处理",
-      "summary": "功能丰富的命令行音视频下载工具，支持数千个网站。",
+      "category": "内容创作",
+      "summary": "一种Claude代码技能，通过使用“石器时代人”语言风格减少输出token数量。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/yt-dlp/yt-dlp"
+      "url": "https://github.com/JuliusBrussee/caveman"
+    },
+    {
+      "repo_id": 1182081931,
+      "repo_name": "Egonex-AI/Understand-Anything",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "将任何代码转换为交互式知识图，便于探索和查询。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/Egonex-AI/Understand-Anything"
+    },
+    {
+      "repo_id": 1035029907,
+      "repo_name": "earendil-works/pi",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "AI代理工具包，提供统一的LLM API、代理循环、TUI和编码代理CLI。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/earendil-works/pi"
+    },
+    {
+      "repo_id": 1614410,
+      "repo_name": "FFmpeg/FFmpeg",
+      "kind": "Skill",
+      "category": "知识管理",
+      "summary": "FFmpeg 是一个强大的多媒体处理工具集，用于音视频编解码、转换和流媒体处理。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/FFmpeg/FFmpeg"
+    },
+    {
+      "repo_id": 1201476594,
+      "repo_name": "santifer/career-ops",
+      "kind": "Skill",
+      "category": "学习",
+      "summary": "Career-Ops 是一个开源 AI 招聘工具，用于扫描职位门户、评分、定制简历和跟踪申请。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/santifer/career-ops"
+    },
+    {
+      "repo_id": 1131513930,
+      "repo_name": "ZhuLinsen/daily_stock_analysis",
+      "kind": "Skill",
+      "category": "数据分析",
+      "summary": "daily_stock_analysis 是一个基于 LLM 的股票分析系统，支持多市场、实时新闻和决策仪表盘。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+    },
+    {
+      "repo_id": 771302083,
+      "repo_name": "OpenHands/OpenHands",
+      "kind": "Agent",
+      "category": "软件开发",
+      "summary": "一个AI驱动的开发工具，支持多种AI模型进行代码编写和自动化。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/OpenHands/OpenHands"
+    },
+    {
+      "repo_id": 979115477,
+      "repo_name": "bytedance/deer-flow",
+      "kind": "Agent",
+      "category": "自动化运营",
+      "summary": "DeerFlow 是一个开源的超级智能体框架，支持多智能体协作、记忆和沙盒环境，用于处理复杂任务。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/bytedance/deer-flow"
     }
   ],
   "skill_top": [
     {
-      "repo_id": 1073224795,
-      "repo_name": "obra/superpowers",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "为编程智能体提供完整的软件开发方法论和可组合技能框架。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/obra/superpowers"
-    },
-    {
-      "repo_id": 1136590548,
-      "repo_name": "affaan-m/ECC",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "为Claude Code、Codex等编程智能体提供性能优化、记忆、安全和研究优先开发的技能框架。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/affaan-m/ECC"
-    },
-    {
-      "repo_id": 291137,
-      "repo_name": "ohmyzsh/ohmyzsh",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "社区驱动的Zsh配置管理框架，提供300+插件和140+主题。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/ohmyzsh/ohmyzsh"
-    },
-    {
-      "repo_id": 90796663,
-      "repo_name": "puppeteer/puppeteer",
-      "kind": "Skill",
-      "category": "自动化运营",
-      "summary": "提供控制Chrome和Firefox浏览器的高级JavaScript API库。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/puppeteer/puppeteer"
-    },
-    {
-      "repo_id": 162998479,
-      "repo_name": "sherlock-project/sherlock",
-      "kind": "Skill",
-      "category": "信息搜集",
-      "summary": "通过用户名在400多个社交网络中搜索对应账户的OSINT工具。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/sherlock-project/sherlock"
-    }
-  ],
-  "agent_top": [
-    {
       "repo_id": 193215554,
       "repo_name": "n8n-io/n8n",
-      "kind": "Agent",
+      "kind": "Skill",
       "category": "自动化运营",
-      "summary": "支持AI原生工作流自动化的公平代码平台，结合可视化构建与自定义代码。",
+      "summary": "n8n 是一个 AI 原生的工作流自动化平台，支持可视化构建与自定义代码结合，提供 1500 多种集成。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
@@ -231,39 +159,69 @@
       "url": "https://github.com/n8n-io/n8n"
     },
     {
-      "repo_id": 626805178,
-      "repo_name": "langgenius/dify",
-      "kind": "Agent",
-      "category": "软件开发",
-      "summary": "面向生产环境的AI Agent工作流开发平台，支持低代码/无代码构建智能应用。",
-      "recommendation_score": 100,
+      "repo_id": 1201173969,
+      "repo_name": "JuliusBrussee/caveman",
+      "kind": "Skill",
+      "category": "内容创作",
+      "summary": "一种Claude代码技能，通过使用“石器时代人”语言风格减少输出token数量。",
+      "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/langgenius/dify"
+      "url": "https://github.com/JuliusBrussee/caveman"
     },
     {
-      "repo_id": 701547123,
-      "repo_name": "open-webui/open-webui",
-      "kind": "Agent",
-      "category": "办公协作",
-      "summary": "支持Ollama和OpenAI API的自托管AI交互界面平台",
-      "recommendation_score": 100,
+      "repo_id": 1182081931,
+      "repo_name": "Egonex-AI/Understand-Anything",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "将任何代码转换为交互式知识图，便于探索和查询。",
+      "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/open-webui/open-webui"
+      "url": "https://github.com/Egonex-AI/Understand-Anything"
     },
+    {
+      "repo_id": 1035029907,
+      "repo_name": "earendil-works/pi",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "AI代理工具包，提供统一的LLM API、代理循环、TUI和编码代理CLI。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/earendil-works/pi"
+    },
+    {
+      "repo_id": 1614410,
+      "repo_name": "FFmpeg/FFmpeg",
+      "kind": "Skill",
+      "category": "知识管理",
+      "summary": "FFmpeg 是一个强大的多媒体处理工具集，用于音视频编解码、转换和流媒体处理。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/FFmpeg/FFmpeg"
+    }
+  ],
+  "agent_top": [
     {
       "repo_id": 1075372545,
       "repo_name": "msitarzewski/agency-agents",
       "kind": "Agent",
-      "category": "软件开发",
-      "summary": "提供多种专业AI代理人格和角色模板的集合",
+      "category": "自动化运营",
+      "summary": "Agency Agents 是一个包含多种 AI 专家代理的集合，每个代理都有特定的专业领域和个性。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
@@ -273,18 +231,60 @@
       "url": "https://github.com/msitarzewski/agency-agents"
     },
     {
-      "repo_id": 968197216,
-      "repo_name": "google-gemini/gemini-cli",
+      "repo_id": 771302083,
+      "repo_name": "OpenHands/OpenHands",
       "kind": "Agent",
       "category": "软件开发",
-      "summary": "将Gemini大模型能力直接引入终端的开源AI代理",
+      "summary": "一个AI驱动的开发工具，支持多种AI模型进行代码编写和自动化。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/google-gemini/gemini-cli"
+      "url": "https://github.com/OpenHands/OpenHands"
+    },
+    {
+      "repo_id": 979115477,
+      "repo_name": "bytedance/deer-flow",
+      "kind": "Agent",
+      "category": "自动化运营",
+      "summary": "DeerFlow 是一个开源的超级智能体框架，支持多智能体协作、记忆和沙盒环境，用于处理复杂任务。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/bytedance/deer-flow"
+    },
+    {
+      "repo_id": 621803253,
+      "repo_name": "FlowiseAI/Flowise",
+      "kind": "Agent",
+      "category": "自动化运营",
+      "summary": "FlowiseAI/Flowise 是一个用于构建 AI Agent 的可视化工具，支持低代码和无代码开发。",
+      "recommendation_score": 98,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/FlowiseAI/Flowise"
+    },
+    {
+      "repo_id": 515647260,
+      "repo_name": "1Panel-dev/1Panel",
+      "kind": "Agent",
+      "category": "自动化运营",
+      "summary": "一个现代化的开源VPS控制面板，支持原生AI代理，用于管理服务器和运行AI模型。",
+      "recommendation_score": 97,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/1Panel-dev/1Panel"
     }
   ],
   "warnings": []
