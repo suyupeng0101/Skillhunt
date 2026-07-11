@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T07:19:47Z",
+  "generated_at": "2026-07-11T07:45:58Z",
   "window": "latest_sync",
   "top_picks": [
     {
@@ -7,7 +7,7 @@
       "repo_name": "obra/superpowers",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "Superpowers 是一个面向编码代理的完整软件开发方法论，基于可组合的技能和初始指令，确保代理在构建代码前先理解目标。",
+      "summary": "Superpowers 是一个用于编码代理的完整软件开发方法论，基于可组合的技能和初始指令，确保代理在构建代码时遵循最佳实践。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
@@ -17,39 +17,53 @@
       "url": "https://github.com/obra/superpowers"
     },
     {
-      "repo_id": 626805178,
-      "repo_name": "langgenius/dify",
+      "repo_id": 291137,
+      "repo_name": "ohmyzsh/ohmyzsh",
       "kind": "Skill",
-      "category": "软件开发",
-      "summary": "生产级平台，用于开发基于代理的工作流。",
+      "category": "办公协作",
+      "summary": "Oh My Zsh 是一个用于管理 zsh 配置的框架，提供插件和主题以增强终端体验。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/langgenius/dify"
+      "url": "https://github.com/ohmyzsh/ohmyzsh"
     },
     {
-      "repo_id": 1075372545,
-      "repo_name": "msitarzewski/agency-agents",
-      "kind": "Agent",
-      "category": "自动化运营",
-      "summary": "一个完整的 AI 代理集合，包括前端专家、社区管理员等，每个代理都有个性和交付成果。",
+      "repo_id": 1148788086,
+      "repo_name": "mattpocock/skills",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "Skills 是一组用于提高工程师工作效率的实用工具，基于 AI 技术。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/msitarzewski/agency-agents"
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "repo_id": 307260205,
+      "repo_name": "yt-dlp/yt-dlp",
+      "kind": "Skill",
+      "category": "视频处理",
+      "summary": "yt-dlp 是一个功能丰富的命令行视频下载工具，支持多种网站。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/yt-dlp/yt-dlp"
     },
     {
       "repo_id": 1182081931,
       "repo_name": "Egonex-AI/Understand-Anything",
       "kind": "Skill",
-      "category": "软件开发",
-      "summary": "Understand Anything 是一个工具，将任何代码库或文档转换为交互式知识图，便于探索和查询。",
+      "category": "知识管理",
+      "summary": "将代码库、知识库或文档转换为交互式知识图谱，便于探索和查询。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -59,88 +73,74 @@
       "url": "https://github.com/Egonex-AI/Understand-Anything"
     },
     {
-      "repo_id": 1201476594,
-      "repo_name": "santifer/career-ops",
+      "repo_id": 323048702,
+      "repo_name": "OpenBB-finance/OpenBB",
       "kind": "Skill",
-      "category": "学习",
-      "summary": "Career-Ops 是一个开源 AI 招聘工具，用于扫描职位门户、评分、定制简历和跟踪申请。",
+      "category": "数据分析",
+      "summary": "OpenBB是一个开源的数据平台，为分析师、量化交易员和AI代理提供数据集成和分析工具。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/santifer/career-ops"
+      "url": "https://github.com/OpenBB-finance/OpenBB"
     },
     {
-      "repo_id": 771302083,
-      "repo_name": "OpenHands/OpenHands",
-      "kind": "Agent",
-      "category": "软件开发",
-      "summary": "一个AI驱动的开发平台，支持多种AI模型进行代码编写和自动化任务。",
+      "repo_id": 91629816,
+      "repo_name": "freqtrade/freqtrade",
+      "kind": "Skill",
+      "category": "投资研究",
+      "summary": "Freqtrade 是一个开源的加密货币交易机器人，支持多种交易所和交易方式。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/OpenHands/OpenHands"
+      "url": "https://github.com/freqtrade/freqtrade"
     },
     {
-      "repo_id": 666299222,
-      "repo_name": "openinterpreter/openinterpreter",
-      "kind": "Agent",
-      "category": "软件开发",
-      "summary": "一个轻量级编码代理，支持多种开源模型，可在终端中运行。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/openinterpreter/openinterpreter"
-    },
-    {
-      "repo_id": 1139971460,
-      "repo_name": "rtk-ai/rtk",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "RTK是一个命令行代理，通过过滤和压缩命令输出来减少LLM的token消耗。",
-      "recommendation_score": 98,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/rtk-ai/rtk"
-    },
-    {
-      "repo_id": 53631945,
-      "repo_name": "BurntSushi/ripgrep",
-      "kind": "Skill",
-      "category": "信息搜集",
-      "summary": "一个递归搜索目录的命令行工具，支持正则表达式，并尊重gitignore规则。",
-      "recommendation_score": 98,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/BurntSushi/ripgrep"
-    },
-    {
-      "repo_id": 436297812,
-      "repo_name": "usememos/memos",
+      "repo_id": 65252,
+      "repo_name": "jekyll/jekyll",
       "kind": "Skill",
       "category": "内容创作",
-      "summary": "Memos 是一个开源的自托管笔记工具，专为快速捕捉信息而设计，支持 Markdown，轻量级且完全私有化。",
-      "recommendation_score": 98,
+      "summary": "Jekyll 是一个基于文件的静态网站生成器，支持 Markdown 和 Liquid 模板。",
+      "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/usememos/memos"
+      "url": "https://github.com/jekyll/jekyll"
+    },
+    {
+      "repo_id": 70107786,
+      "repo_name": "vercel/next.js",
+      "kind": "Agent",
+      "category": "软件开发",
+      "summary": "Next.js 是一个 React 框架，用于构建全栈 Web 应用程序，结合了 React 和 Rust 的优势。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/vercel/next.js"
+    },
+    {
+      "repo_id": 107111421,
+      "repo_name": "thedaviddias/Front-End-Checklist",
+      "kind": "Agent",
+      "category": "软件开发",
+      "summary": "提供前端开发的最佳实践检查表，适用于人类和AI代理。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/thedaviddias/Front-End-Checklist"
     }
   ],
   "skill_top": [
@@ -149,7 +149,7 @@
       "repo_name": "obra/superpowers",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "Superpowers 是一个面向编码代理的完整软件开发方法论，基于可组合的技能和初始指令，确保代理在构建代码前先理解目标。",
+      "summary": "Superpowers 是一个用于编码代理的完整软件开发方法论，基于可组合的技能和初始指令，确保代理在构建代码时遵循最佳实践。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
@@ -159,25 +159,53 @@
       "url": "https://github.com/obra/superpowers"
     },
     {
-      "repo_id": 626805178,
-      "repo_name": "langgenius/dify",
+      "repo_id": 291137,
+      "repo_name": "ohmyzsh/ohmyzsh",
       "kind": "Skill",
-      "category": "软件开发",
-      "summary": "生产级平台，用于开发基于代理的工作流。",
+      "category": "办公协作",
+      "summary": "Oh My Zsh 是一个用于管理 zsh 配置的框架，提供插件和主题以增强终端体验。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/langgenius/dify"
+      "url": "https://github.com/ohmyzsh/ohmyzsh"
+    },
+    {
+      "repo_id": 1148788086,
+      "repo_name": "mattpocock/skills",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "Skills 是一组用于提高工程师工作效率的实用工具，基于 AI 技术。",
+      "recommendation_score": 100,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "repo_id": 307260205,
+      "repo_name": "yt-dlp/yt-dlp",
+      "kind": "Skill",
+      "category": "视频处理",
+      "summary": "yt-dlp 是一个功能丰富的命令行视频下载工具，支持多种网站。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/yt-dlp/yt-dlp"
     },
     {
       "repo_id": 1182081931,
       "repo_name": "Egonex-AI/Understand-Anything",
       "kind": "Skill",
-      "category": "软件开发",
-      "summary": "Understand Anything 是一个工具，将任何代码库或文档转换为交互式知识图，便于探索和查询。",
+      "category": "知识管理",
+      "summary": "将代码库、知识库或文档转换为交互式知识图谱，便于探索和查询。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -185,106 +213,78 @@
         "近期维护活跃"
       ],
       "url": "https://github.com/Egonex-AI/Understand-Anything"
-    },
-    {
-      "repo_id": 1201476594,
-      "repo_name": "santifer/career-ops",
-      "kind": "Skill",
-      "category": "学习",
-      "summary": "Career-Ops 是一个开源 AI 招聘工具，用于扫描职位门户、评分、定制简历和跟踪申请。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/santifer/career-ops"
-    },
-    {
-      "repo_id": 1139971460,
-      "repo_name": "rtk-ai/rtk",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "RTK是一个命令行代理，通过过滤和压缩命令输出来减少LLM的token消耗。",
-      "recommendation_score": 98,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/rtk-ai/rtk"
     }
   ],
   "agent_top": [
     {
-      "repo_id": 1075372545,
-      "repo_name": "msitarzewski/agency-agents",
-      "kind": "Agent",
-      "category": "自动化运营",
-      "summary": "一个完整的 AI 代理集合，包括前端专家、社区管理员等，每个代理都有个性和交付成果。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/msitarzewski/agency-agents"
-    },
-    {
-      "repo_id": 771302083,
-      "repo_name": "OpenHands/OpenHands",
+      "repo_id": 70107786,
+      "repo_name": "vercel/next.js",
       "kind": "Agent",
       "category": "软件开发",
-      "summary": "一个AI驱动的开发平台，支持多种AI模型进行代码编写和自动化任务。",
+      "summary": "Next.js 是一个 React 框架，用于构建全栈 Web 应用程序，结合了 React 和 Rust 的优势。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/OpenHands/OpenHands"
+      "url": "https://github.com/vercel/next.js"
     },
     {
-      "repo_id": 666299222,
-      "repo_name": "openinterpreter/openinterpreter",
+      "repo_id": 107111421,
+      "repo_name": "thedaviddias/Front-End-Checklist",
       "kind": "Agent",
       "category": "软件开发",
-      "summary": "一个轻量级编码代理，支持多种开源模型，可在终端中运行。",
+      "summary": "提供前端开发的最佳实践检查表，适用于人类和AI代理。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/openinterpreter/openinterpreter"
+      "url": "https://github.com/thedaviddias/Front-End-Checklist"
     },
     {
-      "repo_id": 824874689,
-      "repo_name": "cline/cline",
-      "kind": "Agent",
-      "category": "软件开发",
-      "summary": "一个开源编码代理，可在IDE和终端中运行，支持多种工作模式。",
-      "recommendation_score": 98,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/cline/cline"
-    },
-    {
-      "repo_id": 621803253,
-      "repo_name": "FlowiseAI/Flowise",
+      "repo_id": 965415649,
+      "repo_name": "openai/codex",
       "kind": "Agent",
       "category": "自动化运营",
-      "summary": "FlowiseAI/Flowise 是一个用于构建 AI Agent 的可视化工具，支持低代码和无代码开发。",
-      "recommendation_score": 98,
+      "summary": "Codex 是一个轻量级的编码代理，可在终端中运行，用于自动化代码生成和编辑任务。",
+      "recommendation_score": 97,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/FlowiseAI/Flowise"
+      "url": "https://github.com/openai/codex"
+    },
+    {
+      "repo_id": 515647260,
+      "repo_name": "1Panel-dev/1Panel",
+      "kind": "Agent",
+      "category": "软件开发",
+      "summary": "1Panel 是一个开源 VPS 控制面板，内置 AI 代理支持，提供一键部署和管理 AI 模型。",
+      "recommendation_score": 97,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/1Panel-dev/1Panel"
+    },
+    {
+      "repo_id": 626805178,
+      "repo_name": "langgenius/dify",
+      "kind": "Agent",
+      "category": "自动化运营",
+      "summary": "Dify 是一个用于开发代理工作流的生产级平台，支持自托管和多种 AI 服务集成。",
+      "recommendation_score": 95,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/langgenius/dify"
     }
   ],
   "warnings": []
