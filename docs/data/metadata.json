@@ -1,12 +1,12 @@
 {
-  "synced_at": "2026-07-11T07:45:58Z",
+  "synced_at": "2026-07-12T07:39:01Z",
   "version": "v1.0",
-  "collected_count": 1621,
+  "collected_count": 1627,
   "analyzed_count": 400,
   "skill_count": 200,
   "agent_count": 200,
   "exported_count": 400,
   "brief_count": 10,
-  "fallback_count": 5,
+  "fallback_count": 3,
   "warnings": []
 }
