@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T07:39:01Z",
+  "generated_at": "2026-07-13T07:59:54Z",
   "window": "latest_sync",
   "top_picks": [
     {
@@ -7,7 +7,7 @@
       "repo_name": "obra/superpowers",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "Superpowers 是一个面向编码代理的完整软件开发方法论，基于可组合的技能和初始指令，确保代理在构建代码前先理解目标。",
+      "summary": "Superpowers 是一个用于编码代理的完整软件开发方法论，基于可组合的技能和初始指令，确保代理在构建代码前先理解目标。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
@@ -21,7 +21,7 @@
       "repo_name": "langgenius/dify",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "生产级别的代理工作流开发平台，支持低代码/无代码开发。",
+      "summary": "生产级别的代理工作流开发平台。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
@@ -31,67 +31,25 @@
       "url": "https://github.com/langgenius/dify"
     },
     {
-      "repo_id": 90796663,
-      "repo_name": "puppeteer/puppeteer",
+      "repo_id": 162998479,
+      "repo_name": "sherlock-project/sherlock",
       "kind": "Skill",
-      "category": "自动化运营",
-      "summary": "Puppeteer 是一个JavaScript库，提供Chrome和Firefox的高级API，用于自动化浏览器操作。",
+      "category": "信息搜集",
+      "summary": "Sherlock 是一个用于跨社交网络搜索用户账号的工具，支持超过 400 个社交平台。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/puppeteer/puppeteer"
-    },
-    {
-      "repo_id": 1182081931,
-      "repo_name": "Egonex-AI/Understand-Anything",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "将代码库、知识库或文档转换为可交互的知识图谱。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/Egonex-AI/Understand-Anything"
-    },
-    {
-      "repo_id": 1614410,
-      "repo_name": "FFmpeg/FFmpeg",
-      "kind": "Skill",
-      "category": "视频处理",
-      "summary": "FFmpeg 是一个多媒体内容处理工具集，包含多种库和工具用于音频、视频、字幕等格式转换和流媒体处理。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/FFmpeg/FFmpeg"
-    },
-    {
-      "repo_id": 70107786,
-      "repo_name": "vercel/next.js",
-      "kind": "Agent",
-      "category": "软件开发",
-      "summary": "Next.js 是一个用于构建 React 应用的框架，支持服务端渲染和静态网站生成。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/vercel/next.js"
+      "url": "https://github.com/sherlock-project/sherlock"
     },
     {
       "repo_id": 968197216,
       "repo_name": "google-gemini/gemini-cli",
-      "kind": "Agent",
+      "kind": "Skill",
       "category": "软件开发",
-      "summary": "Gemini CLI 是一个终端AI代理，提供Gemini模型的轻量级访问。",
+      "summary": "Gemini CLI 是一个命令行 AI 工具，提供对 Gemini 模型的直接访问和扩展功能。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -101,39 +59,81 @@
       "url": "https://github.com/google-gemini/gemini-cli"
     },
     {
-      "repo_id": 107111421,
-      "repo_name": "thedaviddias/Front-End-Checklist",
-      "kind": "Agent",
+      "repo_id": 771302083,
+      "repo_name": "OpenHands/OpenHands",
+      "kind": "Skill",
       "category": "软件开发",
-      "summary": "用于前端开发的检查列表和规则集。",
+      "summary": "OpenHands 是一个 AI 驱动的开发平台，支持多种 AI 代理在不同环境中运行。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/thedaviddias/Front-End-Checklist"
+      "url": "https://github.com/OpenHands/OpenHands"
     },
     {
-      "repo_id": 3638964,
-      "repo_name": "ansible/ansible",
-      "kind": "Agent",
-      "category": "自动化运营",
-      "summary": "Ansible 是一个简单的 IT 自动化平台，用于配置管理、应用部署和云管理。",
+      "repo_id": 1182081931,
+      "repo_name": "Egonex-AI/Understand-Anything",
+      "kind": "Skill",
+      "category": "知识管理",
+      "summary": "Understand-Anything 是一个交互式知识图谱工具，帮助用户探索、搜索和提问代码库、知识库或文档。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/ansible/ansible"
+      "url": "https://github.com/Egonex-AI/Understand-Anything"
+    },
+    {
+      "repo_id": 323048702,
+      "repo_name": "OpenBB-finance/OpenBB",
+      "kind": "Skill",
+      "category": "数据分析",
+      "summary": "OpenBB是一个开源的数据平台，用于整合各种数据源，支持AI代理和量化分析。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/OpenBB-finance/OpenBB"
+    },
+    {
+      "repo_id": 1201476594,
+      "repo_name": "santifer/career-ops",
+      "kind": "Skill",
+      "category": "学习",
+      "summary": "Career-Ops 是一个开源的 AI 招聘助手，帮助用户扫描职位门户、评分职位、定制简历和跟踪申请。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/santifer/career-ops"
+    },
+    {
+      "repo_id": 65252,
+      "repo_name": "jekyll/jekyll",
+      "kind": "Skill",
+      "category": "内容创作",
+      "summary": "Jekyll 是一个基于文件的博客式静态网站生成器，用于创建快速、安全的网站。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/jekyll/jekyll"
     },
     {
       "repo_id": 1139971460,
       "repo_name": "rtk-ai/rtk",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "CLI代理，通过减少LLM令牌消耗来优化开发命令。",
+      "summary": "RTK 是一个 CLI 代理，通过过滤和压缩命令输出来减少 LLM 的 token 消耗。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
@@ -149,7 +149,7 @@
       "repo_name": "obra/superpowers",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "Superpowers 是一个面向编码代理的完整软件开发方法论，基于可组合的技能和初始指令，确保代理在构建代码前先理解目标。",
+      "summary": "Superpowers 是一个用于编码代理的完整软件开发方法论，基于可组合的技能和初始指令，确保代理在构建代码前先理解目标。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
@@ -163,7 +163,7 @@
       "repo_name": "langgenius/dify",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "生产级别的代理工作流开发平台，支持低代码/无代码开发。",
+      "summary": "生产级别的代理工作流开发平台。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
@@ -173,69 +173,25 @@
       "url": "https://github.com/langgenius/dify"
     },
     {
-      "repo_id": 90796663,
-      "repo_name": "puppeteer/puppeteer",
+      "repo_id": 162998479,
+      "repo_name": "sherlock-project/sherlock",
       "kind": "Skill",
-      "category": "自动化运营",
-      "summary": "Puppeteer 是一个JavaScript库，提供Chrome和Firefox的高级API，用于自动化浏览器操作。",
+      "category": "信息搜集",
+      "summary": "Sherlock 是一个用于跨社交网络搜索用户账号的工具，支持超过 400 个社交平台。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/puppeteer/puppeteer"
-    },
-    {
-      "repo_id": 1182081931,
-      "repo_name": "Egonex-AI/Understand-Anything",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "将代码库、知识库或文档转换为可交互的知识图谱。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/Egonex-AI/Understand-Anything"
-    },
-    {
-      "repo_id": 1614410,
-      "repo_name": "FFmpeg/FFmpeg",
-      "kind": "Skill",
-      "category": "视频处理",
-      "summary": "FFmpeg 是一个多媒体内容处理工具集，包含多种库和工具用于音频、视频、字幕等格式转换和流媒体处理。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/FFmpeg/FFmpeg"
-    }
-  ],
-  "agent_top": [
-    {
-      "repo_id": 70107786,
-      "repo_name": "vercel/next.js",
-      "kind": "Agent",
-      "category": "软件开发",
-      "summary": "Next.js 是一个用于构建 React 应用的框架，支持服务端渲染和静态网站生成。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/vercel/next.js"
+      "url": "https://github.com/sherlock-project/sherlock"
     },
     {
       "repo_id": 968197216,
       "repo_name": "google-gemini/gemini-cli",
-      "kind": "Agent",
+      "kind": "Skill",
       "category": "软件开发",
-      "summary": "Gemini CLI 是一个终端AI代理，提供Gemini模型的轻量级访问。",
+      "summary": "Gemini CLI 是一个命令行 AI 工具，提供对 Gemini 模型的直接访问和扩展功能。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -245,46 +201,90 @@
       "url": "https://github.com/google-gemini/gemini-cli"
     },
     {
-      "repo_id": 107111421,
-      "repo_name": "thedaviddias/Front-End-Checklist",
-      "kind": "Agent",
+      "repo_id": 771302083,
+      "repo_name": "OpenHands/OpenHands",
+      "kind": "Skill",
       "category": "软件开发",
-      "summary": "用于前端开发的检查列表和规则集。",
+      "summary": "OpenHands 是一个 AI 驱动的开发平台，支持多种 AI 代理在不同环境中运行。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/thedaviddias/Front-End-Checklist"
-    },
+      "url": "https://github.com/OpenHands/OpenHands"
+    }
+  ],
+  "agent_top": [
     {
-      "repo_id": 3638964,
-      "repo_name": "ansible/ansible",
+      "repo_id": 1167965563,
+      "repo_name": "openai/symphony",
       "kind": "Agent",
       "category": "自动化运营",
-      "summary": "Ansible 是一个简单的 IT 自动化平台，用于配置管理、应用部署和云管理。",
-      "recommendation_score": 99,
+      "summary": "Symphony 将项目工作转化为独立的自主执行任务，使团队管理而非监督代码代理。",
+      "recommendation_score": 97,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/ansible/ansible"
+      "url": "https://github.com/openai/symphony"
+    },
+    {
+      "repo_id": 1216785679,
+      "repo_name": "esengine/DeepSeek-Reasonix",
+      "kind": "Agent",
+      "category": "软件开发",
+      "summary": "DeepSeek-Reasonix 是一个终端内的 DeepSeek 原生 AI 编码代理，专注于前缀缓存稳定性。",
+      "recommendation_score": 95,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/esengine/DeepSeek-Reasonix"
+    },
+    {
+      "repo_id": 1118085970,
+      "repo_name": "opensandbox-group/OpenSandbox",
+      "kind": "Agent",
+      "category": "自动化运营",
+      "summary": "OpenSandbox 是一个用于 AI 代理的安全、快速且可扩展的沙盒运行时。",
+      "recommendation_score": 95,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/opensandbox-group/OpenSandbox"
     },
     {
       "repo_id": 12888993,
       "repo_name": "home-assistant/core",
       "kind": "Agent",
       "category": "自动化运营",
-      "summary": "Home Assistant 是一个开源的家庭自动化系统，专注于本地控制和隐私保护。",
-      "recommendation_score": 98,
+      "summary": "Home Assistant 是一个开源的家庭自动化平台，专注于本地控制和隐私。",
+      "recommendation_score": 94,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
       "url": "https://github.com/home-assistant/core"
+    },
+    {
+      "repo_id": 666299222,
+      "repo_name": "openinterpreter/openinterpreter",
+      "kind": "Agent",
+      "category": "软件开发",
+      "summary": "Open Interpreter 是一个轻量级的编码代理，支持多种开源模型，如 Deepseek、Kimi 和 Qwen。",
+      "recommendation_score": 94,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/openinterpreter/openinterpreter"
     }
   ],
   "warnings": []
