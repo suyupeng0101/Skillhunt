@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T07:10:12Z",
+  "generated_at": "2026-07-15T07:03:10Z",
   "window": "latest_sync",
   "top_picks": [
     {
@@ -31,81 +31,53 @@
       "url": "https://github.com/ohmyzsh/ohmyzsh"
     },
     {
-      "repo_id": 626805178,
-      "repo_name": "langgenius/dify",
+      "repo_id": 701547123,
+      "repo_name": "open-webui/open-webui",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "生产级别的代理工作流开发平台，支持低代码/无代码开发。",
+      "summary": "Open WebUI 是一个用户友好的 AI 接口，支持多种 LLM 运行器，包括 Ollama 和 OpenAI API。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/langgenius/dify"
+      "url": "https://github.com/open-webui/open-webui"
     },
     {
-      "repo_id": 307260205,
-      "repo_name": "yt-dlp/yt-dlp",
+      "repo_id": 90796663,
+      "repo_name": "puppeteer/puppeteer",
       "kind": "Skill",
-      "category": "视频处理",
-      "summary": "yt-dlp 是一个功能丰富的命令行视频下载工具，支持众多网站。",
-      "recommendation_score": 99,
+      "category": "自动化运营",
+      "summary": "Puppeteer 是一个JavaScript库，用于控制Chrome或Firefox浏览器，实现网页自动化操作。",
+      "recommendation_score": 100,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/yt-dlp/yt-dlp"
+      "url": "https://github.com/puppeteer/puppeteer"
     },
     {
-      "repo_id": 968197216,
-      "repo_name": "google-gemini/gemini-cli",
+      "repo_id": 162998479,
+      "repo_name": "sherlock-project/sherlock",
       "kind": "Skill",
-      "category": "软件开发",
-      "summary": "Gemini CLI 是一个开源 AI 工具，通过终端直接使用 Gemini 模型。",
-      "recommendation_score": 99,
+      "category": "信息搜集",
+      "summary": "Sherlock 是一个社交工程工具，用于在多个社交网络上搜索给定用户名的信息，支持超过 400 个平台。",
+      "recommendation_score": 100,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/google-gemini/gemini-cli"
-    },
-    {
-      "repo_id": 1201173969,
-      "repo_name": "JuliusBrussee/caveman",
-      "kind": "Skill",
-      "category": "内容创作",
-      "summary": "Caveman 是一个 Claude Code 技能，通过使用简洁的语言（如穴居人风格）减少输出令牌数量。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/JuliusBrussee/caveman"
-    },
-    {
-      "repo_id": 1182081931,
-      "repo_name": "Egonex-AI/Understand-Anything",
-      "kind": "Skill",
-      "category": "办公协作",
-      "summary": "Understand Anything 是一个将代码转换为交互式知识图谱的工具，支持多种 AI 模型。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/Egonex-AI/Understand-Anything"
+      "url": "https://github.com/sherlock-project/sherlock"
     },
     {
       "repo_id": 1035029907,
       "repo_name": "earendil-works/pi",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "Pi Agent Harness 是一个AI代理工具包，提供统一的LLM API、代理循环、TUI和编码代理CLI。",
+      "summary": "提供统一的LLM API、代理循环、TUI和编码代理CLI，用于构建AI代理应用。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -115,32 +87,60 @@
       "url": "https://github.com/earendil-works/pi"
     },
     {
-      "repo_id": 1201476594,
-      "repo_name": "santifer/career-ops",
-      "kind": "Skill",
-      "category": "学习",
-      "summary": "Career-Ops 是一个开源的 AI 招聘系统，帮助用户搜索、筛选和申请工作。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/santifer/career-ops"
-    },
-    {
-      "repo_id": 91629816,
-      "repo_name": "freqtrade/freqtrade",
+      "repo_id": 65252,
+      "repo_name": "jekyll/jekyll",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "freqtrade 是一个开源的加密货币交易机器人，用于自动化交易策略。",
+      "summary": "Jekyll 是一个静态网站生成器，用于创建博客和静态网站。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/freqtrade/freqtrade"
+      "url": "https://github.com/jekyll/jekyll"
+    },
+    {
+      "repo_id": 968197216,
+      "repo_name": "google-gemini/gemini-cli",
+      "kind": "Agent",
+      "category": "学习",
+      "summary": "Gemini CLI 是一个开源的 AI 代理，将 Gemini 的能力直接带入终端，提供轻量级的 AI 功能访问。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/google-gemini/gemini-cli"
+    },
+    {
+      "repo_id": 107111421,
+      "repo_name": "thedaviddias/Front-End-Checklist",
+      "kind": "Agent",
+      "category": "软件开发",
+      "summary": "为AI代理和人类开发者提供前端开发检查清单，包含最佳实践和审核工作流。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/thedaviddias/Front-End-Checklist"
+    },
+    {
+      "repo_id": 53631945,
+      "repo_name": "BurntSushi/ripgrep",
+      "kind": "Skill",
+      "category": "信息搜集",
+      "summary": "ripgrep 是一个快速递归搜索命令行工具，支持正则表达式。",
+      "recommendation_score": 98,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/BurntSushi/ripgrep"
     }
   ],
   "skill_top": [
@@ -173,39 +173,55 @@
       "url": "https://github.com/ohmyzsh/ohmyzsh"
     },
     {
-      "repo_id": 626805178,
-      "repo_name": "langgenius/dify",
+      "repo_id": 701547123,
+      "repo_name": "open-webui/open-webui",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "生产级别的代理工作流开发平台，支持低代码/无代码开发。",
+      "summary": "Open WebUI 是一个用户友好的 AI 接口，支持多种 LLM 运行器，包括 Ollama 和 OpenAI API。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/langgenius/dify"
+      "url": "https://github.com/open-webui/open-webui"
     },
     {
-      "repo_id": 307260205,
-      "repo_name": "yt-dlp/yt-dlp",
+      "repo_id": 90796663,
+      "repo_name": "puppeteer/puppeteer",
       "kind": "Skill",
-      "category": "视频处理",
-      "summary": "yt-dlp 是一个功能丰富的命令行视频下载工具，支持众多网站。",
-      "recommendation_score": 99,
+      "category": "自动化运营",
+      "summary": "Puppeteer 是一个JavaScript库，用于控制Chrome或Firefox浏览器，实现网页自动化操作。",
+      "recommendation_score": 100,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/yt-dlp/yt-dlp"
+      "url": "https://github.com/puppeteer/puppeteer"
     },
+    {
+      "repo_id": 162998479,
+      "repo_name": "sherlock-project/sherlock",
+      "kind": "Skill",
+      "category": "信息搜集",
+      "summary": "Sherlock 是一个社交工程工具，用于在多个社交网络上搜索给定用户名的信息，支持超过 400 个平台。",
+      "recommendation_score": 100,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/sherlock-project/sherlock"
+    }
+  ],
+  "agent_top": [
     {
       "repo_id": 968197216,
       "repo_name": "google-gemini/gemini-cli",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "Gemini CLI 是一个开源 AI 工具，通过终端直接使用 Gemini 模型。",
+      "kind": "Agent",
+      "category": "学习",
+      "summary": "Gemini CLI 是一个开源的 AI 代理，将 Gemini 的能力直接带入终端，提供轻量级的 AI 功能访问。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -213,43 +229,27 @@
         "近期维护活跃"
       ],
       "url": "https://github.com/google-gemini/gemini-cli"
-    }
-  ],
-  "agent_top": [
-    {
-      "repo_id": 824874689,
-      "repo_name": "cline/cline",
-      "kind": "Agent",
-      "category": "自动化运营",
-      "summary": "Cline 是一个自主编码代理，可在 IDE、CLI 或扩展中运行，提供 AI 编码辅助。",
-      "recommendation_score": 98,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/cline/cline"
     },
     {
-      "repo_id": 621803253,
-      "repo_name": "FlowiseAI/Flowise",
+      "repo_id": 107111421,
+      "repo_name": "thedaviddias/Front-End-Checklist",
       "kind": "Agent",
-      "category": "视频处理",
-      "summary": "FlowiseAI/Flowise 是一个用于构建 AI Agent 的可视化工具，支持低代码和无代码开发。",
-      "recommendation_score": 98,
+      "category": "软件开发",
+      "summary": "为AI代理和人类开发者提供前端开发检查清单，包含最佳实践和审核工作流。",
+      "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/FlowiseAI/Flowise"
+      "url": "https://github.com/thedaviddias/Front-End-Checklist"
     },
     {
       "repo_id": 26783295,
       "repo_name": "Kong/kong",
       "kind": "Agent",
-      "category": "安全攻防",
-      "summary": "Kong 是一个云原生的 API 和 AI 网关，提供多 LLM 支持、语义安全和 MCP 流量安全。",
+      "category": "软件开发",
+      "summary": "Kong 是一个云原生的 API 和 AI 网关，支持多 LLM 和 MCP。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
@@ -259,25 +259,25 @@
       "url": "https://github.com/Kong/kong"
     },
     {
-      "repo_id": 1133707766,
-      "repo_name": "multica-ai/multica",
+      "repo_id": 1197990888,
+      "repo_name": "Gitlawb/openclaude",
       "kind": "Agent",
-      "category": "自动化运营",
-      "summary": "Multica 是一个开源的托管代理平台，允许将代码代理作为真实团队成员使用。",
-      "recommendation_score": 97,
+      "category": "其他",
+      "summary": "一个可以在任何地方运行、使用任何工具的AI代理",
+      "recommendation_score": 98,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/multica-ai/multica"
+      "url": "https://github.com/Gitlawb/openclaude"
     },
     {
       "repo_id": 1137711311,
       "repo_name": "Hmbown/CodeWhale",
       "kind": "Agent",
       "category": "软件开发",
-      "summary": "CodeWhale 是一个终端编程代理，支持多种模型和任务执行。",
+      "summary": "CodeWhale 是一个终端编程代理，支持多种模型，能够自动完成代码任务。",
       "recommendation_score": 97,
       "why_pick": [
         "高可用性",
