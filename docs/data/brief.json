@@ -1,27 +1,69 @@
 {
-  "generated_at": "2026-07-16T07:10:07Z",
+  "generated_at": "2026-07-17T07:18:05Z",
   "window": "latest_sync",
   "top_picks": [
     {
-      "repo_id": 1073224795,
-      "repo_name": "obra/superpowers",
+      "repo_id": 291137,
+      "repo_name": "ohmyzsh/ohmyzsh",
       "kind": "Skill",
-      "category": "软件开发",
-      "summary": "Superpowers 是一个面向编码代理的完整软件开发方法论，基于可组合的技能和初始指令，确保代理在构建代码前先理解目标。",
+      "category": "办公协作",
+      "summary": "Oh My Zsh 是一个用于管理 zsh 配置的框架，提供插件和主题以增强终端体验。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/obra/superpowers"
+      "url": "https://github.com/ohmyzsh/ohmyzsh"
+    },
+    {
+      "repo_id": 1148788086,
+      "repo_name": "mattpocock/skills",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "Skills 是一组用于提高工程师工作效率的实用工具，基于 AI 技能构建。",
+      "recommendation_score": 100,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "repo_id": 193215554,
+      "repo_name": "n8n-io/n8n",
+      "kind": "Agent",
+      "category": "自动化运营",
+      "summary": "n8n 是一个 AI 原生的工作流自动化平台，支持自托管或云部署，连接 1500 多种集成。",
+      "recommendation_score": 100,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/n8n-io/n8n"
+    },
+    {
+      "repo_id": 307260205,
+      "repo_name": "yt-dlp/yt-dlp",
+      "kind": "Skill",
+      "category": "视频处理",
+      "summary": "yt-dlp 是一个功能丰富的命令行视频下载工具，支持多个网站。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/yt-dlp/yt-dlp"
     },
     {
       "repo_id": 753490180,
       "repo_name": "daytonaio/daytona",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "Daytona 是一个用于运行AI生成代码的基础设施，但已停止维护。",
+      "summary": "Daytona 是一个用于运行 AI 生成代码的弹性基础设施，但已停止维护。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -31,39 +73,11 @@
       "url": "https://github.com/daytonaio/daytona"
     },
     {
-      "repo_id": 1201476594,
-      "repo_name": "santifer/career-ops",
-      "kind": "Skill",
-      "category": "学习",
-      "summary": "Career-Ops 是一个开源AI求职辅助系统，帮助用户扫描职位门户、评分职位、定制简历和跟踪申请。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/santifer/career-ops"
-    },
-    {
-      "repo_id": 91629816,
-      "repo_name": "freqtrade/freqtrade",
-      "kind": "Skill",
-      "category": "投资研究",
-      "summary": "Freqtrade 是一个开源的加密货币交易机器人，支持多种交易所和自动化交易。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/freqtrade/freqtrade"
-    },
-    {
       "repo_id": 65252,
       "repo_name": "jekyll/jekyll",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "Jekyll 是一个基于 Ruby 的静态网站生成器，用于快速创建博客和网站。",
+      "summary": "Jekyll 是一个基于文件的静态网站生成器，用 Ruby 编写，适合个人、项目或组织网站。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -73,25 +87,39 @@
       "url": "https://github.com/jekyll/jekyll"
     },
     {
-      "repo_id": 666299222,
-      "repo_name": "openinterpreter/openinterpreter",
+      "repo_id": 1035029907,
+      "repo_name": "earendil-works/pi",
       "kind": "Agent",
       "category": "软件开发",
-      "summary": "Open Interpreter 是一个针对低成本模型优化的编码代理，支持多种AI模型。",
+      "summary": "Pi Agent Harness 是一个用于构建可扩展AI代理的工具包，提供LLM API、代理循环和TUI等功能。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/openinterpreter/openinterpreter"
+      "url": "https://github.com/earendil-works/pi"
+    },
+    {
+      "repo_id": 1139971460,
+      "repo_name": "rtk-ai/rtk",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "RTK 是一个CLI代理，通过过滤和压缩命令输出来减少LLM的token消耗，从而降低AI开发成本。",
+      "recommendation_score": 98,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/rtk-ai/rtk"
     },
     {
       "repo_id": 53631945,
       "repo_name": "BurntSushi/ripgrep",
       "kind": "Skill",
-      "category": "信息搜集",
-      "summary": "ripgrep 是一个递归搜索工具，支持正则表达式，能够忽略 git 忽略规则，适用于各种操作系统。",
+      "category": "办公协作",
+      "summary": "ripgrep 是一个递归搜索工具，支持正则表达式，能够尊重 gitignore 规则进行搜索。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
@@ -101,39 +129,11 @@
       "url": "https://github.com/BurntSushi/ripgrep"
     },
     {
-      "repo_id": 436297812,
-      "repo_name": "usememos/memos",
-      "kind": "Skill",
-      "category": "知识管理",
-      "summary": "Memos 是一个开源的自托管笔记工具，专为快速捕捉而设计，支持Markdown，轻量级且完全私有。",
-      "recommendation_score": 98,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/usememos/memos"
-    },
-    {
-      "repo_id": 1032459340,
-      "repo_name": "Fission-AI/OpenSpec",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "OpenSpec 是一个用于AI编码助手的规格驱动开发框架，支持迭代和灵活的开发流程。",
-      "recommendation_score": 98,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/Fission-AI/OpenSpec"
-    },
-    {
       "repo_id": 274495425,
       "repo_name": "remotion-dev/remotion",
       "kind": "Skill",
       "category": "内容创作",
-      "summary": "Remotion 是一个使用 React 编程制作视频的工具，支持视频创建和自动化。",
+      "summary": "Remotion 是一个使用 React 编程制作视频的工具，支持视频创作、自动化和交互式编辑。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
@@ -145,25 +145,53 @@
   ],
   "skill_top": [
     {
-      "repo_id": 1073224795,
-      "repo_name": "obra/superpowers",
+      "repo_id": 291137,
+      "repo_name": "ohmyzsh/ohmyzsh",
       "kind": "Skill",
-      "category": "软件开发",
-      "summary": "Superpowers 是一个面向编码代理的完整软件开发方法论，基于可组合的技能和初始指令，确保代理在构建代码前先理解目标。",
+      "category": "办公协作",
+      "summary": "Oh My Zsh 是一个用于管理 zsh 配置的框架，提供插件和主题以增强终端体验。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/obra/superpowers"
+      "url": "https://github.com/ohmyzsh/ohmyzsh"
+    },
+    {
+      "repo_id": 1148788086,
+      "repo_name": "mattpocock/skills",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "Skills 是一组用于提高工程师工作效率的实用工具，基于 AI 技能构建。",
+      "recommendation_score": 100,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "repo_id": 307260205,
+      "repo_name": "yt-dlp/yt-dlp",
+      "kind": "Skill",
+      "category": "视频处理",
+      "summary": "yt-dlp 是一个功能丰富的命令行视频下载工具，支持多个网站。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/yt-dlp/yt-dlp"
     },
     {
       "repo_id": 753490180,
       "repo_name": "daytonaio/daytona",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "Daytona 是一个用于运行AI生成代码的基础设施，但已停止维护。",
+      "summary": "Daytona 是一个用于运行 AI 生成代码的弹性基础设施，但已停止维护。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -173,39 +201,11 @@
       "url": "https://github.com/daytonaio/daytona"
     },
     {
-      "repo_id": 1201476594,
-      "repo_name": "santifer/career-ops",
-      "kind": "Skill",
-      "category": "学习",
-      "summary": "Career-Ops 是一个开源AI求职辅助系统，帮助用户扫描职位门户、评分职位、定制简历和跟踪申请。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/santifer/career-ops"
-    },
-    {
-      "repo_id": 91629816,
-      "repo_name": "freqtrade/freqtrade",
-      "kind": "Skill",
-      "category": "投资研究",
-      "summary": "Freqtrade 是一个开源的加密货币交易机器人，支持多种交易所和自动化交易。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/freqtrade/freqtrade"
-    },
-    {
       "repo_id": 65252,
       "repo_name": "jekyll/jekyll",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "Jekyll 是一个基于 Ruby 的静态网站生成器，用于快速创建博客和网站。",
+      "summary": "Jekyll 是一个基于文件的静态网站生成器，用 Ruby 编写，适合个人、项目或组织网站。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -217,25 +217,39 @@
   ],
   "agent_top": [
     {
-      "repo_id": 666299222,
-      "repo_name": "openinterpreter/openinterpreter",
+      "repo_id": 193215554,
+      "repo_name": "n8n-io/n8n",
+      "kind": "Agent",
+      "category": "自动化运营",
+      "summary": "n8n 是一个 AI 原生的工作流自动化平台，支持自托管或云部署，连接 1500 多种集成。",
+      "recommendation_score": 100,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/n8n-io/n8n"
+    },
+    {
+      "repo_id": 1035029907,
+      "repo_name": "earendil-works/pi",
       "kind": "Agent",
       "category": "软件开发",
-      "summary": "Open Interpreter 是一个针对低成本模型优化的编码代理，支持多种AI模型。",
+      "summary": "Pi Agent Harness 是一个用于构建可扩展AI代理的工具包，提供LLM API、代理循环和TUI等功能。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/openinterpreter/openinterpreter"
+      "url": "https://github.com/earendil-works/pi"
     },
     {
       "repo_id": 824874689,
       "repo_name": "cline/cline",
       "kind": "Agent",
       "category": "软件开发",
-      "summary": "Cline 是一个开源编码代理，可在IDE、CLI或扩展中运行，提供多种交互方式。",
+      "summary": "Cline 是一个开源的编码代理，可在 IDE 和终端中使用，支持多种 AI 模型。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
@@ -245,46 +259,32 @@
       "url": "https://github.com/cline/cline"
     },
     {
-      "repo_id": 26783295,
-      "repo_name": "Kong/kong",
+      "repo_id": 846698999,
+      "repo_name": "aaif-goose/goose",
       "kind": "Agent",
       "category": "软件开发",
-      "summary": "Kong 是一个云原生的 API 和 AI 网关，支持插件和多云部署。",
+      "summary": "goose 是一个开源的 AI 代理，支持代码建议、执行、编辑和测试，适用于多种任务场景。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/Kong/kong"
+      "url": "https://github.com/aaif-goose/goose"
     },
     {
-      "repo_id": 515647260,
-      "repo_name": "1Panel-dev/1Panel",
+      "repo_id": 8681349,
+      "repo_name": "huginn/huginn",
       "kind": "Agent",
       "category": "自动化运营",
-      "summary": "1Panel 是一个开源 VPS 控制面板，内置 AI 代理支持，用于管理服务器和运行 AI 模型。",
-      "recommendation_score": 97,
+      "summary": "Huginn 是一个自动化代理系统，允许用户创建监控和执行任务的智能代理。",
+      "recommendation_score": 98,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/1Panel-dev/1Panel"
-    },
-    {
-      "repo_id": 190729906,
-      "repo_name": "Budibase/budibase",
-      "kind": "Agent",
-      "category": "软件开发",
-      "summary": "Budibase 是一个模型无关的 AI 应用构建平台，用于创建自动化应用和工作流",
-      "recommendation_score": 96,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/Budibase/budibase"
+      "url": "https://github.com/huginn/huginn"
     }
   ],
   "warnings": []
