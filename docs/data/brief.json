@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-07-17T07:18:05Z",
+  "generated_at": "2026-07-18T06:52:53Z",
   "window": "latest_sync",
   "top_picks": [
+    {
+      "repo_id": 193215554,
+      "repo_name": "n8n-io/n8n",
+      "kind": "Skill",
+      "category": "自动化运营",
+      "summary": "n8n 是一个工作流自动化平台，具有原生 AI 能力，支持可视化构建与自定义代码结合，提供 400 多种集成。",
+      "recommendation_score": 100,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/n8n-io/n8n"
+    },
     {
       "repo_id": 291137,
       "repo_name": "ohmyzsh/ohmyzsh",
@@ -17,39 +31,39 @@
       "url": "https://github.com/ohmyzsh/ohmyzsh"
     },
     {
-      "repo_id": 1148788086,
-      "repo_name": "mattpocock/skills",
+      "repo_id": 626805178,
+      "repo_name": "langgenius/dify",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "Skills 是一组用于提高工程师工作效率的实用工具，基于 AI 技能构建。",
+      "summary": "生产级平台，用于开发基于代理的工作流。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/mattpocock/skills"
+      "url": "https://github.com/langgenius/dify"
     },
     {
-      "repo_id": 193215554,
-      "repo_name": "n8n-io/n8n",
-      "kind": "Agent",
+      "repo_id": 90796663,
+      "repo_name": "puppeteer/puppeteer",
+      "kind": "Skill",
       "category": "自动化运营",
-      "summary": "n8n 是一个 AI 原生的工作流自动化平台，支持自托管或云部署，连接 1500 多种集成。",
+      "summary": "Puppeteer 是一个用于控制 Chrome 或 Firefox 的 JavaScript 库，提供 DevTools 协议或 WebDriver BiDi 的高级 API。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/n8n-io/n8n"
+      "url": "https://github.com/puppeteer/puppeteer"
     },
     {
       "repo_id": 307260205,
       "repo_name": "yt-dlp/yt-dlp",
       "kind": "Skill",
       "category": "视频处理",
-      "summary": "yt-dlp 是一个功能丰富的命令行视频下载工具，支持多个网站。",
+      "summary": "yt-dlp 是一个功能丰富的命令行下载器，支持从多个网站下载音视频。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -59,25 +73,53 @@
       "url": "https://github.com/yt-dlp/yt-dlp"
     },
     {
-      "repo_id": 753490180,
-      "repo_name": "daytonaio/daytona",
+      "repo_id": 1201173969,
+      "repo_name": "JuliusBrussee/caveman",
       "kind": "Skill",
-      "category": "软件开发",
-      "summary": "Daytona 是一个用于运行 AI 生成代码的弹性基础设施，但已停止维护。",
+      "category": "内容创作",
+      "summary": "Caveman 是一个 Claude Code 技能，通过使用简洁语言减少 AI 输出中的 token 数量。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/daytonaio/daytona"
+      "url": "https://github.com/JuliusBrussee/caveman"
+    },
+    {
+      "repo_id": 1131513930,
+      "repo_name": "ZhuLinsen/daily_stock_analysis",
+      "kind": "Skill",
+      "category": "数据分析",
+      "summary": "daily_stock_analysis 是一个基于 LLM 的多市场股票智能分析系统。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+    },
+    {
+      "repo_id": 91629816,
+      "repo_name": "freqtrade/freqtrade",
+      "kind": "Skill",
+      "category": "投资研究",
+      "summary": "Freqtrade 是一个开源的加密货币交易机器人，支持多种交易所和交易策略。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/freqtrade/freqtrade"
     },
     {
       "repo_id": 65252,
       "repo_name": "jekyll/jekyll",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "Jekyll 是一个基于文件的静态网站生成器，用 Ruby 编写，适合个人、项目或组织网站。",
+      "summary": "Jekyll 是一个基于文件的静态网站生成器，用 Ruby 编写，适合创建博客、个人网站或组织站点。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -87,64 +129,36 @@
       "url": "https://github.com/jekyll/jekyll"
     },
     {
-      "repo_id": 1035029907,
-      "repo_name": "earendil-works/pi",
+      "repo_id": 107111421,
+      "repo_name": "thedaviddias/Front-End-Checklist",
       "kind": "Agent",
       "category": "软件开发",
-      "summary": "Pi Agent Harness 是一个用于构建可扩展AI代理的工具包，提供LLM API、代理循环和TUI等功能。",
+      "summary": "用于前端开发的质量检查清单，包含最佳实践和规则验证。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/earendil-works/pi"
-    },
-    {
-      "repo_id": 1139971460,
-      "repo_name": "rtk-ai/rtk",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "RTK 是一个CLI代理，通过过滤和压缩命令输出来减少LLM的token消耗，从而降低AI开发成本。",
-      "recommendation_score": 98,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/rtk-ai/rtk"
-    },
-    {
-      "repo_id": 53631945,
-      "repo_name": "BurntSushi/ripgrep",
-      "kind": "Skill",
-      "category": "办公协作",
-      "summary": "ripgrep 是一个递归搜索工具，支持正则表达式，能够尊重 gitignore 规则进行搜索。",
-      "recommendation_score": 98,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/BurntSushi/ripgrep"
-    },
-    {
-      "repo_id": 274495425,
-      "repo_name": "remotion-dev/remotion",
-      "kind": "Skill",
-      "category": "内容创作",
-      "summary": "Remotion 是一个使用 React 编程制作视频的工具，支持视频创作、自动化和交互式编辑。",
-      "recommendation_score": 98,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/remotion-dev/remotion"
+      "url": "https://github.com/thedaviddias/Front-End-Checklist"
     }
   ],
   "skill_top": [
     {
+      "repo_id": 193215554,
+      "repo_name": "n8n-io/n8n",
+      "kind": "Skill",
+      "category": "自动化运营",
+      "summary": "n8n 是一个工作流自动化平台，具有原生 AI 能力，支持可视化构建与自定义代码结合，提供 400 多种集成。",
+      "recommendation_score": 100,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/n8n-io/n8n"
+    },
+    {
       "repo_id": 291137,
       "repo_name": "ohmyzsh/ohmyzsh",
       "kind": "Skill",
@@ -159,25 +173,39 @@
       "url": "https://github.com/ohmyzsh/ohmyzsh"
     },
     {
-      "repo_id": 1148788086,
-      "repo_name": "mattpocock/skills",
+      "repo_id": 626805178,
+      "repo_name": "langgenius/dify",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "Skills 是一组用于提高工程师工作效率的实用工具，基于 AI 技能构建。",
+      "summary": "生产级平台，用于开发基于代理的工作流。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/mattpocock/skills"
+      "url": "https://github.com/langgenius/dify"
+    },
+    {
+      "repo_id": 90796663,
+      "repo_name": "puppeteer/puppeteer",
+      "kind": "Skill",
+      "category": "自动化运营",
+      "summary": "Puppeteer 是一个用于控制 Chrome 或 Firefox 的 JavaScript 库，提供 DevTools 协议或 WebDriver BiDi 的高级 API。",
+      "recommendation_score": 100,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/puppeteer/puppeteer"
     },
     {
       "repo_id": 307260205,
       "repo_name": "yt-dlp/yt-dlp",
       "kind": "Skill",
       "category": "视频处理",
-      "summary": "yt-dlp 是一个功能丰富的命令行视频下载工具，支持多个网站。",
+      "summary": "yt-dlp 是一个功能丰富的命令行下载器，支持从多个网站下载音视频。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -185,71 +213,29 @@
         "近期维护活跃"
       ],
       "url": "https://github.com/yt-dlp/yt-dlp"
-    },
-    {
-      "repo_id": 753490180,
-      "repo_name": "daytonaio/daytona",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "Daytona 是一个用于运行 AI 生成代码的弹性基础设施，但已停止维护。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/daytonaio/daytona"
-    },
-    {
-      "repo_id": 65252,
-      "repo_name": "jekyll/jekyll",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "Jekyll 是一个基于文件的静态网站生成器，用 Ruby 编写，适合个人、项目或组织网站。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/jekyll/jekyll"
     }
   ],
   "agent_top": [
     {
-      "repo_id": 193215554,
-      "repo_name": "n8n-io/n8n",
-      "kind": "Agent",
-      "category": "自动化运营",
-      "summary": "n8n 是一个 AI 原生的工作流自动化平台，支持自托管或云部署，连接 1500 多种集成。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/n8n-io/n8n"
-    },
-    {
-      "repo_id": 1035029907,
-      "repo_name": "earendil-works/pi",
+      "repo_id": 107111421,
+      "repo_name": "thedaviddias/Front-End-Checklist",
       "kind": "Agent",
       "category": "软件开发",
-      "summary": "Pi Agent Harness 是一个用于构建可扩展AI代理的工具包，提供LLM API、代理循环和TUI等功能。",
+      "summary": "用于前端开发的质量检查清单，包含最佳实践和规则验证。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/earendil-works/pi"
+      "url": "https://github.com/thedaviddias/Front-End-Checklist"
     },
     {
       "repo_id": 824874689,
       "repo_name": "cline/cline",
       "kind": "Agent",
       "category": "软件开发",
-      "summary": "Cline 是一个开源的编码代理，可在 IDE 和终端中使用，支持多种 AI 模型。",
+      "summary": "一个自主编码代理，可作为SDK、IDE扩展或CLI助手使用。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
@@ -259,32 +245,46 @@
       "url": "https://github.com/cline/cline"
     },
     {
-      "repo_id": 846698999,
-      "repo_name": "aaif-goose/goose",
+      "repo_id": 1113573066,
+      "repo_name": "hugohe3/ppt-master",
       "kind": "Agent",
-      "category": "软件开发",
-      "summary": "goose 是一个开源的 AI 代理，支持代码建议、执行、编辑和测试，适用于多种任务场景。",
+      "category": "内容创作",
+      "summary": "PPT Master 是一个AI驱动的工具，能够将文档或主题转换为具有原生PowerPoint功能的演示文稿。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/aaif-goose/goose"
+      "url": "https://github.com/hugohe3/ppt-master"
     },
     {
-      "repo_id": 8681349,
-      "repo_name": "huginn/huginn",
+      "repo_id": 1132001614,
+      "repo_name": "vercel-labs/agent-browser",
       "kind": "Agent",
       "category": "自动化运营",
-      "summary": "Huginn 是一个自动化代理系统，允许用户创建监控和执行任务的智能代理。",
-      "recommendation_score": 98,
+      "summary": "agent-browser 是一个用于 AI 代理的浏览器自动化 CLI 工具，基于 Rust 构建，支持多种安装方式。",
+      "recommendation_score": 97,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/huginn/huginn"
+      "url": "https://github.com/vercel-labs/agent-browser"
+    },
+    {
+      "repo_id": 515647260,
+      "repo_name": "1Panel-dev/1Panel",
+      "kind": "Agent",
+      "category": "自动化运营",
+      "summary": "1Panel 是一个现代化的VPS控制面板，支持原生AI代理，可管理服务器和部署AI模型。",
+      "recommendation_score": 97,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/1Panel-dev/1Panel"
     }
   ],
   "warnings": []
