@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-07-18T06:52:53Z",
+  "generated_at": "2026-07-19T07:22:50Z",
   "window": "latest_sync",
   "top_picks": [
     {
-      "repo_id": 193215554,
-      "repo_name": "n8n-io/n8n",
+      "repo_id": 1073224795,
+      "repo_name": "obra/superpowers",
       "kind": "Skill",
-      "category": "自动化运营",
-      "summary": "n8n 是一个工作流自动化平台，具有原生 AI 能力，支持可视化构建与自定义代码结合，提供 400 多种集成。",
+      "category": "软件开发",
+      "summary": "Superpowers 是一个面向编码代理的完整软件开发方法论，基于可组合的技能和初始指令，确保代理在构建代码前先理解目标。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/n8n-io/n8n"
+      "url": "https://github.com/obra/superpowers"
     },
     {
       "repo_id": 291137,
@@ -31,39 +31,25 @@
       "url": "https://github.com/ohmyzsh/ohmyzsh"
     },
     {
-      "repo_id": 626805178,
-      "repo_name": "langgenius/dify",
+      "repo_id": 1148788086,
+      "repo_name": "mattpocock/skills",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "生产级平台，用于开发基于代理的工作流。",
+      "summary": "Skills 是一组用于真实工程师的实用技能，旨在提高工程效率。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/langgenius/dify"
-    },
-    {
-      "repo_id": 90796663,
-      "repo_name": "puppeteer/puppeteer",
-      "kind": "Skill",
-      "category": "自动化运营",
-      "summary": "Puppeteer 是一个用于控制 Chrome 或 Firefox 的 JavaScript 库，提供 DevTools 协议或 WebDriver BiDi 的高级 API。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/puppeteer/puppeteer"
+      "url": "https://github.com/mattpocock/skills"
     },
     {
       "repo_id": 307260205,
       "repo_name": "yt-dlp/yt-dlp",
       "kind": "Skill",
       "category": "视频处理",
-      "summary": "yt-dlp 是一个功能丰富的命令行下载器，支持从多个网站下载音视频。",
+      "summary": "yt-dlp 是一个功能丰富的命令行视频下载工具，支持多种网站。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -73,39 +59,67 @@
       "url": "https://github.com/yt-dlp/yt-dlp"
     },
     {
-      "repo_id": 1201173969,
-      "repo_name": "JuliusBrussee/caveman",
+      "repo_id": 1182081931,
+      "repo_name": "Egonex-AI/Understand-Anything",
       "kind": "Skill",
-      "category": "内容创作",
-      "summary": "Caveman 是一个 Claude Code 技能，通过使用简洁语言减少 AI 输出中的 token 数量。",
+      "category": "知识管理",
+      "summary": "Understand Anything 是一个将代码、知识库或文档转换为交互式知识图谱的工具，支持多种 AI 平台。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/JuliusBrussee/caveman"
+      "url": "https://github.com/Egonex-AI/Understand-Anything"
     },
     {
-      "repo_id": 1131513930,
-      "repo_name": "ZhuLinsen/daily_stock_analysis",
+      "repo_id": 1035029907,
+      "repo_name": "earendil-works/pi",
       "kind": "Skill",
-      "category": "数据分析",
-      "summary": "daily_stock_analysis 是一个基于 LLM 的多市场股票智能分析系统。",
+      "category": "软件开发",
+      "summary": "Pi Agent Harness 是一个 AI 工具包，提供统一的 LLM API、代理循环、TUI 和编码代理 CLI。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+      "url": "https://github.com/earendil-works/pi"
+    },
+    {
+      "repo_id": 323048702,
+      "repo_name": "OpenBB-finance/OpenBB",
+      "kind": "Skill",
+      "category": "数据分析",
+      "summary": "OpenBB 是一个面向分析师、量化研究员和 AI 代理的开放数据平台。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/OpenBB-finance/OpenBB"
+    },
+    {
+      "repo_id": 1201476594,
+      "repo_name": "santifer/career-ops",
+      "kind": "Skill",
+      "category": "学习",
+      "summary": "Career-Ops 是一个开源 AI 职业搜索系统，用于扫描职位门户、对职位进行评分、定制简历和跟踪申请。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/santifer/career-ops"
     },
     {
       "repo_id": 91629816,
       "repo_name": "freqtrade/freqtrade",
       "kind": "Skill",
-      "category": "投资研究",
-      "summary": "Freqtrade 是一个开源的加密货币交易机器人，支持多种交易所和交易策略。",
+      "category": "软件开发",
+      "summary": "freqtrade 是一个开源的加密货币交易机器人，用于自动化交易策略。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -119,7 +133,7 @@
       "repo_name": "jekyll/jekyll",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "Jekyll 是一个基于文件的静态网站生成器，用 Ruby 编写，适合创建博客、个人网站或组织站点。",
+      "summary": "Jekyll 是一个静态网站生成器，用于创建博客和静态网站。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -127,36 +141,22 @@
         "近期维护活跃"
       ],
       "url": "https://github.com/jekyll/jekyll"
-    },
-    {
-      "repo_id": 107111421,
-      "repo_name": "thedaviddias/Front-End-Checklist",
-      "kind": "Agent",
-      "category": "软件开发",
-      "summary": "用于前端开发的质量检查清单，包含最佳实践和规则验证。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/thedaviddias/Front-End-Checklist"
     }
   ],
   "skill_top": [
     {
-      "repo_id": 193215554,
-      "repo_name": "n8n-io/n8n",
+      "repo_id": 1073224795,
+      "repo_name": "obra/superpowers",
       "kind": "Skill",
-      "category": "自动化运营",
-      "summary": "n8n 是一个工作流自动化平台，具有原生 AI 能力，支持可视化构建与自定义代码结合，提供 400 多种集成。",
+      "category": "软件开发",
+      "summary": "Superpowers 是一个面向编码代理的完整软件开发方法论，基于可组合的技能和初始指令，确保代理在构建代码前先理解目标。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/n8n-io/n8n"
+      "url": "https://github.com/obra/superpowers"
     },
     {
       "repo_id": 291137,
@@ -173,39 +173,25 @@
       "url": "https://github.com/ohmyzsh/ohmyzsh"
     },
     {
-      "repo_id": 626805178,
-      "repo_name": "langgenius/dify",
+      "repo_id": 1148788086,
+      "repo_name": "mattpocock/skills",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "生产级平台，用于开发基于代理的工作流。",
+      "summary": "Skills 是一组用于真实工程师的实用技能，旨在提高工程效率。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/langgenius/dify"
-    },
-    {
-      "repo_id": 90796663,
-      "repo_name": "puppeteer/puppeteer",
-      "kind": "Skill",
-      "category": "自动化运营",
-      "summary": "Puppeteer 是一个用于控制 Chrome 或 Firefox 的 JavaScript 库，提供 DevTools 协议或 WebDriver BiDi 的高级 API。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/puppeteer/puppeteer"
+      "url": "https://github.com/mattpocock/skills"
     },
     {
       "repo_id": 307260205,
       "repo_name": "yt-dlp/yt-dlp",
       "kind": "Skill",
       "category": "视频处理",
-      "summary": "yt-dlp 是一个功能丰富的命令行下载器，支持从多个网站下载音视频。",
+      "summary": "yt-dlp 是一个功能丰富的命令行视频下载工具，支持多种网站。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -213,30 +199,58 @@
         "近期维护活跃"
       ],
       "url": "https://github.com/yt-dlp/yt-dlp"
-    }
-  ],
-  "agent_top": [
+    },
     {
-      "repo_id": 107111421,
-      "repo_name": "thedaviddias/Front-End-Checklist",
-      "kind": "Agent",
-      "category": "软件开发",
-      "summary": "用于前端开发的质量检查清单，包含最佳实践和规则验证。",
+      "repo_id": 1182081931,
+      "repo_name": "Egonex-AI/Understand-Anything",
+      "kind": "Skill",
+      "category": "知识管理",
+      "summary": "Understand Anything 是一个将代码、知识库或文档转换为交互式知识图谱的工具，支持多种 AI 平台。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/thedaviddias/Front-End-Checklist"
+      "url": "https://github.com/Egonex-AI/Understand-Anything"
+    }
+  ],
+  "agent_top": [
+    {
+      "repo_id": 846698999,
+      "repo_name": "aaif-goose/goose",
+      "kind": "Agent",
+      "category": "软件开发",
+      "summary": "goose 是一个开源的 AI 代理，支持代码、工作流等多种任务。",
+      "recommendation_score": 98,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/aaif-goose/goose"
+    },
+    {
+      "repo_id": 742244656,
+      "repo_name": "agentscope-ai/agentscope",
+      "kind": "Agent",
+      "category": "软件开发",
+      "summary": "Agentscope 是一个用于构建和运行可观察、可理解、可信任的智能体的框架。",
+      "recommendation_score": 97,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/agentscope-ai/agentscope"
     },
     {
       "repo_id": 824874689,
       "repo_name": "cline/cline",
       "kind": "Agent",
-      "category": "软件开发",
-      "summary": "一个自主编码代理，可作为SDK、IDE扩展或CLI助手使用。",
-      "recommendation_score": 98,
+      "category": "自动化运营",
+      "summary": "Cline 是一个开源的编码代理，可在 IDE 和终端中运行，提供聊天和完全无头的 CI/CD 和脚本支持。",
+      "recommendation_score": 93,
       "why_pick": [
         "高可用性",
         "安装入口明确",
@@ -245,46 +259,32 @@
       "url": "https://github.com/cline/cline"
     },
     {
-      "repo_id": 1113573066,
-      "repo_name": "hugohe3/ppt-master",
+      "repo_id": 1184397362,
+      "repo_name": "mattpocock/sandcastle",
       "kind": "Agent",
-      "category": "内容创作",
-      "summary": "PPT Master 是一个AI驱动的工具，能够将文档或主题转换为具有原生PowerPoint功能的演示文稿。",
-      "recommendation_score": 98,
+      "category": "软件开发",
+      "summary": "一个用于在TypeScript中编排沙盒化编码代理的框架。",
+      "recommendation_score": 93,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/hugohe3/ppt-master"
+      "url": "https://github.com/mattpocock/sandcastle"
     },
     {
-      "repo_id": 1132001614,
-      "repo_name": "vercel-labs/agent-browser",
+      "repo_id": 1133707766,
+      "repo_name": "multica-ai/multica",
       "kind": "Agent",
       "category": "自动化运营",
-      "summary": "agent-browser 是一个用于 AI 代理的浏览器自动化 CLI 工具，基于 Rust 构建，支持多种安装方式。",
-      "recommendation_score": 97,
+      "summary": "Multica 是一个开源托管代理平台，将编码代理转化为真实团队成员，可以分配任务、跟踪进度和组合技能。",
+      "recommendation_score": 92,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/vercel-labs/agent-browser"
-    },
-    {
-      "repo_id": 515647260,
-      "repo_name": "1Panel-dev/1Panel",
-      "kind": "Agent",
-      "category": "自动化运营",
-      "summary": "1Panel 是一个现代化的VPS控制面板，支持原生AI代理，可管理服务器和部署AI模型。",
-      "recommendation_score": 97,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/1Panel-dev/1Panel"
+      "url": "https://github.com/multica-ai/multica"
     }
   ],
   "warnings": []
