@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T07:22:50Z",
+  "generated_at": "2026-07-20T07:50:28Z",
   "window": "latest_sync",
   "top_picks": [
     {
@@ -31,25 +31,11 @@
       "url": "https://github.com/ohmyzsh/ohmyzsh"
     },
     {
-      "repo_id": 1148788086,
-      "repo_name": "mattpocock/skills",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "Skills 是一组用于真实工程师的实用技能，旨在提高工程效率。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/mattpocock/skills"
-    },
-    {
       "repo_id": 307260205,
       "repo_name": "yt-dlp/yt-dlp",
       "kind": "Skill",
       "category": "视频处理",
-      "summary": "yt-dlp 是一个功能丰富的命令行视频下载工具，支持多种网站。",
+      "summary": "yt-dlp 是一个功能丰富的命令行视频下载工具，支持多个网站。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -63,7 +49,7 @@
       "repo_name": "Egonex-AI/Understand-Anything",
       "kind": "Skill",
       "category": "知识管理",
-      "summary": "Understand Anything 是一个将代码、知识库或文档转换为交互式知识图谱的工具，支持多种 AI 平台。",
+      "summary": "Understand Anything 是一个将代码、知识库或文档转换为交互式知识图谱的工具。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -77,7 +63,7 @@
       "repo_name": "earendil-works/pi",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "Pi Agent Harness 是一个 AI 工具包，提供统一的 LLM API、代理循环、TUI 和编码代理 CLI。",
+      "summary": "Pi Agent Harness 是一个AI代理工具包，提供统一的LLM API、代理循环和命令行界面。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -91,7 +77,7 @@
       "repo_name": "OpenBB-finance/OpenBB",
       "kind": "Skill",
       "category": "数据分析",
-      "summary": "OpenBB 是一个面向分析师、量化研究员和 AI 代理的开放数据平台。",
+      "summary": "OpenBB 是一个面向分析师、量化师和 AI 代理的开放数据平台。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -101,18 +87,18 @@
       "url": "https://github.com/OpenBB-finance/OpenBB"
     },
     {
-      "repo_id": 1201476594,
-      "repo_name": "santifer/career-ops",
+      "repo_id": 1131513930,
+      "repo_name": "ZhuLinsen/daily_stock_analysis",
       "kind": "Skill",
-      "category": "学习",
-      "summary": "Career-Ops 是一个开源 AI 职业搜索系统，用于扫描职位门户、对职位进行评分、定制简历和跟踪申请。",
+      "category": "投资研究",
+      "summary": "基于LLM的股票智能分析系统，提供多市场股票分析和决策仪表盘。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/santifer/career-ops"
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
     },
     {
       "repo_id": 91629816,
@@ -129,18 +115,32 @@
       "url": "https://github.com/freqtrade/freqtrade"
     },
     {
-      "repo_id": 65252,
-      "repo_name": "jekyll/jekyll",
-      "kind": "Skill",
+      "repo_id": 107111421,
+      "repo_name": "thedaviddias/Front-End-Checklist",
+      "kind": "Agent",
       "category": "软件开发",
-      "summary": "Jekyll 是一个静态网站生成器，用于创建博客和静态网站。",
+      "summary": "Front-End Checklist 是一个用于现代网络开发的检查清单，适用于人类和AI代理。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/jekyll/jekyll"
+      "url": "https://github.com/thedaviddias/Front-End-Checklist"
+    },
+    {
+      "repo_id": 1139971460,
+      "repo_name": "rtk-ai/rtk",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "RTK 是一个 CLI 代理，通过过滤和压缩命令输出来减少 LLM 的 token 消耗。",
+      "recommendation_score": 98,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/rtk-ai/rtk"
     }
   ],
   "skill_top": [
@@ -173,25 +173,11 @@
       "url": "https://github.com/ohmyzsh/ohmyzsh"
     },
     {
-      "repo_id": 1148788086,
-      "repo_name": "mattpocock/skills",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "Skills 是一组用于真实工程师的实用技能，旨在提高工程效率。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/mattpocock/skills"
-    },
-    {
       "repo_id": 307260205,
       "repo_name": "yt-dlp/yt-dlp",
       "kind": "Skill",
       "category": "视频处理",
-      "summary": "yt-dlp 是一个功能丰富的命令行视频下载工具，支持多种网站。",
+      "summary": "yt-dlp 是一个功能丰富的命令行视频下载工具，支持多个网站。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -205,7 +191,7 @@
       "repo_name": "Egonex-AI/Understand-Anything",
       "kind": "Skill",
       "category": "知识管理",
-      "summary": "Understand Anything 是一个将代码、知识库或文档转换为交互式知识图谱的工具，支持多种 AI 平台。",
+      "summary": "Understand Anything 是一个将代码、知识库或文档转换为交互式知识图谱的工具。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -213,78 +199,92 @@
         "近期维护活跃"
       ],
       "url": "https://github.com/Egonex-AI/Understand-Anything"
+    },
+    {
+      "repo_id": 1035029907,
+      "repo_name": "earendil-works/pi",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "Pi Agent Harness 是一个AI代理工具包，提供统一的LLM API、代理循环和命令行界面。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/earendil-works/pi"
     }
   ],
   "agent_top": [
     {
-      "repo_id": 846698999,
-      "repo_name": "aaif-goose/goose",
+      "repo_id": 107111421,
+      "repo_name": "thedaviddias/Front-End-Checklist",
       "kind": "Agent",
       "category": "软件开发",
-      "summary": "goose 是一个开源的 AI 代理，支持代码、工作流等多种任务。",
+      "summary": "Front-End Checklist 是一个用于现代网络开发的检查清单，适用于人类和AI代理。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/thedaviddias/Front-End-Checklist"
+    },
+    {
+      "repo_id": 8681349,
+      "repo_name": "huginn/huginn",
+      "kind": "Agent",
+      "category": "自动化运营",
+      "summary": "自动化代理系统，用于监控和执行在线任务，可与IFTTT或Zapier媲美。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/aaif-goose/goose"
+      "url": "https://github.com/huginn/huginn"
     },
     {
-      "repo_id": 742244656,
-      "repo_name": "agentscope-ai/agentscope",
+      "repo_id": 1113573066,
+      "repo_name": "hugohe3/ppt-master",
       "kind": "Agent",
-      "category": "软件开发",
-      "summary": "Agentscope 是一个用于构建和运行可观察、可理解、可信任的智能体的框架。",
-      "recommendation_score": 97,
+      "category": "内容创作",
+      "summary": "PPT Master 是一个 AI 工具，可以将文档或主题转换为具有动画、图表和音频的 PowerPoint 演示文稿。",
+      "recommendation_score": 98,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/agentscope-ai/agentscope"
-    },
-    {
-      "repo_id": 824874689,
-      "repo_name": "cline/cline",
-      "kind": "Agent",
-      "category": "自动化运营",
-      "summary": "Cline 是一个开源的编码代理，可在 IDE 和终端中运行，提供聊天和完全无头的 CI/CD 和脚本支持。",
-      "recommendation_score": 93,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/cline/cline"
-    },
-    {
-      "repo_id": 1184397362,
-      "repo_name": "mattpocock/sandcastle",
-      "kind": "Agent",
-      "category": "软件开发",
-      "summary": "一个用于在TypeScript中编排沙盒化编码代理的框架。",
-      "recommendation_score": 93,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/mattpocock/sandcastle"
+      "url": "https://github.com/hugohe3/ppt-master"
     },
     {
       "repo_id": 1133707766,
       "repo_name": "multica-ai/multica",
       "kind": "Agent",
       "category": "自动化运营",
-      "summary": "Multica 是一个开源托管代理平台，将编码代理转化为真实团队成员，可以分配任务、跟踪进度和组合技能。",
-      "recommendation_score": 92,
+      "summary": "开源托管Agent平台，用于管理代码Agent。",
+      "recommendation_score": 97,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
       "url": "https://github.com/multica-ai/multica"
+    },
+    {
+      "repo_id": 515647260,
+      "repo_name": "1Panel-dev/1Panel",
+      "kind": "Agent",
+      "category": "自动化运营",
+      "summary": "1Panel 是一个现代化的开源 VPS 控制面板，支持原生 AI 代理功能，可以运行 Ollama 模型并管理服务器堆栈。",
+      "recommendation_score": 97,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/1Panel-dev/1Panel"
     }
   ],
   "warnings": []
