@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T07:50:28Z",
+  "generated_at": "2026-07-21T07:26:00Z",
   "window": "latest_sync",
   "top_picks": [
     {
@@ -31,11 +31,25 @@
       "url": "https://github.com/ohmyzsh/ohmyzsh"
     },
     {
+      "repo_id": 1075372545,
+      "repo_name": "msitarzewski/agency-agents",
+      "kind": "Agent",
+      "category": "自动化运营",
+      "summary": "Agency Agents 是一个完整的 AI 代理集合，包括各种专业领域的专家代理，如前端专家、社区管理员等。",
+      "recommendation_score": 100,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/msitarzewski/agency-agents"
+    },
+    {
       "repo_id": 307260205,
       "repo_name": "yt-dlp/yt-dlp",
       "kind": "Skill",
       "category": "视频处理",
-      "summary": "yt-dlp 是一个功能丰富的命令行视频下载工具，支持多个网站。",
+      "summary": "yt-dlp 是一个功能丰富的命令行视频下载工具，支持数千个网站。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -45,11 +59,25 @@
       "url": "https://github.com/yt-dlp/yt-dlp"
     },
     {
+      "repo_id": 1201173969,
+      "repo_name": "JuliusBrussee/caveman",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "Caveman 是一个Claude Code技能，通过简化语言减少输出token，提高效率。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/JuliusBrussee/caveman"
+    },
+    {
       "repo_id": 1182081931,
       "repo_name": "Egonex-AI/Understand-Anything",
       "kind": "Skill",
       "category": "知识管理",
-      "summary": "Understand Anything 是一个将代码、知识库或文档转换为交互式知识图谱的工具。",
+      "summary": "Understand Anything 是一个将代码或文档转换为交互式知识图谱的工具。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -59,81 +87,53 @@
       "url": "https://github.com/Egonex-AI/Understand-Anything"
     },
     {
-      "repo_id": 1035029907,
-      "repo_name": "earendil-works/pi",
+      "repo_id": 65252,
+      "repo_name": "jekyll/jekyll",
       "kind": "Skill",
-      "category": "软件开发",
-      "summary": "Pi Agent Harness 是一个AI代理工具包，提供统一的LLM API、代理循环和命令行界面。",
+      "category": "内容创作",
+      "summary": "Jekyll 是一个基于文件的静态网站生成器，用于创建博客和网站。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/earendil-works/pi"
+      "url": "https://github.com/jekyll/jekyll"
     },
     {
-      "repo_id": 323048702,
-      "repo_name": "OpenBB-finance/OpenBB",
-      "kind": "Skill",
+      "repo_id": 968197216,
+      "repo_name": "google-gemini/gemini-cli",
+      "kind": "Agent",
       "category": "数据分析",
-      "summary": "OpenBB 是一个面向分析师、量化师和 AI 代理的开放数据平台。",
+      "summary": "终端AI代理，直接在命令行中提供Gemini模型的强大功能。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/OpenBB-finance/OpenBB"
+      "url": "https://github.com/google-gemini/gemini-cli"
     },
     {
-      "repo_id": 1131513930,
-      "repo_name": "ZhuLinsen/daily_stock_analysis",
-      "kind": "Skill",
-      "category": "投资研究",
-      "summary": "基于LLM的股票智能分析系统，提供多市场股票分析和决策仪表盘。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
-    },
-    {
-      "repo_id": 91629816,
-      "repo_name": "freqtrade/freqtrade",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "freqtrade 是一个开源的加密货币交易机器人，用于自动化交易策略。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/freqtrade/freqtrade"
-    },
-    {
-      "repo_id": 107111421,
-      "repo_name": "thedaviddias/Front-End-Checklist",
+      "repo_id": 666299222,
+      "repo_name": "openinterpreter/openinterpreter",
       "kind": "Agent",
       "category": "软件开发",
-      "summary": "Front-End Checklist 是一个用于现代网络开发的检查清单，适用于人类和AI代理。",
+      "summary": "Open Interpreter 是一个针对低成本模型优化的编码智能体。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/thedaviddias/Front-End-Checklist"
+      "url": "https://github.com/openinterpreter/openinterpreter"
     },
     {
       "repo_id": 1139971460,
       "repo_name": "rtk-ai/rtk",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "RTK 是一个 CLI 代理，通过过滤和压缩命令输出来减少 LLM 的 token 消耗。",
+      "summary": "RTK 是一个CLI代理，通过过滤和压缩命令输出来减少LLM的token消耗。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
@@ -177,7 +177,7 @@
       "repo_name": "yt-dlp/yt-dlp",
       "kind": "Skill",
       "category": "视频处理",
-      "summary": "yt-dlp 是一个功能丰富的命令行视频下载工具，支持多个网站。",
+      "summary": "yt-dlp 是一个功能丰富的命令行视频下载工具，支持数千个网站。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -187,11 +187,25 @@
       "url": "https://github.com/yt-dlp/yt-dlp"
     },
     {
+      "repo_id": 1201173969,
+      "repo_name": "JuliusBrussee/caveman",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "Caveman 是一个Claude Code技能，通过简化语言减少输出token，提高效率。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/JuliusBrussee/caveman"
+    },
+    {
       "repo_id": 1182081931,
       "repo_name": "Egonex-AI/Understand-Anything",
       "kind": "Skill",
       "category": "知识管理",
-      "summary": "Understand Anything 是一个将代码、知识库或文档转换为交互式知识图谱的工具。",
+      "summary": "Understand Anything 是一个将代码或文档转换为交互式知识图谱的工具。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -199,43 +213,71 @@
         "近期维护活跃"
       ],
       "url": "https://github.com/Egonex-AI/Understand-Anything"
-    },
-    {
-      "repo_id": 1035029907,
-      "repo_name": "earendil-works/pi",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "Pi Agent Harness 是一个AI代理工具包，提供统一的LLM API、代理循环和命令行界面。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/earendil-works/pi"
     }
   ],
   "agent_top": [
     {
-      "repo_id": 107111421,
-      "repo_name": "thedaviddias/Front-End-Checklist",
+      "repo_id": 1075372545,
+      "repo_name": "msitarzewski/agency-agents",
       "kind": "Agent",
-      "category": "软件开发",
-      "summary": "Front-End Checklist 是一个用于现代网络开发的检查清单，适用于人类和AI代理。",
+      "category": "自动化运营",
+      "summary": "Agency Agents 是一个完整的 AI 代理集合，包括各种专业领域的专家代理，如前端专家、社区管理员等。",
+      "recommendation_score": 100,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/msitarzewski/agency-agents"
+    },
+    {
+      "repo_id": 968197216,
+      "repo_name": "google-gemini/gemini-cli",
+      "kind": "Agent",
+      "category": "数据分析",
+      "summary": "终端AI代理，直接在命令行中提供Gemini模型的强大功能。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/thedaviddias/Front-End-Checklist"
+      "url": "https://github.com/google-gemini/gemini-cli"
+    },
+    {
+      "repo_id": 666299222,
+      "repo_name": "openinterpreter/openinterpreter",
+      "kind": "Agent",
+      "category": "软件开发",
+      "summary": "Open Interpreter 是一个针对低成本模型优化的编码智能体。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/openinterpreter/openinterpreter"
+    },
+    {
+      "repo_id": 621803253,
+      "repo_name": "FlowiseAI/Flowise",
+      "kind": "Agent",
+      "category": "自动化运营",
+      "summary": "Flowise 是一个用于构建 AI 代理的可视化平台，支持低代码和无代码开发。",
+      "recommendation_score": 98,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/FlowiseAI/Flowise"
     },
     {
       "repo_id": 8681349,
       "repo_name": "huginn/huginn",
       "kind": "Agent",
       "category": "自动化运营",
-      "summary": "自动化代理系统，用于监控和执行在线任务，可与IFTTT或Zapier媲美。",
+      "summary": "Huginn 是一个用于创建自动化代理的系统，可以监控和执行任务。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
@@ -243,48 +285,6 @@
         "近期维护活跃"
       ],
       "url": "https://github.com/huginn/huginn"
-    },
-    {
-      "repo_id": 1113573066,
-      "repo_name": "hugohe3/ppt-master",
-      "kind": "Agent",
-      "category": "内容创作",
-      "summary": "PPT Master 是一个 AI 工具，可以将文档或主题转换为具有动画、图表和音频的 PowerPoint 演示文稿。",
-      "recommendation_score": 98,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/hugohe3/ppt-master"
-    },
-    {
-      "repo_id": 1133707766,
-      "repo_name": "multica-ai/multica",
-      "kind": "Agent",
-      "category": "自动化运营",
-      "summary": "开源托管Agent平台，用于管理代码Agent。",
-      "recommendation_score": 97,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/multica-ai/multica"
-    },
-    {
-      "repo_id": 515647260,
-      "repo_name": "1Panel-dev/1Panel",
-      "kind": "Agent",
-      "category": "自动化运营",
-      "summary": "1Panel 是一个现代化的开源 VPS 控制面板，支持原生 AI 代理功能，可以运行 Ollama 模型并管理服务器堆栈。",
-      "recommendation_score": 97,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/1Panel-dev/1Panel"
     }
   ],
   "warnings": []
