@@ -1,21 +1,7 @@
 {
-  "generated_at": "2026-07-21T07:26:00Z",
+  "generated_at": "2026-07-22T07:18:58Z",
   "window": "latest_sync",
   "top_picks": [
-    {
-      "repo_id": 1073224795,
-      "repo_name": "obra/superpowers",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "Superpowers 是一个面向编码代理的完整软件开发方法论，基于可组合的技能和初始指令，确保代理在构建代码前先理解目标。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/obra/superpowers"
-    },
     {
       "repo_id": 291137,
       "repo_name": "ohmyzsh/ohmyzsh",
@@ -31,25 +17,25 @@
       "url": "https://github.com/ohmyzsh/ohmyzsh"
     },
     {
-      "repo_id": 1075372545,
-      "repo_name": "msitarzewski/agency-agents",
-      "kind": "Agent",
-      "category": "自动化运营",
-      "summary": "Agency Agents 是一个完整的 AI 代理集合，包括各种专业领域的专家代理，如前端专家、社区管理员等。",
+      "repo_id": 1148788086,
+      "repo_name": "mattpocock/skills",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "Skills 是一组用于真实工程开发的实用工具，帮助开发者提高效率。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/msitarzewski/agency-agents"
+      "url": "https://github.com/mattpocock/skills"
     },
     {
       "repo_id": 307260205,
       "repo_name": "yt-dlp/yt-dlp",
       "kind": "Skill",
-      "category": "视频处理",
-      "summary": "yt-dlp 是一个功能丰富的命令行视频下载工具，支持数千个网站。",
+      "category": "信息搜集",
+      "summary": "yt-dlp 是一个功能丰富的命令行下载工具，支持多种网站。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -62,8 +48,8 @@
       "repo_id": 1201173969,
       "repo_name": "JuliusBrussee/caveman",
       "kind": "Skill",
-      "category": "软件开发",
-      "summary": "Caveman 是一个Claude Code技能，通过简化语言减少输出token，提高效率。",
+      "category": "内容创作",
+      "summary": "Caveman 是一个 AI 编码技能，通过使用简短的'石器时代'语言来减少 Claude Code 等 AI 代理的输出标记，从而节省成本并提高效率。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -73,11 +59,25 @@
       "url": "https://github.com/JuliusBrussee/caveman"
     },
     {
+      "repo_id": 771302083,
+      "repo_name": "OpenHands/OpenHands",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "OpenHands 是一个 AI 驱动的开发工具，支持多种 AI 编程助手，用于本地、远程和云环境。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/OpenHands/OpenHands"
+    },
+    {
       "repo_id": 1182081931,
       "repo_name": "Egonex-AI/Understand-Anything",
       "kind": "Skill",
-      "category": "知识管理",
-      "summary": "Understand Anything 是一个将代码或文档转换为交互式知识图谱的工具。",
+      "category": "软件开发",
+      "summary": "将代码库、知识库或文档转换为可交互的知识图谱。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -87,53 +87,25 @@
       "url": "https://github.com/Egonex-AI/Understand-Anything"
     },
     {
-      "repo_id": 65252,
-      "repo_name": "jekyll/jekyll",
-      "kind": "Skill",
-      "category": "内容创作",
-      "summary": "Jekyll 是一个基于文件的静态网站生成器，用于创建博客和网站。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/jekyll/jekyll"
-    },
-    {
-      "repo_id": 968197216,
-      "repo_name": "google-gemini/gemini-cli",
-      "kind": "Agent",
-      "category": "数据分析",
-      "summary": "终端AI代理，直接在命令行中提供Gemini模型的强大功能。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/google-gemini/gemini-cli"
-    },
-    {
-      "repo_id": 666299222,
-      "repo_name": "openinterpreter/openinterpreter",
+      "repo_id": 107111421,
+      "repo_name": "thedaviddias/Front-End-Checklist",
       "kind": "Agent",
       "category": "软件开发",
-      "summary": "Open Interpreter 是一个针对低成本模型优化的编码智能体。",
+      "summary": "提供前端开发的检查列表和MCP工具，适用于人类和AI代理。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/openinterpreter/openinterpreter"
+      "url": "https://github.com/thedaviddias/Front-End-Checklist"
     },
     {
       "repo_id": 1139971460,
       "repo_name": "rtk-ai/rtk",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "RTK 是一个CLI代理，通过过滤和压缩命令输出来减少LLM的token消耗。",
+      "summary": "RTK 是一个 CLI 代理，通过减少 LLM 令牌消耗来提高开发效率。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
@@ -141,23 +113,37 @@
         "近期维护活跃"
       ],
       "url": "https://github.com/rtk-ai/rtk"
-    }
-  ],
-  "skill_top": [
+    },
     {
-      "repo_id": 1073224795,
-      "repo_name": "obra/superpowers",
+      "repo_id": 1032459340,
+      "repo_name": "Fission-AI/OpenSpec",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "Superpowers 是一个面向编码代理的完整软件开发方法论，基于可组合的技能和初始指令，确保代理在构建代码前先理解目标。",
-      "recommendation_score": 100,
+      "summary": "OpenSpec是一个面向AI编程助手的规范驱动开发框架，支持迭代开发和灵活扩展。",
+      "recommendation_score": 98,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/obra/superpowers"
+      "url": "https://github.com/Fission-AI/OpenSpec"
     },
+    {
+      "repo_id": 130464961,
+      "repo_name": "sharkdp/bat",
+      "kind": "Skill",
+      "category": "办公协作",
+      "summary": "bat 是一个带有语法高亮和 Git 集成的 cat 命令行工具，用于增强终端文本查看体验。",
+      "recommendation_score": 98,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/sharkdp/bat"
+    }
+  ],
+  "skill_top": [
     {
       "repo_id": 291137,
       "repo_name": "ohmyzsh/ohmyzsh",
@@ -173,11 +159,25 @@
       "url": "https://github.com/ohmyzsh/ohmyzsh"
     },
     {
+      "repo_id": 1148788086,
+      "repo_name": "mattpocock/skills",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "Skills 是一组用于真实工程开发的实用工具，帮助开发者提高效率。",
+      "recommendation_score": 100,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
       "repo_id": 307260205,
       "repo_name": "yt-dlp/yt-dlp",
       "kind": "Skill",
-      "category": "视频处理",
-      "summary": "yt-dlp 是一个功能丰富的命令行视频下载工具，支持数千个网站。",
+      "category": "信息搜集",
+      "summary": "yt-dlp 是一个功能丰富的命令行下载工具，支持多种网站。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -190,8 +190,8 @@
       "repo_id": 1201173969,
       "repo_name": "JuliusBrussee/caveman",
       "kind": "Skill",
-      "category": "软件开发",
-      "summary": "Caveman 是一个Claude Code技能，通过简化语言减少输出token，提高效率。",
+      "category": "内容创作",
+      "summary": "Caveman 是一个 AI 编码技能，通过使用简短的'石器时代'语言来减少 Claude Code 等 AI 代理的输出标记，从而节省成本并提高效率。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -201,90 +201,90 @@
       "url": "https://github.com/JuliusBrussee/caveman"
     },
     {
-      "repo_id": 1182081931,
-      "repo_name": "Egonex-AI/Understand-Anything",
+      "repo_id": 771302083,
+      "repo_name": "OpenHands/OpenHands",
       "kind": "Skill",
-      "category": "知识管理",
-      "summary": "Understand Anything 是一个将代码或文档转换为交互式知识图谱的工具。",
+      "category": "软件开发",
+      "summary": "OpenHands 是一个 AI 驱动的开发工具，支持多种 AI 编程助手，用于本地、远程和云环境。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/Egonex-AI/Understand-Anything"
+      "url": "https://github.com/OpenHands/OpenHands"
     }
   ],
   "agent_top": [
     {
-      "repo_id": 1075372545,
-      "repo_name": "msitarzewski/agency-agents",
-      "kind": "Agent",
-      "category": "自动化运营",
-      "summary": "Agency Agents 是一个完整的 AI 代理集合，包括各种专业领域的专家代理，如前端专家、社区管理员等。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/msitarzewski/agency-agents"
-    },
-    {
-      "repo_id": 968197216,
-      "repo_name": "google-gemini/gemini-cli",
-      "kind": "Agent",
-      "category": "数据分析",
-      "summary": "终端AI代理，直接在命令行中提供Gemini模型的强大功能。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/google-gemini/gemini-cli"
-    },
-    {
-      "repo_id": 666299222,
-      "repo_name": "openinterpreter/openinterpreter",
+      "repo_id": 107111421,
+      "repo_name": "thedaviddias/Front-End-Checklist",
       "kind": "Agent",
       "category": "软件开发",
-      "summary": "Open Interpreter 是一个针对低成本模型优化的编码智能体。",
+      "summary": "提供前端开发的检查列表和MCP工具，适用于人类和AI代理。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/openinterpreter/openinterpreter"
+      "url": "https://github.com/thedaviddias/Front-End-Checklist"
     },
     {
-      "repo_id": 621803253,
-      "repo_name": "FlowiseAI/Flowise",
+      "repo_id": 1133707766,
+      "repo_name": "multica-ai/multica",
       "kind": "Agent",
       "category": "自动化运营",
-      "summary": "Flowise 是一个用于构建 AI 代理的可视化平台，支持低代码和无代码开发。",
-      "recommendation_score": 98,
+      "summary": "一个开源的托管代理平台，用于将代码代理转化为真实团队成员，分配任务并跟踪进度。",
+      "recommendation_score": 97,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/FlowiseAI/Flowise"
+      "url": "https://github.com/multica-ai/multica"
     },
     {
-      "repo_id": 8681349,
-      "repo_name": "huginn/huginn",
+      "repo_id": 515647260,
+      "repo_name": "1Panel-dev/1Panel",
       "kind": "Agent",
       "category": "自动化运营",
-      "summary": "Huginn 是一个用于创建自动化代理的系统，可以监控和执行任务。",
-      "recommendation_score": 98,
+      "summary": "1Panel 是一个现代化的开源 VPS 控制面板，支持原生 AI 代理，可在 Web 界面中运行 Ollama 模型和部署 OpenClaw 代理。",
+      "recommendation_score": 97,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/huginn/huginn"
+      "url": "https://github.com/1Panel-dev/1Panel"
+    },
+    {
+      "repo_id": 742244656,
+      "repo_name": "agentscope-ai/agentscope",
+      "kind": "Agent",
+      "category": "安全攻防",
+      "summary": "Agentscope 是一个用于构建、运行和可视化可信代理的框架，支持多代理和大型语言模型。",
+      "recommendation_score": 97,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/agentscope-ai/agentscope"
+    },
+    {
+      "repo_id": 1207639951,
+      "repo_name": "EKKOLearnAI/hermes-studio",
+      "kind": "Agent",
+      "category": "办公协作",
+      "summary": "Hermes Agent的网页仪表板，支持多平台AI聊天、会话管理和定时任务。",
+      "recommendation_score": 94,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/EKKOLearnAI/hermes-studio"
     }
   ],
   "warnings": []
