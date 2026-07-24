@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T07:22:09Z",
+  "generated_at": "2026-07-24T07:28:18Z",
   "window": "latest_sync",
   "top_picks": [
     {
@@ -7,7 +7,7 @@
       "repo_name": "n8n-io/n8n",
       "kind": "Skill",
       "category": "自动化运营",
-      "summary": "n8n 是一个 AI 原生的工作流自动化平台，支持低代码/无代码开发，结合 1500+ 集成，实现复杂工作流自动化。",
+      "summary": "n8n 是一个 AI 原生的工作流自动化平台，支持可视化构建与代码结合，提供 1500 多种集成，可自托管或云端部署。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
@@ -20,8 +20,8 @@
       "repo_id": 291137,
       "repo_name": "ohmyzsh/ohmyzsh",
       "kind": "Skill",
-      "category": "办公协作",
-      "summary": "Oh My Zsh 是一个用于管理 zsh 配置的强大框架，提供插件和主题以增强终端体验。",
+      "category": "软件开发",
+      "summary": "Oh My Zsh 是一个社区驱动的框架，用于管理 zsh 配置，包含大量插件和主题。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
@@ -31,25 +31,11 @@
       "url": "https://github.com/ohmyzsh/ohmyzsh"
     },
     {
-      "repo_id": 1148788086,
-      "repo_name": "mattpocock/skills",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "Skills 是一组实用的编程技能，专为真实工程师设计，用于解决实际工程问题。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/mattpocock/skills"
-    },
-    {
       "repo_id": 968197216,
       "repo_name": "google-gemini/gemini-cli",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "一个开源AI代理，将Gemini的强大功能直接带入终端。",
+      "summary": "Gemini CLI 是一个终端 AI 代理，提供对 Gemini 模型的直接访问，并支持多种工具和扩展。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
@@ -59,11 +45,25 @@
       "url": "https://github.com/google-gemini/gemini-cli"
     },
     {
+      "repo_id": 162998479,
+      "repo_name": "sherlock-project/sherlock",
+      "kind": "Skill",
+      "category": "安全攻防",
+      "summary": "一个用于在多个社交网络上搜索社交媒体账户的工具。",
+      "recommendation_score": 100,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/sherlock-project/sherlock"
+    },
+    {
       "repo_id": 307260205,
       "repo_name": "yt-dlp/yt-dlp",
       "kind": "Skill",
-      "category": "视频处理",
-      "summary": "yt-dlp 是一个功能丰富的命令行下载器，支持从数千个网站下载音频和视频。",
+      "category": "软件开发",
+      "summary": "yt-dlp 是一个功能丰富的命令行视频/音频下载工具，支持众多网站。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -73,39 +73,11 @@
       "url": "https://github.com/yt-dlp/yt-dlp"
     },
     {
-      "repo_id": 771302083,
-      "repo_name": "OpenHands/OpenHands",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "OpenHands 是一个 AI 驱动的开发工具，支持多种 AI 编程助手，用于本地、远程和云环境下的开发自动化。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/OpenHands/OpenHands"
-    },
-    {
-      "repo_id": 1035029907,
-      "repo_name": "earendil-works/pi",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "AI代理工具包，提供统一的LLM API、代理循环、TUI和编码代理CLI。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/earendil-works/pi"
-    },
-    {
       "repo_id": 1182081931,
       "repo_name": "Egonex-AI/Understand-Anything",
       "kind": "Skill",
-      "category": "软件开发",
-      "summary": "将任何代码库转换为可交互的知识图谱，支持多种AI工具。",
+      "category": "知识管理",
+      "summary": "Understand-Anything 是一个交互式知识图谱工具，帮助用户探索、搜索和提问代码库、知识库或文档。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -115,25 +87,11 @@
       "url": "https://github.com/Egonex-AI/Understand-Anything"
     },
     {
-      "repo_id": 323048702,
-      "repo_name": "OpenBB-finance/OpenBB",
-      "kind": "Skill",
-      "category": "数据分析",
-      "summary": "OpenBB 是一个用于金融分析的开放数据平台。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/OpenBB-finance/OpenBB"
-    },
-    {
       "repo_id": 1614410,
       "repo_name": "FFmpeg/FFmpeg",
       "kind": "Skill",
       "category": "视频处理",
-      "summary": "FFmpeg是一个多媒体处理工具集，用于处理音频、视频、字幕等多媒体内容。",
+      "summary": "FFmpeg 是一个多媒体内容处理工具集，包含多种库和工具用于音频、视频、字幕等多媒体内容的处理和转换。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -141,6 +99,48 @@
         "近期维护活跃"
       ],
       "url": "https://github.com/FFmpeg/FFmpeg"
+    },
+    {
+      "repo_id": 91629816,
+      "repo_name": "freqtrade/freqtrade",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "freqtrade 是一个开源的加密货币交易机器人，用于自动化交易策略。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/freqtrade/freqtrade"
+    },
+    {
+      "repo_id": 666299222,
+      "repo_name": "openinterpreter/openinterpreter",
+      "kind": "Agent",
+      "category": "软件开发",
+      "summary": "Open Interpreter 是一个优化的代码代理，支持低成本模型如 Kimi K3，提供类似 Codex 的界面。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/openinterpreter/openinterpreter"
+    },
+    {
+      "repo_id": 1032459340,
+      "repo_name": "Fission-AI/OpenSpec",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "OpenSpec 是一个用于 AI 编程助手的规范驱动开发框架，支持迭代和灵活的开发模式。",
+      "recommendation_score": 98,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/Fission-AI/OpenSpec"
     }
   ],
   "skill_top": [
@@ -149,7 +149,7 @@
       "repo_name": "n8n-io/n8n",
       "kind": "Skill",
       "category": "自动化运营",
-      "summary": "n8n 是一个 AI 原生的工作流自动化平台，支持低代码/无代码开发，结合 1500+ 集成，实现复杂工作流自动化。",
+      "summary": "n8n 是一个 AI 原生的工作流自动化平台，支持可视化构建与代码结合，提供 1500 多种集成，可自托管或云端部署。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
@@ -162,8 +162,8 @@
       "repo_id": 291137,
       "repo_name": "ohmyzsh/ohmyzsh",
       "kind": "Skill",
-      "category": "办公协作",
-      "summary": "Oh My Zsh 是一个用于管理 zsh 配置的强大框架，提供插件和主题以增强终端体验。",
+      "category": "软件开发",
+      "summary": "Oh My Zsh 是一个社区驱动的框架，用于管理 zsh 配置，包含大量插件和主题。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
@@ -173,25 +173,11 @@
       "url": "https://github.com/ohmyzsh/ohmyzsh"
     },
     {
-      "repo_id": 1148788086,
-      "repo_name": "mattpocock/skills",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "Skills 是一组实用的编程技能，专为真实工程师设计，用于解决实际工程问题。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/mattpocock/skills"
-    },
-    {
       "repo_id": 968197216,
       "repo_name": "google-gemini/gemini-cli",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "一个开源AI代理，将Gemini的强大功能直接带入终端。",
+      "summary": "Gemini CLI 是一个终端 AI 代理，提供对 Gemini 模型的直接访问，并支持多种工具和扩展。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
@@ -201,11 +187,25 @@
       "url": "https://github.com/google-gemini/gemini-cli"
     },
     {
+      "repo_id": 162998479,
+      "repo_name": "sherlock-project/sherlock",
+      "kind": "Skill",
+      "category": "安全攻防",
+      "summary": "一个用于在多个社交网络上搜索社交媒体账户的工具。",
+      "recommendation_score": 100,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/sherlock-project/sherlock"
+    },
+    {
       "repo_id": 307260205,
       "repo_name": "yt-dlp/yt-dlp",
       "kind": "Skill",
-      "category": "视频处理",
-      "summary": "yt-dlp 是一个功能丰富的命令行下载器，支持从数千个网站下载音频和视频。",
+      "category": "软件开发",
+      "summary": "yt-dlp 是一个功能丰富的命令行视频/音频下载工具，支持众多网站。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -221,7 +221,7 @@
       "repo_name": "openinterpreter/openinterpreter",
       "kind": "Agent",
       "category": "软件开发",
-      "summary": "Open Interpreter是一个针对开源模型如Kimi K3优化的编码代理。",
+      "summary": "Open Interpreter 是一个优化的代码代理，支持低成本模型如 Kimi K3，提供类似 Codex 的界面。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -231,53 +231,11 @@
       "url": "https://github.com/openinterpreter/openinterpreter"
     },
     {
-      "repo_id": 522158088,
-      "repo_name": "zhayujie/CowAgent",
-      "kind": "Agent",
-      "category": "软件开发",
-      "summary": "CowAgent是一个开源超级AI助手，能够主动规划任务、运行工具和技能，并具备自我进化能力。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/zhayujie/CowAgent"
-    },
-    {
-      "repo_id": 824874689,
-      "repo_name": "cline/cline",
-      "kind": "Agent",
-      "category": "软件开发",
-      "summary": "一个自主编码代理，可作为SDK、IDE扩展或CLI助手使用。",
-      "recommendation_score": 98,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/cline/cline"
-    },
-    {
-      "repo_id": 1113573066,
-      "repo_name": "hugohe3/ppt-master",
-      "kind": "Agent",
-      "category": "内容创作",
-      "summary": "PPT Master 是一个 AI 工具，可以将文档或主题转换为带有动画和图表的 PowerPoint 演示文稿。",
-      "recommendation_score": 98,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/hugohe3/ppt-master"
-    },
-    {
       "repo_id": 1133707766,
       "repo_name": "multica-ai/multica",
       "kind": "Agent",
       "category": "自动化运营",
-      "summary": "一个开源的托管代理平台，用于将代码代理转化为真实团队成员，分配任务并跟踪进度。",
+      "summary": "Multica 是一个开源托管平台，用于将代码代理转化为真实团队成员，分配任务并跟踪进度。",
       "recommendation_score": 97,
       "why_pick": [
         "高可用性",
@@ -285,6 +243,48 @@
         "近期维护活跃"
       ],
       "url": "https://github.com/multica-ai/multica"
+    },
+    {
+      "repo_id": 515647260,
+      "repo_name": "1Panel-dev/1Panel",
+      "kind": "Agent",
+      "category": "自动化运营",
+      "summary": "1Panel 是一个现代化的开源 VPS 控制面板，支持原生 AI 代理功能，可以运行 Ollama 模型并管理整个服务器堆栈。",
+      "recommendation_score": 97,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/1Panel-dev/1Panel"
+    },
+    {
+      "repo_id": 1146738089,
+      "repo_name": "nanocoai/nanoclaw",
+      "kind": "Agent",
+      "category": "自动化运营",
+      "summary": "nanoclaw 是一个轻量级的容器化 AI 助手，可以连接到多个消息平台并执行自动化任务。",
+      "recommendation_score": 97,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/nanocoai/nanoclaw"
+    },
+    {
+      "repo_id": 1167965563,
+      "repo_name": "openai/symphony",
+      "kind": "Agent",
+      "category": "自动化运营",
+      "summary": "Symphony 是一个将项目工作转化为独立自主执行任务的工具，允许团队管理而非监督代码代理。",
+      "recommendation_score": 97,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/openai/symphony"
     }
   ],
   "warnings": []
