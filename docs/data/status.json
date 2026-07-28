@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "synced_at": "2026-07-27T08:03:50Z",
+  "synced_at": "2026-07-28T07:18:03Z",
   "query_count": 156,
   "failed_queries": [],
   "github_rate_limited": false,
@@ -8,12 +8,12 @@
   "github_rate_limit_wait_seconds": 0,
   "filtered_candidates": 558,
   "filter_reasons": {
-    "noise_term:awesome": 165,
+    "noise_term:awesome": 164,
     "template_repo": 40,
     "stale_repo": 275,
     "noise_term:tutorial": 25,
     "noise_term:tutorials": 8,
-    "noise_term:benchmark": 6,
+    "noise_term:benchmark": 7,
     "noise_term:examples": 3,
     "noise_term:dataset": 5,
     "noise_term:demo": 3,
@@ -25,8 +25,8 @@
     "noise_term:paper-list": 1
   },
   "trending_repos_seen": 40,
-  "trending_repos_added": 31,
-  "ai_fallback_count": 0,
+  "trending_repos_added": 32,
+  "ai_fallback_count": 3,
   "model_batch_failures": 0,
   "model_circuit_breaker_tripped": false,
   "model_circuit_breaker_batch": null,
