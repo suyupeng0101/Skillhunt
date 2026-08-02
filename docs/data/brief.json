@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-08-01T07:24:31Z",
+  "generated_at": "2026-08-02T07:38:18Z",
   "window": "latest_sync",
   "top_picks": [
     {
-      "repo_id": 1148788086,
-      "repo_name": "mattpocock/skills",
+      "repo_id": 1073224795,
+      "repo_name": "obra/superpowers",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "提供实用的AI辅助编程技能，帮助工程师提高工作效率。",
+      "summary": "Superpowers 是一个为编码代理构建的完整软件开发方法论，包含可组合的技能和初始指令，确保代理在开始编码前理解目标。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/mattpocock/skills"
+      "url": "https://github.com/obra/superpowers"
     },
     {
       "repo_id": 291137,
       "repo_name": "ohmyzsh/ohmyzsh",
       "kind": "Skill",
-      "category": "办公协作",
-      "summary": "强大的Zsh配置框架，提供丰富的插件和主题以增强终端体验。",
+      "category": "软件开发",
+      "summary": "Oh My Zsh 是一个社区驱动的框架，用于管理 zsh 配置，提供丰富的插件和主题。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
@@ -31,39 +31,25 @@
       "url": "https://github.com/ohmyzsh/ohmyzsh"
     },
     {
-      "repo_id": 968197216,
-      "repo_name": "google-gemini/gemini-cli",
+      "repo_id": 626805178,
+      "repo_name": "langgenius/dify",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "一个命令行AI代理，将Gemini的强大功能直接带入终端。",
+      "summary": "用于构建代理工作流、RAG管道和AI模型支持的协作工作区。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/google-gemini/gemini-cli"
-    },
-    {
-      "repo_id": 1035029907,
-      "repo_name": "earendil-works/pi",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "Pi Agent Harness 是一个 AI 代理工具包，提供 LLM API、代理运行时和编码代理 CLI。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/earendil-works/pi"
+      "url": "https://github.com/langgenius/dify"
     },
     {
       "repo_id": 307260205,
       "repo_name": "yt-dlp/yt-dlp",
       "kind": "Skill",
-      "category": "视频处理",
-      "summary": "功能丰富的命令行视频和音频下载工具，支持多种网站。",
+      "category": "软件开发",
+      "summary": "yt-dlp 是一个功能丰富的命令行下载工具，支持数千个网站。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -73,11 +59,25 @@
       "url": "https://github.com/yt-dlp/yt-dlp"
     },
     {
+      "repo_id": 1201173969,
+      "repo_name": "JuliusBrussee/caveman",
+      "kind": "Skill",
+      "category": "内容创作",
+      "summary": "Caveman 是一个 AI 编程技能，通过使用简短的语言表达，减少输出 token 数量，提高 AI 编程效率。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/JuliusBrussee/caveman"
+    },
+    {
       "repo_id": 1182081931,
       "repo_name": "Egonex-AI/Understand-Anything",
       "kind": "Skill",
       "category": "知识管理",
-      "summary": "Understand Anything 是一个交互式知识图谱工具，用于探索、搜索和提问任何代码或知识库。",
+      "summary": "Understand Anything 将任何代码库或知识库转换为交互式知识图谱，便于探索和查询。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -87,18 +87,18 @@
       "url": "https://github.com/Egonex-AI/Understand-Anything"
     },
     {
-      "repo_id": 91629816,
-      "repo_name": "freqtrade/freqtrade",
+      "repo_id": 323048702,
+      "repo_name": "OpenBB-finance/OpenBB",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "freqtrade 是一个开源的加密货币交易机器人，用于自动化交易策略。",
+      "summary": "OpenBB 是一个面向分析师、量化师和AI代理的开放数据平台。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/freqtrade/freqtrade"
+      "url": "https://github.com/OpenBB-finance/OpenBB"
     },
     {
       "repo_id": 65252,
@@ -115,55 +115,55 @@
       "url": "https://github.com/jekyll/jekyll"
     },
     {
-      "repo_id": 522158088,
-      "repo_name": "zhayujie/CowAgent",
+      "repo_id": 53631945,
+      "repo_name": "BurntSushi/ripgrep",
       "kind": "Skill",
-      "category": "软件开发",
-      "summary": "CowAgent是一个开源的超级AI助手，支持任务规划、工具运行、自我进化和多模型支持。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/zhayujie/CowAgent"
-    },
-    {
-      "repo_id": 1139971460,
-      "repo_name": "rtk-ai/rtk",
-      "kind": "Skill",
-      "category": "自动化运营",
-      "summary": "RTK 是一个CLI代理，通过过滤和压缩命令输出来减少LLM的token消耗。",
+      "category": "办公协作",
+      "summary": "ripgrep 是一个快速的递归搜索工具，支持正则表达式，并能忽略 git 忽略规则。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/rtk-ai/rtk"
+      "url": "https://github.com/BurntSushi/ripgrep"
+    },
+    {
+      "repo_id": 1032459340,
+      "repo_name": "Fission-AI/OpenSpec",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "OpenSpec 是一个用于 AI 编程助手的规格驱动开发框架，支持迭代和灵活开发。",
+      "recommendation_score": 98,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/Fission-AI/OpenSpec"
     }
   ],
   "skill_top": [
     {
-      "repo_id": 1148788086,
-      "repo_name": "mattpocock/skills",
+      "repo_id": 1073224795,
+      "repo_name": "obra/superpowers",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "提供实用的AI辅助编程技能，帮助工程师提高工作效率。",
+      "summary": "Superpowers 是一个为编码代理构建的完整软件开发方法论，包含可组合的技能和初始指令，确保代理在开始编码前理解目标。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/mattpocock/skills"
+      "url": "https://github.com/obra/superpowers"
     },
     {
       "repo_id": 291137,
       "repo_name": "ohmyzsh/ohmyzsh",
       "kind": "Skill",
-      "category": "办公协作",
-      "summary": "强大的Zsh配置框架，提供丰富的插件和主题以增强终端体验。",
+      "category": "软件开发",
+      "summary": "Oh My Zsh 是一个社区驱动的框架，用于管理 zsh 配置，提供丰富的插件和主题。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
@@ -173,39 +173,25 @@
       "url": "https://github.com/ohmyzsh/ohmyzsh"
     },
     {
-      "repo_id": 968197216,
-      "repo_name": "google-gemini/gemini-cli",
+      "repo_id": 626805178,
+      "repo_name": "langgenius/dify",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "一个命令行AI代理，将Gemini的强大功能直接带入终端。",
+      "summary": "用于构建代理工作流、RAG管道和AI模型支持的协作工作区。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/google-gemini/gemini-cli"
-    },
-    {
-      "repo_id": 1035029907,
-      "repo_name": "earendil-works/pi",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "Pi Agent Harness 是一个 AI 代理工具包，提供 LLM API、代理运行时和编码代理 CLI。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/earendil-works/pi"
+      "url": "https://github.com/langgenius/dify"
     },
     {
       "repo_id": 307260205,
       "repo_name": "yt-dlp/yt-dlp",
       "kind": "Skill",
-      "category": "视频处理",
-      "summary": "功能丰富的命令行视频和音频下载工具，支持多种网站。",
+      "category": "软件开发",
+      "summary": "yt-dlp 是一个功能丰富的命令行下载工具，支持数千个网站。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -213,6 +199,20 @@
         "近期维护活跃"
       ],
       "url": "https://github.com/yt-dlp/yt-dlp"
+    },
+    {
+      "repo_id": 1201173969,
+      "repo_name": "JuliusBrussee/caveman",
+      "kind": "Skill",
+      "category": "内容创作",
+      "summary": "Caveman 是一个 AI 编程技能，通过使用简短的语言表达，减少输出 token 数量，提高 AI 编程效率。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/JuliusBrussee/caveman"
     }
   ],
   "agent_top": [
@@ -221,7 +221,7 @@
       "repo_name": "cline/cline",
       "kind": "Agent",
       "category": "软件开发",
-      "summary": "Cline 是一个开源的编码代理，可在 IDE 和终端中运行，提供 AI 编码辅助功能。",
+      "summary": "Cline 是一个开源的编码智能体，可在 IDE 和终端中使用。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
@@ -231,11 +231,25 @@
       "url": "https://github.com/cline/cline"
     },
     {
+      "repo_id": 26783295,
+      "repo_name": "Kong/kong",
+      "kind": "Agent",
+      "category": "安全攻防",
+      "summary": "Kong 是一个云原生的 API 和 AI 网关，支持多 LLM 和 MCP 交通安全与分析。",
+      "recommendation_score": 98,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/Kong/kong"
+    },
+    {
       "repo_id": 1113573066,
       "repo_name": "hugohe3/ppt-master",
       "kind": "Agent",
-      "category": "内容创作",
-      "summary": "PPT Master 是一个AI代理，可以将文档或主题转换为带有原生形状、过渡动画和数据图表的PowerPoint演示文稿。",
+      "category": "办公协作",
+      "summary": "PPT Master 是一个 AI 工具，可以将文档或主题转换为带有形状、过渡、动画和数据图表的原生 PowerPoint 演示文稿。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
@@ -245,25 +259,11 @@
       "url": "https://github.com/hugohe3/ppt-master"
     },
     {
-      "repo_id": 1025856648,
-      "repo_name": "wshobson/agents",
-      "kind": "Agent",
-      "category": "自动化运营",
-      "summary": "一个用于构建代理工作流的插件市场，支持Claude Code、Codex CLI、Cursor等多个平台。",
-      "recommendation_score": 98,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/wshobson/agents"
-    },
-    {
       "repo_id": 515647260,
       "repo_name": "1Panel-dev/1Panel",
       "kind": "Agent",
       "category": "自动化运营",
-      "summary": "1Panel 是一个现代化的开源 VPS 控制面板，支持原生 AI 代理，可以运行 Ollama 模型并管理整个服务器。",
+      "summary": "1Panel 是一个现代化的开源 VPS 控制面板，支持原生 AI 代理功能，可以运行 Ollama 模型并管理整个服务器。",
       "recommendation_score": 97,
       "why_pick": [
         "高可用性",
@@ -273,18 +273,18 @@
       "url": "https://github.com/1Panel-dev/1Panel"
     },
     {
-      "repo_id": 965415649,
-      "repo_name": "openai/codex",
+      "repo_id": 742244656,
+      "repo_name": "agentscope-ai/agentscope",
       "kind": "Agent",
-      "category": "软件开发",
-      "summary": "轻量级编码代理，可在终端中运行，提供本地代码辅助。",
-      "recommendation_score": 96,
+      "category": "自动化运营",
+      "summary": "Agentscope 是一个用于构建和运行可视化、可理解、可信任代理的框架。",
+      "recommendation_score": 97,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/openai/codex"
+      "url": "https://github.com/agentscope-ai/agentscope"
     }
   ],
   "warnings": []
