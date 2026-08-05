@@ -1,227 +1,125 @@
 {
-  "generated_at": "2026-08-04T07:33:31Z",
+  "generated_at": "2026-08-05T07:26:11Z",
   "window": "latest_sync",
   "top_picks": [
     {
-      "repo_id": 1182081931,
-      "repo_name": "Egonex-AI/Understand-Anything",
+      "repo_id": 291137,
+      "repo_name": "ohmyzsh/ohmyzsh",
       "kind": "Skill",
+      "category": "软件开发",
+      "summary": "Oh My Zsh 是一个用于管理 zsh 配置的强大框架，包含大量插件和主题。",
+      "recommendation_score": 100,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/ohmyzsh/ohmyzsh"
+    },
+    {
+      "repo_id": 968197216,
+      "repo_name": "google-gemini/gemini-cli",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "一个开源AI代理，将Gemini的强大功能直接带入终端。",
+      "recommendation_score": 100,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/google-gemini/gemini-cli"
+    },
+    {
+      "repo_id": 24195339,
+      "repo_name": "angular/angular",
+      "kind": "Agent",
+      "category": "软件开发",
+      "summary": "Angular是一个用于构建移动和桌面Web应用程序的开发平台。",
+      "recommendation_score": 100,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/angular/angular"
+    },
+    {
+      "repo_id": 307260205,
+      "repo_name": "yt-dlp/yt-dlp",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "yt-dlp 是一个功能丰富的命令行下载工具，支持众多网站。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/yt-dlp/yt-dlp"
+    },
+    {
+      "repo_id": 65252,
+      "repo_name": "jekyll/jekyll",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "Jekyll 是一个基于文件的静态网站生成器，用于创建博客和项目网站。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/jekyll/jekyll"
+    },
+    {
+      "repo_id": 107111421,
+      "repo_name": "thedaviddias/Front-End-Checklist",
+      "kind": "Agent",
       "category": "知识管理",
-      "summary": "Understand Anything 是一个将代码库、知识库或文档转换为交互式知识图谱的工具，支持多种 AI 平台。",
+      "summary": "提供前端开发的最佳实践检查表，适用于人类和AI代理。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/Egonex-AI/Understand-Anything"
+      "url": "https://github.com/thedaviddias/Front-End-Checklist"
     },
     {
-      "repo_id": 1614410,
-      "repo_name": "FFmpeg/FFmpeg",
-      "kind": "Skill",
-      "category": "视频处理",
-      "summary": "FFmpeg 是一个强大的多媒体处理工具，支持音视频的编码、解码、转换和流媒体处理。",
+      "repo_id": 666299222,
+      "repo_name": "openinterpreter/openinterpreter",
+      "kind": "Agent",
+      "category": "软件开发",
+      "summary": "Open Interpreter 是一个优化低成本模型的编码代理，支持多种 AI 模型，如 Kimi K3。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/FFmpeg/FFmpeg"
+      "url": "https://github.com/openinterpreter/openinterpreter"
     },
     {
-      "repo_id": 522158088,
-      "repo_name": "zhayujie/CowAgent",
+      "repo_id": 1032459340,
+      "repo_name": "Fission-AI/OpenSpec",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "CowAgent是一个开源的超级AI助手，支持任务规划、工具运行和自我进化。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/zhayujie/CowAgent"
-    },
-    {
-      "repo_id": 212613049,
-      "repo_name": "cli/cli",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "GitHub CLI 是一个命令行工具，用于在终端中管理 GitHub 操作，如拉取请求、问题和代码。",
+      "summary": "OpenSpec 是一个用于 AI 编码助手的规范驱动开发框架，支持流体、迭代和易于使用的开发流程。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/cli/cli"
+      "url": "https://github.com/Fission-AI/OpenSpec"
     },
-    {
-      "repo_id": 1126947080,
-      "repo_name": "kepano/obsidian-skills",
-      "kind": "Skill",
-      "category": "办公协作",
-      "summary": "Obsidian技能集，用于增强Obsidian笔记软件的功能，支持Markdown编辑和AI集成",
-      "recommendation_score": 98,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/kepano/obsidian-skills"
-    },
-    {
-      "repo_id": 91253698,
-      "repo_name": "ccxt/ccxt",
-      "kind": "Skill",
-      "category": "投资研究",
-      "summary": "CCXT 是一个统一的交易 API，支持超过 100 个加密货币交易所和预测市场，提供多种编程语言版本。",
-      "recommendation_score": 98,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/ccxt/ccxt"
-    },
-    {
-      "repo_id": 1167300963,
-      "repo_name": "Imbad0202/academic-research-skills",
-      "kind": "Skill",
-      "category": "学习",
-      "summary": "提供学术研究全流程的Claude Code技能套件",
-      "recommendation_score": 98,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/Imbad0202/academic-research-skills"
-    },
-    {
-      "repo_id": 667006,
-      "repo_name": "videojs/video.js",
-      "kind": "Skill",
-      "category": "视频处理",
-      "summary": "一个开源的HTML5视频播放器，支持多种媒体格式。",
-      "recommendation_score": 98,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/videojs/video.js"
-    },
-    {
-      "repo_id": 1177402105,
-      "repo_name": "heygen-com/hyperframes",
-      "kind": "Skill",
-      "category": "内容创作",
-      "summary": "HyperFrames 是一个框架，允许开发者编写 HTML 代码并将其渲染为视频，专为 AI 动作设计。",
-      "recommendation_score": 98,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/heygen-com/hyperframes"
-    },
-    {
-      "repo_id": 1185389803,
-      "repo_name": "MadsLorentzen/ai-job-search",
-      "kind": "Skill",
-      "category": "学习",
-      "summary": "AI Job Search 是一个基于 AI 的求职框架，帮助用户评估职位、定制简历和准备面试。",
-      "recommendation_score": 98,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/MadsLorentzen/ai-job-search"
-    }
-  ],
-  "skill_top": [
-    {
-      "repo_id": 1182081931,
-      "repo_name": "Egonex-AI/Understand-Anything",
-      "kind": "Skill",
-      "category": "知识管理",
-      "summary": "Understand Anything 是一个将代码库、知识库或文档转换为交互式知识图谱的工具，支持多种 AI 平台。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/Egonex-AI/Understand-Anything"
-    },
-    {
-      "repo_id": 1614410,
-      "repo_name": "FFmpeg/FFmpeg",
-      "kind": "Skill",
-      "category": "视频处理",
-      "summary": "FFmpeg 是一个强大的多媒体处理工具，支持音视频的编码、解码、转换和流媒体处理。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/FFmpeg/FFmpeg"
-    },
-    {
-      "repo_id": 522158088,
-      "repo_name": "zhayujie/CowAgent",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "CowAgent是一个开源的超级AI助手，支持任务规划、工具运行和自我进化。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/zhayujie/CowAgent"
-    },
-    {
-      "repo_id": 212613049,
-      "repo_name": "cli/cli",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "GitHub CLI 是一个命令行工具，用于在终端中管理 GitHub 操作，如拉取请求、问题和代码。",
-      "recommendation_score": 98,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/cli/cli"
-    },
-    {
-      "repo_id": 1126947080,
-      "repo_name": "kepano/obsidian-skills",
-      "kind": "Skill",
-      "category": "办公协作",
-      "summary": "Obsidian技能集，用于增强Obsidian笔记软件的功能，支持Markdown编辑和AI集成",
-      "recommendation_score": 98,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/kepano/obsidian-skills"
-    }
-  ],
-  "agent_top": [
     {
       "repo_id": 621803253,
       "repo_name": "FlowiseAI/Flowise",
-      "kind": "Agent",
-      "category": "自动化运营",
-      "summary": "FlowiseAI/Flowise 是一个用于构建AI代理的可视化工具，支持多种AI模型和工作流自动化。",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "Flowise 是一个视觉构建 AI 代理的平台，支持低代码和无代码开发，集成多种 AI 技术。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
@@ -231,60 +129,162 @@
       "url": "https://github.com/FlowiseAI/Flowise"
     },
     {
-      "repo_id": 1113573066,
-      "repo_name": "hugohe3/ppt-master",
-      "kind": "Agent",
-      "category": "内容创作",
-      "summary": "PPT Master 使用 AI 将文档或主题转换为具有动画、图表和音频的原生 PowerPoint 演示文稿。",
+      "repo_id": 91253698,
+      "repo_name": "ccxt/ccxt",
+      "kind": "Skill",
+      "category": "投资研究",
+      "summary": "CCXT 是一个统一的交易 API，支持超过 100 个加密货币交易所和预测市场。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/hugohe3/ppt-master"
+      "url": "https://github.com/ccxt/ccxt"
+    }
+  ],
+  "skill_top": [
+    {
+      "repo_id": 291137,
+      "repo_name": "ohmyzsh/ohmyzsh",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "Oh My Zsh 是一个用于管理 zsh 配置的强大框架，包含大量插件和主题。",
+      "recommendation_score": 100,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/ohmyzsh/ohmyzsh"
     },
     {
-      "repo_id": 742244656,
-      "repo_name": "agentscope-ai/agentscope",
+      "repo_id": 968197216,
+      "repo_name": "google-gemini/gemini-cli",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "一个开源AI代理，将Gemini的强大功能直接带入终端。",
+      "recommendation_score": 100,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/google-gemini/gemini-cli"
+    },
+    {
+      "repo_id": 307260205,
+      "repo_name": "yt-dlp/yt-dlp",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "yt-dlp 是一个功能丰富的命令行下载工具，支持众多网站。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/yt-dlp/yt-dlp"
+    },
+    {
+      "repo_id": 65252,
+      "repo_name": "jekyll/jekyll",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "Jekyll 是一个基于文件的静态网站生成器，用于创建博客和项目网站。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/jekyll/jekyll"
+    },
+    {
+      "repo_id": 1032459340,
+      "repo_name": "Fission-AI/OpenSpec",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "OpenSpec 是一个用于 AI 编码助手的规范驱动开发框架，支持流体、迭代和易于使用的开发流程。",
+      "recommendation_score": 98,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/Fission-AI/OpenSpec"
+    }
+  ],
+  "agent_top": [
+    {
+      "repo_id": 24195339,
+      "repo_name": "angular/angular",
       "kind": "Agent",
       "category": "软件开发",
-      "summary": "Agentscope 是一个用于构建和运行可视化、可理解和可信任的代理的框架。",
+      "summary": "Angular是一个用于构建移动和桌面Web应用程序的开发平台。",
+      "recommendation_score": 100,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/angular/angular"
+    },
+    {
+      "repo_id": 107111421,
+      "repo_name": "thedaviddias/Front-End-Checklist",
+      "kind": "Agent",
+      "category": "知识管理",
+      "summary": "提供前端开发的最佳实践检查表，适用于人类和AI代理。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/thedaviddias/Front-End-Checklist"
+    },
+    {
+      "repo_id": 666299222,
+      "repo_name": "openinterpreter/openinterpreter",
+      "kind": "Agent",
+      "category": "软件开发",
+      "summary": "Open Interpreter 是一个优化低成本模型的编码代理，支持多种 AI 模型，如 Kimi K3。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/openinterpreter/openinterpreter"
+    },
+    {
+      "repo_id": 212613049,
+      "repo_name": "cli/cli",
+      "kind": "Agent",
+      "category": "软件开发",
+      "summary": "GitHub CLI 是命令行工具，用于与 GitHub API 交互，集成到开发工作流中。",
+      "recommendation_score": 98,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/cli/cli"
+    },
+    {
+      "repo_id": 31629751,
+      "repo_name": "cypress-io/cypress",
+      "kind": "Agent",
+      "category": "软件开发",
+      "summary": "Cypress 是一个用于浏览器中测试的自动化测试框架，支持端到端测试。",
       "recommendation_score": 97,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/agentscope-ai/agentscope"
-    },
-    {
-      "repo_id": 1127110039,
-      "repo_name": "OthmanAdi/planning-with-files",
-      "kind": "Agent",
-      "category": "自动化运营",
-      "summary": "Planning with Files 是一种基于文件的持久化规划方法，用于 AI 编码代理和长期任务。",
-      "recommendation_score": 97,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/OthmanAdi/planning-with-files"
-    },
-    {
-      "repo_id": 965415649,
-      "repo_name": "openai/codex",
-      "kind": "Agent",
-      "category": "软件开发",
-      "summary": "Codex CLI 是一个轻量级的编码代理，可在终端中运行，提供本地代码生成和编辑功能。",
-      "recommendation_score": 96,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/openai/codex"
+      "url": "https://github.com/cypress-io/cypress"
     }
   ],
   "warnings": []
