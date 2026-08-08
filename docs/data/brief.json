@@ -1,13 +1,27 @@
 {
-  "generated_at": "2026-08-06T07:09:10Z",
+  "generated_at": "2026-08-08T05:50:13Z",
   "window": "latest_sync",
   "top_picks": [
+    {
+      "repo_id": 1148788086,
+      "repo_name": "mattpocock/skills",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "Skills 是一组为真实工程师设计的实用技能，旨在提高开发效率并减少重复劳动。",
+      "recommendation_score": 100,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/mattpocock/skills"
+    },
     {
       "repo_id": 968197216,
       "repo_name": "google-gemini/gemini-cli",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "Gemini CLI 是一个开源 AI 代理，将 Gemini 的能力直接带入终端。",
+      "summary": "Gemini CLI 是一个开源 AI 代理，将 Gemini 的力量直接带入终端。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
@@ -17,53 +31,11 @@
       "url": "https://github.com/google-gemini/gemini-cli"
     },
     {
-      "repo_id": 1073224795,
-      "repo_name": "obra/superpowers",
-      "kind": "Agent",
-      "category": "软件开发",
-      "summary": "Superpowers是一个面向编码代理的技能框架和软件开发方法论，帮助代理更有效地完成开发任务。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/obra/superpowers"
-    },
-    {
-      "repo_id": 193215554,
-      "repo_name": "n8n-io/n8n",
-      "kind": "Agent",
-      "category": "自动化运营",
-      "summary": "n8n 是一个自动化工作流平台，支持 AI 能力，可实现从原型到生产的自动化。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/n8n-io/n8n"
-    },
-    {
-      "repo_id": 771302083,
-      "repo_name": "OpenHands/OpenHands",
-      "kind": "Agent",
-      "category": "软件开发",
-      "summary": "OpenHands 是一个自托管的开发者控制中心，用于运行和管理各种 AI 代理和自动化工具。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/OpenHands/OpenHands"
-    },
-    {
       "repo_id": 307260205,
       "repo_name": "yt-dlp/yt-dlp",
       "kind": "Skill",
-      "category": "视频处理",
-      "summary": "yt-dlp 是一个功能丰富的命令行下载器，支持从多个网站下载音视频。",
+      "category": "信息搜集",
+      "summary": "yt-dlp是一个功能丰富的命令行视频下载工具，支持众多网站。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -73,25 +45,53 @@
       "url": "https://github.com/yt-dlp/yt-dlp"
     },
     {
-      "repo_id": 1182081931,
-      "repo_name": "Egonex-AI/Understand-Anything",
+      "repo_id": 1201476594,
+      "repo_name": "santifer/career-ops",
       "kind": "Skill",
-      "category": "知识管理",
-      "summary": "Understand Anything 是一个交互式知识图谱工具，可以将任何代码库、知识库或文档转换为可探索、搜索和提问的知识图谱。",
+      "category": "软件开发",
+      "summary": "开源AI求职系统，自动化处理简历和职位搜索",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/Egonex-AI/Understand-Anything"
+      "url": "https://github.com/santifer/career-ops"
+    },
+    {
+      "repo_id": 1614410,
+      "repo_name": "FFmpeg/FFmpeg",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "多媒体处理工具和库，用于音频视频编码解码",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/FFmpeg/FFmpeg"
+    },
+    {
+      "repo_id": 91629816,
+      "repo_name": "freqtrade/freqtrade",
+      "kind": "Skill",
+      "category": "投资研究",
+      "summary": "freqtrade是一个开源的加密货币交易机器人，支持多种交易所和交易策略。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/freqtrade/freqtrade"
     },
     {
       "repo_id": 65252,
       "repo_name": "jekyll/jekyll",
       "kind": "Skill",
-      "category": "内容创作",
-      "summary": "Jekyll 是一个基于文件的博客式静态网站生成器，用于创建快速、安全的网站。",
+      "category": "软件开发",
+      "summary": "Jekyll 是一个基于文件的静态网站生成器，用于创建博客和项目网站。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -101,39 +101,11 @@
       "url": "https://github.com/jekyll/jekyll"
     },
     {
-      "repo_id": 70107786,
-      "repo_name": "vercel/next.js",
-      "kind": "Agent",
-      "category": "软件开发",
-      "summary": "Next.js 是一个用于构建 React 应用的框架，结合了服务端渲染和静态网站生成。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/vercel/next.js"
-    },
-    {
-      "repo_id": 1201173969,
-      "repo_name": "JuliusBrussee/caveman",
-      "kind": "Agent",
-      "category": "内容创作",
-      "summary": "Caveman 是一个 AI 技能，通过使用极简语言减少输出 token 数量，优化 AI 代理的响应。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/JuliusBrussee/caveman"
-    },
-    {
       "repo_id": 107111421,
       "repo_name": "thedaviddias/Front-End-Checklist",
       "kind": "Agent",
       "category": "软件开发",
-      "summary": "一个用于前端开发的质量检查清单，适用于人类和AI代理。",
+      "summary": "前端开发检查清单，为人类和AI代理提供最佳实践和审核流程。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -141,15 +113,57 @@
         "近期维护活跃"
       ],
       "url": "https://github.com/thedaviddias/Front-End-Checklist"
+    },
+    {
+      "repo_id": 1131513930,
+      "repo_name": "ZhuLinsen/daily_stock_analysis",
+      "kind": "Agent",
+      "category": "投资研究",
+      "summary": "基于LLM的多市场股票智能分析系统，提供决策仪表盘和自动推送。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+    },
+    {
+      "repo_id": 53631945,
+      "repo_name": "BurntSushi/ripgrep",
+      "kind": "Skill",
+      "category": "信息搜集",
+      "summary": "ripgrep 是一个递归搜索目录的命令行工具，支持正则表达式并尊重gitignore规则。",
+      "recommendation_score": 98,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/BurntSushi/ripgrep"
     }
   ],
   "skill_top": [
+    {
+      "repo_id": 1148788086,
+      "repo_name": "mattpocock/skills",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "Skills 是一组为真实工程师设计的实用技能，旨在提高开发效率并减少重复劳动。",
+      "recommendation_score": 100,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/mattpocock/skills"
+    },
     {
       "repo_id": 968197216,
       "repo_name": "google-gemini/gemini-cli",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "Gemini CLI 是一个开源 AI 代理，将 Gemini 的能力直接带入终端。",
+      "summary": "Gemini CLI 是一个开源 AI 代理，将 Gemini 的力量直接带入终端。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
@@ -162,8 +176,8 @@
       "repo_id": 307260205,
       "repo_name": "yt-dlp/yt-dlp",
       "kind": "Skill",
-      "category": "视频处理",
-      "summary": "yt-dlp 是一个功能丰富的命令行下载器，支持从多个网站下载音视频。",
+      "category": "信息搜集",
+      "summary": "yt-dlp是一个功能丰富的命令行视频下载工具，支持众多网站。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -173,118 +187,104 @@
       "url": "https://github.com/yt-dlp/yt-dlp"
     },
     {
-      "repo_id": 1182081931,
-      "repo_name": "Egonex-AI/Understand-Anything",
-      "kind": "Skill",
-      "category": "知识管理",
-      "summary": "Understand Anything 是一个交互式知识图谱工具，可以将任何代码库、知识库或文档转换为可探索、搜索和提问的知识图谱。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/Egonex-AI/Understand-Anything"
-    },
-    {
-      "repo_id": 65252,
-      "repo_name": "jekyll/jekyll",
-      "kind": "Skill",
-      "category": "内容创作",
-      "summary": "Jekyll 是一个基于文件的博客式静态网站生成器，用于创建快速、安全的网站。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/jekyll/jekyll"
-    },
-    {
-      "repo_id": 1032459340,
-      "repo_name": "Fission-AI/OpenSpec",
+      "repo_id": 1201476594,
+      "repo_name": "santifer/career-ops",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "OpenSpec 是一个用于 AI 编程助手的规范驱动开发框架。",
+      "summary": "开源AI求职系统，自动化处理简历和职位搜索",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/santifer/career-ops"
+    },
+    {
+      "repo_id": 1614410,
+      "repo_name": "FFmpeg/FFmpeg",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "多媒体处理工具和库，用于音频视频编码解码",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/FFmpeg/FFmpeg"
+    }
+  ],
+  "agent_top": [
+    {
+      "repo_id": 107111421,
+      "repo_name": "thedaviddias/Front-End-Checklist",
+      "kind": "Agent",
+      "category": "软件开发",
+      "summary": "前端开发检查清单，为人类和AI代理提供最佳实践和审核流程。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/thedaviddias/Front-End-Checklist"
+    },
+    {
+      "repo_id": 1131513930,
+      "repo_name": "ZhuLinsen/daily_stock_analysis",
+      "kind": "Agent",
+      "category": "投资研究",
+      "summary": "基于LLM的多市场股票智能分析系统，提供决策仪表盘和自动推送。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+    },
+    {
+      "repo_id": 846698999,
+      "repo_name": "aaif-goose/goose",
+      "kind": "Agent",
+      "category": "内容创作",
+      "summary": "goose是一个开源的AI代理，支持多种AI模型，用于代码、研究和自动化任务。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/Fission-AI/OpenSpec"
-    }
-  ],
-  "agent_top": [
+      "url": "https://github.com/aaif-goose/goose"
+    },
     {
-      "repo_id": 1073224795,
-      "repo_name": "obra/superpowers",
+      "repo_id": 1197990888,
+      "repo_name": "Gitlawb/openclaude",
       "kind": "Agent",
       "category": "软件开发",
-      "summary": "Superpowers是一个面向编码代理的技能框架和软件开发方法论，帮助代理更有效地完成开发任务。",
-      "recommendation_score": 100,
+      "summary": "一个可在任何地方运行的AI代理工具，使用任何工具。",
+      "recommendation_score": 98,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/obra/superpowers"
+      "url": "https://github.com/Gitlawb/openclaude"
     },
     {
-      "repo_id": 193215554,
-      "repo_name": "n8n-io/n8n",
-      "kind": "Agent",
-      "category": "自动化运营",
-      "summary": "n8n 是一个自动化工作流平台，支持 AI 能力，可实现从原型到生产的自动化。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/n8n-io/n8n"
-    },
-    {
-      "repo_id": 771302083,
-      "repo_name": "OpenHands/OpenHands",
+      "repo_id": 515647260,
+      "repo_name": "1Panel-dev/1Panel",
       "kind": "Agent",
       "category": "软件开发",
-      "summary": "OpenHands 是一个自托管的开发者控制中心，用于运行和管理各种 AI 代理和自动化工具。",
-      "recommendation_score": 100,
+      "summary": "1Panel 是一个现代化的开源 VPS 控制面板，支持 AI 代理和 Ollama 模型，提供统一的服务器管理界面。",
+      "recommendation_score": 97,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/OpenHands/OpenHands"
-    },
-    {
-      "repo_id": 70107786,
-      "repo_name": "vercel/next.js",
-      "kind": "Agent",
-      "category": "软件开发",
-      "summary": "Next.js 是一个用于构建 React 应用的框架，结合了服务端渲染和静态网站生成。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/vercel/next.js"
-    },
-    {
-      "repo_id": 1201173969,
-      "repo_name": "JuliusBrussee/caveman",
-      "kind": "Agent",
-      "category": "内容创作",
-      "summary": "Caveman 是一个 AI 技能，通过使用极简语言减少输出 token 数量，优化 AI 代理的响应。",
-      "recommendation_score": 99,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/JuliusBrussee/caveman"
+      "url": "https://github.com/1Panel-dev/1Panel"
     }
   ],
   "warnings": []
