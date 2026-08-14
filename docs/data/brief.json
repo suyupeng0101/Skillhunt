@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-08-13T06:27:39Z",
+  "generated_at": "2026-08-14T06:35:53Z",
   "window": "latest_sync",
   "top_picks": [
     {
-      "repo_id": 1073224795,
-      "repo_name": "obra/superpowers",
+      "repo_id": 291137,
+      "repo_name": "ohmyzsh/ohmyzsh",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "Superpowers 是一个用于编码代理的软件开发方法论框架，基于可组合的技能和初始指令。",
+      "summary": "Oh My Zsh 是一个用于管理 zsh 配置的强大框架，提供丰富的插件和主题。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/obra/superpowers"
+      "url": "https://github.com/ohmyzsh/ohmyzsh"
     },
     {
       "repo_id": 626805178,
       "repo_name": "langgenius/dify",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "用于构建代理工作流和RAG管道的协作工作区，支持多种AI模型和工具。",
+      "summary": "Dify提供用于构建代理工作流和RAG管道的协作工作空间。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
@@ -29,20 +29,6 @@
         "近期维护活跃"
       ],
       "url": "https://github.com/langgenius/dify"
-    },
-    {
-      "repo_id": 968197216,
-      "repo_name": "google-gemini/gemini-cli",
-      "kind": "Skill",
-      "category": "学习",
-      "summary": "Gemini CLI 是一个开源AI代理，将Gemini的强大功能直接带入终端。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/google-gemini/gemini-cli"
     },
     {
       "repo_id": 307260205,
@@ -59,25 +45,25 @@
       "url": "https://github.com/yt-dlp/yt-dlp"
     },
     {
-      "repo_id": 1201173969,
-      "repo_name": "JuliusBrussee/caveman",
+      "repo_id": 771302083,
+      "repo_name": "OpenHands/OpenHands",
       "kind": "Skill",
-      "category": "内容创作",
-      "summary": "Caveman 是一个技能，通过使用简单语言减少 AI 代理的 token 使用，从而降低计算成本。",
+      "category": "软件开发",
+      "summary": "AI驱动的开发平台，支持多种代理在本地、远程和云环境中运行。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/JuliusBrussee/caveman"
+      "url": "https://github.com/OpenHands/OpenHands"
     },
     {
       "repo_id": 323048702,
       "repo_name": "OpenBB-finance/OpenBB",
       "kind": "Skill",
       "category": "数据分析",
-      "summary": "OpenBB 是一个面向分析师、量化和AI代理的开源数据平台。",
+      "summary": "OpenBB是一个开源工具集，用于整合各种数据源，为分析师、量化研究员和AI代理提供数据支持。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -87,25 +73,39 @@
       "url": "https://github.com/OpenBB-finance/OpenBB"
     },
     {
-      "repo_id": 1201476594,
-      "repo_name": "santifer/career-ops",
+      "repo_id": 1614410,
+      "repo_name": "FFmpeg/FFmpeg",
       "kind": "Skill",
-      "category": "软件开发",
-      "summary": "开源AI求职系统，自动化简历筛选和职位申请",
+      "category": "视频处理",
+      "summary": "FFmpeg 是一个强大的多媒体处理工具集，包含库和工具，用于处理音频、视频、字幕等多媒体内容。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/santifer/career-ops"
+      "url": "https://github.com/FFmpeg/FFmpeg"
+    },
+    {
+      "repo_id": 1131513930,
+      "repo_name": "ZhuLinsen/daily_stock_analysis",
+      "kind": "Skill",
+      "category": "投资研究",
+      "summary": "每日股票分析系统是一个基于 LLM 的多市场股票智能分析工具，提供实时数据、新闻和决策仪表盘。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
     },
     {
       "repo_id": 65252,
       "repo_name": "jekyll/jekyll",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "Jekyll 是一个静态网站生成器，用于创建博客和网站。",
+      "summary": "Jekyll 是一个静态网站生成器，用 Ruby 编写，用于创建博客和静态网站。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -118,8 +118,8 @@
       "repo_id": 53631945,
       "repo_name": "BurntSushi/ripgrep",
       "kind": "Skill",
-      "category": "办公协作",
-      "summary": "ripgrep 是一个递归搜索目录的命令行工具，支持正则表达式，并尊重 gitignore 规则。",
+      "category": "信息搜集",
+      "summary": "ripgrep 是一个递归搜索工具，支持正则表达式，可跳过 gitignore 规则和二进制文件。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
@@ -133,7 +133,7 @@
       "repo_name": "Fission-AI/OpenSpec",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "OpenSpec 是一个用于 AI 编码助手的规范驱动开发框架。",
+      "summary": "OpenSpec 是一个用于 AI 编程助手的规范驱动开发框架，支持从需求到实现的全流程管理。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
@@ -145,25 +145,25 @@
   ],
   "skill_top": [
     {
-      "repo_id": 1073224795,
-      "repo_name": "obra/superpowers",
+      "repo_id": 291137,
+      "repo_name": "ohmyzsh/ohmyzsh",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "Superpowers 是一个用于编码代理的软件开发方法论框架，基于可组合的技能和初始指令。",
+      "summary": "Oh My Zsh 是一个用于管理 zsh 配置的强大框架，提供丰富的插件和主题。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/obra/superpowers"
+      "url": "https://github.com/ohmyzsh/ohmyzsh"
     },
     {
       "repo_id": 626805178,
       "repo_name": "langgenius/dify",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "用于构建代理工作流和RAG管道的协作工作区，支持多种AI模型和工具。",
+      "summary": "Dify提供用于构建代理工作流和RAG管道的协作工作空间。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
@@ -171,20 +171,6 @@
         "近期维护活跃"
       ],
       "url": "https://github.com/langgenius/dify"
-    },
-    {
-      "repo_id": 968197216,
-      "repo_name": "google-gemini/gemini-cli",
-      "kind": "Skill",
-      "category": "学习",
-      "summary": "Gemini CLI 是一个开源AI代理，将Gemini的强大功能直接带入终端。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/google-gemini/gemini-cli"
     },
     {
       "repo_id": 307260205,
@@ -201,41 +187,41 @@
       "url": "https://github.com/yt-dlp/yt-dlp"
     },
     {
-      "repo_id": 1201173969,
-      "repo_name": "JuliusBrussee/caveman",
+      "repo_id": 771302083,
+      "repo_name": "OpenHands/OpenHands",
       "kind": "Skill",
-      "category": "内容创作",
-      "summary": "Caveman 是一个技能，通过使用简单语言减少 AI 代理的 token 使用，从而降低计算成本。",
+      "category": "软件开发",
+      "summary": "AI驱动的开发平台，支持多种代理在本地、远程和云环境中运行。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/JuliusBrussee/caveman"
-    }
-  ],
-  "agent_top": [
+      "url": "https://github.com/OpenHands/OpenHands"
+    },
     {
-      "repo_id": 846698999,
-      "repo_name": "aaif-goose/goose",
-      "kind": "Agent",
-      "category": "自动化运营",
-      "summary": "goose是一个开源的AI代理，支持多种LLM，用于代码、工作流和自动化任务。",
-      "recommendation_score": 98,
+      "repo_id": 323048702,
+      "repo_name": "OpenBB-finance/OpenBB",
+      "kind": "Skill",
+      "category": "数据分析",
+      "summary": "OpenBB是一个开源工具集，用于整合各种数据源，为分析师、量化研究员和AI代理提供数据支持。",
+      "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/aaif-goose/goose"
-    },
+      "url": "https://github.com/OpenBB-finance/OpenBB"
+    }
+  ],
+  "agent_top": [
     {
       "repo_id": 8681349,
       "repo_name": "huginn/huginn",
       "kind": "Agent",
       "category": "自动化运营",
-      "summary": "Huginn 是一个用于创建自动化代理的系统，可以监控和执行在线任务。",
+      "summary": "Huginn 是一个用于创建自动化代理的系统，可以监控和执行在线任务，如天气提醒、社交媒体监控等。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
@@ -249,7 +235,7 @@
       "repo_name": "hugohe3/ppt-master",
       "kind": "Agent",
       "category": "内容创作",
-      "summary": "PPT Master 是一个 AI 驱动的工具，可以将文档或主题转换为带有动画、图表和音频的原生 PowerPoint 演示文稿。",
+      "summary": "PPT Master 是一个 AI 工具，可以将文档或主题转换为原生的 PowerPoint 演示文稿，包括形状、过渡、动画和数据图表。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
@@ -259,32 +245,46 @@
       "url": "https://github.com/hugohe3/ppt-master"
     },
     {
-      "repo_id": 1170821064,
-      "repo_name": "paperclipai/paperclip",
+      "repo_id": 26783295,
+      "repo_name": "Kong/kong",
       "kind": "Agent",
-      "category": "办公协作",
-      "summary": "Paperclip 是一个开源应用，用于管理和协调工作中的 AI 代理，提供任务分配和工作跟踪功能。",
-      "recommendation_score": 97,
+      "category": "安全攻防",
+      "summary": "Kong 是一个 API 和 AI 网关，提供 API 管理、AI 代理和多云代理功能。",
+      "recommendation_score": 98,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/paperclipai/paperclip"
+      "url": "https://github.com/Kong/kong"
     },
     {
-      "repo_id": 1132001614,
-      "repo_name": "vercel-labs/agent-browser",
+      "repo_id": 1146738089,
+      "repo_name": "nanocoai/nanoclaw",
       "kind": "Agent",
-      "category": "软件开发",
-      "summary": "agent-browser 是一个用于浏览器自动化的命令行工具，基于 Rust 开发。",
+      "category": "自动化运营",
+      "summary": "Nanoclaw 是一个轻量级的 AI 助手，可以连接多个通讯应用，支持记忆和计划任务。",
       "recommendation_score": 97,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/vercel-labs/agent-browser"
+      "url": "https://github.com/nanocoai/nanoclaw"
+    },
+    {
+      "repo_id": 742244656,
+      "repo_name": "agentscope-ai/agentscope",
+      "kind": "Agent",
+      "category": "自动化运营",
+      "summary": "构建和运行可观察、理解和信任的代理。",
+      "recommendation_score": 97,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/agentscope-ai/agentscope"
     }
   ],
   "warnings": []
