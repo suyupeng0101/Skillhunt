@@ -1,27 +1,13 @@
 {
-  "generated_at": "2026-08-16T05:16:37Z",
+  "generated_at": "2026-08-17T05:22:23Z",
   "window": "latest_sync",
   "top_picks": [
-    {
-      "repo_id": 1073224795,
-      "repo_name": "obra/superpowers",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "Superpowers 是一个面向编码代理的软件开发方法论，包含可组合的技能和初始指令，确保代理在开始编码前理解目标。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/obra/superpowers"
-    },
     {
       "repo_id": 291137,
       "repo_name": "ohmyzsh/ohmyzsh",
       "kind": "Skill",
-      "category": "办公协作",
-      "summary": "Oh My Zsh 是一个用于管理zsh配置的强大框架，包含大量插件和主题。",
+      "category": "软件开发",
+      "summary": "一个社区驱动的Zsh配置管理框架，提供插件和主题以增强终端体验。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
@@ -31,25 +17,11 @@
       "url": "https://github.com/ohmyzsh/ohmyzsh"
     },
     {
-      "repo_id": 626805178,
-      "repo_name": "langgenius/dify",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "用于构建代理工作流、RAG管道和AI模型支持的协作平台。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/langgenius/dify"
-    },
-    {
       "repo_id": 968197216,
       "repo_name": "google-gemini/gemini-cli",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "Gemini CLI 是一个开源 AI 代理，将 Gemini 的能力直接带入终端，提供轻量级的 AI 访问。",
+      "summary": "一个开源AI代理，将Gemini的强大功能带入终端，支持多种工具和扩展。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
@@ -59,11 +31,25 @@
       "url": "https://github.com/google-gemini/gemini-cli"
     },
     {
+      "repo_id": 1035029907,
+      "repo_name": "earendil-works/pi",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "Pi 是一个 AI 代理工具包，提供统一的 LLM API、代理循环、TUI 和编码代理 CLI。",
+      "recommendation_score": 100,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/earendil-works/pi"
+    },
+    {
       "repo_id": 307260205,
       "repo_name": "yt-dlp/yt-dlp",
       "kind": "Skill",
-      "category": "视频处理",
-      "summary": "yt-dlp 是一个功能丰富的命令行视频下载工具，支持众多网站。",
+      "category": "软件开发",
+      "summary": "一个功能丰富的命令行下载工具，支持多种网站的视频和音频下载。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -73,25 +59,39 @@
       "url": "https://github.com/yt-dlp/yt-dlp"
     },
     {
-      "repo_id": 1223170290,
-      "repo_name": "nexu-io/open-design",
+      "repo_id": 771302083,
+      "repo_name": "OpenHands/OpenHands",
       "kind": "Skill",
-      "category": "内容创作",
-      "summary": "Open Design 是一个开源的设计替代方案，允许用户使用 AI 模型进行原型设计、页面设计、仪表板设计、幻灯片制作、图像和视频生成。",
+      "category": "软件开发",
+      "summary": "一个用于运行AI编码代理的开发者控制中心，支持多种代理和后端。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/nexu-io/open-design"
+      "url": "https://github.com/OpenHands/OpenHands"
+    },
+    {
+      "repo_id": 1182081931,
+      "repo_name": "Egonex-AI/Understand-Anything",
+      "kind": "Skill",
+      "category": "知识管理",
+      "summary": "Understand Anything 是一个将代码库、知识库或文档转换为交互式知识图谱的工具，支持多种 AI 模型。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/Egonex-AI/Understand-Anything"
     },
     {
       "repo_id": 323048702,
       "repo_name": "OpenBB-finance/OpenBB",
       "kind": "Skill",
       "category": "数据分析",
-      "summary": "OpenBB是一个开源数据平台，为分析师、量化交易员和AI代理提供数据集成和分析工具。",
+      "summary": "OpenBB 是一个面向分析师、量化师和 AI 代理的开源数据平台。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -101,69 +101,55 @@
       "url": "https://github.com/OpenBB-finance/OpenBB"
     },
     {
-      "repo_id": 91629816,
-      "repo_name": "freqtrade/freqtrade",
+      "repo_id": 1201476594,
+      "repo_name": "santifer/career-ops",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "freqtrade 是一个开源的加密货币交易机器人，用于自动化交易策略。",
+      "summary": "开源AI求职系统，自动化简历评估和职位申请",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/freqtrade/freqtrade"
+      "url": "https://github.com/santifer/career-ops"
     },
     {
-      "repo_id": 65252,
-      "repo_name": "jekyll/jekyll",
+      "repo_id": 1614410,
+      "repo_name": "FFmpeg/FFmpeg",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "Jekyll 是一个静态网站生成器，用于创建博客和静态网站。",
+      "summary": "多媒体处理工具，用于音视频编解码和转换",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/jekyll/jekyll"
+      "url": "https://github.com/FFmpeg/FFmpeg"
     },
     {
-      "repo_id": 107111421,
-      "repo_name": "thedaviddias/Front-End-Checklist",
-      "kind": "Agent",
-      "category": "软件开发",
-      "summary": "Front-End Checklist 是一个用于现代前端开发的质量检查清单，适用于人类和 AI 代理。",
+      "repo_id": 1131513930,
+      "repo_name": "ZhuLinsen/daily_stock_analysis",
+      "kind": "Skill",
+      "category": "投资研究",
+      "summary": "基于LLM的股票智能分析系统，提供多市场股票分析和决策仪表盘。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/thedaviddias/Front-End-Checklist"
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
     }
   ],
   "skill_top": [
     {
-      "repo_id": 1073224795,
-      "repo_name": "obra/superpowers",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "Superpowers 是一个面向编码代理的软件开发方法论，包含可组合的技能和初始指令，确保代理在开始编码前理解目标。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/obra/superpowers"
-    },
-    {
       "repo_id": 291137,
       "repo_name": "ohmyzsh/ohmyzsh",
       "kind": "Skill",
-      "category": "办公协作",
-      "summary": "Oh My Zsh 是一个用于管理zsh配置的强大框架，包含大量插件和主题。",
+      "category": "软件开发",
+      "summary": "一个社区驱动的Zsh配置管理框架，提供插件和主题以增强终端体验。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
@@ -173,25 +159,11 @@
       "url": "https://github.com/ohmyzsh/ohmyzsh"
     },
     {
-      "repo_id": 626805178,
-      "repo_name": "langgenius/dify",
-      "kind": "Skill",
-      "category": "软件开发",
-      "summary": "用于构建代理工作流、RAG管道和AI模型支持的协作平台。",
-      "recommendation_score": 100,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/langgenius/dify"
-    },
-    {
       "repo_id": 968197216,
       "repo_name": "google-gemini/gemini-cli",
       "kind": "Skill",
       "category": "软件开发",
-      "summary": "Gemini CLI 是一个开源 AI 代理，将 Gemini 的能力直接带入终端，提供轻量级的 AI 访问。",
+      "summary": "一个开源AI代理，将Gemini的强大功能带入终端，支持多种工具和扩展。",
       "recommendation_score": 100,
       "why_pick": [
         "高可用性",
@@ -201,11 +173,25 @@
       "url": "https://github.com/google-gemini/gemini-cli"
     },
     {
+      "repo_id": 1035029907,
+      "repo_name": "earendil-works/pi",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "Pi 是一个 AI 代理工具包，提供统一的 LLM API、代理循环、TUI 和编码代理 CLI。",
+      "recommendation_score": 100,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/earendil-works/pi"
+    },
+    {
       "repo_id": 307260205,
       "repo_name": "yt-dlp/yt-dlp",
       "kind": "Skill",
-      "category": "视频处理",
-      "summary": "yt-dlp 是一个功能丰富的命令行视频下载工具，支持众多网站。",
+      "category": "软件开发",
+      "summary": "一个功能丰富的命令行下载工具，支持多种网站的视频和音频下载。",
       "recommendation_score": 99,
       "why_pick": [
         "高可用性",
@@ -213,43 +199,71 @@
         "近期维护活跃"
       ],
       "url": "https://github.com/yt-dlp/yt-dlp"
+    },
+    {
+      "repo_id": 771302083,
+      "repo_name": "OpenHands/OpenHands",
+      "kind": "Skill",
+      "category": "软件开发",
+      "summary": "一个用于运行AI编码代理的开发者控制中心，支持多种代理和后端。",
+      "recommendation_score": 99,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/OpenHands/OpenHands"
     }
   ],
   "agent_top": [
     {
-      "repo_id": 107111421,
-      "repo_name": "thedaviddias/Front-End-Checklist",
+      "repo_id": 824874689,
+      "repo_name": "cline/cline",
       "kind": "Agent",
       "category": "软件开发",
-      "summary": "Front-End Checklist 是一个用于现代前端开发的质量检查清单，适用于人类和 AI 代理。",
-      "recommendation_score": 99,
+      "summary": "Cline 是一个开源的编程代理，可在 IDE 和终端中运行，提供自动化编码功能。",
+      "recommendation_score": 98,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/thedaviddias/Front-End-Checklist"
+      "url": "https://github.com/cline/cline"
     },
     {
-      "repo_id": 666299222,
-      "repo_name": "openinterpreter/openinterpreter",
+      "repo_id": 846698999,
+      "repo_name": "aaif-goose/goose",
       "kind": "Agent",
-      "category": "软件开发",
-      "summary": "OpenInterpreter是一个优化低成本模型的编码代理，支持多种编程语言。",
-      "recommendation_score": 99,
+      "category": "内容创作",
+      "summary": "goose 是一个开源、可扩展的 AI 代理，支持多种 LLM，用于代码、工作流等任务。",
+      "recommendation_score": 98,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/openinterpreter/openinterpreter"
+      "url": "https://github.com/aaif-goose/goose"
+    },
+    {
+      "repo_id": 8681349,
+      "repo_name": "huginn/huginn",
+      "kind": "Agent",
+      "category": "自动化运营",
+      "summary": "Huginn 是一个用于创建自动化代理的系统，可以监控和执行任务。",
+      "recommendation_score": 98,
+      "why_pick": [
+        "高可用性",
+        "安装入口明确",
+        "近期维护活跃"
+      ],
+      "url": "https://github.com/huginn/huginn"
     },
     {
       "repo_id": 1195360525,
       "repo_name": "calesthio/OpenMontage",
       "kind": "Agent",
       "category": "视频处理",
-      "summary": "OpenMontage 是一个开源的视频生产代理系统，集成多种视频处理工具和技能。",
+      "summary": "OpenMontage是一个开源的视频生产代理系统，提供了12个生产管道和700多个代理技能，将AI编码助手转变为视频制作工作室。",
       "recommendation_score": 98,
       "why_pick": [
         "高可用性",
@@ -259,32 +273,18 @@
       "url": "https://github.com/calesthio/OpenMontage"
     },
     {
-      "repo_id": 1133707766,
-      "repo_name": "multica-ai/multica",
+      "repo_id": 26783295,
+      "repo_name": "Kong/kong",
       "kind": "Agent",
-      "category": "软件开发",
-      "summary": "Multica 是一个开源的工作区，允许将任务分配给多个 AI 编码代理，如 Claude Code 和 Codex。",
-      "recommendation_score": 97,
+      "category": "安全攻防",
+      "summary": "Kong 是一个云原生的 API 和 AI 网关，提供高性能和可扩展性，支持多 LLM 和 MCP 交通管理。",
+      "recommendation_score": 98,
       "why_pick": [
         "高可用性",
         "安装入口明确",
         "近期维护活跃"
       ],
-      "url": "https://github.com/multica-ai/multica"
-    },
-    {
-      "repo_id": 742244656,
-      "repo_name": "agentscope-ai/agentscope",
-      "kind": "Agent",
-      "category": "自动化运营",
-      "summary": "构建和运行可观察、理解和信任的代理的框架",
-      "recommendation_score": 97,
-      "why_pick": [
-        "高可用性",
-        "安装入口明确",
-        "近期维护活跃"
-      ],
-      "url": "https://github.com/agentscope-ai/agentscope"
+      "url": "https://github.com/Kong/kong"
     }
   ],
   "warnings": []
